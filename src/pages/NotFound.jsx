@@ -1,7 +1,16 @@
 import React from 'react'
+import { useNavigate } from 'react-router-dom'
 
 export const NotFound = () => {
-  return (
-    <div>NotFound</div>
-  )
+    const navigationPage = useNavigate()
+
+    function home () {
+        navigationPage('/')
+    }
+    return (
+        <div>
+            <button onClick={home}>Home</button>
+            <div>NotFound</div>
+        </div>
+    )
 }

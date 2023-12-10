@@ -1,0 +1,86 @@
+/* Definimos los colores de la web */
+:root {
+    font-family: Montserrat, Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 400px;
+    font-size: 16px;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    line-height: 1.5;
+    
+    color: var(--shadow-white-100);
+    background-color: var(--bg-900);
+
+    
+    /* Primary Colors */
+    --primary-color-50: #fff3fc;
+    --primary-color-100: #ffe6fc;
+    --primary-color-200: #ffccf7;
+    --primary-color-300: #ffa3ed;
+    --primary-color-400: #ff6de2;
+    --primary-color-500: #ff36de;
+    --primary-color-600: #eb28c7;
+    --primary-color-700: #bd0e98;
+    --primary-color-800: #9a0e7b;
+    --primary-color-900: #7e1164;
+    --primary-color-950: #550041;
+
+    /* Background Colors */
+    --bg-50: #f6f6f6;
+    --bg-100: #e7e7e7;
+    --bg-200: #d1d1d1;
+    --bg-300: #b0b0b0;
+    --bg-400: #888888;
+    --bg-500: #6d6d6d;
+    --bg-600: #5d5d5d;
+    --bg-700: #4f4f4f;
+    --bg-800: #454545;
+    --bg-900: #3d3d3d;
+    --bg-950: #242424;
+
+    /* ShadowColors */
+    /* Black */
+    --shadow-black-50: #f6f6f6;
+    --shadow-black-100: #e7e7e7;
+    --shadow-black-200: #d1d1d1;
+    --shadow-black-300: #b0b0b0;
+    --shadow-black-400: #888888;
+    --shadow-black-500: #6d6d6d;
+    --shadow-black-600: #5d5d5d;
+    --shadow-black-700: #4f4f4f;
+    --shadow-black-800: #454545;
+    --shadow-black-900: #3d3d3d;
+    --shadow-black-950: #000000;
+
+    /* White */
+    --shadow-white-50: #ffffff;
+    --shadow-white-100: #efefef;
+    --shadow-white-200: #dcdcdc;
+    --shadow-white-300: #bdbdbd;
+    --shadow-white-400: #989898;
+    --shadow-white-500: #7c7c7c;
+    --shadow-white-600: #656565;
+    --shadow-white-700: #525252;
+    --shadow-white-800: #464646;
+    --shadow-white-900: #3d3d3d;
+    --shadow-white-950: #292929;
+
+    /* Pink */
+    --shadow-pink-50: #fff2ff;
+    --shadow-pink-100: #fde4ff;
+    --shadow-pink-200: #fcc7ff;
+    --shadow-pink-300: #ff9cff;
+    --shadow-pink-400: #ff61fd;
+    --shadow-pink-500: #fb26ff;
+    --shadow-pink-600: #eb14fa;
+    --shadow-pink-700: #c200cb;
+    --shadow-pink-800: #a003a5;
+    --shadow-pink-900: #850986;
+    --shadow-pink-950: #5b005c;
+
+}
+
+* {
+    box-sizing: border-box;
+}

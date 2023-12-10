@@ -1,0 +1,30 @@
+/* Specify Styles for All Sections */
+
+*{
+    box-sizing: border-box;
+}
+
+body, html {
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+    min-width: 100vh;
+    min-height: 100vh;
+}
+
+button{
+    font-size: 1.2em;
+    font-weight: 500;
+    font-family: inherit;
+    padding: 0.6em 1.2em;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    color: var(--bg-100);
+    background-color: var(--bg-950);
+    cursor: pointer;
+    transition: border-color 0.25s;
+}
+
+button:hover {
+    border-color: var(--shadow-pink-600);
+}

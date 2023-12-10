@@ -2,6 +2,11 @@ VisualShow360 Responsive Web
 
 Created with React V18.2.0
 
+Anchos pantalla en:
+    *Movil - Mínimo 320px
+    *Tablet - Mínimo 748px
+    *PC - 1024px
+
 ToDo:
 
 [x]Páginas Rutas:
@@ -64,6 +69,10 @@ Home Page:
         []Repetir la navbar
         []© 2023 Todos los derechos reservados de VisualShow360
         []Web x JordiCode
+[]Crear Sistema de Cookies:
+    []PopUp Cookies
+    []Programa aceptacion Cookies
+
 
 
 

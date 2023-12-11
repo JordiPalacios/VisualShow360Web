@@ -36,50 +36,71 @@ export const Home = () => {
         </div>
       </header>
       <main>
-        <section id='plataforma360' className='service1'>
-          <h2>Servicio 1 - Fotomaton 360</h2>
+        <section id='plataforma360'>
+          <div className="service1Container">            
+            <h2>Servicio 1 - Fotomaton 360</h2>
+          </div>
         </section>
-        <section id='magic-mirror' className='service2'>
-          <h2>Servicio 2 - Magic Mirror</h2>
+        <section id='magic-mirror'>
+          <div className='service2Container'>            
+            <h2>Servicio 2 - Magic Mirror</h2>
+          </div>
         </section>
-        <section id='ring-ring-experience' className="service3">
-          <h2>Servicio 3 - Ring Ring Experience</h2>
+        <section id='ring-ring-experience'>
+          <div className="service3Container">            
+            <h2>Servicio 3 - Ring Ring Experience</h2>
+          </div>
         </section>
-        <section className="service4">
-          <h2>Servicio 4 - Productos Alquiler</h2>
-          <p>Poner el componente Card para mostrar los 3 productos: Letras Love - Neones - KitAntiResaca</p>
-          <ProductsCard />
+        <section>
+          <div className="service4Container">                      
+            <h2>Servicio 4 - Productos Alquiler</h2>
+            <p>Poner el componente Card para mostrar los 3 productos: Letras Love - Neones - KitAntiResaca</p>
+            <ProductsCard />
+          </div>
         </section>
         <section id='caja-hora-loca'>
-          <h2>Caja Hora Loca</h2>
+          <div className="horaLocaContainer">            
+            <h2>Caja Hora Loca</h2>
+          </div>
         </section>
-        <section className="reviews">
-          <h2>Reviews Clientes</h2>
+        <section>
+          <div className="reviewsContainer">
+            <h2>Reviews Clientes</h2>
+          </div>          
         </section>
-        <section className="companies">
-          <h2>Empresas con las que se han trabajado</h2>
+        <section>
+          <div className="companiesContainer">            
+            <h2>Empresas con las que se han trabajado</h2>
+          </div>
         </section>
-        <section id="nosotros" className="aboutUs">
-          <h2>Sobre Nosotros - Equipo</h2>
+        <section id="nosotros">
+          <div className="aboutUsContainer">            
+            <h2>Sobre Nosotros - Equipo</h2>
+          </div>
         </section>
-        <section className="contactUs">
-          <h2>Formulario Contacto</h2>
+        <section>
+          <div className="contactUsContainer">            
+            <h2>Formulario Contacto</h2>
+          </div>
         </section>
       </main>
       <footer>
-        <h2>Footer</h2>
-        <p>Poner el Logo y las RRSS</p>
-        <button>
-          <NewPage href="/aviso-legal" label="Aviso Legal" />
-        </button>
-        <button>
-          <NewPage href="/politica-privacidad" label="Politica de Privacidad" />
-        </button>
-        <button>
-          <NewPage href="/terminos-condiciones" label="Terminos y Condiciones" />
-        </button>
+        <div className="footerContainer">          
+          <h2>Footer</h2>
+          <p>Poner el Logo y las RRSS</p>
+          <button>
+            <NewPage href="/aviso-legal" label="Aviso Legal" />
+          </button>
+          <button>
+            <NewPage href="/politica-privacidad" label="Politica de Privacidad" />
+          </button>
+          <button>
+            <NewPage href="/terminos-condiciones" label="Terminos y Condiciones" />
+          </button>
+        </div>
       </footer>
       
+      {/* Botones para que sean añadidos en los 3 productos principales para que nos lleven a los eventos reales y lo mismo con el pago, pero para el alquiler o compra */}
       <button>
         <NewPage href="/eventos-reales" label="Eventos Reales" />
       </button>

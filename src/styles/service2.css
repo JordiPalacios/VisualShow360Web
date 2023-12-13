@@ -1,0 +1,14 @@
+
+
+
+/* Medidad Tablet */
+@media screen and (min-width: 748px) {
+
+}
+
+/* Medidas PC  */
+@media screen and (min-width: 1024px) {
+    header button {
+        display: none;
+    }
+}

@@ -1,26 +1,43 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { NavItem, NewPage, ProductsCard } from '../components'
 
 export const Home = () => {
+  const [isMenuToggled, setIsMenuToggled] = useState(false)
+  const [isMoreProductsInfo, setIsMoreProductsInfo] = useState(false)
+  const [isMoreWeddingsInfo, setIsMoreWeddingsInfo] = useState(false)
+  
+  const openMenu = () => {
+    setIsMenuToggled(!isMenuToggled)
+  }
+  const moreProductsInfo = () => {
+    setIsMoreProductsInfo(!isMoreProductsInfo)
+  }
+  const moreWeedingsInfo = () => {
+    setIsMoreWeddingsInfo(!isMoreWeddingsInfo)
+  }
+
   return (
     <>
       <header>
         <div className="headaerContainer">
           <div className="hamburgerMenu">
-            <button id="hamburgerMenu">&darr;</button>
+            <button 
+            onClick={openMenu}>&darr;</button>
           </div>
-          <nav id='navbar'>
+          <nav id='navbar' className={isMenuToggled ? 'menuOpened' : ''}>
             <div className="navbarContainer">              
               <ul>
                 <NavItem href='/' label='Home' />
-                <NavItem href='/' label='Servicios Party' />
-                <div className="serviciosParty">
+                {/* <NavItem href='/' label='Servicios Party' /> */}
+                <li onClick={moreProductsInfo}>Servicios Party</li>
+                <div className={isMoreProductsInfo ? 'productos' : ''} >
                   <NavItem href='#plataforma360' label='Plataforma 360' />
                   <NavItem href='#magic-mirror' label='Magic Mirror' />
                   <NavItem href='#ring-ring-experience' label='Ring Ring Experience' />
                 </div>
-                <NavItem href='/' label='Bodas y Eventos' />
-                <div className="bodasEventos">
+                {/* <NavItem href='/' label='Bodas y Eventos'/> */}
+                <li onClick={moreWeedingsInfo}>Bodas y Eventos</li>
+                <div className={isMoreWeddingsInfo ? "bodasEventos" : ''}>
                   <NavItem href='#letras-love' label='Letras Love' />
                   <NavItem href='#neones' label='Neones' />
                   <NavItem href='#kitAntiResaca' label='Kit AntiResaca' />
@@ -105,15 +122,10 @@ export const Home = () => {
           </button>
         </div>
       </footer>
-      
-      {/* Botones para que sean añadidos en los 3 productos principales para que nos lleven a los eventos reales y lo mismo con el pago, pero para el alquiler o compra */}
-      <button>
-        <NewPage href="/eventos-reales" label="Eventos Reales" />
-      </button>
+      {/* Para cuando deban comprar el producto */}
       <button>
         <NewPage href="/compra-segura" label="Pago" />
       </button>
-
     </>
   )
 }

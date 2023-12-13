@@ -28,3 +28,15 @@ button{
 button:hover {
     border-color: var(--shadow-pink-600);
 }
+
+/* Medidad Tablet */
+@media screen and (min-width: 748px) {
+
+}
+
+/* Medidas PC  */
+@media screen and (min-width: 1024px) {
+    header button {
+        display: none;
+    }
+}

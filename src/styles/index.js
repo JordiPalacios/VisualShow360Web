@@ -1,7 +1,7 @@
 import './main.css'
 import './sections.css'
 import './header.css'
-import './sevice1.css'
+import './service1.css'
 import './service2.css'
 import './service3.css'
 import './reviews.css'

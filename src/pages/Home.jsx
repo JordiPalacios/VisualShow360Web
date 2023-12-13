@@ -52,6 +52,7 @@ export const Home = () => {
             <h2>Servicio 3 - Ring Ring Experience</h2>
           </div>
         </section>
+        {/* !Este section es de products */}
         <section>
           <div className="service4Container">                      
             <h2>Servicio 4 - Productos Alquiler</h2>
@@ -65,11 +66,13 @@ export const Home = () => {
             <h2>Caja Hora Loca</h2>
           </div>
         </section>
+        {/* !Este section es de reviews */}
         <section>
           <div className="reviewsContainer">
             <h2>Reviews Clientes</h2>
           </div>          
         </section>
+        {/* !Este section es de companies */}
         <section>
           <div className="companiesContainer">            
             <h2>Empresas con las que se han trabajado</h2>
@@ -80,6 +83,7 @@ export const Home = () => {
             <h2>Sobre Nosotros - Equipo</h2>
           </div>
         </section>
+        {/* !Este section es de contact us */}
         <section>
           <div className="contactUsContainer">            
             <h2>Formulario Contacto</h2>

@@ -8,3 +8,23 @@ export const Navbar = () => {
     </>
   )
 }
+
+
+// const toggleClass = (className) => {
+//   switch (className) {
+//     case 'menuOpen':
+//       setIsMenuToggled(!isMenuToggled)
+//       break;
+  
+//     case 'products':
+//       setIsMoreProductsInfo(!isMoreProductsInfo)
+//       break;
+
+//     case 'weddings':
+//       setIsMoreWeddingsInfo(!isMoreWeddingsInfo)
+//       break;
+
+//     default:
+//       break;
+//   }
+// }

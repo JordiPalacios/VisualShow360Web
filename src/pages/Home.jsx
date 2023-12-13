@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useCallback, useState } from 'react'
 import { NavItem, NewPage, ProductsCard } from '../components'
 
 export const Home = () => {
@@ -6,14 +6,23 @@ export const Home = () => {
   const [isMoreProductsInfo, setIsMoreProductsInfo] = useState(false)
   const [isMoreWeddingsInfo, setIsMoreWeddingsInfo] = useState(false)
   
-  const openMenu = () => {
-    setIsMenuToggled(!isMenuToggled)
+  const toggleClass = (className) => {
+  switch (className) {
+    case 'menuOpen':
+      setIsMenuToggled(!isMenuToggled)
+      break;
+  
+    case 'products':
+      setIsMoreProductsInfo(!isMoreProductsInfo)
+      break;
+
+    case 'weddings':
+      setIsMoreWeddingsInfo(!isMoreWeddingsInfo)
+      break;
+
+    default:
+      break;
   }
-  const moreProductsInfo = () => {
-    setIsMoreProductsInfo(!isMoreProductsInfo)
-  }
-  const moreWeedingsInfo = () => {
-    setIsMoreWeddingsInfo(!isMoreWeddingsInfo)
   }
 
   return (
@@ -22,21 +31,21 @@ export const Home = () => {
         <div className="headaerContainer">
           <div className="hamburgerMenu">
             <button 
-            onClick={openMenu}>&darr;</button>
+            onClick={() => toggleClass('menuOpen')}>&darr;</button>
           </div>
           <nav id='navbar' className={isMenuToggled ? 'menuOpened' : ''}>
             <div className="navbarContainer">              
               <ul>
                 <NavItem href='/' label='Home' />
                 {/* <NavItem href='/' label='Servicios Party' /> */}
-                <li onClick={moreProductsInfo}>Servicios Party</li>
+                <li onClick={() => toggleClass('products')}>Servicios Party</li>
                 <div className={isMoreProductsInfo ? 'productos' : ''} >
                   <NavItem href='#plataforma360' label='Plataforma 360' />
                   <NavItem href='#magic-mirror' label='Magic Mirror' />
                   <NavItem href='#ring-ring-experience' label='Ring Ring Experience' />
                 </div>
                 {/* <NavItem href='/' label='Bodas y Eventos'/> */}
-                <li onClick={moreWeedingsInfo}>Bodas y Eventos</li>
+                <li onClick={() => toggleClass('weddings')}>Bodas y Eventos</li>
                 <div className={isMoreWeddingsInfo ? "bodasEventos" : ''}>
                   <NavItem href='#letras-love' label='Letras Love' />
                   <NavItem href='#neones' label='Neones' />

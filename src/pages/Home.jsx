@@ -5,29 +5,30 @@ export const Home = () => {
   return (
     <>
       <header>
-        <div className="navbarContainer">
+        <div className="headaerContainer">
           <div className="hamburgerMenu">
-            <img src="src/assets/icons/hamburger.svg" alt="iconHamburger" className='hamburgerMenu' height='20px'/>
-            <img src="src\assets\icons\cross.svg" alt="iconCross" className='crossMenu' height='20px' />
+            <button id="hamburgerMenu">&darr;</button>
           </div>
-          <nav className='navigation'>
-            <ul>
-              <NavItem href='/' label='Home' />
-              <NavItem href='/' label='Servicios Party' />
-              <div className="serviciosParty">
-                <NavItem href='#plataforma360' label='Plataforma 360' />
-                <NavItem href='#magic-mirror' label='Magic Mirror' />
-                <NavItem href='#ring-ring-experience' label='Ring Ring Experience' />
-              </div>
-              <NavItem href='/' label='Bodas y Eventos' />
-              <div className="bodasEventos">
-                <NavItem href='#letras-love' label='Letras Love' />
-                <NavItem href='#neones' label='Neones' />
-                <NavItem href='#kitAntiResaca' label='Kit AntiResaca' />
-              </div>
-              <NavItem href='#caja-hora-loca' label='Caja Hora Loca' />
-              <NavItem href='#nosotros' label='Nosotros' />
-            </ul>
+          <nav id='navbar'>
+            <div className="navbarContainer">              
+              <ul>
+                <NavItem href='/' label='Home' />
+                <NavItem href='/' label='Servicios Party' />
+                <div className="serviciosParty">
+                  <NavItem href='#plataforma360' label='Plataforma 360' />
+                  <NavItem href='#magic-mirror' label='Magic Mirror' />
+                  <NavItem href='#ring-ring-experience' label='Ring Ring Experience' />
+                </div>
+                <NavItem href='/' label='Bodas y Eventos' />
+                <div className="bodasEventos">
+                  <NavItem href='#letras-love' label='Letras Love' />
+                  <NavItem href='#neones' label='Neones' />
+                  <NavItem href='#kitAntiResaca' label='Kit AntiResaca' />
+                </div>
+                <NavItem href='#caja-hora-loca' label='Caja Hora Loca' />
+                <NavItem href='#nosotros' label='Nosotros' />
+              </ul>
+            </div>
           </nav>
         </div>
         <div className="presentationContainer">          
@@ -54,8 +55,9 @@ export const Home = () => {
         <section>
           <div className="service4Container">                      
             <h2>Servicio 4 - Productos Alquiler</h2>
-            <p>Poner el componente Card para mostrar los 3 productos: Letras Love - Neones - KitAntiResaca</p>
-            <ProductsCard />
+            <ProductsCard id='#letras-love' tittle='Letras Love' description='Letras Love Description' imgUrl='src\assets\icons\ig.svg'/>
+            <ProductsCard id='#neones' tittle='Neones' description='Neones Description' imgUrl='src\assets\icons\ig.svg'/>
+            <ProductsCard id='#kitAntiResaca' tittle='Kit AntiResaca' description='Kit AntiResaca Description' imgUrl='src\assets\icons\ig.svg'/>
           </div>
         </section>
         <section id='caja-hora-loca'>

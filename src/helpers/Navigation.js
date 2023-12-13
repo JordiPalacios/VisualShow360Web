@@ -1,1 +1,0 @@
-// Helper para mostrar y moverme por las diferentes páginas en funcion del elemento

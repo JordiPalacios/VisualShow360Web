@@ -1,7 +1,12 @@
 import React from 'react'
 
-export const ProductsCard = () => {
+export const ProductsCard = ({id, tittle, description, imgUrl}) => {
+  console.log(id)
   return (
-    <div>ProductsCard</div>
+    <div id={id}>
+      <img src={imgUrl} alt={tittle} />
+      <h3>{tittle}</h3>
+      <p>{description}</p>
+    </div>
   )
 }

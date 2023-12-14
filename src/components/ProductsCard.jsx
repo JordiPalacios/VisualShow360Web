@@ -9,7 +9,7 @@ export const ProductsCard = ({id, tittle, description, imgUrl}) => {
       <p>{description}</p>
       <h4>Mas información</h4>
       <button>
-        <NewPage href="/eventos-reales" label="Eventos Reales" />
+        <NewPage href="/productos" label="Más Información" />
       </button>
     </div>
   )

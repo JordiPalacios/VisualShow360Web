@@ -1,5 +1,33 @@
 header button {
-    display: flex;
+    width: fit-content;
+    height: fit-content;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.hamburgerMenu {
+    background-image: url('src/assets/icons/hamburger.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.crossMenu {
+    background-image: url('src/assets/icons/cross.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.menuClosed {
+    display: none;
+}
+
+.productosClose {
+    display: none;
+}
+
+.bodasEventosClose {
+    display: none;
 }
 
 /* Medidad Tablet */

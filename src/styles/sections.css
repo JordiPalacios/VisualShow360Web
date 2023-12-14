@@ -13,10 +13,10 @@ body, html {
 }
 
 button{
-    font-size: 1.2em;
+    font-size: 1.2rem;
     font-weight: 500;
     font-family: inherit;
-    padding: 0.6em 1.2em;
+    padding: 0.6rem 1.2rem;
     border: 1px solid transparent;
     border-radius: 8px;
     color: var(--bg-100);
@@ -29,14 +29,12 @@ button:hover {
     border-color: var(--shadow-pink-600);
 }
 
-/* Medidad Tablet */
-@media screen and (min-width: 748px) {
-
+ul {
+    list-style: none;
+    color: var(--primary-color-50);
 }
 
-/* Medidas PC  */
-@media screen and (min-width: 1024px) {
-    header button {
-        display: none;
-    }
+a {
+    text-decoration: none;
+    color: var(--primary-color-50);
 }

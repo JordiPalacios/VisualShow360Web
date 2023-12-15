@@ -1,33 +1,79 @@
 header button {
     width: fit-content;
     height: fit-content;
+    background-color: none;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
 }
 
+header div, 
+header ul {
+    z-index: 1;
+}
+
+header video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    size: fit;
+    opacity: 0.3;
+    z-index: 0;
+}
+
+
 .hamburgerMenu {
     background-image: url('src/assets/icons/hamburger.svg');
+    background-color: none;
     background-size: contain;
     background-repeat: no-repeat;
+    animation: bounceIn;
+    animation-duration: 2s;
 }
 
 .crossMenu {
     background-image: url('src/assets/icons/cross.svg');
+    background-color: none;
     background-size: contain;
     background-repeat: no-repeat;
+    animation: rubberBand;
+    animation-duration: 1s;
 }
 
 .menuClosed {
-    display: none;
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+    visibility: hidden;
+    transition: visibility 0s linear 0.5s, opacity 0.5s linear;
+}
+
+.menuOpened {
+    opacity: 1;
+    visibility: visible;
+    transition: visibility 0s linear 0s, opacity 0.5s linear;
 }
 
 .productosClose {
-    display: none;
+    max-height: 0;
+    overflow: hidden;
 }
 
 .bodasEventosClose {
-    display: none;
+    max-height: 0;
+    overflow: hidden;
+}
+
+.videoContainer {
+    width: 100%;
+    height: 0;
+    position: relative;
+}
+
+.videoContainer video {
+    height: 100%;
+    object-fit: cover;
 }
 
 /* Medidad Tablet */
@@ -39,5 +85,20 @@ header button {
 @media screen and (min-width: 1024px) {
     header button {
         display: none;
+    }
+
+    .menuClosed {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .productosOpen {
+        display: felx;
+        flex-direction: column;
+    }
+    
+    .bodasEventosOpen {
+        display: flex;
+        flex-direction: column;
     }
 }

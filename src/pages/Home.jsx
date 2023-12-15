@@ -1,4 +1,4 @@
-import React, { useCallback, useState } from 'react'
+import React, { useState } from 'react'
 import { NavItem, NewPage, ProductsCard } from '../components'
 
 export const Home = () => {
@@ -39,14 +39,12 @@ export const Home = () => {
             <div className="navbarContainer">              
               <ul>
                 <NavItem href='/' label='Home' />
-                {/* <NavItem href='/' label='Servicios Party' /> */}
                 <li onClick={() => toggleClass('products')}>Servicios Party</li>
                 <div className={isMoreProductsInfo ? 'productosOpen' : 'productosClose'} >
                   <NavItem href='#plataforma360' label='Plataforma 360' />
                   <NavItem href='#magic-mirror' label='Magic Mirror' />
                   <NavItem href='#ring-ring-experience' label='Ring Ring Experience' />
                 </div>
-                {/* <NavItem href='/' label='Bodas y Eventos'/> */}
                 <li onClick={() => toggleClass('weddings')}>Bodas y Eventos</li>
                 <div className={isMoreWeddingsInfo ? "bodasEventosOpen" : 'bodasEventosClose'}>
                   <NavItem href='#letras-love' label='Letras Love' />
@@ -58,10 +56,16 @@ export const Home = () => {
               </ul>
             </div>
           </nav>
-        </div>
-        <div className="presentationContainer">          
-          <h1>Header - Visual Show 360</h1>
-          <p>Vídeo + Texto Potente</p>
+          <div className="presentationContainer">          
+            <h1>Header - Visual Show 360</h1>
+            <p>Vídeo + Texto Potente</p>
+          </div>
+          <div className="videoContainer">            
+            <video autoPlay muted loop>
+                <source src="src/assets/video/wedding.mp4" type="video/mp4"/>
+                Este navegador no soporta vídeos.
+            </video>
+          </div>
         </div>
       </header>
       <main>
@@ -103,9 +107,9 @@ export const Home = () => {
         <section>
           <div className="service4Container">                      
             <h2>Servicio 4 - Productos Alquiler</h2>
-            <ProductsCard id='letras-love' tittle='Letras Love' description='Letras Love Description' imgUrl='src\assets\icons\ig.svg'/>
-            <ProductsCard id='neones' tittle='Neones' description='Neones Description' imgUrl='src\assets\icons\ig.svg'/>
-            <ProductsCard id='kitAntiResaca' tittle='Kit AntiResaca' description='Kit AntiResaca Description' imgUrl='src\assets\icons\ig.svg'/>
+            <ProductsCard id='letras-love' tittle='Letras Love' description='Letras Love Description' imgUrl='src/assets/icons/ig.svg'/>
+            <ProductsCard id='neones' tittle='Neones' description='Neones Description' imgUrl='src/assets/icons/ig.svg'/>
+            <ProductsCard id='kitAntiResaca' tittle='Kit AntiResaca' description='Kit AntiResaca Description' imgUrl='src/assets/icons/ig.svg'/>
           </div>
         </section>
         <section id='caja-hora-loca'>

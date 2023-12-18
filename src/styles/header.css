@@ -1,7 +1,8 @@
 header {
     position: relative;
     overflow: hidden;
-    padding: 5px;
+    padding: 10px;
+    margin: 0;
 }
 
 header button {
@@ -18,6 +19,16 @@ header ul {
     z-index: 1;
 }
 
+header h1,
+header ul {
+    margin: 0;
+}
+
+/* nav ul li a, 
+li{
+    color: var(--primary-color-300);
+} */
+
 header video {
     position: absolute;
     top: 50%;
@@ -30,11 +41,16 @@ header video {
 .headerContainer {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    margin: 5px;
-    padding: 5px;
+    align-items: center;
     width: 100%;
     height: 100%;
+}
+
+.logoMenuContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
 }
 
 
@@ -56,28 +72,58 @@ header video {
     animation-duration: 1s;
 }
 
-.menuClosed {
+nav ul {
+    background: transparent;
+    position: relative;
+    margin: 0;
+    padding: 0;
     max-height: 0;
-    overflow: hidden;
     opacity: 0;
-    visibility: hidden;
-    transition: visibility 0s linear 0.5s, opacity 0.5s linear;
+    transition: max-height .75s ease, opacity .75s ease;
+    width: 100%;
+    overflow: hidden;
 }
 
-.menuOpened {
-    opacity: 1;
-    visibility: visible;
-    transition: visibility 0s linear 0s, opacity 0.5s linear;
+.menuOpened ul{
+    max-height: 300px;
+    opacity: 10;
+    transition: max-height .75s ease, opacity .75s ease;
 }
 
 .productosClose {
+    background: transparent;
+    position: relative;
+    margin: 0;
+    padding: 0;
     max-height: 0;
+    opacity: 0;
+    transition: max-height .75s ease, opacity .75s ease;
+    width: 100%;
     overflow: hidden;
 }
 
+.productosOpen {
+    max-height: 150px;
+    opacity: 1;
+    transition: max-height .75s ease, opacity .75s ease;
+}
+
 .bodasEventosClose {
+    background: transparent;
+    position: relative;
+    margin: 0;
+    padding: 0;
     max-height: 0;
+    opacity: 0;
+    transition: max-height .75s ease, opacity .75s ease;
+    width: 100%;
     overflow: hidden;
+}
+
+.bodasEventosOpen {
+    max-height: 150px;
+    opacity: 1;
+    transition: max-height .75s ease, opacity .75s ease;
 }
 
 /* Medidad Tablet */

@@ -1,8 +1,8 @@
 import React from 'react'
 
-export const NavItem = ({href, label}) => {
+export const NavItem = ({href, label, color}) => {
   return (
-    <li>
+    <li style={{color}}>
         <a href={href}>
             {label}
         </a>

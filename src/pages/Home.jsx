@@ -29,42 +29,52 @@ export const Home = () => {
     <>
       <header>
         <div className="headerContainer">
-          <div className="hamburgerMenuContainer">
-            <button 
-            className={isMenuToggled ? 'crossMenu' : 'hamburgerMenu'}
-            onClick={() => toggleClass('menuOpen')}>
-            </button>
+          <div className="logoMenuContainer">  
+            <div className="menuContainer">
+              <button 
+              className={isMenuToggled ? 'crossMenu' : 'hamburgerMenu'}
+              onClick={() => toggleClass('menuOpen')}>
+              </button>
+            </div>                      
+            <h1>Visual Show 360</h1>
           </div>
-          <nav id='navbar' className={isMenuToggled ? 'menuOpened' : 'menuClosed'}>
-            <div className="navbarContainer">              
-              <ul>
-                <NavItem href='/' label='Home' />
-                <li onClick={() => toggleClass('products')}>Servicios Party</li>
-                <div className={isMoreProductsInfo ? 'productosOpen' : 'productosClose'} >
-                  <NavItem href='#plataforma360' label='Plataforma 360' />
-                  <NavItem href='#magic-mirror' label='Magic Mirror' />
-                  <NavItem href='#ring-ring-experience' label='Ring Ring Experience' />
-                </div>
-                <li onClick={() => toggleClass('weddings')}>Bodas y Eventos</li>
-                <div className={isMoreWeddingsInfo ? "bodasEventosOpen" : 'bodasEventosClose'}>
-                  <NavItem href='#letras-love' label='Letras Love' />
-                  <NavItem href='#neones' label='Neones' />
-                  <NavItem href='#kitAntiResaca' label='Kit AntiResaca' />
-                </div>
-                <NavItem href='#caja-hora-loca' label='Caja Hora Loca' />
-                <NavItem href='#nosotros' label='Nosotros' />
-              </ul>
-            </div>
+          <nav id='navbar' className={isMenuToggled ? 'menuOpened' : ''}>          
+            <ul>
+              <b><NavItem href='/' label='Home' /></b>
+              <li onClick={() => toggleClass('products')}><b>Servicios Party</b></li>
+              <div className={isMoreProductsInfo ? 'productosOpen' : 'productosClose'} >
+                <NavItem href='#plataforma360' label='Plataforma 360' color='red'/>
+                <NavItem href='#magic-mirror' label='Magic Mirror' color='red'/>
+                <NavItem href='#ring-ring-experience' label='Ring Ring Experience' color='red'/>
+              </div>
+              <li onClick={() => toggleClass('weddings')}><b>Bodas y Eventos</b></li>
+              <div className={isMoreWeddingsInfo ? "bodasEventosOpen" : 'bodasEventosClose'}>
+                <NavItem href='#letras-love' label='Letras Love' color='blue'/>
+                <NavItem href='#neones' label='Neones' color='blue'/>
+                <NavItem href='#kitAntiResaca' label='Kit AntiResaca' color='blue'/>
+              </div>
+              <b><NavItem href='#caja-hora-loca' label='Caja Hora Loca' /></b>
+              <b><NavItem href='#nosotros' label='Nosotros' /></b>
+            </ul>
           </nav>
           <div className="presentationContainer">          
-            <h1>Header - Visual Show 360</h1>
-            <p>Vídeo + Texto Potente</p>
+            <h1>
+            Fotomaton <br /> 
+            Magic Mirror <br />  
+            RingRing Experience <br /> 
+            Barcelona
+            </h1>
+            <p>
+              Haremos que tu evento sea... 
+              <br /> 
+              ¡ I N O L V I D A B L E !
+            </p>
           </div>        
         </div>
         <video autoPlay muted loop>
               <source src="src/assets/video/wedding.mp4" type="video/mp4"/>
               Este navegador no soporta vídeos.
-            </video>  
+        </video>  
       </header>
       <main>
         {/* El punto que se ve al lado del si quiero es debido a los estilos, debemos quitarlo desde el css */}

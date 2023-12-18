@@ -1,3 +1,9 @@
+header {
+    position: relative;
+    overflow: hidden;
+    padding: 5px;
+}
+
 header button {
     width: fit-content;
     height: fit-content;
@@ -17,7 +23,6 @@ header video {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    size: fit;
     opacity: 0.3;
     z-index: 0;
 }
@@ -25,6 +30,7 @@ header video {
 .headerContainer {
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
     margin: 5px;
     padding: 5px;
     width: 100%;
@@ -34,7 +40,7 @@ header video {
 
 .hamburgerMenu {
     background-image: url('src/assets/icons/hamburger.svg');
-    background-color: none;
+    background-color: transparent;
     background-size: contain;
     background-repeat: no-repeat;
     animation: bounceIn;
@@ -43,7 +49,7 @@ header video {
 
 .crossMenu {
     background-image: url('src/assets/icons/cross.svg');
-    background-color: none;
+    background-color: transparent;
     background-size: contain;
     background-repeat: no-repeat;
     animation: rubberBand;
@@ -74,17 +80,6 @@ header video {
     overflow: hidden;
 }
 
-.videoContainer {
-    width: 100%;
-    height: 0;
-    position: relative;
-}
-
-.videoContainer video {
-    height: 100%;
-    object-fit: cover;
-}
-
 /* Medidad Tablet */
 @media screen and (min-width: 748px) {
 
@@ -102,7 +97,7 @@ header video {
     }
     
     .productosOpen {
-        display: felx;
+        display: flex;
         flex-direction: column;
     }
     

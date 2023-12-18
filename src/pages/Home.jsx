@@ -59,14 +59,12 @@ export const Home = () => {
           <div className="presentationContainer">          
             <h1>Header - Visual Show 360</h1>
             <p>Vídeo + Texto Potente</p>
-          </div>
-          <div className="videoContainer">            
-            <video autoPlay muted loop>
-                <source src="src/assets/video/wedding.mp4" type="video/mp4"/>
-                Este navegador no soporta vídeos.
-            </video>
-          </div>
+          </div>        
         </div>
+        <video autoPlay muted loop>
+              <source src="src/assets/video/wedding.mp4" type="video/mp4"/>
+              Este navegador no soporta vídeos.
+            </video>  
       </header>
       <main>
         {/* El punto que se ve al lado del si quiero es debido a los estilos, debemos quitarlo desde el css */}

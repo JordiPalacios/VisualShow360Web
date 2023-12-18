@@ -22,6 +22,15 @@ header video {
     z-index: 0;
 }
 
+.headerContainer {
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    padding: 5px;
+    width: 100%;
+    height: 100%;
+}
+
 
 .hamburgerMenu {
     background-image: url('src/assets/icons/hamburger.svg');

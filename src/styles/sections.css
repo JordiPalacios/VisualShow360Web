@@ -6,10 +6,11 @@
 
 body, html {
     scroll-behavior: smooth;
-    margin: 0;
-    padding: 0;
-    min-width: 100vh;
-    min-height: 100vh;
+    margin: 5px;
+    padding: 2px;
+    min-width: 95%;
+    max-width: 95%;
+    min-height: 100%;
 }
 
 button{

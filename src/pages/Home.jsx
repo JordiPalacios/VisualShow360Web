@@ -77,7 +77,7 @@ export const Home = () => {
               <NewPage href="/eventos-reales" label="Eventos Reales" />
             </button>
             <button>
-              <NavItem href='#contactUs' label='¡Sí Quiero!' />
+              <NavItem href='#contacto' label='¡Sí Quiero!' />
             </button>
           </div>
         </section>
@@ -88,7 +88,7 @@ export const Home = () => {
               <NewPage href="/eventos-reales" label="Eventos Reales" />
             </button>
             <button>
-              <NavItem href='#contactUs' label='¡Sí Quiero!' />
+              <NavItem href='#contacto' label='¡Sí Quiero!' />
             </button>
           </div>
         </section>
@@ -99,7 +99,7 @@ export const Home = () => {
               <NewPage href="/eventos-reales" label="Eventos Reales" />
             </button>
             <button>
-              <NavItem href='#contactUs' label='¡Sí Quiero!' />
+              <NavItem href='#contacto' label='¡Sí Quiero!' />
             </button>
           </div>
         </section>
@@ -135,8 +135,8 @@ export const Home = () => {
           </div>
         </section>
         {/* !Este section es de contact us */}
-        <section id='contactUs'>
-          <div className="contactUsContainer">            
+        <section id='contacto'>
+          <div className="contactoContainer">            
             <h2>Formulario Contacto</h2>
           </div>
         </section>

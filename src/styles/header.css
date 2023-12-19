@@ -85,6 +85,9 @@ nav ul {
 }
 
 .menuOpened ul{
+    width: 100%;
+    text-align: center;
+    text-wrap: balance;
     max-height: 300px;
     opacity: 10;
     transition: max-height .75s ease, opacity .75s ease;
@@ -124,6 +127,14 @@ nav ul {
     max-height: 150px;
     opacity: 1;
     transition: max-height .75s ease, opacity .75s ease;
+}
+
+
+
+.presentationContainer {
+    width: 100%;
+    text-align: center;
+    text-wrap: balance;
 }
 
 /* Medidad Tablet */

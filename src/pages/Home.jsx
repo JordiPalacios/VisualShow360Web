@@ -36,32 +36,32 @@ export const Home = () => {
               onClick={() => toggleClass('menuOpen')}>
               </button>
             </div>                      
-            <h1>Visual Show 360</h1>
+            <h1><NewPage href='/' label='Visual Show 360' colorText='var(--primary-color-500)'/></h1>
           </div>
           <nav id='navbar' className={isMenuToggled ? 'menuOpened' : ''}>          
             <ul>
-              <b><NavItem href='/' label='Home' /></b>
+              <b><NavItem href='/' label='Home' colorText='var(--primary-color-300)' /></b>
               <li onClick={() => toggleClass('products')}><b>Servicios Party</b></li>
               <div className={isMoreProductsInfo ? 'productosOpen' : 'productosClose'} >
-                <NavItem href='#plataforma360' label='Plataforma 360' color='red'/>
-                <NavItem href='#magic-mirror' label='Magic Mirror' color='red'/>
-                <NavItem href='#ring-ring-experience' label='Ring Ring Experience' color='red'/>
+                <NavItem href='#plataforma360' label='Plataforma 360' colorText='var(--primary-color-100)'/>
+                <NavItem href='#magic-mirror' label='Magic Mirror' colorText='var(--primary-color-100)'/>
+                <NavItem href='#ring-ring-experience' label='Ring Ring Experience' colorText='var(--primary-color-100)'/>
               </div>
               <li onClick={() => toggleClass('weddings')}><b>Bodas y Eventos</b></li>
               <div className={isMoreWeddingsInfo ? "bodasEventosOpen" : 'bodasEventosClose'}>
-                <NavItem href='#letras-love' label='Letras Love' color='blue'/>
-                <NavItem href='#neones' label='Neones' color='blue'/>
-                <NavItem href='#kitAntiResaca' label='Kit AntiResaca' color='blue'/>
+                <NavItem href='#letras-love' label='Letras Love' colorText='var(--primary-color-100)'/>
+                <NavItem href='#neones' label='Neones' colorText='var(--primary-color-100)'/>
+                <NavItem href='#kitAntiResaca' label='Kit AntiResaca' colorText='var(--primary-color-100)'/>
               </div>
-              <b><NavItem href='#caja-hora-loca' label='Caja Hora Loca' /></b>
-              <b><NavItem href='#nosotros' label='Nosotros' /></b>
+              <b><NavItem href='#caja-hora-loca' label='Caja Hora Loca' colorText='var(--primary-color-300)' /></b>
+              <b><NavItem href='#nosotros' label='Nosotros' colorText='var(--primary-color-300)' /></b>
             </ul>
           </nav>
           <div className="presentationContainer">          
             <h1>
-            Fotomaton <br /> 
-            Magic Mirror <br />  
-            RingRing Experience <br /> 
+            · Fotomaton <br /> 
+            · Magic Mirror <br />  
+            · RingRing Experience <br /> 
             Barcelona
             </h1>
             <p>
@@ -82,10 +82,10 @@ export const Home = () => {
           <div className="service1Container">            
             <h2>Servicio 1 - Fotomaton 360</h2>
             <button>
-              <NewPage href="/eventos-reales" label="Eventos Reales" />
+              <NewPage href="/eventos-reales" label="Eventos Reales" colorText='var(--primary-color-500)'/>
             </button>
             <button>
-              <NavItem href='#contacto' label='¡Sí Quiero!' />
+              <NavItem href='#contacto' label='¡Sí Quiero!' colorText='var(--primary-color-500)'/>
             </button>
           </div>
         </section>
@@ -93,10 +93,10 @@ export const Home = () => {
           <div className='service2Container'>            
             <h2>Servicio 2 - Magic Mirror</h2>
             <button>
-              <NewPage href="/eventos-reales" label="Eventos Reales" />
+              <NewPage href="/eventos-reales" label="Eventos Reales" colorText='var(--primary-color-500)'/>
             </button>
             <button>
-              <NavItem href='#contacto' label='¡Sí Quiero!' />
+              <NavItem href='#contacto' label='¡Sí Quiero!' colorText='var(--primary-color-500)'/>
             </button>
           </div>
         </section>
@@ -104,10 +104,10 @@ export const Home = () => {
           <div className="service3Container">            
             <h2>Servicio 3 - Ring Ring Experience</h2>
             <button>
-              <NewPage href="/eventos-reales" label="Eventos Reales" />
+              <NewPage href="/eventos-reales" label="Eventos Reales" colorText='var(--primary-color-500)'/>
             </button>
             <button>
-              <NavItem href='#contacto' label='¡Sí Quiero!' />
+              <NavItem href='#contacto' label='¡Sí Quiero!' colorText='var(--primary-color-500)'/>
             </button>
           </div>
         </section>
@@ -154,19 +154,19 @@ export const Home = () => {
           <h2>Footer</h2>
           <p>Poner el Logo y las RRSS</p>
           <button>
-            <NewPage href="/aviso-legal" label="Aviso Legal" />
+            <NewPage href="/aviso-legal" label="Aviso Legal" colorText='var(--primary-color-500)'/>
           </button>
           <button>
-            <NewPage href="/politica-privacidad" label="Politica de Privacidad" />
+            <NewPage href="/politica-privacidad" label="Politica de Privacidad" colorText='var(--primary-color-500)'/>
           </button>
           <button>
-            <NewPage href="/terminos-condiciones" label="Terminos y Condiciones" />
+            <NewPage href="/terminos-condiciones" label="Terminos y Condiciones" colorText='var(--primary-color-500)'/>
           </button>
         </div>
       </footer>
       {/* Para cuando deban comprar el producto */}
       <button>
-        <NewPage href="/compra-segura" label="Pago" />
+        <NewPage href="/compra-segura" label="Pago" colorText='var(--primary-color-500)'/>
       </button>
     </>
   )

@@ -33,7 +33,7 @@ button:hover {
 ul {
     padding: 0px;
     list-style: none;
-    color: var(--primary-color-300);
+    color: var(--primary-color-100);
 }
 
 a {

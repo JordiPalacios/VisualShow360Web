@@ -1,13 +1,12 @@
 /* TODO: Poner la barra de navegacion fija, que tenga un filtro blur de fondo asi quedara mas bonito. El video con el titulo que se quede arriba y la barra de nav fija asi siempre podremos movernos por la web */
 
-header {
+/* * Navigation */
+
+nav {
     position: relative;
-    overflow: hidden;
-    padding: 10px;
-    margin: 0;
 }
 
-header button {
+nav button{
     width: fit-content;
     height: fit-content;
     background-color: none;
@@ -16,45 +15,14 @@ header button {
     background-position: center;
 }
 
-header div, 
-header ul {
-    z-index: 1;
-}
-
-header h1,
-header ul {
-    margin: 0;
-}
-
-/* nav ul li a, 
-li{
-    color: var(--primary-color-300);
-} */
-
-header video {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    opacity: 0.3;
-    z-index: 0;
-}
-
-.headerContainer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    height: 100%;
-}
-
-.logoMenuContainer {
+.logoMenu {
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: center;
     gap: 1rem;
+    background-color: var(--shadow-black-900);
 }
-
 
 .hamburgerMenu {
     background-image: url('src/assets/icons/hamburger.svg');
@@ -76,7 +44,8 @@ header video {
 
 nav ul {
     background: transparent;
-    position: relative;
+    text-align: center;
+    text-wrap: balance;
     margin: 0;
     padding: 0;
     max-height: 0;
@@ -87,12 +56,20 @@ nav ul {
 }
 
 .menuOpened ul{
+    position: absolute;
     width: 100%;
-    text-align: center;
-    text-wrap: balance;
-    max-height: 300px;
-    opacity: 10;
+    top: 100%;
+    left: 0;
+    max-height: none;
+    opacity: 1;
+    background: var(--primary-color-100);
     transition: max-height .75s ease, opacity .75s ease;
+    z-index: 999;
+
+    @supports (backdrop-filter: blur(5px)) {
+        background-color: rgba(0, 0, 0, 0.6);
+        backdrop-filter: blur(5px);
+    }
 }
 
 .productosClose {
@@ -131,7 +108,23 @@ nav ul {
     transition: max-height .75s ease, opacity .75s ease;
 }
 
+/* * Header */
 
+header {
+    position: relative;
+    overflow: hidden;
+    padding: 10px;
+    margin: 0;
+}
+
+header video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0.3;
+    z-index: 0;
+}
 
 .presentationContainer {
     width: 100%;
@@ -139,10 +132,14 @@ nav ul {
     text-wrap: balance;
 }
 
+/* * Media Tablet */
+
 /* Medidad Tablet */
 @media screen and (min-width: 748px) {
 
 }
+
+/* * Media PC */
 
 /* Medidas PC  */
 @media screen and (min-width: 1024px) {

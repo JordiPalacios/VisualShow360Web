@@ -26,55 +26,53 @@ export const Home = () => {
   }
 
   return (
-    <>
-      <header>
-        <div className="headerContainer">
-          <div className="logoMenuContainer">  
-            <div className="menuContainer">
-              <button 
-              className={isMenuToggled ? 'crossMenu' : 'hamburgerMenu'}
-              onClick={() => toggleClass('menuOpen')}>
-              </button>
-            </div>                      
-            <h1><NewPage href='/' label='Visual Show 360' colorText='var(--primary-color-500)'/></h1>
-          </div>
-          <nav id='navbar' className={isMenuToggled ? 'menuOpened' : ''}>          
-            <ul>
-              <b><NavItem href='/' label='Home' colorText='var(--primary-color-300)' /></b>
-              <li onClick={() => toggleClass('products')}><b>Servicios Party</b></li>
-              <div className={isMoreProductsInfo ? 'productosOpen' : 'productosClose'} >
-                <NavItem href='#plataforma360' label='Plataforma 360' colorText='var(--primary-color-100)'/>
-                <NavItem href='#magic-mirror' label='Magic Mirror' colorText='var(--primary-color-100)'/>
-                <NavItem href='#ring-ring-experience' label='Ring Ring Experience' colorText='var(--primary-color-100)'/>
-              </div>
-              <li onClick={() => toggleClass('weddings')}><b>Bodas y Eventos</b></li>
-              <div className={isMoreWeddingsInfo ? "bodasEventosOpen" : 'bodasEventosClose'}>
-                <NavItem href='#letras-love' label='Letras Love' colorText='var(--primary-color-100)'/>
-                <NavItem href='#neones' label='Neones' colorText='var(--primary-color-100)'/>
-                <NavItem href='#kitAntiResaca' label='Kit AntiResaca' colorText='var(--primary-color-100)'/>
-              </div>
-              <b><NavItem href='#caja-hora-loca' label='Caja Hora Loca' colorText='var(--primary-color-300)' /></b>
-              <b><NavItem href='#nosotros' label='Nosotros' colorText='var(--primary-color-300)' /></b>
-            </ul>
-          </nav>
-          <div className="presentationContainer">          
-            <h1>
-            · Fotomaton <br /> 
-            · Magic Mirror <br />  
-            · RingRing Experience <br /> 
-            Barcelona
-            </h1>
-            <p>
-              Haremos que tu evento sea... 
-              <br /> 
-              ¡ I N O L V I D A B L E !
-            </p>
-          </div>        
+    <> 
+      <nav id='navbar' >    
+        <div className="logoMenu">
+          <button 
+            className={isMenuToggled ? 'crossMenu' : 'hamburgerMenu'}
+            onClick={() => toggleClass('menuOpen')}>
+          </button>
+          <h1><NewPage href='/' label='Visual Show 360' colorText='var(--primary-color-500)'/></h1>   
         </div>
-        <video autoPlay muted loop>
-              <source src="src/assets/video/wedding.mp4" type="video/mp4"/>
-              Este navegador no soporta vídeos.
-        </video>  
+        <div className={isMenuToggled ? 'menuOpened' : ''}>
+          <ul>
+            <b><NavItem href='/' label='Home' colorText='var(--primary-color-100)' /></b>
+            <li onClick={() => toggleClass('products')}><b>Servicios Party ↓</b></li>
+            <div className={isMoreProductsInfo ? 'productosOpen' : 'productosClose'} >
+              <NavItem href='#plataforma360' label='Plataforma 360' colorText='var(--primary-color-300)'/>
+              <NavItem href='#magic-mirror' label='Magic Mirror' colorText='var(--primary-color-300)'/>
+              <NavItem href='#ring-ring-experience' label='Ring Ring Experience' colorText='var(--primary-color-300)'/>
+            </div>
+            <li onClick={() => toggleClass('weddings')}><b>Bodas y Eventos ↓</b></li>
+            <div className={isMoreWeddingsInfo ? "bodasEventosOpen" : 'bodasEventosClose'}>
+              <NavItem href='#letras-love' label='Letras Love' colorText='var(--primary-color-300)'/>
+              <NavItem href='#neones' label='Neones' colorText='var(--primary-color-300)'/>
+              <NavItem href='#kitAntiResaca' label='Kit AntiResaca' colorText='var(--primary-color-300)'/>
+            </div>
+            <b><NavItem href='#caja-hora-loca' label='Caja Hora Loca' colorText='var(--primary-color-100)' /></b>
+            <b><NavItem href='#nosotros' label='Nosotros' colorText='var(--primary-color-100)' /></b>
+          </ul>
+        </div>   
+      </nav>
+      <header>
+        <div className="presentationContainer">          
+          <h1>
+          · Fotomaton <br /> 
+          · Magic Mirror <br />  
+          · RingRing Experience <br /> 
+          Barcelona
+          </h1>
+          <p>
+            Haremos que tu evento sea... 
+            <br /> 
+            ¡ I N O L V I D A B L E !
+          </p>
+          <video autoPlay muted loop>
+            <source src="src/assets/video/wedding.mp4" type="video/mp4"/>
+            Este navegador no soporta vídeos.
+          </video>       
+        </div> 
       </header>
       <main>
         {/* El punto que se ve al lado del si quiero es debido a los estilos, debemos quitarlo desde el css */}

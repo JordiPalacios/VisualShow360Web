@@ -1,41 +1,30 @@
-import React, { useEffect, useRef, useState } from 'react'
+import React, { useContext, useEffect, useRef, useState } from 'react'
 import { NavItem, NewPage, ProductsCard } from '../components'
+import { NavbarContext } from '../context/NavbarContext'
 
 export const Home = () => {
   const [isMenuToggled, setIsMenuToggled] = useState(false)
   const [isMoreProductsInfo, setIsMoreProductsInfo] = useState(false)
   const [isMoreWeddingsInfo, setIsMoreWeddingsInfo] = useState(false)
   const [isFixed, setIsFixed] = useState(false)
-  const [navbarHeight, setNavbarHeight] = useState(0)
-  const [breakpoint, setBreakpoint] = useState(0)
-  const navbarRef= useRef(null)
+
+  const { breakpoint, navbarHeight, updateNavbarData } = useContext(NavbarContext)
+  const navbarRef = useRef(null)
   const headerRef = useRef(null)
 
-  // TODO que el breakpoint y navbar height solo se me actualicen una sola vez
-
   useEffect(() => {
-    if (navbarRef.current && headerRef.current) {
-      const newNavbarHeight = navbarRef.current.getBoundingClientRect().height
-      const newBreakpoint = headerRef.current.offsetTop - newNavbarHeight
-      
-      setNavbarHeight(newNavbarHeight)
-      setBreakpoint(newBreakpoint)
-    }
-  },[])
+    updateNavbarData(navbarRef, headerRef)
+  }, [])
 
   useEffect (() => {
     const onScroll = () => {
       let windowPos = window.scrollY
       console.log(windowPos)
-      if (windowPos >= breakpoint && !isFixed) {
-        setIsFixed(true)
-      } else {
-        setIsFixed(false)
-      }
+      setIsFixed(windowPos >= breakpoint)
     }
     window.addEventListener('scroll', onScroll)
     return () => window.removeEventListener('scroll', onScroll)
-  }, [isFixed])
+  }, [breakpoint])
   
 
   console.log(breakpoint)
@@ -59,29 +48,7 @@ export const Home = () => {
       break;
   }
   }
-
-  // useEffect (() => {
-    
-  //   const onScroll = () => {
-  //     if (navbarRef.current && headerRef.current) {
-  //       const navbarHeight = navbarRef.current.getBoundingClientRect().height
-  //       const breakpoint = headerRef.current.offsetTop - navbarHeight
-  //       const windowPos = window.scrollY
-
-  //       if (windowPos >= breakpoint && !isFixed) {
-  //         setIsFixed(true)
-  //       } else {
-  //         setIsFixed(false)
-  //       }
-  //     }
-  //   }
-    
-  //   // window.addEventListener('scroll', onScroll)
-
-  //   return () => window.removeEventListener('scroll', onScroll)
-
-  // }, [isFixed])
-
+  
   return (
     <> 
       <nav id='navbar' ref={navbarRef} className={isFixed ? 'navFixed' : ''}>    
@@ -112,7 +79,7 @@ export const Home = () => {
           </ul>
         </div>   
       </nav>
-      <header ref={headerRef}>
+      <header ref={headerRef} >
         <div className="presentationContainer">          
           <h1>
           · Fotomaton <br /> 

@@ -13,7 +13,7 @@ nav button{
     background-position: center;
 }
 
-.navbar-fixed {
+.navFixed {
     position: fixed;
     width: 100%;
     top: 0;

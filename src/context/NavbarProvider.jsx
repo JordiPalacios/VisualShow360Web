@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react'
 import { NavbarContext } from './NavbarContext'
 
-export const NavbarProvider = ({ children, navbarRef, headerRef }) => {
+export const NavbarProvider = ({ children }) => {
     const [navbarHeight, setNavbarHeight] = useState(0)
     const [breakpoint, setBreakpoint] =useState(0)
     const navbarRef = useRef(null)

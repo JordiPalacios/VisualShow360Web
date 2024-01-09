@@ -8,13 +8,7 @@ export const Home = () => {
   const [isMoreWeddingsInfo, setIsMoreWeddingsInfo] = useState(false)
   const [isFixed, setIsFixed] = useState(false)
 
-  const { breakpoint, navbarHeight, updateNavbarData } = useContext(NavbarContext)
-  const navbarRef = useRef(null)
-  const headerRef = useRef(null)
-
-  useEffect(() => {
-    updateNavbarData(navbarRef, headerRef)
-  }, [])
+  const { breakpoint, navbarRef, headerRef} = useContext(NavbarContext)
 
   useEffect (() => {
     const onScroll = () => {

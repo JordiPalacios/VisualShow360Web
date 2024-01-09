@@ -1,11 +1,13 @@
-import React, { useState } from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 import { NavbarContext } from './NavbarContext'
 
-export const NavbarProvider = ({ children }) => {
+export const NavbarProvider = ({ children, navbarRef, headerRef }) => {
     const [navbarHeight, setNavbarHeight] = useState(0)
     const [breakpoint, setBreakpoint] =useState(0)
+    const navbarRef = useRef(null)
+    const headerRef = useRef(null)
 
-    const updateNavbarData = (navbarRef, headerRef) => {
+    useEffect(() => {
         if (navbarRef.current && headerRef.current) {
             const newNavbarHeight = navbarRef.current.getBoundingClientRect().height
             const newBreakpoint = headerRef.current.offsetTop - newNavbarHeight
@@ -13,11 +15,11 @@ export const NavbarProvider = ({ children }) => {
             setNavbarHeight(newNavbarHeight)
             setBreakpoint(newBreakpoint)
         }
-    }
+    }, [])
     console.log(breakpoint)
 
     return (
-        <NavbarContext.Provider value={{ navbarHeight, breakpoint, updateNavbarData }}>
+        <NavbarContext.Provider value={{ breakpoint, navbarRef, headerRef }}>
             {children}
         </NavbarContext.Provider>
     )

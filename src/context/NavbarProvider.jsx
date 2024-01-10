@@ -12,14 +12,17 @@ export const NavbarProvider = ({ children }) => {
             const newNavbarHeight = navbarRef.current.getBoundingClientRect().height
             const newBreakpoint = headerRef.current.offsetTop - newNavbarHeight
             
+            console.log(headerRef.current.offsetTop)
+
             setNavbarHeight(newNavbarHeight)
             setBreakpoint(newBreakpoint)
         }
     }, [])
+    console.log(navbarHeight)
     console.log(breakpoint)
 
     return (
-        <NavbarContext.Provider value={{ breakpoint, navbarRef, headerRef }}>
+        <NavbarContext.Provider value={{ breakpoint, navbarHeight, navbarRef, headerRef }}>
             {children}
         </NavbarContext.Provider>
     )

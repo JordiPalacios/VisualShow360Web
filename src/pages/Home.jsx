@@ -8,21 +8,26 @@ export const Home = () => {
   const [isMoreWeddingsInfo, setIsMoreWeddingsInfo] = useState(false)
   const [isFixed, setIsFixed] = useState(false)
 
-  const { breakpoint, navbarRef, headerRef} = useContext(NavbarContext)
+  const { breakpoint, navbarHeight, navbarRef, headerRef} = useContext(NavbarContext)
 
   useEffect (() => {
     const onScroll = () => {
       let windowPos = window.scrollY
-      console.log(windowPos)
-      setIsFixed(windowPos >= breakpoint)
+      const isNavFixed = windowPos >= breakpoint
+      setIsFixed(isNavFixed)
+
+      if (isNavFixed) {
+        console.log(navbarHeight)
+        headerRef.current.style.paddingTop = `${navbarHeight}px`
+      } else {
+        headerRef.current.style.paddingTop = `0px`
+      }
+
     }
     window.addEventListener('scroll', onScroll)
     return () => window.removeEventListener('scroll', onScroll)
   }, [breakpoint])
   
-
-  console.log(breakpoint)
-  console.log(isFixed)
 
   const toggleClass = (className) => {
   switch (className) {
@@ -73,7 +78,7 @@ export const Home = () => {
           </ul>
         </div>   
       </nav>
-      <header ref={headerRef} >
+      <header ref={headerRef}>
         <div className="presentationContainer">          
           <h1>
           · Fotomaton <br /> 

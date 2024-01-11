@@ -52,22 +52,36 @@ export const Home = () => {
     <> 
       <nav id='navbar' ref={navbarRef} className={isFixed ? 'navFixed' : ''}>    
         <div className="logoMenu">
-          <button 
+          {/* <button 
             className={isMenuToggled ? 'crossMenu' : 'hamburgerMenu'}
             onClick={() => toggleClass('menuOpen')}>
+          </button> */}
+          <button onClick={() => toggleClass('menuOpen')}>
+            <label class="burger" for="burger">
+              <input type="checkbox" id="burger" />
+              <span></span>
+              <span></span>
+              <span></span>
+            </label>
           </button>
+          {/* <label class="burger" for="burger">
+            <input type="checkbox" id="burger" />
+            <span></span>
+            <span></span>
+            <span></span>
+          </label> */}
           <h1><NewPage href='/' label='Visual Show 360' colorText='var(--primary-color-500)'/></h1>   
         </div>
         <div className={isMenuToggled ? 'menuOpened' : ''}>
           <ul>
             <b><NavItem href='/' label='Home' colorText='var(--primary-color-100)' /></b>
-            <li onClick={() => toggleClass('products')}><b>Servicios Party ↓</b></li>
+            <li onClick={() => toggleClass('products')}><b>Servicios Party</b></li>
             <div className={isMoreProductsInfo ? 'productosOpen' : 'productosClose'} >
               <NavItem href='#plataforma360' label='Plataforma 360' colorText='var(--primary-color-300)'/>
               <NavItem href='#magic-mirror' label='Magic Mirror' colorText='var(--primary-color-300)'/>
               <NavItem href='#ring-ring-experience' label='Ring Ring Experience' colorText='var(--primary-color-300)'/>
             </div>
-            <li onClick={() => toggleClass('weddings')}><b>Bodas y Eventos ↓</b></li>
+            <li onClick={() => toggleClass('weddings')}><b>Bodas y Eventos</b></li>
             <div className={isMoreWeddingsInfo ? "bodasEventosOpen" : 'bodasEventosClose'}>
               <NavItem href='#letras-love' label='Letras Love' colorText='var(--primary-color-300)'/>
               <NavItem href='#neones' label='Neones' colorText='var(--primary-color-300)'/>

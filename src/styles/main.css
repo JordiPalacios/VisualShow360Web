@@ -80,6 +80,5 @@
     --shadow-pink-950: #5b005c;
 
     /* Gradient Colors */
-    
-
+    --gradient-pink: linear-gradient(180deg, rgba(68,39,61,1) 0%, rgba(106,44,92,1) 50%, rgba(204,21,160,1) 100%);
 }

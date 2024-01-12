@@ -52,25 +52,11 @@ export const Home = () => {
     <> 
       <nav id='navbar' ref={navbarRef} className={isFixed ? 'navFixed' : ''}>    
         <div className="logoMenu">
-          {/* <button 
+          <button 
             className={isMenuToggled ? 'crossMenu' : 'hamburgerMenu'}
             onClick={() => toggleClass('menuOpen')}>
-          </button> */}
-          <button onClick={() => toggleClass('menuOpen')}>
-            <label class="burger" for="burger">
-              <input type="checkbox" id="burger" />
-              <span></span>
-              <span></span>
-              <span></span>
-            </label>
           </button>
-          {/* <label class="burger" for="burger">
-            <input type="checkbox" id="burger" />
-            <span></span>
-            <span></span>
-            <span></span>
-          </label> */}
-          <h1><NewPage href='/' label='Visual Show 360' colorText='var(--primary-color-500)'/></h1>   
+          <h1><NewPage href='/' label='Visual Show 360' colorText='var(--primary-color-200)'/></h1>   
         </div>
         <div className={isMenuToggled ? 'menuOpened' : ''}>
           <ul>
@@ -95,6 +81,7 @@ export const Home = () => {
       <header ref={headerRef}>
         <div className="presentationContainer">          
           <h1>
+          ¡Aqui poner palabras clave como titulo SEO! <br /> <br />
           · Fotomaton <br /> 
           · Magic Mirror <br />  
           · RingRing Experience <br /> 

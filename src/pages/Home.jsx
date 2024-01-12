@@ -17,7 +17,6 @@ export const Home = () => {
       setIsFixed(isNavFixed)
 
       if (isNavFixed) {
-        console.log(navbarHeight)
         headerRef.current.style.paddingTop = `${navbarHeight}px`
       } else {
         headerRef.current.style.paddingTop = `0px`
@@ -29,6 +28,7 @@ export const Home = () => {
   }, [breakpoint])
   
 
+  // ToDo: Exportar esto a un componente
   const toggleClass = (className) => {
   switch (className) {
     case 'menuOpen':
@@ -47,6 +47,7 @@ export const Home = () => {
       break;
   }
   }
+
   
   return (
     <> 
@@ -100,6 +101,7 @@ export const Home = () => {
       </header>
       <main>
         {/* El punto que se ve al lado del si quiero es debido a los estilos, debemos quitarlo desde el css */}
+        {/* ToDo: crear el efecto parallax en las secciones */}
         <section id='plataforma360'>
           <div className="service1Container">            
             <h2>Servicio 1 - Fotomaton 360</h2>

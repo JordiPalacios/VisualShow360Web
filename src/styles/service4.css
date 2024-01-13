@@ -1,0 +1,39 @@
+#products {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background: var(--gradient-pink);
+}
+
+#products .service4Container {
+    position: relative;
+    z-index: 1;
+}
+
+.color-bg {
+    background: var(--gradient-pink);
+}
+
+/* Parallax */
+#letras-love {
+    background-image: url('src/assets/img/Minimalist Elegant Luxury Jewelry Logo (25).png');
+    background-size: contain;
+    background-attachment: fixed;
+}
+#kitAntiResaca {
+    background-image: url('src/assets/img/kitAntiresaca.webp');
+    background-size: contain;
+    background-attachment: fixed;
+}
+
+/* Medidad Tablet */
+@media screen and (min-width: 748px) {
+
+}
+
+/* Medidas PC  */
+@media screen and (min-width: 1024px) {
+    header button {
+        display: none;
+    }
+}

@@ -40,6 +40,8 @@ a {
     text-decoration: none;
 }
 
+/* * Parallax Effect */
+
 .parallax-bg {
     position: absolute;
     top: 0;
@@ -49,7 +51,7 @@ a {
     z-index: -1;
 }
 
-.service1Container, .service2Container, .service3Container {
+.service1Container, .service2Container, .service3Container, .service4Container{
     position: relative;
     z-index: 1;
 }

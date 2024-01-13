@@ -143,12 +143,20 @@ export const Home = () => {
           </div>
         </section>
         {/* !Este section es de products */}
-        <section>
-          <div className="service4Container">                      
-            <h2>Servicio 4 - Productos Alquiler</h2>
-            <ProductsCard id='letras-love' tittle='Letras Love' description='Letras Love Description' imgUrl='src/assets/icons/ig.svg'/>
-            <ProductsCard id='neones' tittle='Neones' description='Neones Description' imgUrl='src/assets/icons/ig.svg'/>
-            <ProductsCard id='kitAntiResaca' tittle='Kit AntiResaca' description='Kit AntiResaca Description' imgUrl='src/assets/icons/ig.svg'/>
+        <section id='products'>
+          <div className="service4Container">  
+            <div className="color-bg">
+              <h2>Servicio 4 - Productos Alquiler</h2>
+            </div>    
+            <Parallax speed={0.2} >
+              <ProductsCard id='letras-love' tittle='Letras Love' description='Letras Love Description' imgUrl='src/assets/icons/ig.svg'/>
+            </Parallax> 
+            <div className="color-bg">              
+              <ProductsCard id='neones' tittle='Neones' description='Neones Description' imgUrl='src/assets/icons/ig.svg'/>
+            </div>               
+            <Parallax speed={0.2} >              
+              <ProductsCard id='kitAntiResaca' tittle='Kit AntiResaca' description='Kit AntiResaca Description' imgUrl='src/assets/icons/ig.svg'/>
+            </Parallax> 
           </div>
         </section>
         <section id='caja-hora-loca'>

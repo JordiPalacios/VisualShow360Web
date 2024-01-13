@@ -1,4 +1,14 @@
+#ring-ring-experience {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
 
+#section3-bg {
+    background-image: url('src/assets/img/kitAntiresaca.webp');
+    background-size: contain;
+    background-attachment: fixed;
+}
 
 
 /* Medidad Tablet */

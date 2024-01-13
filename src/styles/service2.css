@@ -1,4 +1,14 @@
+#magic-mirror {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background: var(--primary-color-950);
+}
 
+#magic-mirror .service2Container {
+    position: relative;
+    z-index: 1;
+}
 
 
 /* Medidad Tablet */

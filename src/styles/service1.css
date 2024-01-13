@@ -1,4 +1,14 @@
+#plataforma360 {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
 
+#section1-bg {
+    background-image: url('src/assets/img/David_Ivet.JPG');
+    background-size: contain;
+    background-attachment: fixed;
+}
 
 
 /* Medidad Tablet */

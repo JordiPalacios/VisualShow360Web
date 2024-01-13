@@ -1,6 +1,7 @@
 import React, { useContext, useEffect, useRef, useState } from 'react'
 import { NavItem, NewPage, ProductsCard } from '../components'
 import { NavbarContext } from '../context/NavbarContext'
+import { Parallax } from '../components/Parallax'
 
 export const Home = () => {
   const [isMenuToggled, setIsMenuToggled] = useState(false)
@@ -100,9 +101,11 @@ export const Home = () => {
         </div> 
       </header>
       <main>
-        {/* El punto que se ve al lado del si quiero es debido a los estilos, debemos quitarlo desde el css */}
-        {/* ToDo: crear el efecto parallax en las secciones */}
-        <section id='plataforma360'>
+        {/* El punto que se ve al lado del si quiero es debido a los estilos, debemos quitarlo desde el css */}    
+        <section id='plataforma360'> 
+          <Parallax speed={0.2}>          
+            <div className='parallax-bg' id='section1-bg'/>
+          </Parallax>             
           <div className="service1Container">            
             <h2>Servicio 1 - Fotomaton 360</h2>
             <button>
@@ -124,7 +127,11 @@ export const Home = () => {
             </button>
           </div>
         </section>
+        
         <section id='ring-ring-experience'>
+          <Parallax speed={0.2} >
+            <div className='parallax-bg' id='section3-bg'/>
+          </Parallax>
           <div className="service3Container">            
             <h2>Servicio 3 - Ring Ring Experience</h2>
             <button>

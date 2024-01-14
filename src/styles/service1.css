@@ -4,7 +4,7 @@
     position: relative;
 }
 
-#section1-bg {
+.service1Container {
     background-image: url('src/assets/img/David_Ivet.JPG');
     background-size: contain;
     background-attachment: fixed;

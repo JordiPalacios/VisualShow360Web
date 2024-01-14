@@ -4,12 +4,11 @@
     position: relative;
 }
 
-#section3-bg {
+.service3Container {
     background-image: url('src/assets/img/EspejoMagico.webp');
     background-size: contain;
     background-attachment: fixed;
 }
-
 
 /* Medidad Tablet */
 @media screen and (min-width: 748px) {

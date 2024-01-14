@@ -103,9 +103,9 @@ export const Home = () => {
       <main>
         {/* El punto que se ve al lado del si quiero es debido a los estilos, debemos quitarlo desde el css */}    
         <section id='plataforma360'> 
-          <Parallax speed={0.2}>          
+          {/* <Parallax speed={0.2}>          
             <div className='parallax-bg' id='section1-bg'/>
-          </Parallax>             
+          </Parallax>              */}
           <div className="service1Container">            
             <h2>Servicio 1 - Fotomaton 360</h2>
             <button>
@@ -129,9 +129,9 @@ export const Home = () => {
         </section>
         
         <section id='ring-ring-experience'>
-          <Parallax speed={0.2} >
+          {/* <Parallax speed={0.2} >
             <div className='parallax-bg' id='section3-bg'/>
-          </Parallax>
+          </Parallax> */}
           <div className="service3Container">            
             <h2>Servicio 3 - Ring Ring Experience</h2>
             <button>
@@ -144,19 +144,11 @@ export const Home = () => {
         </section>
         {/* !Este section es de products */}
         <section id='products'>
-          <div className="service4Container">  
-            <div className="color-bg">
-              <h2>Servicio 4 - Productos Alquiler</h2>
-            </div>    
-            <Parallax speed={0.2} >
-              <ProductsCard id='letras-love' tittle='Letras Love' description='Letras Love Description' imgUrl='src/assets/icons/ig.svg'/>
-            </Parallax> 
-            <div className="color-bg">              
-              <ProductsCard id='neones' tittle='Neones' description='Neones Description' imgUrl='src/assets/icons/ig.svg'/>
-            </div>               
-            <Parallax speed={0.2} >              
-              <ProductsCard id='kitAntiResaca' tittle='Kit AntiResaca' description='Kit AntiResaca Description' imgUrl='src/assets/icons/ig.svg'/>
-            </Parallax> 
+          <div className="service4Container">
+            <h2>Servicio 4 - Productos Alquiler</h2>
+            <ProductsCard id='letras-love' tittle='Letras Love' description='Letras Love Description' imgUrl='src/assets/icons/ig.svg'/>   
+            <ProductsCard id='neones' tittle='Neones' description='Neones Description' imgUrl='src/assets/icons/ig.svg'/>                                          
+            <ProductsCard id='kitAntiResaca' tittle='Kit AntiResaca' description='Kit AntiResaca Description' imgUrl='src/assets/icons/ig.svg'/>
           </div>
         </section>
         <section id='caja-hora-loca'>

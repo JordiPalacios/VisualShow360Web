@@ -81,4 +81,11 @@
 
     /* Gradient Colors */
     --gradient-pink: linear-gradient(180deg, rgba(68,39,61,1) 0%, rgba(106,44,92,1) 50%, rgba(204,21,160,1) 100%);
+
+    /* Test gradients */
+    --test1 : linear-gradient(180deg, rgba(32,164,243,1) 0%, rgba(35,182,196,1) 50%, rgba(38,196,133,1) 100%);
+    --test2 : linear-gradient(180deg, rgba(192,192,192,1) 0%, rgba(169,169,169,1) 50%, rgba(128,128,128,1) 100%);
+    --test3 : rgba(255, 215, 0, 1);
+    --test4 : linear-gradient(180deg, rgba(255, 195, 160, 1) 0%, rgba(255, 175, 123, 1) 50%, rgba(255, 154, 87, 1) 100%);
+    --test5 : rgba(0, 0, 128, 1);
 }

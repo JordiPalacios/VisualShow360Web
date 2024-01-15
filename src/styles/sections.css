@@ -19,15 +19,15 @@ button{
     padding: 0.6rem 1.2rem;
     border: 1px solid transparent;
     border-radius: 8px;
-    color: var(--bg-100);
-    background-color: var(--bg-950);
+    background: var(--gradient-pink-3);
     cursor: pointer;
-    transition: border-color 0.25s;
+    transition: filter 0.25s;
 }
 
 button:hover {
-    border-color: var(--shadow-pink-600);
+    filter: drop-shadow(0 0 15px var(--primary-color-300));
 }
+
 
 /* Aqui cambiamos los colores para el elemento li */
 ul {
@@ -40,18 +40,8 @@ a {
     text-decoration: none;
 }
 
-/* * Parallax Effect */
-
-.parallax-bg {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
-}
-
-.service1Container, .service2Container, .service3Container, .service4Container{
-    position: relative;
-    z-index: 1;
+.buttonsContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
 }

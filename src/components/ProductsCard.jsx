@@ -1,8 +1,7 @@
 import React from 'react'
 import { NewPage } from './NewPage'
-import { Parallax } from './Parallax'
 
-export const ProductsCard = ({id, tittle, description, imgUrl, }) => {
+export const ProductsCard = ({ id, tittle, description, imgUrl }) => {
 
   const content = (
     <div id={id} className='productCard'>

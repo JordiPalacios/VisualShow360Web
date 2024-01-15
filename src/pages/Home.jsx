@@ -1,7 +1,6 @@
 import React, { useContext, useEffect, useRef, useState } from 'react'
 import { NavItem, NewPage, ProductsCard } from '../components'
 import { NavbarContext } from '../context/NavbarContext'
-import { Parallax } from '../components/Parallax'
 
 export const Home = () => {
   const [isMenuToggled, setIsMenuToggled] = useState(false)
@@ -16,17 +15,17 @@ export const Home = () => {
       let windowPos = window.scrollY
       const isNavFixed = windowPos >= breakpoint
       setIsFixed(isNavFixed)
-
       if (isNavFixed) {
         headerRef.current.style.paddingTop = `${navbarHeight}px`
       } else {
         headerRef.current.style.paddingTop = `0px`
       }
-
     }
     window.addEventListener('scroll', onScroll)
+    
     return () => window.removeEventListener('scroll', onScroll)
   }, [breakpoint])
+
   
 
   // ToDo: Exportar esto a un componente
@@ -102,43 +101,43 @@ export const Home = () => {
       </header>
       <main>
         {/* El punto que se ve al lado del si quiero es debido a los estilos, debemos quitarlo desde el css */}    
-        <section id='plataforma360'> 
-          {/* <Parallax speed={0.2}>          
-            <div className='parallax-bg' id='section1-bg'/>
-          </Parallax>              */}
+        <section id='plataforma360'>
           <div className="service1Container">            
             <h2>Servicio 1 - Fotomaton 360</h2>
-            <button>
-              <NewPage href="/eventos-reales" label="Eventos Reales" colorText='var(--primary-color-500)'/>
-            </button>
-            <button>
-              <NavItem href='#contacto' label='¡Sí Quiero!' colorText='var(--primary-color-500)'/>
-            </button>
+            <img src="src/assets/img/Fotomaton360Focus.webp" alt="Fotomaton360Focus" height='500px'/>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero dicta labore culpa facere ab illum dolorem temporibus, fuga quibusdam, animi magnam obcaecati! Omnis dignissimos nam beatae sapiente adipisci ut soluta?
+            </p>
+            <div className="buttonsContainer">              
+              <button>
+                <NewPage href="/eventos-reales" label="Eventos Reales" colorText='var(--primary-color-100)'/>
+              </button>
+              <button>
+                <NavItem href='#contacto' label='¡Sí Quiero!' colorText='var(--primary-color-100)'/>
+              </button>
+            </div>
           </div>
         </section>
         <section id='magic-mirror'>
           <div className='service2Container'>            
             <h2>Servicio 2 - Magic Mirror</h2>
             <button>
-              <NewPage href="/eventos-reales" label="Eventos Reales" colorText='var(--primary-color-500)'/>
+              <NewPage href="/eventos-reales" label="Eventos Reales" colorText='var(--primary-color-100)'/>
             </button>
             <button>
-              <NavItem href='#contacto' label='¡Sí Quiero!' colorText='var(--primary-color-500)'/>
+              <NavItem href='#contacto' label='¡Sí Quiero!' colorText='var(--primary-color-100)'/>
             </button>
           </div>
         </section>
         
         <section id='ring-ring-experience'>
-          {/* <Parallax speed={0.2} >
-            <div className='parallax-bg' id='section3-bg'/>
-          </Parallax> */}
           <div className="service3Container">            
             <h2>Servicio 3 - Ring Ring Experience</h2>
             <button>
-              <NewPage href="/eventos-reales" label="Eventos Reales" colorText='var(--primary-color-500)'/>
+              <NewPage href="/eventos-reales" label="Eventos Reales" colorText='var(--primary-color-100)'/>
             </button>
             <button>
-              <NavItem href='#contacto' label='¡Sí Quiero!' colorText='var(--primary-color-500)'/>
+              <NavItem href='#contacto' label='¡Sí Quiero!' colorText='var(--primary-color-100)'/>
             </button>
           </div>
         </section>

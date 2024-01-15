@@ -28,8 +28,25 @@ button:hover {
     filter: drop-shadow(0 0 15px var(--primary-color-300));
 }
 
+/* h1 {
+    font-size: 1.5rem;
+} */
 
-/* Aqui cambiamos los colores para el elemento li */
+h2 {
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+h1,h3 {
+    font-size: 1.5rem;
+}
+
+h4 {
+    font-size: 1.2rem;
+}
+
+
+/* Aqui cambiamos los colores para el elemento li del menu desplegable*/
 ul {
     padding: 0px;
     list-style: none;

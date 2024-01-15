@@ -1,19 +1,41 @@
-#products {
+.service4Container {
     display: flex;
     flex-direction: column;
     position: relative;
     background: var(--gradient-pink-2);
 }
 
+.service4Tittle {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    text-wrap: balance;
+    background: var(--gradient-pink-2);
+}
+
 /* Parallax */
 #letras-love {
-    background-image: url('src/assets/img/Minimalist Elegant Luxury Jewelry Logo (25).png');
-    background-size: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('src/assets/img/LetrasLoveFondo.webp');
+    background-size: contain;
     background-attachment: fixed;
 }
+
+#neones {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 #kitAntiResaca {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-image: url('src/assets/img/kitAntiresaca.webp');
-    background-size: auto;
+    background-size: contain;
     background-attachment: fixed;
 }
 

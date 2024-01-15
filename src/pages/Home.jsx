@@ -156,7 +156,9 @@ export const Home = () => {
         {/* !Este section es de products */}
         <section id='products'>
           <div className="service4Container">
-            <h2>Servicio 4 - Productos Alquiler</h2>
+            <div className="service4Tittle">              
+              <h2>Servicio 4 - Bodas y Eventos</h2>          
+            </div>
             <ProductsCard id='letras-love' tittle='Letras Love' description='Letras Love Description' imgUrl='src/assets/icons/ig.svg'/>   
             <ProductsCard id='neones' tittle='Neones' description='Neones Description' imgUrl='src/assets/icons/ig.svg'/>                                          
             <ProductsCard id='kitAntiResaca' tittle='Kit AntiResaca' description='Kit AntiResaca Description' imgUrl='src/assets/icons/ig.svg'/>

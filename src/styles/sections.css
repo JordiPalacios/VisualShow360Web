@@ -12,22 +12,6 @@ body, html {
     min-height: 100%;
 }
 
-button{
-    font-size: 1.2rem;
-    font-weight: 500;
-    font-family: inherit;
-    padding: 0.6rem 1.2rem;
-    border: 1px solid transparent;
-    border-radius: 8px;
-    background: var(--gradient-pink-3);
-    cursor: pointer;
-    transition: filter 0.25s;
-}
-
-button:hover {
-    filter: drop-shadow(0 0 15px var(--primary-color-300));
-}
-
 /* h1 {
     font-size: 1.5rem;
 } */
@@ -57,8 +41,60 @@ a {
     text-decoration: none;
 }
 
+button {
+    font-size: 1.2rem;
+    font-weight: 500;
+    font-family: inherit;
+    padding: 0.6rem 1.2rem;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    background: var(--gradient-pink-3);
+    cursor: pointer;
+    transition: filter 0.25s;
+}
+
+button:hover {
+    filter: drop-shadow(0 0 15px var(--primary-color-300));
+}
+
 .buttonsContainer {
     display: flex;
     flex-direction: row;
     gap: 1rem;
 }
+
+.buttonsContainerEven {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.buttonsContainer button {
+    font-size: 1.2rem;
+    font-weight: 500;
+    font-family: inherit;
+    padding: 0.6rem 1.2rem;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    background: var(--gradient-pink-3);
+    cursor: pointer;
+    transition: filter 0.25s;
+}
+
+.buttonsContainerEven button {
+    font-size: 1.2rem;
+    font-weight: 500;
+    font-family: inherit;
+    padding: 0.6rem 1.2rem;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    background: var(--gradient-pink-4);
+    cursor: pointer;
+    transition: filter 0.25s;
+}
+
+.buttonsContainerEven button:hover,
+.buttonsContainer button:hover {
+    filter: drop-shadow(0 0 15px var(--primary-color-300));
+}
+

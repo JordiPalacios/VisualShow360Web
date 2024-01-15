@@ -104,7 +104,7 @@ export const Home = () => {
         <section id='plataforma360'>
           <div className="service1Container">            
             <h2>Servicio 1 - Fotomaton 360</h2>
-            <img src="src/assets/img/Fotomaton360Focus.webp" alt="Fotomaton360Focus" height='500px'/>
+            <img src="src/assets/img/Fotomaton360Focus.webp" alt="Fotomaton360Focus"/>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero dicta labore culpa facere ab illum dolorem temporibus, fuga quibusdam, animi magnam obcaecati! Omnis dignissimos nam beatae sapiente adipisci ut soluta?
             </p>
@@ -121,24 +121,36 @@ export const Home = () => {
         <section id='magic-mirror'>
           <div className='service2Container'>            
             <h2>Servicio 2 - Magic Mirror</h2>
-            <button>
-              <NewPage href="/eventos-reales" label="Eventos Reales" colorText='var(--primary-color-100)'/>
-            </button>
-            <button>
-              <NavItem href='#contacto' label='¡Sí Quiero!' colorText='var(--primary-color-100)'/>
-            </button>
+            <img src="src/assets/img/EspejoMagico.webp" alt="EspejpoMagico"/>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, quidem laudantium doloribus atque totam voluptate, nulla tenetur provident minima natus beatae non, reprehenderit pariatur praesentium! Dolore necessitatibus ab eaque cum!
+            </p>
+            <div className="buttonsContainerEven">              
+              <button>
+                <NewPage href="/eventos-reales" label="Eventos Reales" colorText='var(--primary-color-100)'/>
+              </button>
+              <button>
+                <NavItem href='#contacto' label='¡Sí Quiero!' colorText='var(--primary-color-100)'/>
+              </button>
+            </div>
           </div>
         </section>
         
         <section id='ring-ring-experience'>
           <div className="service3Container">            
             <h2>Servicio 3 - Ring Ring Experience</h2>
-            <button>
-              <NewPage href="/eventos-reales" label="Eventos Reales" colorText='var(--primary-color-100)'/>
-            </button>
-            <button>
-              <NavItem href='#contacto' label='¡Sí Quiero!' colorText='var(--primary-color-100)'/>
-            </button>
+            <img src="src\assets\img\RingRingExperience.webp" alt="InstruccionesRingRing" />
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit qui nam dicta aspernatur non expedita iusto assumenda minus harum porro ullam similique voluptas neque autem modi ipsum, quisquam dolorum officiis?
+            </p>
+            <div className="buttonsContainer">              
+              <button>
+                <NewPage href="/eventos-reales" label="Eventos Reales" colorText='var(--primary-color-100)'/>
+              </button>
+              <button>
+                <NavItem href='#contacto' label='¡Sí Quiero!' colorText='var(--primary-color-100)'/>
+              </button>
+            </div>
           </div>
         </section>
         {/* !Este section es de products */}

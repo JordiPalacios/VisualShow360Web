@@ -1,22 +1,25 @@
 import React from 'react'
 import { NewPage } from './NewPage'
 
-export const ProductsCard = ({ id, tittle, description, imgUrl }) => {
-
+export const ProductsCard = ({ id, tittle, description, imgUrl, darkBg, colorText }) => {
+  const cardClassName = darkBg ? 'productCard darkBg' : 'productCard'
+  const buttonClassName = darkBg ? 'buttonsContainer' : 'buttonsContainerEven'
   const content = (
-    <div id={id} className='productCard'>
+    <div id={id} className={cardClassName}>        
       <h3>{tittle}</h3>
       <img src={imgUrl} alt={tittle} />
       <p>{description}</p>
-      <button>
-        <NewPage href="/productos" label="Más Información" />
-      </button>
+      <div className={buttonClassName}>        
+        <button>
+          <NewPage href="/productos" label="Más Información" colorText={colorText}/>
+        </button>
+      </div>
     </div>
   )
 
   return (
-    <div id={id} className='productWithoutParallax'>
+    <>
       {content}
-    </div>
+    </>
   )
 }

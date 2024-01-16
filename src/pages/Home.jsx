@@ -139,7 +139,7 @@ export const Home = () => {
         <section id='ring-ring-experience'>
           <div className="service3Container">            
             <h2>Servicio 3 - Ring Ring Experience</h2>
-            <img src="src\assets\img\RingRingExperience.webp" alt="InstruccionesRingRing" />
+            <img src="src/assets/img/RingRingExperience.webp" alt="InstruccionesRingRing" />
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit qui nam dicta aspernatur non expedita iusto assumenda minus harum porro ullam similique voluptas neque autem modi ipsum, quisquam dolorum officiis?
             </p>
@@ -159,14 +159,43 @@ export const Home = () => {
             <div className="service4Tittle">              
               <h2>Servicio 4 - Bodas y Eventos</h2>          
             </div>
-            <ProductsCard id='letras-love' tittle='Letras Love' description='Letras Love Description' imgUrl='src/assets/icons/ig.svg'/>   
-            <ProductsCard id='neones' tittle='Neones' description='Neones Description' imgUrl='src/assets/icons/ig.svg'/>                                          
-            <ProductsCard id='kitAntiResaca' tittle='Kit AntiResaca' description='Kit AntiResaca Description' imgUrl='src/assets/icons/ig.svg'/>
+            <ProductsCard 
+              id='letras-love' 
+              tittle='Letras Love' 
+              description='Letras Love Description: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, eaque sunt autem iusto rem dolorum error harum ut quae sequi! Id, sint repellendus. In iste aperiam id aspernatur! Aspernatur, reprehenderit!' 
+              imgUrl='src/assets/img/LerasLoveFocus.webp' 
+              darkBg={true}
+              colorText='var(--primary-color-100)'/>   
+            <ProductsCard 
+              id='neones' 
+              tittle='Neones' 
+              description='Neones Description: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, eaque sunt autem iusto rem dolorum error harum ut quae sequi! Id, sint repellendus. In iste aperiam id aspernatur! Aspernatur, reprehenderit!' 
+              imgUrl='src/assets/img/Neones.webp'
+              colorText='var(--primary-color-100)'/>                                                  
+            <ProductsCard 
+              id='kitAntiResaca' 
+              tittle='Kit AntiResaca' 
+              description='Kit AntiResaca Description: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, eaque sunt autem iusto rem dolorum error harum ut quae sequi! Id, sint repellendus. In iste aperiam id aspernatur! Aspernatur, reprehenderit!' 
+              imgUrl='src/assets/img/kitAntiresacaFocus.webp' 
+              darkBg={true}
+              colorText='var(--primary-color-100)'/>
           </div>
         </section>
         <section id='caja-hora-loca'>
-          <div className="horaLocaContainer">            
+          <div className="service5Container">            
             <h2>Caja Hora Loca</h2>
+            <img src="src/assets/img/EspejoMagico.webp" alt="EspejpoMagico"/>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, quidem laudantium doloribus atque totam voluptate, nulla tenetur provident minima natus beatae non, reprehenderit pariatur praesentium! Dolore necessitatibus ab eaque cum!
+            </p>
+            <div className="buttonsContainerEven">              
+              <button>
+                <NewPage href="/eventos-reales" label="Eventos Reales" colorText='var(--primary-color-100)'/>
+              </button>
+              <button>
+                <NavItem href='#contacto' label='¡Sí Quiero!' colorText='var(--primary-color-100)'/>
+              </button>
+            </div>
           </div>
         </section>
         {/* !Este section es de reviews */}

@@ -84,4 +84,5 @@
     --gradient-pink-2: linear-gradient(180deg, rgb(82, 39, 72) 0%, rgba(106,44,92,1) 50%, rgb(148, 37, 122) 100%);
     --gradient-pink-3: linear-gradient(180deg, rgb(104, 43, 90) 0%, rgb(148, 44, 124) 50%, rgb(168, 35, 137) 100%);
     --gradient-pink-4: linear-gradient(180deg, rgb(77, 13, 62) 0%, rgb(112, 16, 90) 50%, rgb(133, 17, 106) 100%);
+    --gradient-pink-5: linear-gradient(180deg, rgb(233, 164, 217) 0%, rgb(112, 16, 90) 50%, rgb(233, 164, 217) 100%);
 }

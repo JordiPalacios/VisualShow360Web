@@ -1,5 +1,5 @@
 import React, { useContext, useEffect, useRef, useState } from 'react'
-import { NavItem, NewPage, ProductsCard } from '../components'
+import { NavItem, NewPage, ProductsCard, ReviewsCard } from '../components'
 import { NavbarContext } from '../context/NavbarContext'
 
 export const Home = () => {
@@ -62,13 +62,13 @@ export const Home = () => {
         <div className={isMenuToggled ? 'menuOpened' : ''}>
           <ul>
             <b><NavItem href='/' label='Home' colorText='var(--primary-color-100)' /></b>
-            <li onClick={() => toggleClass('products')}><b>Servicios Party</b></li>
+            <li onClick={() => toggleClass('products')}><b>Servicios Party {isMoreProductsInfo ? '⮵' : '⮷'} </b></li>
             <div className={isMoreProductsInfo ? 'productosOpen' : 'productosClose'} >
               <NavItem href='#plataforma360' label='Plataforma 360' colorText='var(--primary-color-300)'/>
               <NavItem href='#magic-mirror' label='Magic Mirror' colorText='var(--primary-color-300)'/>
               <NavItem href='#ring-ring-experience' label='Ring Ring Experience' colorText='var(--primary-color-300)'/>
             </div>
-            <li onClick={() => toggleClass('weddings')}><b>Bodas y Eventos</b></li>
+            <li onClick={() => toggleClass('weddings')}><b>Bodas y Eventos {isMoreWeddingsInfo ? '⮵' : '⮷'} </b></li>
             <div className={isMoreWeddingsInfo ? "bodasEventosOpen" : 'bodasEventosClose'}>
               <NavItem href='#letras-love' label='Letras Love' colorText='var(--primary-color-300)'/>
               <NavItem href='#neones' label='Neones' colorText='var(--primary-color-300)'/>
@@ -202,6 +202,30 @@ export const Home = () => {
         <section>
           <div className="reviewsContainer">
             <h2>Reviews Clientes</h2>
+            <ReviewsCard 
+              id='review1' 
+              tittle='La BODA del AÑO' 
+              client='Jose y Laura'
+              description='Review 1: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, eaque sunt autem iusto rem dolorum error harum ut quae sequi! Id, sint repellendus. In iste aperiam id aspernatur! Aspernatur, reprehenderit!' 
+              imgUrl='src/assets/img/David_Ivet.JPG' 
+              colorText='var(--primary-color-100)'
+              cardClassName='reviewCard'/>
+            <ReviewsCard 
+              id='review2' 
+              tittle='Trato ÚNICO'
+              client='David e Ivet' 
+              description='Review 2: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, eaque sunt autem iusto rem dolorum error harum ut quae sequi! Id, sint repellendus. In iste aperiam id aspernatur! Aspernatur, reprehenderit!' 
+              imgUrl='src/assets/img/David_Ivet.JPG' 
+              colorText='var(--primary-color-100)'
+              cardClassName='reviewCard'/>
+            <ReviewsCard 
+              id='review3' 
+              tittle='Repetire sin DUDARLO' 
+              client='Julio y Maria' 
+              description='Review 3: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, eaque sunt autem iusto rem dolorum error harum ut quae sequi! Id, sint repellendus. In iste aperiam id aspernatur! Aspernatur, reprehenderit!' 
+              imgUrl='src/assets/img/David_Ivet.JPG' 
+              colorText='var(--primary-color-100)'
+              cardClassName='reviewCard'/>
           </div>          
         </section>
         {/* !Este section es de companies */}

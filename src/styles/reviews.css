@@ -1,4 +1,49 @@
+.reviewsContainer {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background: var(--gradient-pink-5);
+    align-items: center;
+    color: var(--primary-color-100);
+}
 
+.reviewsContainer h4 {
+    background: var(--primary-color-100);
+    color: var(--primary-color-700);
+    margin-top: 0;
+    margin-bottom: 5px;
+    padding: 5px;
+    font-style: italic;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.reviewCard {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+    border: 2px solid var(--shadow-pink-400);
+    border-radius: 25px;
+}
+
+.reviewCard img {
+    width: 25%;
+    min-height: 25%;
+    height: auto;
+    filter: drop-shadow(0px 0px 20px var(--shadow-pink-400));
+    border-radius: 50%;
+}
+
+.description {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: flex-start;
+}
 
 
 /* Medidad Tablet */

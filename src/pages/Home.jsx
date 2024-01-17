@@ -1,5 +1,5 @@
 import React, { useContext, useEffect, useRef, useState } from 'react'
-import { NavItem, NewPage, ProductsCard, ReviewsCard } from '../components'
+import { CompanyImg, NavItem, NewPage, ProductsCard, ReviewsCard } from '../components'
 import { NavbarContext } from '../context/NavbarContext'
 
 export const Home = () => {
@@ -235,7 +235,48 @@ export const Home = () => {
             <h2>Empresas con las que se han trabajado</h2>
             <div className="line"></div>
             <div className="logoCompanies">
-
+              <CompanyImg 
+              urlImg='src/assets/img/empresas/Acciona.png'
+              companyName='acciona' />
+              <CompanyImg 
+              urlImg='src/assets/img/empresas/Astrazeca.png'
+              companyName='astrazeca' />
+              <CompanyImg 
+              urlImg='src/assets/img/empresas/Atresmedia.png'
+              companyName='atresmedia' />
+              <CompanyImg 
+              urlImg='src/assets/img/empresas/Barcelona.png'
+              companyName='barcelona' />
+              <CompanyImg 
+              urlImg='src/assets/img/empresas/CaixaBanc.png'
+              companyName='caixabanc' />
+              <CompanyImg 
+              urlImg='src/assets/img/empresas/Cosmopolitan.png'
+              companyName='cosmopolitan' />
+              <CompanyImg 
+              urlImg='src/assets/img/empresas/Dell.png'
+              companyName='dell' />
+              <CompanyImg 
+              urlImg='src/assets/img/empresas/Esquire.png'
+              companyName='esquire' />
+              <CompanyImg 
+              urlImg='src/assets/img/empresas/Fore.png'
+              companyName='fore' />
+              <CompanyImg 
+              urlImg='src/assets/img/empresas/Google.png'
+              companyName='google' />
+              <CompanyImg 
+              urlImg='src/assets/img/empresas/Nissan.png'
+              companyName='nissan' />
+              <CompanyImg 
+              urlImg='src/assets/img/empresas/Scalpers.png'
+              companyName='scalpers' />
+              <CompanyImg 
+              urlImg='ssrc/assets/img/empresas/Servi.png'
+              companyName='servi' />
+              <CompanyImg 
+              urlImg='src/assets/img/empresas/TikTok.png'
+              companyName='tiktok' />
             </div>
           </div>
         </section>

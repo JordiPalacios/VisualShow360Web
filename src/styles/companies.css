@@ -1,4 +1,21 @@
+.companiesContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    text-wrap: balance;
+}
 
+.logoCompanies{
+    display: grid;
+    grid-template-columns: auto;
+}
+
+.companyImg img{
+    width: 100%;
+    height: auto;
+    border-radius: 25px;
+}
 
 
 /* Medidad Tablet */

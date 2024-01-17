@@ -26,7 +26,7 @@
     text-align: center;
     margin: 20px;
     padding: 10px;
-    border: 2px solid var(--shadow-pink-400);
+    border: 2px dotted var(--shadow-pink-400);
     border-radius: 25px;
 }
 

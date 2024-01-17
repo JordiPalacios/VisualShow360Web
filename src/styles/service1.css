@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     position: relative;
-    background-image: url('src/assets/img/Fotomaton360.webp');
+    background-image: url('src/assets/img/servicios/Fotomaton360.webp');
     background-size: contain;
     background-attachment: fixed;
     padding: 20px;

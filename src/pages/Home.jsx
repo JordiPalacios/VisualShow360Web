@@ -104,7 +104,7 @@ export const Home = () => {
         <section id='plataforma360'>
           <div className="service1Container">            
             <h2>Servicio 1 - Fotomaton 360</h2>
-            <img src="src/assets/img/Fotomaton360Focus.webp" alt="Fotomaton360Focus"/>
+            <img src="src/assets/img/servicios/Fotomaton360Focus.webp" alt="Fotomaton360Focus"/>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero dicta labore culpa facere ab illum dolorem temporibus, fuga quibusdam, animi magnam obcaecati! Omnis dignissimos nam beatae sapiente adipisci ut soluta?
             </p>
@@ -121,7 +121,7 @@ export const Home = () => {
         <section id='magic-mirror'>
           <div className='service2Container'>            
             <h2>Servicio 2 - Magic Mirror</h2>
-            <img src="src/assets/img/EspejoMagico.webp" alt="EspejpoMagico"/>
+            <img src="src/assets/img/servicios/EspejoMagico.webp" alt="EspejpoMagico"/>
             <p>
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, quidem laudantium doloribus atque totam voluptate, nulla tenetur provident minima natus beatae non, reprehenderit pariatur praesentium! Dolore necessitatibus ab eaque cum!
             </p>
@@ -139,7 +139,7 @@ export const Home = () => {
         <section id='ring-ring-experience'>
           <div className="service3Container">            
             <h2>Servicio 3 - Ring Ring Experience</h2>
-            <img src="src/assets/img/RingRingExperience.webp" alt="InstruccionesRingRing" />
+            <img src="src/assets/img/servicios/RingRingExperience.webp" alt="InstruccionesRingRing" />
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit qui nam dicta aspernatur non expedita iusto assumenda minus harum porro ullam similique voluptas neque autem modi ipsum, quisquam dolorum officiis?
             </p>
@@ -163,20 +163,20 @@ export const Home = () => {
               id='letras-love' 
               tittle='Letras Love' 
               description='Letras Love Description: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, eaque sunt autem iusto rem dolorum error harum ut quae sequi! Id, sint repellendus. In iste aperiam id aspernatur! Aspernatur, reprehenderit!' 
-              imgUrl='src/assets/img/LerasLoveFocus.webp' 
+              imgUrl='src/assets/img/servicios/LerasLoveFocus.webp' 
               darkBg={true}
               colorText='var(--primary-color-100)'/>   
             <ProductsCard 
               id='neones' 
               tittle='Neones' 
               description='Neones Description: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, eaque sunt autem iusto rem dolorum error harum ut quae sequi! Id, sint repellendus. In iste aperiam id aspernatur! Aspernatur, reprehenderit!' 
-              imgUrl='src/assets/img/Neones.webp'
+              imgUrl='src/assets/img/servicios/Neones.webp'
               colorText='var(--primary-color-100)'/>                                                  
             <ProductsCard 
               id='kitAntiResaca' 
               tittle='Kit AntiResaca' 
               description='Kit AntiResaca Description: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, eaque sunt autem iusto rem dolorum error harum ut quae sequi! Id, sint repellendus. In iste aperiam id aspernatur! Aspernatur, reprehenderit!' 
-              imgUrl='src/assets/img/kitAntiresacaFocus.webp' 
+              imgUrl='src/assets/img/servicios/kitAntiresacaFocus.webp' 
               darkBg={true}
               colorText='var(--primary-color-100)'/>
           </div>
@@ -184,7 +184,7 @@ export const Home = () => {
         <section id='caja-hora-loca'>
           <div className="service5Container">            
             <h2>Caja Hora Loca</h2>
-            <img src="src/assets/img/EspejoMagico.webp" alt="EspejpoMagico"/>
+            <img src="src/assets/img/servicios/EspejoMagico.webp" alt="EspejpoMagico"/>
             <p>
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, quidem laudantium doloribus atque totam voluptate, nulla tenetur provident minima natus beatae non, reprehenderit pariatur praesentium! Dolore necessitatibus ab eaque cum!
             </p>
@@ -202,12 +202,13 @@ export const Home = () => {
         <section>
           <div className="reviewsContainer">
             <h2>Reviews Clientes</h2>
+            <div className="line"></div>
             <ReviewsCard 
               id='review1' 
               tittle='La BODA del AÑO' 
               client='Jose y Laura'
               description='Review 1: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, eaque sunt autem iusto rem dolorum error harum ut quae sequi! Id, sint repellendus. In iste aperiam id aspernatur! Aspernatur, reprehenderit!' 
-              imgUrl='src/assets/img/David_Ivet.JPG' 
+              imgUrl='src/assets/img/reviews_equipo/David_Ivet.JPG' 
               colorText='var(--primary-color-100)'
               cardClassName='reviewCard'/>
             <ReviewsCard 
@@ -215,7 +216,7 @@ export const Home = () => {
               tittle='Trato ÚNICO'
               client='David e Ivet' 
               description='Review 2: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, eaque sunt autem iusto rem dolorum error harum ut quae sequi! Id, sint repellendus. In iste aperiam id aspernatur! Aspernatur, reprehenderit!' 
-              imgUrl='src/assets/img/David_Ivet.JPG' 
+              imgUrl='src/assets/img/reviews_equipo/David_Ivet.JPG' 
               colorText='var(--primary-color-100)'
               cardClassName='reviewCard'/>
             <ReviewsCard 
@@ -223,7 +224,7 @@ export const Home = () => {
               tittle='Repetire sin DUDARLO' 
               client='Julio y Maria' 
               description='Review 3: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, eaque sunt autem iusto rem dolorum error harum ut quae sequi! Id, sint repellendus. In iste aperiam id aspernatur! Aspernatur, reprehenderit!' 
-              imgUrl='src/assets/img/David_Ivet.JPG' 
+              imgUrl='src/assets/img/reviews_equipo/David_Ivet.JPG' 
               colorText='var(--primary-color-100)'
               cardClassName='reviewCard'/>
           </div>          
@@ -232,6 +233,10 @@ export const Home = () => {
         <section>
           <div className="companiesContainer">            
             <h2>Empresas con las que se han trabajado</h2>
+            <div className="line"></div>
+            <div className="logoCompanies">
+
+            </div>
           </div>
         </section>
         <section id="nosotros">

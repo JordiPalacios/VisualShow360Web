@@ -1,4 +1,4 @@
-import React, { useContext, useEffect, useRef, useState } from 'react'
+import React, { useContext, useEffect, useState } from 'react'
 import { CompanyImg, NavItem, NewPage, ProductsCard, ReviewsCard } from '../components'
 import { NavbarContext } from '../context/NavbarContext'
 
@@ -230,6 +230,7 @@ export const Home = () => {
           </div>          
         </section>
         {/* !Este section es de companies */}
+        {/* ToDo: Crear un Slider para la versión mobile y que sea escalable para la version Tablet - PC */}
         <section>
           <div className="companiesContainer">            
             <h2>Empresas con las que se han trabajado</h2>
@@ -272,7 +273,7 @@ export const Home = () => {
               urlImg='src/assets/img/empresas/Scalpers.png'
               companyName='scalpers' />
               <CompanyImg 
-              urlImg='ssrc/assets/img/empresas/Servi.png'
+              urlImg='src/assets/img/empresas/Servi.png'
               companyName='servi' />
               <CompanyImg 
               urlImg='src/assets/img/empresas/TikTok.png'

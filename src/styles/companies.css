@@ -4,11 +4,17 @@
     align-items: center;
     text-align: center;
     text-wrap: balance;
+    padding: 20px;
+    gap: 10px;
+    background: var(--gradient-pink-2);
 }
 
 .logoCompanies{
     display: grid;
-    grid-template-columns: auto;
+    grid-template-columns: repeat(auto-fit,minmax(150px, 1fr));
+    gap: 10px;
+    width: 50%;
+    height: auto;
 }
 
 .companyImg img{
@@ -16,7 +22,6 @@
     height: auto;
     border-radius: 25px;
 }
-
 
 /* Medidad Tablet */
 @media screen and (min-width: 748px) {

@@ -99,6 +99,11 @@ export const Home = () => {
           </video>       
         </div> 
       </header>
+
+      {/* ToDo: Un mensaje que vaya moviendose de forma automática que ponga:
+          Opcion 1: Visual Show 360
+          Opcion 2: Bodas - Fiestas - Cumpleaños... */}
+
       <main>
         {/* El punto que se ve al lado del si quiero es debido a los estilos, debemos quitarlo desde el css */}    
         <section id='plataforma360'>
@@ -198,6 +203,11 @@ export const Home = () => {
             </div>
           </div>
         </section>
+
+        {/* ToDo: Un mensaje que vaya moviendose de forma automática que ponga:
+          Opcion 1: Complementa tu fiesta o algo asi
+          Opcion 2: VisualShow360 */}
+
         {/* !Este section es de reviews */}
         <section>
           <div className="reviewsContainer">
@@ -230,7 +240,10 @@ export const Home = () => {
           </div>          
         </section>
         {/* !Este section es de companies */}
-        {/* ToDo: Crear un Slider para la versión mobile y que sea escalable para la version Tablet - PC */}
+
+        {/* ToDo: Crear un Slider para la versión mobile 
+            y que sea escalable para la version Tablet - PC */}
+            
         <section>
           <div className="companiesContainer">            
             <h2>Empresas con las que se han trabajado</h2>

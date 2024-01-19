@@ -265,13 +265,13 @@ export const Home = () => {
           <div className="companiesContainer">            
             <h2>Empresas con las que se han trabajado</h2>
             <div className="line"></div>
-          <Slider {...settings}>   
-            {companyData.map((data) => (
-              <div className="logoCompanies">
-                <CompanyImg urlImg={data.urlImg} companyName={data.companyName} />
-              </div>
-            ))}
-          </Slider>
+            <div className="logoCompanies">
+              <Slider {...settings}>   
+                {companyData.map((data) => (
+                    <CompanyImg key={data.companyName} urlImg={data.urlImg} companyName={data.companyName} />
+                ))}
+              </Slider>
+            </div>
             </div>
         </section>
         <section id="nosotros">

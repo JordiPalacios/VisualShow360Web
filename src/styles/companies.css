@@ -1,4 +1,4 @@
-.companiesContainer {
+/* .companiesContainer {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -7,21 +7,21 @@
     padding: 20px;
     gap: 10px;
     background: var(--gradient-pink-2);
-}
+} */
 
-.logoCompanies{
+/* .logoCompanies{
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(150px, 1fr));
     gap: 10px;
     width: 50%;
     height: auto;
-}
+} */
 
-.companyImg img{
+/* .companyImg img{
     width: 100%;
     height: auto;
     border-radius: 25px;
-}
+} */
 
 /* Medidad Tablet */
 @media screen and (min-width: 748px) {

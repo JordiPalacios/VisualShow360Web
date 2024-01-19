@@ -1,0 +1,59 @@
+[
+    {
+        "urlImg" : "src/assets/img/empresas/Acciona.png",
+        "companyName": "acciona"
+    } ,
+    {
+        "urlImg" : "src/assets/img/empresas/Astrazeca.png",
+        "companyName": "astrazeca"
+    },
+    {
+        "urlImg" : "src/assets/img/empresas/Atresmedia.png",
+        "companyName": "atresmedia"
+    },
+    {
+        "urlImg" : "src/assets/img/empresas/Barcelona.png",
+        "companyName": "barcelona"
+    },
+    {
+        "urlImg" : "src/assets/img/empresas/CaixaBanc.png",
+        "companyName": "caixabanc"
+    },
+    {
+        "urlImg" : "src/assets/img/empresas/Cosmopolitan.png",
+        "companyName": "cosmopolitan"
+    },
+    {
+        "urlImg" : "src/assets/img/empresas/Dell.png",
+        "companyName": "dell"
+    },
+    {
+        "urlImg" : "src/assets/img/empresas/Esquire.png",
+        "companyName": "esquire"
+    },
+    {
+        "urlImg" : "src/assets/img/empresas/Fore.png",
+        "companyName": "fore"
+    },
+    {
+        "urlImg" : "src/assets/img/empresas/Google.png",
+        "companyName": "google"
+    },
+    {
+        "urlImg" : "src/assets/img/empresas/Nissan.png",
+        "companyName": "nissan"
+    },
+    {
+        "urlImg" : "src/assets/img/empresas/Scalpers.png",
+        "companyName": "scalpers"
+    },
+    {
+        "urlImg" : "src/assets/img/empresas/Servi.png",
+        "companyName": "servi"
+    },
+    {
+        "urlImg" : "src/assets/img/empresas/TikTok.png",
+        "companyName": "tiktok"
+    }
+    
+]

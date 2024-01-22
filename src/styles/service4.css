@@ -27,8 +27,8 @@
     content: ''; 
     position: absolute; 
     top: -2px;
-    left: -2px;
-    right: -2px;
+    left: 0px;
+    right: 0px;
     bottom: -2px;
     background: rgba(0, 0, 0, 0.6);
     z-index: 1;
@@ -77,11 +77,11 @@
 }
 
 /* Medidad Tablet */
-@media screen and (min-width: 748px) {
+/* @media screen and (min-width: 748px) {
 
-}
+} */
 
 /* Medidas PC  */
-@media screen and (min-width: 1024px) {
+/* @media screen and (min-width: 1024px) {
     
-}
+} */

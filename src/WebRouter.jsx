@@ -1,14 +1,14 @@
 import React from 'react'
 import { Route, Routes } from 'react-router-dom'
 import { Navbar } from './components/Navbar'
-import { AvisoLegal, BuyProducts, EventosReales, Home, NotFound, Payment, PoliticaPrivacidad, TerminosCondiciones } from './pages'
+import { AvisoLegal, BuyProducts, EventosReales, HomeWebsite, NotFound, Payment, PoliticaPrivacidad, TerminosCondiciones } from './pages'
 
 
 export const WebRouter = () => {
   return (
     <Routes>
       <Route path='/' element={<Navbar />}>
-        <Route index element={<Home />} />
+        <Route index element={<HomeWebsite />} />
         <Route path='eventos-reales' element={<EventosReales />} />
         <Route path='productos' element={<BuyProducts />} />
         <Route path='compra-segura' element={<Payment />} />

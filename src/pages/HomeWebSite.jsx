@@ -1,14 +1,15 @@
 import React, { useContext, useEffect, useState } from 'react'
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
-import { CompanyImg, NavItem, NewPage, ProductsCard, ReviewsCard } from '../components'
+import { CompanyImg, FormContact, NavItem, NewPage, ProductsCard, ReviewsCard } from '../components'
 import { NavbarContext } from '../context/NavbarContext'
 import Slider from "react-slick";
 import CompaniesData from '../assets/mocks/companiesData.json'
 
 
 
-export const Home = () => {
+
+export const HomeWebsite = () => {
   const [isMenuToggled, setIsMenuToggled] = useState(false)
   const [isMoreProductsInfo, setIsMoreProductsInfo] = useState(false)
   const [isMoreWeddingsInfo, setIsMoreWeddingsInfo] = useState(false)
@@ -283,6 +284,7 @@ export const Home = () => {
         <section id='contacto'>
           <div className="contactoContainer">            
             <h2>Formulario Contacto</h2>
+            <FormContact />
           </div>
         </section>
       </main>

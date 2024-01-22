@@ -1,12 +1,19 @@
-
-
+.contactoContainer {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background: var(--gradient-pink-5);
+    align-items: center;
+    color: var(--primary-color-100);
+    padding: 20px;
+}
 
 /* Medidad Tablet */
-@media screen and (min-width: 748px) {
+/* @media screen and (min-width: 748px) {
 
-}
+} */
 
 /* Medidas PC  */
-@media screen and (min-width: 1024px) {
+/* @media screen and (min-width: 1024px) {
     
-}
+} */

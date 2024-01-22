@@ -256,11 +256,7 @@ export const Home = () => {
               cardClassName='reviewCard'/>
           </div>          
         </section>
-        {/* !Este section es de companies */}
-
-        {/* ToDo: Crear un Slider para la versión mobile 
-            y que sea escalable para la version Tablet - PC */}
-            
+        {/* !Este section es de companies */}   
         <section>
           <div className="companiesContainer">            
             <h2>Empresas con las que se han trabajado</h2>

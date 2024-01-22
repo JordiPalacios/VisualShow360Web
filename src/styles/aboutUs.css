@@ -1,4 +1,38 @@
+.aboutUsContainer {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background-image: url('src/assets/img/servicios/FondoRing.jpg');
+    background-size: contain;
+    background-attachment: fixed;
+    padding: 20px;
+    align-items: center;
+    text-align: center;
+    text-wrap: balance;
+}
 
+.aboutUsContainer::before {
+    content: ''; 
+    position: absolute; 
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 1;
+}
+
+.aboutUsContainer > * {
+    position: relative;
+    z-index: 2;
+}
+
+.aboutUsContainer img {
+    width: 100%;
+    height: auto;
+    filter: drop-shadow(0px 0px 20px var(--shadow-pink-400));
+    border-radius: 25px;
+}
 
 
 /* Medidad Tablet */
@@ -8,7 +42,5 @@
 
 /* Medidas PC  */
 @media screen and (min-width: 1024px) {
-    header button {
-        display: none;
-    }
+    
 }

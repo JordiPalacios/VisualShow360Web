@@ -273,6 +273,10 @@ export const Home = () => {
         <section id="nosotros">
           <div className="aboutUsContainer">            
             <h2>Sobre Nosotros - Equipo</h2>
+            <img src="src\assets\img\reviews_equipo\navidadDavidIvet.jpg" alt="VisualShow360Team" />
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit qui nam dicta aspernatur non expedita iusto assumenda minus harum porro ullam similique voluptas neque autem modi ipsum, quisquam dolorum officiis?
+            </p>
           </div>
         </section>
         {/* !Este section es de contact us */}

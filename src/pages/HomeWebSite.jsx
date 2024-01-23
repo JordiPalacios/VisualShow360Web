@@ -292,7 +292,17 @@ export const HomeWebsite = () => {
         <section id='contacto'>
           <div className="contactoContainer">            
             <h2>Formulario Contacto</h2>
-            <FormContact />
+            <div className="elementsContainer">   
+              <div className="formContainer">
+                <FormContact />
+              </div>
+              <div className="mediaContainer">
+                <video autoPlay muted loop>
+                  <source src="src/assets/video/wedding.mp4" type="video/mp4"/>
+                  Este navegador no soporta vídeos.
+                </video>
+              </div>           
+            </div>
           </div>
         </section>
       </main>

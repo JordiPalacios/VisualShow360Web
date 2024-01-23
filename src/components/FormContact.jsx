@@ -8,7 +8,7 @@ export const FormContact = () => {
     }
 
 return (
-    <form action="">
+    <form action="https://formspree.io/f/xoqbbbvn" method="post">
         <label>
             <input type="text" name='nombreCliente' placeholder='N O M B R E' />
         </label>
@@ -19,7 +19,7 @@ return (
             <input type="tel" name='numeroCliente' placeholder='N U M E R O    T E L E F O N O' />
         </label>
         <label>
-            T I P O    E V E N T O:
+            T&nbsp;I&nbsp;P&nbsp;O&nbsp;&nbsp;&nbsp;&nbsp;E&nbsp;V&nbsp;E&nbsp;N&nbsp;T&nbsp;O:
             <select name="tipoEvento" value={tipoEvento} onChange={handleChange}>
                 <option value="boda"> Boda </option>
                 <option value="cumpleaños"> Cumpleaños </option>
@@ -30,13 +30,14 @@ return (
             {/* <input type="text" name='tipoEvento' placeholder='S E L E C C I O N E    E V E N T O' /> */}
         </label>
         <label>
-            F E C H A    E V E N T O:
+            F&nbsp;E&nbsp;C&nbsp;H&nbsp;A&nbsp;&nbsp;&nbsp;&nbsp;E&nbsp;V&nbsp;E&nbsp;N&nbsp;T&nbsp;O:
             <input type="date" name='fechaEvento' />
         </label>
         <label>
-            S I T I O    E V E N T O:
+            S&nbsp;I&nbsp;T&nbsp;I&nbsp;O&nbsp;&nbsp;&nbsp;&nbsp;E&nbsp;V&nbsp;E&nbsp;N&nbsp;T&nbsp;O:
             <input type="text" name='fechaEvento' placeholder='LUGAR DEL EVENTO' />
         </label>
+        <button type="submit">Enviar</button>
     </form>
 )
 }

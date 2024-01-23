@@ -11,7 +11,6 @@
     padding: 20px 0;
     background: var(--gradient-pink-2);
     white-space: nowrap;
-    position: relative;
 }
 
 .logo:hover .logoSlide {
@@ -19,6 +18,7 @@
 }
 
 .logoSlide {
+    display: inline-block;
     animation: 10s slide infinite linear;
 }
 

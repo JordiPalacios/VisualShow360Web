@@ -123,7 +123,7 @@ export const HomeWebsite = () => {
           Opcion 2: Bodas - Fiestas - Cumpleaños... */}
 
       <main>
-        {/* El punto que se ve al lado del si quiero es debido a los estilos, debemos quitarlo desde el css */}    
+        {/* El punto que se ve al lado del si quiero es debido a los estilos, debemos quitarlo desde el css */}  
         <section id='plataforma360'>
           <div className="service1Container">            
             <h2>Servicio 1 - Fotomaton 360</h2>
@@ -158,7 +158,6 @@ export const HomeWebsite = () => {
             </div>
           </div>
         </section>
-        
         <section id='ring-ring-experience'>
           <div className="service3Container">            
             <h2>Servicio 3 - Ring Ring Experience</h2>
@@ -174,6 +173,13 @@ export const HomeWebsite = () => {
                 <NavItem href='#contacto' label='¡Sí Quiero!' colorText='var(--primary-color-100)'/>
               </button>
             </div>
+          </div>
+        </section>
+        {/* InfiniteLoop */}
+        <section>
+          <div className="logo">                   
+            <InfiniteLoop urlImg="src/assets/img/reviews_equipo/logoVisualShow.webp" nameImg="LogoVisualShowSlide" />
+            <InfiniteLoop urlImg="src/assets/img/reviews_equipo/logoVisualShow.webp" nameImg="LogoVisualShowSlide" />
           </div>
         </section>
         {/* !Este section es de products */}
@@ -223,7 +229,10 @@ export const HomeWebsite = () => {
         </section>
         {/* InfiniteLoop */}
         <section>
-          <InfiniteLoop urlImg="src/assets/img/reviews_equipo/logoVisualShow.webp" nameImg="LogoVisualShowSlide" />
+          <div className="logo">                   
+            <InfiniteLoop urlImg="src/assets/img/reviews_equipo/logoVisualShow.webp" nameImg="LogoVisualShowSlide" />
+            <InfiniteLoop urlImg="src/assets/img/reviews_equipo/logoVisualShow.webp" nameImg="LogoVisualShowSlide" />
+          </div>
         </section>
         {/* !Este section es de reviews */}
         <section>

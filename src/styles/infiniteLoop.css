@@ -11,6 +11,18 @@
     padding: 20px 0;
     background: var(--gradient-pink-2);
     white-space: nowrap;
+    position: relative;
+}
+
+.logo:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 100%;
+    background: linear-gradient(to left, rgba(255, 255, 255, 0), var(--primary-coloro-950-opacityLess));
+    content: "";
+    z-index: 2;
 }
 
 .logo:hover .logoSlide {

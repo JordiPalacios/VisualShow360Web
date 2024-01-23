@@ -8,6 +8,63 @@
     padding: 20px;
 }
 
+/*********** Form **************
+****************************************** */
+
+form {
+    font-size: 1.2rem;
+}
+
+form label {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+}
+
+input,
+textarea, input:focus,
+textarea:focus {
+    color: var(--white-rgba);
+    font-size: .85rem;
+    text-align: center;
+    width: 100%;
+    padding: 1rem;
+    border: none;
+    background: var(--dark-rgba);
+    box-shadow: none;
+    cursor: pointer;
+    margin: .5rem 0 .5rem;
+    border-radius: 5%;
+}
+
+textarea {
+    resize: none;
+}
+
+#contactUs input::placeholder {
+    color: white;
+}
+
+form button {
+    background-color: var(--primary);
+    font-size: 1.25rem;
+    width: 11rem;
+    color: var(--white);
+    border: none;
+    padding: .5rem;
+    margin: .5rem 0rem 2rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: var(--primary-2);
+}
+
+/* ***************************************
+*********** Responsive **************
+****************************************** */
+
 /* Medidad Tablet */
 /* @media screen and (min-width: 748px) {
 

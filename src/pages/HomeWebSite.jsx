@@ -310,6 +310,7 @@ export const HomeWebsite = () => {
             <NewPage href="/terminos-condiciones" label="Terminos y Condiciones" colorText='var(--primary-color-500)'/>
           </button>
         </div>
+        <img src="src/assets/img/Extra/generalitat.jpg" alt="generalitatImg" />
       </footer>
       {/* Para cuando deban comprar el producto */}
       <button>

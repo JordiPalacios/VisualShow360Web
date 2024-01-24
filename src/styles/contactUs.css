@@ -1,3 +1,25 @@
+
+/*********** Form **************
+****************************************** */
+form label {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+}
+
+input,
+textarea, input:focus,
+textarea:focus {
+    color: var(--primary-color-100);
+    font-size: .8rem;
+    text-align: left;
+    width: 100%;
+    padding: 1rem;
+    background: none;
+    cursor: pointer;
+    margin: .5rem 0 .5rem;
+}
+
 .contactoContainer {
     display: flex;
     flex-direction: column;
@@ -15,12 +37,13 @@
     text-align: center;
 }
 
-.formContainer .selectorContainer label{
+.formContainer  label{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     padding: 5px;
-    gap: .5rem;
+    margin-bottom: 2px;
+    gap: .2rem;
 }
 
 
@@ -52,7 +75,7 @@
 
 .formContainer select {
     width: 100%;
-    padding: 1rem;
+    padding: 1rem 0 1rem 0;
     border: 2px solid var(--primary-color-50);
     border-radius: 15px;
     background-color: var(--white); 
@@ -71,49 +94,33 @@
     color: var(--primary-color-900);
 }
 
-.mediaContainer {
-    display: none;
-}
-
-/*********** Form **************
-****************************************** */
-
-form {
-    font-size: 1.2rem;
-}
-
-form label {
-    display: block;
+.checkBoxContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     width: 100%;
-    margin: 0 auto;
+    height: auto;
+    gap: 5px;
+    margin: 0;
+    padding: 0;
 }
 
-input,
-textarea, input:focus,
-textarea:focus {
-    color: var(--white-rgba);
-    font-size: .85rem;
-    text-align: center;
-    width: 100%;
-    padding: 1rem;
-    border: none;
-    background: var(--dark-rgba);
-    box-shadow: none;
-    cursor: pointer;
-    margin: .5rem 0 .5rem;
-    border-radius: 5%;
+.checkBoxContainer label {
+    width: fit-content;
+    height: auto;
+    margin: 0;
+    padding: 0;
 }
 
-textarea {
-    resize: none;
-}
 
-#contactUs input::placeholder {
-    color: white;
+.checkBoxContainer .checkBoxText {
+    display: inline-block;
+    font-size: .75rem;
+    margin-left: 5px;
 }
 
 form button {
-    background-color: var(--primary);
     font-size: 1.25rem;
     width: 11rem;
     color: var(--white);
@@ -124,56 +131,9 @@ form button {
     cursor: pointer;
 }
 
-form button:hover {
-    background-color: var(--primary-2);
-}
-
-/* ***************************************
-*********** CheckBox **************
-****************************************** */
-.checkbox-wrapper input[type="checkbox"] {
+.mediaContainer {
     display: none;
 }
-
-.checkbox-wrapper .terms-label {
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-}
-
-.checkbox-wrapper .terms-label .label-text {
-    margin-left: 10px;
-}
-
-.label-text {
-    font-size: .8rem;
-}
-
-.checkbox-wrapper .checkbox-svg {
-    width: 20px;
-    height: 20px;
-}
-
-.checkbox-wrapper .checkbox-box {
-    fill: var(--primary-color-200);
-    stroke: var(--primary-color-800);
-    stroke-dasharray: 800;
-    stroke-dashoffset: 800;
-    transition: stroke-dashoffset 0.6s ease-in;
-}
-
-.checkbox-wrapper .checkbox-tick {
-    stroke: var(--primary-color-800);
-    stroke-dasharray: 172;
-    stroke-dashoffset: 172;
-    transition: stroke-dashoffset 0.6s ease-in;
-}
-
-.checkbox-wrapper input[type="checkbox"]:checked + .terms-label .checkbox-box,
-    .checkbox-wrapper input[type="checkbox"]:checked + .terms-label .checkbox-tick {
-    stroke-dashoffset: 0;
-}
-
 
 /* ***************************************
 *********** Responsive **************

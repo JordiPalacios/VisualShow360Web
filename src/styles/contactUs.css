@@ -68,6 +68,7 @@ textarea:focus {
 .formContainer input[type="email"],
 .formContainer input[type="tel"],
 .formContainer input[type="date"] {
+    cursor: pointer;
     text-align: left;
     direction: ltr; 
     padding-left: 5px; 
@@ -111,6 +112,10 @@ textarea:focus {
     height: auto;
     margin: 0;
     padding: 0;
+}
+
+.checkBoxContainer label input[type="checkbox"] {
+    transform: scale(1.25);
 }
 
 

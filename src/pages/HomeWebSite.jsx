@@ -98,21 +98,19 @@ export const HomeWebsite = () => {
         </div>   
       </nav>
       <header ref={headerRef}>
-        <div className="presentationContainer">          
-          <h1>
-          ¡Aqui poner palabras clave como titulo SEO! <br /> <br />
-          · Fotomaton <br /> 
-          · Magic Mirror <br />  
-          · RingRing Experience <br /> 
-          Barcelona
-          </h1>
+        <div className="presentationContainer">
+          <p>Poner eslogan - una frase que buscaria alguien que busca el mejor evento</p>  
+          <h2>¡Las mejores bodas las creamos aqui!</h2>   
+          <h3>Gracias a nuestro equipo de alta calidad</h3>    
+          <h1>✓ Fotomaton</h1>
+          <h1>✓ Magic Mirror</h1>
+          <h1>✓ RingRing Experience</h1>  
           <p>
             Haremos que tu evento sea... 
-            <br /> 
-            ¡ I N O L V I D A B L E !
           </p>
+          <h1>¡ I N O L V I D A B L E !</h1>
           <video autoPlay muted loop>
-            <source src="src/assets/video/wedding.mp4" type="video/mp4"/>
+            <source src="src/assets/video/wedding1.mp4" type="video/mp4"/>
             Este navegador no soporta vídeos.
           </video>       
         </div> 

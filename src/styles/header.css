@@ -124,8 +124,35 @@ nav ul {
 header {
     position: relative;
     overflow: hidden;
-    padding: 10px;
     margin: 0;
+}
+
+header h1,h2,h3 {
+    margin: 5px;
+    padding: 0;
+}
+
+header h1 {
+    color: var(--primary-color-600);
+    font-size: 1.5rem;
+}
+
+header h2 {
+    color: var(--primary-color-300);
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+header h3 {
+    color: var(--primary-color-200);
+    font-size: .9rem;
+    font-weight: 900;
+}
+
+header p {
+    color: var(--primary-color-100);
+    font-size: .7rem;
+    font-weight: 700;
 }
 
 header video {
@@ -133,8 +160,8 @@ header video {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    opacity: 0.3;
-    z-index: 0;
+    opacity: 0.4;
+    z-index: -1;
 }
 
 .presentationContainer {
@@ -144,7 +171,6 @@ header video {
     justify-content: center;
     text-align: center;
     text-wrap: balance;
-    gap: 1rem;
 }
 
 /* * Media Tablet */

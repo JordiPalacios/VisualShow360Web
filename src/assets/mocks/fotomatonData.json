@@ -1,0 +1,26 @@
+[
+    {
+        "urlImg" : "src/assets/img/servicios/EspejoMagico.webp",
+        "id": "fotomaton1"
+    } ,
+    {
+        "urlImg" : "src/assets/img/servicios/Fotomaton360.webp",
+        "id": "fotomaton2"
+    },
+    {
+        "urlImg" : "src/assets/img/servicios/Neones.webp",
+        "id": "fotomaton3"
+    },
+    {
+        "urlImg" : "src/assets/img/servicios/Fotomaton360Focus.webp",
+        "id": "fotomaton4"
+    },
+    {
+        "urlImg" : "src/assets/img/servicios/LetrasLoveFondo.webp",
+        "id": "fotomaton5"
+    },
+    {
+        "urlImg" : "src/assets/img/servicios/RingRingExperience.webp",
+        "id": "fotomaton6"
+    }
+]

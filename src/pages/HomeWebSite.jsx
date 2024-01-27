@@ -1,10 +1,11 @@
 import React, { useContext, useEffect, useState } from 'react'
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
-import { CompanyImg, FormContact, InfiniteLoop, NavItem, NewPage, ProductsCard, ReviewsCard } from '../components'
+import { FormContact, ImgSlider, InfiniteLoop, NavItem, NewPage, ProductsCard, ReviewsCard } from '../components'
 import { NavbarContext } from '../context/NavbarContext'
 import Slider from "react-slick";
 import CompaniesData from '../assets/mocks/companiesData.json'
+import FotomatonData from '../assets/mocks/fotomatonData.json'
 
 
 
@@ -15,6 +16,7 @@ export const HomeWebsite = () => {
   const [isMoreWeddingsInfo, setIsMoreWeddingsInfo] = useState(false)
   const [isFixed, setIsFixed] = useState(false)
   const companyData = CompaniesData
+  const fotomatonData = FotomatonData
 
   const { breakpoint, navbarHeight, navbarRef, headerRef} = useContext(NavbarContext)
 
@@ -58,7 +60,15 @@ export const HomeWebsite = () => {
   }
   }
 
-  const settings = {
+  const settingsCompanie = {
+    dots: false,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 3,
+    slidesToScroll: 1
+  }
+
+  const settingsFotomaton = {
     dots: false,
     infinite: true,
     speed: 500,
@@ -126,6 +136,13 @@ export const HomeWebsite = () => {
           <div className="service1Container">            
             <h2>Servicio 1 - Fotomaton 360</h2>
             <img src="src/assets/img/servicios/Fotomaton360Focus.webp" alt="Fotomaton360Focus"/>
+            <div className="fotomatonImg">
+              <Slider {...settingsFotomaton}>   
+                  {fotomatonData.map((data) => (
+                      <ImgSlider key={data.id} urlImg={data.urlImg} imgName={data.id} />
+                  ))}
+                </Slider>
+            </div>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero dicta labore culpa facere ab illum dolorem temporibus, fuga quibusdam, animi magnam obcaecati! Omnis dignissimos nam beatae sapiente adipisci ut soluta?
             </p>
@@ -269,9 +286,9 @@ export const HomeWebsite = () => {
             <h2>Empresas con las que se han trabajado</h2>
             <div className="line"></div>
             <div className="logoCompanies">
-              <Slider {...settings}>   
+              <Slider {...settingsCompanie}>   
                 {companyData.map((data) => (
-                    <CompanyImg key={data.companyName} urlImg={data.urlImg} companyName={data.companyName} />
+                    <ImgSlider key={data.companyName} urlImg={data.urlImg} imgName={data.companyName} />
                 ))}
               </Slider>
             </div>

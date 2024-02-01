@@ -136,12 +136,13 @@ export const HomeWebsite = () => {
           <div className="service1Container">            
             <h2>Servicio 1 - Fotomaton 360</h2>
             <img src="src/assets/img/servicios/Fotomaton360Focus.webp" alt="Fotomaton360Focus"/>
+            {/* ToDo: Crear un Slider Personalizado para mostrar bien el servicio 1 */}
             <div className="fotomatonImg">
-              <Slider {...settingsFotomaton}>   
-                  {fotomatonData.map((data) => (
-                      <ImgSlider key={data.id} urlImg={data.urlImg} imgName={data.id} />
-                  ))}
-                </Slider>
+            <Slider {...settingsFotomaton}>   
+                {fotomatonData.map((data) => (
+                    <ImgSlider key={data.id} urlImg={data.urlImg} imgName={data.id} styleType='services'/>
+                ))}
+              </Slider>
             </div>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero dicta labore culpa facere ab illum dolorem temporibus, fuga quibusdam, animi magnam obcaecati! Omnis dignissimos nam beatae sapiente adipisci ut soluta?
@@ -288,7 +289,7 @@ export const HomeWebsite = () => {
             <div className="logoCompanies">
               <Slider {...settingsCompanie}>   
                 {companyData.map((data) => (
-                    <ImgSlider key={data.companyName} urlImg={data.urlImg} imgName={data.companyName} />
+                    <ImgSlider key={data.companyName} urlImg={data.urlImg} imgName={data.companyName}/>
                 ))}
               </Slider>
             </div>

@@ -15,7 +15,11 @@
     padding: 20px;
 }
 
-.companyImg img{
+/* ******************************************
+*** Company Slider ***
+****************************************** */
+
+.imgCompanies img{
     width: 100%;
     height: auto;
     border-radius: 25px;

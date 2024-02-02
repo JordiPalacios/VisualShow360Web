@@ -289,7 +289,7 @@ export const HomeWebsite = () => {
             <div className="logoCompanies">
               <Slider {...settingsCompanie}>   
                 {companyData.map((data) => (
-                    <ImgSlider key={data.companyName} urlImg={data.urlImg} imgName={data.companyName}/>
+                    <ImgSlider key={data.companyName} urlImg={data.urlImg} imgName={data.companyName} styleType='companies'/>
                 ))}
               </Slider>
             </div>

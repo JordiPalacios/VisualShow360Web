@@ -34,6 +34,24 @@
     border-radius: 25px;
 }
 
+/* ******************************************
+*** Service 1 Slider ***
+****************************************** */
+
+.fotomatonImg {
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 20px;
+}
+
+.imgServices img{
+    width: 100%;
+    height: auto;
+    border-radius: 25px;
+    padding: 5px;
+}
+
 
 /* Medidad Tablet */
 /* @media screen and (min-width: 748px) {

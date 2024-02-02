@@ -2,11 +2,21 @@ import React from 'react'
 
 export const ImgSlider = ({ urlImg, imgName, styleType}) => {
     //Decido con la clase a trabajar en el slider
-    const classNameMap = {
-        services: 'imgServices',
-        companies: 'imgCompanies'
+    let className
+
+    switch (styleType) {
+        case 'services':
+            className = 'imgServices'
+            break;
+        
+        case 'companies':
+            className = 'imgCompanies'
+            break;
+
+        default:
+            className = 'imgStandard'
+            break;
     }
-    const className = classNameMap[styleType] || 'defaultClass'
     
 return (
     <div className={className}>

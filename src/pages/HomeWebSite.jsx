@@ -60,15 +60,7 @@ export const HomeWebsite = () => {
   }
   }
 
-  const settingsCompanie = {
-    dots: false,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 3,
-    slidesToScroll: 1
-  }
-
-  const settingsFotomaton = {
+  const settingsSlider = {
     dots: false,
     infinite: true,
     speed: 500,
@@ -138,9 +130,9 @@ export const HomeWebsite = () => {
             <img src="src/assets/img/servicios/Fotomaton360Focus.webp" alt="Fotomaton360Focus"/>
             {/* ToDo: Crear un Slider Personalizado para mostrar bien el servicio 1 */}
             <div className="fotomatonImg">
-            <Slider {...settingsFotomaton}>   
+            <Slider {...settingsSlider}>   
                 {fotomatonData.map((data) => (
-                    <ImgSlider key={data.id} urlImg={data.urlImg} imgName={data.id} styleType='services'/>
+                    <ImgSlider key={data.id} urlImg={data.urlImg} imgName={data.id} styleType='companies'/>
                 ))}
               </Slider>
             </div>
@@ -287,7 +279,7 @@ export const HomeWebsite = () => {
             <h2>Empresas con las que se han trabajado</h2>
             <div className="line"></div>
             <div className="logoCompanies">
-              <Slider {...settingsCompanie}>   
+              <Slider {...settingsSlider}>   
                 {companyData.map((data) => (
                     <ImgSlider key={data.companyName} urlImg={data.urlImg} imgName={data.companyName} styleType='companies'/>
                 ))}

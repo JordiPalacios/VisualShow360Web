@@ -4,23 +4,23 @@
         "id": "fotomaton1"
     } ,
     {
-        "urlImg" : "src/assets/img/servicios/Fotomaton360.webp",
+        "urlImg" : "src/assets/img/servicios/EspejoMagico.webp",
         "id": "fotomaton2"
     },
     {
-        "urlImg" : "src/assets/img/servicios/Neones.webp",
+        "urlImg" : "src/assets/img/servicios/EspejoMagico.webp",
         "id": "fotomaton3"
     },
     {
-        "urlImg" : "src/assets/img/servicios/Fotomaton360Focus.webp",
+        "urlImg" : "src/assets/img/servicios/EspejoMagico.webp",
         "id": "fotomaton4"
     },
     {
-        "urlImg" : "src/assets/img/servicios/LetrasLoveFondo.webp",
+        "urlImg" : "src/assets/img/servicios/EspejoMagico.webp",
         "id": "fotomaton5"
     },
     {
-        "urlImg" : "src/assets/img/servicios/RingRingExperience.webp",
+        "urlImg" : "src/assets/img/servicios/EspejoMagico.webp",
         "id": "fotomaton6"
     }
 ]

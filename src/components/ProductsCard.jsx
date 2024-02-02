@@ -1,5 +1,6 @@
 import React from 'react'
 import { NewPage } from './NewPage'
+import { NavItem } from './NavItem'
 
 export const ProductsCard = ({ id, tittle, description, imgUrl, darkBg, colorText }) => {
   const cardClassName = darkBg ? 'productCard darkBg' : 'productCard'
@@ -11,6 +12,7 @@ export const ProductsCard = ({ id, tittle, description, imgUrl, darkBg, colorTex
       <p>{description}</p>
       <div className={buttonClassName}>        
         <button>
+          {/* ToDo: Crear un componente de whats para que lleve al whats de david&ivet con un mensaje personalizado */}
           <NewPage href="/productos" label="Más Información" colorText={colorText}/>
         </button>
       </div>

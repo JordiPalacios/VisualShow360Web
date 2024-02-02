@@ -60,7 +60,15 @@ export const HomeWebsite = () => {
   }
   }
 
-  const settingsSlider = {
+  const settingsServices = {
+    dots: false,
+    infinite: true,
+    speed: 1000,
+    slidesToShow: 1,
+    slidesToScroll: 1
+  }
+
+  const settingsCompanies = {
     dots: false,
     infinite: true,
     speed: 500,
@@ -127,12 +135,10 @@ export const HomeWebsite = () => {
         <section id='plataforma360'>
           <div className="service1Container">            
             <h2>Servicio 1 - Fotomaton 360</h2>
-            <img src="src/assets/img/servicios/Fotomaton360Focus.webp" alt="Fotomaton360Focus"/>
-            {/* ToDo: Crear un Slider Personalizado para mostrar bien el servicio 1 */}
             <div className="fotomatonImg">
-            <Slider {...settingsSlider}>   
+            <Slider {...settingsServices}>   
                 {fotomatonData.map((data) => (
-                    <ImgSlider key={data.id} urlImg={data.urlImg} imgName={data.id} styleType='companies'/>
+                    <ImgSlider key={data.id} urlImg={data.urlImg} imgName={data.id} styleType='services'/>
                 ))}
               </Slider>
             </div>
@@ -279,7 +285,7 @@ export const HomeWebsite = () => {
             <h2>Empresas con las que se han trabajado</h2>
             <div className="line"></div>
             <div className="logoCompanies">
-              <Slider {...settingsSlider}>   
+              <Slider {...settingsCompanies}>   
                 {companyData.map((data) => (
                     <ImgSlider key={data.companyName} urlImg={data.urlImg} imgName={data.companyName} styleType='companies'/>
                 ))}

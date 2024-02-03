@@ -3,77 +3,18 @@
     flex-direction: column;
     position: relative;
     background: var(--gradient-pink-2);
-}
-
-.service4Tittle {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
     align-items: center;
+    text-align: center;
     text-wrap: balance;
-    background: var(--gradient-pink-2);
-}
-
-.productCard {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
     padding: 20px;
-}
-
-.darkBg::before {
-    content: ''; 
-    position: absolute; 
-    top: -2px;
-    left: 0px;
-    right: 0px;
-    bottom: -2px;
-    background: rgba(0, 0, 0, 0.6);
     z-index: 1;
 }
 
-.darkBg > * {
-    position: relative;
-    z-index: 2;
-}
-
-/* Parallax */
-#letras-love {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-image: url('src/assets/img/servicios/LetrasLoveFondo.webp');
-    background-size: contain;
-    background-attachment: fixed;
-    padding: 20px;
-    align-items: center;
-    text-align: center;
-    text-wrap: balance;
-}
-
-#neones {
-    background: var(--gradient-pink-2);
-}
-
-#letras-love img,
-#neones img, 
-#kitAntiResaca img {
+.service4Container img {
     width: 100%;
     height: auto;
     filter: drop-shadow(0px 0px 20px var(--shadow-pink-400));
     border-radius: 25px;
-}
-
-#kitAntiResaca {
-    background-image: url('src/assets/img/servicios/kitAntiresaca.webp');
-    background-size: contain;
-    background-attachment: fixed;
-    padding: 20px;
-    align-items: center;
-    text-align: center;
-    text-wrap: balance;
 }
 
 /* Medidad Tablet */

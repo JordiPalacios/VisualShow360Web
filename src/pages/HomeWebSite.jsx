@@ -94,6 +94,7 @@ export const HomeWebsite = () => {
             <div className={isMoreProductsInfo ? 'productosOpen' : 'productosClose'} >
               <NavItem href='#plataforma360' label='Plataforma 360' colorText='var(--primary-color-300)'/>
               <NavItem href='#magic-mirror' label='Magic Mirror' colorText='var(--primary-color-300)'/>
+              <NavItem href='#magic-mirror-small' label='White Magic Mirror' colorText='var(--primary-color-300)' />
               <NavItem href='#ring-ring-experience' label='Ring Ring Experience' colorText='var(--primary-color-300)'/>
             </div>
             <li onClick={() => toggleClass('weddings')}><b>Bodas y Eventos {isMoreWeddingsInfo ? '⮵' : '⮷'} </b></li>
@@ -102,7 +103,6 @@ export const HomeWebsite = () => {
               <NavItem href='#neones' label='Neones' colorText='var(--primary-color-300)'/>
               <NavItem href='#kitAntiResaca' label='Kit AntiResaca' colorText='var(--primary-color-300)'/>
             </div>
-            <b><NavItem href='#caja-hora-loca' label='Caja Hora Loca' colorText='var(--primary-color-100)' /></b>
             <b><NavItem href='#nosotros' label='Nosotros' colorText='var(--primary-color-100)' /></b>
           </ul>
         </div>   
@@ -112,9 +112,9 @@ export const HomeWebsite = () => {
           <p>Poner eslogan - una frase que buscaria alguien que busca el mejor evento</p>  
           <h2>¡Las mejores bodas las creamos aqui!</h2>   
           <h3>Gracias a nuestro equipo de alta calidad</h3>    
-          <h1>✓ Fotomaton</h1>
-          <h1>✓ Magic Mirror</h1>
-          <h1>✓ RingRing Experience</h1>  
+          <h1>Fotomaton</h1>
+          <h1>Magic Mirror</h1>
+          <h1>RingRing Experience</h1>  
           <p>
             Haremos que tu evento sea... 
           </p>
@@ -126,15 +126,11 @@ export const HomeWebsite = () => {
         </div> 
       </header>
 
-      {/* ToDo: Un mensaje que vaya moviendose de forma automática que ponga:
-          Opcion 1: Visual Show 360
-          Opcion 2: Bodas - Fiestas - Cumpleaños... */}
-
       <main>
         {/* El punto que se ve al lado del si quiero es debido a los estilos, debemos quitarlo desde el css */}  
         <section id='plataforma360'>
           <div className="service1Container">            
-            <h2>Servicio 1 - Fotomaton 360</h2>
+            <h2>Fotomaton 360</h2>
             <div className="fotomatonImg">
             <Slider {...settingsServices}>   
                 {fotomatonData.map((data) => (
@@ -157,7 +153,24 @@ export const HomeWebsite = () => {
         </section>
         <section id='magic-mirror'>
           <div className='service2Container'>            
-            <h2>Servicio 2 - Magic Mirror</h2>
+            <h2>Magic Mirror</h2>
+            <img src="src/assets/img/servicios/EspejoMagico.webp" alt="EspejpoMagico"/>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, quidem laudantium doloribus atque totam voluptate, nulla tenetur provident minima natus beatae non, reprehenderit pariatur praesentium! Dolore necessitatibus ab eaque cum!
+            </p>
+            <div className="buttonsContainerEven">              
+              <button>
+                <NewPage href="/eventos-reales" label="Eventos Reales" colorText='var(--primary-color-100)'/>
+              </button>
+              <button>
+                <NavItem href='#contacto' label='¡Sí Quiero!' colorText='var(--primary-color-100)'/>
+              </button>
+            </div>
+          </div>
+        </section>
+        <section id='magic-mirror-small'>
+          <div className="service3Container">            
+            <h2>White Magic Mirror</h2>
             <img src="src/assets/img/servicios/EspejoMagico.webp" alt="EspejpoMagico"/>
             <p>
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, quidem laudantium doloribus atque totam voluptate, nulla tenetur provident minima natus beatae non, reprehenderit pariatur praesentium! Dolore necessitatibus ab eaque cum!
@@ -173,8 +186,8 @@ export const HomeWebsite = () => {
           </div>
         </section>
         <section id='ring-ring-experience'>
-          <div className="service3Container">            
-            <h2>Servicio 3 - Ring Ring Experience</h2>
+          <div className="service4Container">            
+            <h2>Ring Ring Experience</h2>
             <img src="src/assets/img/servicios/RingRingExperience.webp" alt="InstruccionesRingRing" />
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit qui nam dicta aspernatur non expedita iusto assumenda minus harum porro ullam similique voluptas neque autem modi ipsum, quisquam dolorum officiis?
@@ -198,9 +211,9 @@ export const HomeWebsite = () => {
         </section>
         {/* !Este section es de products */}
         <section id='products'>
-          <div className="service4Container">
-            <div className="service4Tittle">              
-              <h2>Servicio 4 - Bodas y Eventos</h2>          
+          <div className="productsContainer">
+            <div className="productsTittle">              
+              <h2>Bodas y Eventos</h2>          
             </div>
             <ProductsCard 
               id='letras-love' 
@@ -222,23 +235,6 @@ export const HomeWebsite = () => {
               imgUrl='src/assets/img/servicios/kitAntiresacaFocus.webp' 
               darkBg={true}
               colorText='var(--primary-color-100)'/>
-          </div>
-        </section>
-        <section id='caja-hora-loca'>
-          <div className="service5Container">            
-            <h2>Caja Hora Loca</h2>
-            <img src="src/assets/img/servicios/EspejoMagico.webp" alt="EspejpoMagico"/>
-            <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, quidem laudantium doloribus atque totam voluptate, nulla tenetur provident minima natus beatae non, reprehenderit pariatur praesentium! Dolore necessitatibus ab eaque cum!
-            </p>
-            <div className="buttonsContainerEven">              
-              <button>
-                <NewPage href="/eventos-reales" label="Eventos Reales" colorText='var(--primary-color-100)'/>
-              </button>
-              <button>
-                <NavItem href='#contacto' label='¡Sí Quiero!' colorText='var(--primary-color-100)'/>
-              </button>
-            </div>
           </div>
         </section>
         {/* InfiniteLoop */}

@@ -27,7 +27,7 @@ return (
             name='Nombre Cliente' 
             placeholder='N O M B R E    *' />
         </label>
-        <label>
+        {/* <label>
             <input 
             required 
             onInput={handleInput} 
@@ -35,7 +35,7 @@ return (
             type="email" 
             name='Correo Cliente' 
             placeholder='C O R R E O    E L E C T R O N I C O    *' />
-        </label>
+        </label> */}
         <label>
             <input 
             required 
@@ -59,7 +59,7 @@ return (
             </select>
             {/* <input type="text" name='tipoEvento' placeholder='S E L E C C I O N E    E V E N T O' /> */}
         </label>
-        <label htmlFor='fechaEvento'>
+        {/* <label htmlFor='fechaEvento'>
             F&nbsp;E&nbsp;C&nbsp;H&nbsp;A&nbsp;&nbsp;&nbsp;&nbsp;E&nbsp;V&nbsp;E&nbsp;N&nbsp;T&nbsp;O&nbsp;&nbsp;:
             <input 
             required 
@@ -77,7 +77,7 @@ return (
             type="text" 
             name='Lugar Evento' 
             placeholder='L U G A R   E V E N T O    *' />
-        </label>
+        </label> */}
         <div className='checkBoxContainer'>
             <label htmlFor='miCheckbox'>
                 <input 

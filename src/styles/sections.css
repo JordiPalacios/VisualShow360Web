@@ -113,3 +113,13 @@ button:hover {
     color: var(--primary-color-100);
     opacity: 1;
 }
+
+/* Whatsapp Logo */
+
+.contactFixed {
+    position: fixed;
+    margin-right: 0px;
+    bottom: 50px;
+    right: 5px;
+    z-index: 999;
+}

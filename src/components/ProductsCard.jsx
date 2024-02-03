@@ -1,8 +1,7 @@
 import React from 'react'
-import { NewPage } from './NewPage'
-import { NavItem } from './NavItem'
+import { WhatsAppMessage } from './WhatsAppMessage'
 
-export const ProductsCard = ({ id, tittle, description, imgUrl, darkBg, colorText }) => {
+export const ProductsCard = ({ id, tittle, description, imgUrl, darkBg, colorText, msg }) => {
   const cardClassName = darkBg ? 'productCard darkBg' : 'productCard'
   const buttonClassName = darkBg ? 'buttonsContainer' : 'buttonsContainerEven'
   const content = (
@@ -12,8 +11,7 @@ export const ProductsCard = ({ id, tittle, description, imgUrl, darkBg, colorTex
       <p>{description}</p>
       <div className={buttonClassName}>        
         <button>
-          {/* ToDo: Crear un componente de whats para que lleve al whats de david&ivet con un mensaje personalizado */}
-          <NewPage href="/productos" label="Más Información" colorText={colorText}/>
+          <WhatsAppMessage className="" label="Más Información" colorText={colorText} msg={msg} />
         </button>
       </div>
     </div>

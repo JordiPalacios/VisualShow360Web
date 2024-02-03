@@ -1,7 +1,7 @@
 import React, { useContext, useEffect, useState } from 'react'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import { FormContact, ImgSlider, InfiniteLoop, NavItem, NewPage, ProductsCard, ReviewsCard } from '../components'
+import { FormContact, ImgSlider, InfiniteLoop, NavItem, NewPage, ProductsCard, ReviewsCard, WhatsAppMessage } from '../components'
 import { NavbarContext } from '../context/NavbarContext'
 import Slider from "react-slick";
 import CompaniesData from '../assets/mocks/companiesData.json'
@@ -231,12 +231,14 @@ export const HomeWebsite = () => {
                 id='letras-love'
                 tittle='Letras Love'
                 description=''
+                msg="https://wa.me/34653781239?text=Quiero%20más%20información%20sobre%20las%20Letras%20Love!"
                 imgUrl='src/assets/img/servicios/Neones.webp'
                 colorText='var(--primary-color-100)'/>
               <ProductsCard
                 id='neones'
                 tittle='Neones'
                 description=''
+                msg="https://wa.me/34653781239?text=Quiero%20más%20información%20sobre%20los%20Neones!"
                 imgUrl='src/assets/img/servicios/Neones.webp'
                 colorText='var(--primary-color-100)'/>
             </div>
@@ -245,6 +247,7 @@ export const HomeWebsite = () => {
               tittle='Kit AntiResaca'
               description='Kit AntiResaca Description: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, eaque sunt autem iusto rem dolorum error harum ut quae sequi! Id, sint repellendus. In iste aperiam id aspernatur! Aspernatur, reprehenderit!'
               imgUrl='src/assets/img/servicios/kitAntiresacaFocus.webp'
+              msg="https://wa.me/34653781239?text=Quiero%20más%20información%20sobre%20el%20Kit%20AntiResaca!"
               darkBg={true}
               colorText='var(--primary-color-100)'/>
           </div>
@@ -326,6 +329,7 @@ export const HomeWebsite = () => {
             </div>
           </div>
         </section>
+        <WhatsAppMessage className="contactFixed" msg="https://wa.me/34653781239?text=Quiero%20más%20información%20sobre%20VisualShow!" />
       </main>
       <footer>
         <div className="footerContainer">

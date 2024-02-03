@@ -19,12 +19,12 @@
 *** Company Slider ***
 ****************************************** */
 
-.imgCompanies img{
+/* .imgCompanies img{
     width: 100%;
     height: auto;
     border-radius: 25px;
     padding: 5px;
-}
+} */
 
 /* ******************************************
 *** Company Infinite Loop ***
@@ -32,20 +32,27 @@
 .logoCompanies {
     overflow: hidden;
     padding: 20px 0;
-    background: var(--gradient-pink-2);
     white-space: nowrap;
     position: relative;
 }
 
-.logoCompanies:before {
-    position: absolute;
-    top: 0;
-    left: 0;
+.logoCompanies .logoSlide {
+    display: inline-block;
+    animation: 40s slide infinite linear;
+}
+
+.logoCompanies .logoSlide img {
     width: 100px;
-    height: 100%;
-    background: linear-gradient(to left, rgba(255, 255, 255, 0), var(--primary-coloro-950-opacityLess));
-    content: "";
-    z-index: 2;
+    height: auto;
+    margin: 0 10px;
+}
+
+.logoCompanies:hover .logoSlide {
+    animation-play-state: paused;
+}
+
+.logoCompanies img{
+    border-radius: 5px;
 }
 
 /* Medidad Tablet */

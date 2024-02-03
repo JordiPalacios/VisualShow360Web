@@ -1,7 +1,9 @@
 import React from 'react'
+import CompaniesData from '../assets/mocks/companiesData.json'
 
 export const InfiniteLoop = ({ urlImg, nameImg, equal }) => {
     let content 
+    const companyData = CompaniesData
 
     if (equal) {
         const numImages = Array(8).fill(null)
@@ -10,7 +12,9 @@ export const InfiniteLoop = ({ urlImg, nameImg, equal }) => {
             <img key={index} src={urlImg} alt={nameImg} />
         ))
     } else {
-        content = <img key={nameImg} src={urlImg} alt={nameImg} />
+        content = companyData.map((data, index) => (
+            <img key={index} src={data.urlImg} alt={data.nameImg} />
+        ))
     }
     
 return (

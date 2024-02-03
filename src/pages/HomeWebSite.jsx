@@ -216,8 +216,8 @@ export const HomeWebsite = () => {
         {/* InfiniteLoop */}
         <section>
           <div className="logo">
-            <InfiniteLoop urlImg="src/assets/img/reviews_equipo/logoVisualShow.webp" nameImg="LogoVisualShowSlide" />
-            <InfiniteLoop urlImg="src/assets/img/reviews_equipo/logoVisualShow.webp" nameImg="LogoVisualShowSlide" />
+            <InfiniteLoop urlImg="src/assets/img/reviews_equipo/logoVisualShow.webp" nameImg="LogoVisualShowSlide" equal={true}/>
+            <InfiniteLoop urlImg="src/assets/img/reviews_equipo/logoVisualShow.webp" nameImg="LogoVisualShowSlide" equal={true}/>
           </div>
         </section>
         {/* !Este section es de products */}
@@ -252,8 +252,8 @@ export const HomeWebsite = () => {
         {/* InfiniteLoop */}
         <section>
           <div className="logo">
-            <InfiniteLoop urlImg="src/assets/img/reviews_equipo/logoVisualShow.webp" nameImg="LogoVisualShowSlide" />
-            <InfiniteLoop urlImg="src/assets/img/reviews_equipo/logoVisualShow.webp" nameImg="LogoVisualShowSlide" />
+            <InfiniteLoop urlImg="src/assets/img/reviews_equipo/logoVisualShow.webp" nameImg="LogoVisualShowSlide" equal={true}/>
+            <InfiniteLoop urlImg="src/assets/img/reviews_equipo/logoVisualShow.webp" nameImg="LogoVisualShowSlide" equal={true}/>
           </div>
         </section>
         {/* !Este section es de reviews */}
@@ -286,11 +286,12 @@ export const HomeWebsite = () => {
             <div className="line"></div>
             <div className="logoCompanies">
               {companyData.map((data) => (
-                <InfiniteLoop urlImg={data.urlImg} nameImg={data.companyName} equal={false}/>
+                <InfiniteLoop key={data.companyName} urlImg={data.urlImg} nameImg={data.companyName} equal={false}/>
               ))}
               {companyData.map((data) => (
-                <InfiniteLoop urlImg={data.urlImg} nameImg={data.companyName} equal={false}/>
+                <InfiniteLoop key={data.companyName} urlImg={data.urlImg} nameImg={data.companyName} equal={false}/>
               ))}
+
               {/* <Slider {...settingsCompanies}>
                 {companyData.map((data) => (
                     <ImgSlider key={data.companyName} urlImg={data.urlImg} imgName={data.companyName} styleType='companies'/>

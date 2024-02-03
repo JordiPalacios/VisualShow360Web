@@ -1,0 +1,30 @@
+[
+    {
+        "id":"review1",
+        "tittle":"La BODA del AÑO",
+        "client":"Jose y Laura",
+        "description":"Review 1: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, eaque sunt autem iusto rem dolorum error harum ut quae sequi! Id, sint repellendus. In iste aperiam id aspernatur! Aspernatur, reprehenderit!",
+        "imgUrl":"src/assets/img/reviews_equipo/David_Ivet.JPG",
+        "colorText":"var(--primary-color-100)",
+        "cardClassName":"reviewCard"
+    } ,
+    {
+        "id":"review2",
+        "tittle":"Trato ÚNICO",
+        "client":"David e Ivet",
+        "description":"Review 2: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, eaque sunt autem iusto rem dolorum error harum ut quae sequi! Id, sint repellendus. In iste aperiam id aspernatur! Aspernatur, reprehenderit!",
+        "imgUrl":"src/assets/img/reviews_equipo/David_Ivet.JPG",
+        "colorText":"var(--primary-color-100)",
+        "cardClassName":"reviewCard"
+    },
+    {
+        "id":"review3",
+        "tittle":"Repetire sin DUDARLO",
+        "client":"Julio y Maria",
+        "description":"Review 3: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, eaque sunt autem iusto rem dolorum error harum ut quae sequi! Id, sint repellendus. In iste aperiam id aspernatur! Aspernatur, reprehenderit!",
+        "imgUrl":"src/assets/img/reviews_equipo/David_Ivet.JPG",
+        "colorText":"var(--primary-color-100)",
+        "cardClassName":"reviewCard"
+    }
+    
+]

@@ -103,3 +103,13 @@ button:hover {
     width: 100%;
     margin: 5px;
 }
+
+/* Propiedades Slider */
+.slick-dots {
+    bottom: 0px;
+}
+
+.slick-dots li.slick-active button:before {
+    color: var(--primary-color-100);
+    opacity: 1;
+}

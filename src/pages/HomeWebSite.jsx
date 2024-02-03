@@ -6,6 +6,7 @@ import { NavbarContext } from '../context/NavbarContext'
 import Slider from "react-slick";
 import CompaniesData from '../assets/mocks/companiesData.json'
 import FotomatonData from '../assets/mocks/fotomatonData.json'
+import ReviewsData from '../assets/mocks/reviewsData.json'
 
 
 
@@ -17,6 +18,7 @@ export const HomeWebsite = () => {
   const [isFixed, setIsFixed] = useState(false)
   const companyData = CompaniesData
   const fotomatonData = FotomatonData
+  const reviewsData = ReviewsData
 
   const { breakpoint, navbarHeight, navbarRef, headerRef} = useContext(NavbarContext)
 
@@ -59,7 +61,8 @@ export const HomeWebsite = () => {
       break;
   }
   }
-
+  
+// ToDo : Simplificar estas repeticiones
   const settingsServices = {
     dots: false,
     infinite: true,
@@ -73,6 +76,14 @@ export const HomeWebsite = () => {
     infinite: true,
     speed: 500,
     slidesToShow: 3,
+    slidesToScroll: 1
+  }
+
+  const settingsReviews = {
+    dots: true,
+    infinite: true,
+    speed: 1000,
+    slidesToShow: 1,
     slidesToScroll: 1
   }
 
@@ -94,7 +105,7 @@ export const HomeWebsite = () => {
             <div className={isMoreProductsInfo ? 'productosOpen' : 'productosClose'} >
               <NavItem href='#plataforma360' label='Plataforma 360' colorText='var(--primary-color-300)'/>
               <NavItem href='#magic-mirror' label='Magic Mirror' colorText='var(--primary-color-300)'/>
-              <NavItem href='#magic-mirror-small' label='White Magic Mirror' colorText='var(--primary-color-300)' />
+              <NavItem href='#white-magic-mirror' label='White Magic Mirror' colorText='var(--primary-color-300)' />
               <NavItem href='#ring-ring-experience' label='Ring Ring Experience' colorText='var(--primary-color-300)'/>
             </div>
             <li onClick={() => toggleClass('weddings')}><b>Bodas y Eventos {isMoreWeddingsInfo ? '⮵' : '⮷'} </b></li>
@@ -168,7 +179,7 @@ export const HomeWebsite = () => {
             </div>
           </div>
         </section>
-        <section id='magic-mirror-small'>
+        <section id='white-magic-mirror'>
           <div className="service3Container">            
             <h2>White Magic Mirror</h2>
             <img src="src/assets/img/servicios/magicMirrorWhite.jpg" alt="EspejpoMagico"/>
@@ -250,30 +261,22 @@ export const HomeWebsite = () => {
           <div className="reviewsContainer">
             <h2>Reviews Clientes</h2>
             <div className="line"></div>
-            <ReviewsCard 
-              id='review1' 
-              tittle='La BODA del AÑO' 
-              client='Jose y Laura'
-              description='Review 1: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, eaque sunt autem iusto rem dolorum error harum ut quae sequi! Id, sint repellendus. In iste aperiam id aspernatur! Aspernatur, reprehenderit!' 
-              imgUrl='src/assets/img/reviews_equipo/David_Ivet.JPG' 
-              colorText='var(--primary-color-100)'
-              cardClassName='reviewCard'/>
-            <ReviewsCard 
-              id='review2' 
-              tittle='Trato ÚNICO'
-              client='David e Ivet' 
-              description='Review 2: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, eaque sunt autem iusto rem dolorum error harum ut quae sequi! Id, sint repellendus. In iste aperiam id aspernatur! Aspernatur, reprehenderit!' 
-              imgUrl='src/assets/img/reviews_equipo/David_Ivet.JPG' 
-              colorText='var(--primary-color-100)'
-              cardClassName='reviewCard'/>
-            <ReviewsCard 
-              id='review3' 
-              tittle='Repetire sin DUDARLO' 
-              client='Julio y Maria' 
-              description='Review 3: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, eaque sunt autem iusto rem dolorum error harum ut quae sequi! Id, sint repellendus. In iste aperiam id aspernatur! Aspernatur, reprehenderit!' 
-              imgUrl='src/assets/img/reviews_equipo/David_Ivet.JPG' 
-              colorText='var(--primary-color-100)'
-              cardClassName='reviewCard'/>
+            <div className="fotomatonImg">
+            <Slider {...settingsReviews}>   
+                {reviewsData.map((data) => (
+                    <ReviewsCard 
+                    key={data.id}
+                    id={data.id}
+                    tittle={data.tittle} 
+                    client={data.client}
+                    description={data.description}
+                    imgUrl={data.imgUrl}
+                    colorText={data.colorText}
+                    cardClassName={data.cardClassName}/>
+                ))}
+              </Slider>
+            </div>
+
           </div>          
         </section>
         {/* !Este section es de companies */}   

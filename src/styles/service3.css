@@ -2,8 +2,8 @@
     display: flex;
     flex-direction: column;
     position: relative;
-    background-image: url('src/assets/img/servicios/FondoRing.jpg');
-    background-size: contain;
+    background-image: url('src/assets/img/servicios/magicMirrorWhiteBg.jpg');
+    background-size: cover;
     background-attachment: fixed;
     padding: 20px;
     align-items: center;
@@ -28,7 +28,7 @@
 }
 
 .service3Container img {
-    width: 100%;
+    width: 80%;
     height: auto;
     filter: drop-shadow(0px 0px 20px var(--shadow-pink-400));
     border-radius: 25px;

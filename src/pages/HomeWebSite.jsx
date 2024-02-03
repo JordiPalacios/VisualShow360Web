@@ -171,11 +171,11 @@ export const HomeWebsite = () => {
         <section id='magic-mirror-small'>
           <div className="service3Container">            
             <h2>White Magic Mirror</h2>
-            <img src="src/assets/img/servicios/EspejoMagico.webp" alt="EspejpoMagico"/>
+            <img src="src/assets/img/servicios/magicMirrorWhite.jpg" alt="EspejpoMagico"/>
             <p>
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, quidem laudantium doloribus atque totam voluptate, nulla tenetur provident minima natus beatae non, reprehenderit pariatur praesentium! Dolore necessitatibus ab eaque cum!
             </p>
-            <div className="buttonsContainerEven">              
+            <div className="buttonsContainer">              
               <button>
                 <NewPage href="/eventos-reales" label="Eventos Reales" colorText='var(--primary-color-100)'/>
               </button>
@@ -192,7 +192,7 @@ export const HomeWebsite = () => {
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit qui nam dicta aspernatur non expedita iusto assumenda minus harum porro ullam similique voluptas neque autem modi ipsum, quisquam dolorum officiis?
             </p>
-            <div className="buttonsContainer">              
+            <div className="buttonsContainerEven">              
               <button>
                 <NewPage href="/eventos-reales" label="Eventos Reales" colorText='var(--primary-color-100)'/>
               </button>
@@ -215,19 +215,20 @@ export const HomeWebsite = () => {
             <div className="productsTittle">              
               <h2>Bodas y Eventos</h2>          
             </div>
-            <ProductsCard 
-              id='letras-love' 
-              tittle='Letras Love' 
-              description='Letras Love Description: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, eaque sunt autem iusto rem dolorum error harum ut quae sequi! Id, sint repellendus. In iste aperiam id aspernatur! Aspernatur, reprehenderit!' 
-              imgUrl='src/assets/img/servicios/LerasLoveFocus.webp' 
-              darkBg={true}
-              colorText='var(--primary-color-100)'/>   
-            <ProductsCard 
-              id='neones' 
-              tittle='Neones' 
-              description='Neones Description: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, eaque sunt autem iusto rem dolorum error harum ut quae sequi! Id, sint repellendus. In iste aperiam id aspernatur! Aspernatur, reprehenderit!' 
-              imgUrl='src/assets/img/servicios/Neones.webp'
-              colorText='var(--primary-color-100)'/>                                                  
+            <div className="generalProducts">
+              <ProductsCard 
+                id='letras-love' 
+                tittle='Letras Love' 
+                description='' 
+                imgUrl='src/assets/img/servicios/Neones.webp' 
+                colorText='var(--primary-color-100)'/>   
+              <ProductsCard 
+                id='neones' 
+                tittle='Neones' 
+                description='' 
+                imgUrl='src/assets/img/servicios/Neones.webp'
+                colorText='var(--primary-color-100)'/> 
+            </div>                                                 
             <ProductsCard 
               id='kitAntiResaca' 
               tittle='Kit AntiResaca' 

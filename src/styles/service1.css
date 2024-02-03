@@ -3,7 +3,7 @@
     flex-direction: column;
     position: relative;
     background-image: url('src/assets/img/servicios/Fotomaton360.webp');
-    background-size: contain;
+    background-size: cover;
     background-attachment: fixed;
     padding: 20px;
     align-items: center;

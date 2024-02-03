@@ -28,7 +28,7 @@
 }
 
 .aboutUsContainer img {
-    width: 100%;
+    width: 80%;
     height: auto;
     filter: drop-shadow(0px 0px 20px var(--shadow-pink-400));
     border-radius: 25px;

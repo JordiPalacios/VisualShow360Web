@@ -1,7 +1,7 @@
 import React, { useContext, useEffect, useState } from 'react'
-import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import { FormContact, ImgSlider, InfiniteLoop, NavItem, NewPage, ProductsCard, ReviewsCard } from '../components'
+import { FormContact, ImgSlider, InfiniteLoop, InfiniteLoopCompanies, NavItem, NewPage, ProductsCard, ReviewsCard } from '../components'
 import { NavbarContext } from '../context/NavbarContext'
 import Slider from "react-slick";
 import CompaniesData from '../assets/mocks/companiesData.json'
@@ -36,11 +36,11 @@ export const HomeWebsite = () => {
       }
     }
     window.addEventListener('scroll', onScroll)
-    
+
     return () => window.removeEventListener('scroll', onScroll)
   }, [breakpoint])
 
-  
+
 
   // ToDo: Exportar esto a un componente
   const toggleClass = (className) => {
@@ -48,7 +48,7 @@ export const HomeWebsite = () => {
     case 'menuOpen':
       setIsMenuToggled(!isMenuToggled)
       break;
-  
+
     case 'products':
       setIsMoreProductsInfo(!isMoreProductsInfo)
       break;
@@ -61,7 +61,7 @@ export const HomeWebsite = () => {
       break;
   }
   }
-  
+
 // ToDo : Simplificar estas repeticiones
   const settingsServices = {
     dots: false,
@@ -87,16 +87,16 @@ export const HomeWebsite = () => {
     slidesToScroll: 1
   }
 
-  
+
   return (
-    <> 
-      <nav id='navbar' ref={navbarRef} className={isFixed ? 'navFixed' : ''}>    
+    <>
+      <nav id='navbar' ref={navbarRef} className={isFixed ? 'navFixed' : ''}>
         <div className="logoMenu">
-          <button 
+          <button
             className={isMenuToggled ? 'crossMenu' : 'hamburgerMenu'}
             onClick={() => toggleClass('menuOpen')}>
           </button>
-          <h1><NewPage href='/' label='Visual Show 360' colorText='var(--primary-color-200)'/></h1>   
+          <h1><NewPage href='/' label='Visual Show 360' colorText='var(--primary-color-200)'/></h1>
         </div>
         <div className={isMenuToggled ? 'menuOpened' : ''}>
           <ul>
@@ -116,34 +116,34 @@ export const HomeWebsite = () => {
             </div>
             <b><NavItem href='#nosotros' label='Nosotros' colorText='var(--primary-color-100)' /></b>
           </ul>
-        </div>   
+        </div>
       </nav>
       <header ref={headerRef}>
         <div className="presentationContainer">
-          <p>Poner eslogan - una frase que buscaria alguien que busca el mejor evento</p>  
-          <h2>¡Las mejores bodas las creamos aqui!</h2>   
-          <h3>Gracias a nuestro equipo de alta calidad</h3>    
+          <p>Poner eslogan - una frase que buscaria alguien que busca el mejor evento</p>
+          <h2>¡Las mejores bodas las creamos aqui!</h2>
+          <h3>Gracias a nuestro equipo de alta calidad</h3>
           <h1>Fotomaton</h1>
           <h1>Magic Mirror</h1>
-          <h1>RingRing Experience</h1>  
+          <h1>RingRing Experience</h1>
           <p>
-            Haremos que tu evento sea... 
+            Haremos que tu evento sea...
           </p>
           <h1>¡ I N O L V I D A B L E !</h1>
           <video autoPlay muted loop>
             <source src="src/assets/video/wedding1.mp4" type="video/mp4"/>
             Este navegador no soporta vídeos.
-          </video>       
-        </div> 
+          </video>
+        </div>
       </header>
 
       <main>
-        {/* El punto que se ve al lado del si quiero es debido a los estilos, debemos quitarlo desde el css */}  
+        {/* El punto que se ve al lado del si quiero es debido a los estilos, debemos quitarlo desde el css */}
         <section id='plataforma360'>
-          <div className="service1Container">            
+          <div className="service1Container">
             <h2>Fotomaton 360</h2>
             <div className="fotomatonImg">
-            <Slider {...settingsServices}>   
+            <Slider {...settingsServices}>
                 {fotomatonData.map((data) => (
                     <ImgSlider key={data.id} urlImg={data.urlImg} imgName={data.id} styleType='services'/>
                 ))}
@@ -152,7 +152,7 @@ export const HomeWebsite = () => {
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero dicta labore culpa facere ab illum dolorem temporibus, fuga quibusdam, animi magnam obcaecati! Omnis dignissimos nam beatae sapiente adipisci ut soluta?
             </p>
-            <div className="buttonsContainer">              
+            <div className="buttonsContainer">
               <button>
                 <NewPage href="/eventos-reales" label="Eventos Reales" colorText='var(--primary-color-100)'/>
               </button>
@@ -163,13 +163,13 @@ export const HomeWebsite = () => {
           </div>
         </section>
         <section id='magic-mirror'>
-          <div className='service2Container'>            
+          <div className='service2Container'>
             <h2>Magic Mirror</h2>
             <img src="src/assets/img/servicios/EspejoMagico.webp" alt="EspejpoMagico"/>
             <p>
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, quidem laudantium doloribus atque totam voluptate, nulla tenetur provident minima natus beatae non, reprehenderit pariatur praesentium! Dolore necessitatibus ab eaque cum!
             </p>
-            <div className="buttonsContainerEven">              
+            <div className="buttonsContainerEven">
               <button>
                 <NewPage href="/eventos-reales" label="Eventos Reales" colorText='var(--primary-color-100)'/>
               </button>
@@ -180,13 +180,13 @@ export const HomeWebsite = () => {
           </div>
         </section>
         <section id='white-magic-mirror'>
-          <div className="service3Container">            
+          <div className="service3Container">
             <h2>White Magic Mirror</h2>
             <img src="src/assets/img/servicios/magicMirrorWhite.jpg" alt="EspejpoMagico"/>
             <p>
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, quidem laudantium doloribus atque totam voluptate, nulla tenetur provident minima natus beatae non, reprehenderit pariatur praesentium! Dolore necessitatibus ab eaque cum!
             </p>
-            <div className="buttonsContainer">              
+            <div className="buttonsContainer">
               <button>
                 <NewPage href="/eventos-reales" label="Eventos Reales" colorText='var(--primary-color-100)'/>
               </button>
@@ -197,13 +197,13 @@ export const HomeWebsite = () => {
           </div>
         </section>
         <section id='ring-ring-experience'>
-          <div className="service4Container">            
+          <div className="service4Container">
             <h2>Ring Ring Experience</h2>
             <img src="src/assets/img/servicios/RingRingExperience.webp" alt="InstruccionesRingRing" />
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit qui nam dicta aspernatur non expedita iusto assumenda minus harum porro ullam similique voluptas neque autem modi ipsum, quisquam dolorum officiis?
             </p>
-            <div className="buttonsContainerEven">              
+            <div className="buttonsContainerEven">
               <button>
                 <NewPage href="/eventos-reales" label="Eventos Reales" colorText='var(--primary-color-100)'/>
               </button>
@@ -215,7 +215,7 @@ export const HomeWebsite = () => {
         </section>
         {/* InfiniteLoop */}
         <section>
-          <div className="logo">                   
+          <div className="logo">
             <InfiniteLoop urlImg="src/assets/img/reviews_equipo/logoVisualShow.webp" nameImg="LogoVisualShowSlide" />
             <InfiniteLoop urlImg="src/assets/img/reviews_equipo/logoVisualShow.webp" nameImg="LogoVisualShowSlide" />
           </div>
@@ -223,35 +223,35 @@ export const HomeWebsite = () => {
         {/* !Este section es de products */}
         <section id='products'>
           <div className="productsContainer">
-            <div className="productsTittle">              
-              <h2>Bodas y Eventos</h2>          
+            <div className="productsTittle">
+              <h2>Bodas y Eventos</h2>
             </div>
             <div className="generalProducts">
-              <ProductsCard 
-                id='letras-love' 
-                tittle='Letras Love' 
-                description='' 
-                imgUrl='src/assets/img/servicios/Neones.webp' 
-                colorText='var(--primary-color-100)'/>   
-              <ProductsCard 
-                id='neones' 
-                tittle='Neones' 
-                description='' 
+              <ProductsCard
+                id='letras-love'
+                tittle='Letras Love'
+                description=''
                 imgUrl='src/assets/img/servicios/Neones.webp'
-                colorText='var(--primary-color-100)'/> 
-            </div>                                                 
-            <ProductsCard 
-              id='kitAntiResaca' 
-              tittle='Kit AntiResaca' 
-              description='Kit AntiResaca Description: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, eaque sunt autem iusto rem dolorum error harum ut quae sequi! Id, sint repellendus. In iste aperiam id aspernatur! Aspernatur, reprehenderit!' 
-              imgUrl='src/assets/img/servicios/kitAntiresacaFocus.webp' 
+                colorText='var(--primary-color-100)'/>
+              <ProductsCard
+                id='neones'
+                tittle='Neones'
+                description=''
+                imgUrl='src/assets/img/servicios/Neones.webp'
+                colorText='var(--primary-color-100)'/>
+            </div>
+            <ProductsCard
+              id='kitAntiResaca'
+              tittle='Kit AntiResaca'
+              description='Kit AntiResaca Description: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, eaque sunt autem iusto rem dolorum error harum ut quae sequi! Id, sint repellendus. In iste aperiam id aspernatur! Aspernatur, reprehenderit!'
+              imgUrl='src/assets/img/servicios/kitAntiresacaFocus.webp'
               darkBg={true}
               colorText='var(--primary-color-100)'/>
           </div>
         </section>
         {/* InfiniteLoop */}
         <section>
-          <div className="logo">                   
+          <div className="logo">
             <InfiniteLoop urlImg="src/assets/img/reviews_equipo/logoVisualShow.webp" nameImg="LogoVisualShowSlide" />
             <InfiniteLoop urlImg="src/assets/img/reviews_equipo/logoVisualShow.webp" nameImg="LogoVisualShowSlide" />
           </div>
@@ -262,12 +262,12 @@ export const HomeWebsite = () => {
             <h2>Reviews Clientes</h2>
             <div className="line"></div>
             <div className="fotomatonImg">
-            <Slider {...settingsReviews}>   
+            <Slider {...settingsReviews}>
                 {reviewsData.map((data) => (
-                    <ReviewsCard 
+                    <ReviewsCard
                     key={data.id}
                     id={data.id}
-                    tittle={data.tittle} 
+                    tittle={data.tittle}
                     client={data.client}
                     description={data.description}
                     imgUrl={data.imgUrl}
@@ -277,24 +277,30 @@ export const HomeWebsite = () => {
               </Slider>
             </div>
 
-          </div>          
+          </div>
         </section>
-        {/* !Este section es de companies */}   
+        {/* !Este section es de companies */}
         <section>
-          <div className="companiesContainer">            
+          <div className="companiesContainer">
             <h2>Empresas con las que se han trabajado</h2>
             <div className="line"></div>
             <div className="logoCompanies">
-              <Slider {...settingsCompanies}>   
+              {companyData.map((data) => (
+                <InfiniteLoop urlImg={data.urlImg} nameImg={data.companyName} equal={false}/>
+              ))}
+              {companyData.map((data) => (
+                <InfiniteLoop urlImg={data.urlImg} nameImg={data.companyName} equal={false}/>
+              ))}
+              {/* <Slider {...settingsCompanies}>
                 {companyData.map((data) => (
                     <ImgSlider key={data.companyName} urlImg={data.urlImg} imgName={data.companyName} styleType='companies'/>
                 ))}
-              </Slider>
+              </Slider> */}
             </div>
-            </div>
+          </div>
         </section>
         <section id="nosotros">
-          <div className="aboutUsContainer">            
+          <div className="aboutUsContainer">
             <h2>Sobre Nosotros - Equipo</h2>
             <img src="src/assets/img/reviews_equipo/navidadDavidIvet.jpg" alt="VisualShow360Team" />
             <p>
@@ -304,9 +310,9 @@ export const HomeWebsite = () => {
         </section>
         {/* !Este section es de contact us */}
         <section id='contacto'>
-          <div className="contactoContainer">            
+          <div className="contactoContainer">
             <h2>Formulario Contacto</h2>
-            <div className="elementsContainer">   
+            <div className="elementsContainer">
               <div className="formContainer">
                 <FormContact />
               </div>
@@ -315,13 +321,13 @@ export const HomeWebsite = () => {
                   <source src="src/assets/video/wedding.mp4" type="video/mp4"/>
                   Este navegador no soporta vídeos.
                 </video>
-              </div>           
+              </div>
             </div>
           </div>
         </section>
       </main>
       <footer>
-        <div className="footerContainer">          
+        <div className="footerContainer">
           <h2>Footer</h2>
           <p>Poner el Logo y las RRSS</p>
           <button>

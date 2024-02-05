@@ -53,10 +53,6 @@ button {
     transition: filter 0.25s;
 }
 
-button:hover {
-    filter: drop-shadow(0 0 15px var(--primary-color-300));
-}
-
 .buttonsContainer {
     display: flex;
     flex-direction: row;
@@ -99,7 +95,7 @@ button:hover {
 }
 
 .line {
-    border-top: 4px solid var(--primary-color-100); /* Verde */
+    border-top: 4px solid var(--primary-color-100); 
     width: 100%;
     margin: 5px;
 }
@@ -123,3 +119,16 @@ button:hover {
     right: 5px;
     z-index: 999;
 }
+
+/* Medidad Tablet */
+/* @media screen and (min-width: 748px) {
+
+} */
+
+/* Medidas PC  */
+@media screen and (min-width: 1024px) {
+    button:hover {
+        filter: drop-shadow(0 0 15px var(--primary-color-300));
+    }
+}
+

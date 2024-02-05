@@ -162,6 +162,13 @@ export const HomeWebsite = () => {
             </div>
           </div>
         </section>
+        {/* InfiniteLoop */}
+        <section>
+          <div className="logo">
+            <InfiniteLoop urlImg="src/assets/img/reviews_equipo/logoVisualShow.webp" nameImg="LogoVisualShowSlide" equal={true}/>
+            <InfiniteLoop urlImg="src/assets/img/reviews_equipo/logoVisualShow.webp" nameImg="LogoVisualShowSlide" equal={true}/>
+          </div>
+        </section>
         <section id='magic-mirror'>
           <div className='service2Container'>
             <h2>Magic Mirror</h2>
@@ -252,13 +259,6 @@ export const HomeWebsite = () => {
               colorText='var(--primary-color-100)'/>
           </div>
         </section>
-        {/* InfiniteLoop */}
-        <section>
-          <div className="logo">
-            <InfiniteLoop urlImg="src/assets/img/reviews_equipo/logoVisualShow.webp" nameImg="LogoVisualShowSlide" equal={true}/>
-            <InfiniteLoop urlImg="src/assets/img/reviews_equipo/logoVisualShow.webp" nameImg="LogoVisualShowSlide" equal={true}/>
-          </div>
-        </section>
         {/* !Este section es de reviews */}
         <section>
           <div className="reviewsContainer">
@@ -332,25 +332,42 @@ export const HomeWebsite = () => {
         <WhatsAppMessage className="contactFixed" msg="https://wa.me/34653781239?text=Quiero%20más%20información%20sobre%20VisualShow!" />
       </main>
       <footer>
-        <div className="footerContainer">
-          <h2>Footer</h2>
-          <p>Poner el Logo y las RRSS</p>
+        <div className="footerContainer">  
+          <h3>No hacemos eventos...</h3>      
+          <h4>¡ Creamos recuerdos !</h4>
+          <div className="line"></div>
+          <div className="rrssContainer">
+            <a href="https://www.instagram.com/visualshow360?igshid=YmMyMTA2M2Y=" target="_blank" rel="noopener noreferrer">
+              <img id="ig" src="src/assets/icons/ig.svg"/>
+            </a>            
+            <a href="https://www.tiktok.com/@visualshow360?_t=8jdUAUysy9p&_r=1" target="_blank" rel="noopener noreferrer">
+              <img id="ig" src="src/assets/icons/tiktok.svg"/>
+            </a>
+          </div>
+          <div className="normativeContainer">
+          <p>© 2024 VisualShow360 - Todos los derechos reservados</p>
           <button>
-            <NewPage href="/aviso-legal" label="Aviso Legal" colorText='var(--primary-color-500)'/>
+            <NewPage href="/aviso-legal" label="Aviso Legal" colorText='var(--primary-color-100)'/>
           </button>
           <button>
-            <NewPage href="/politica-privacidad" label="Politica de Privacidad" colorText='var(--primary-color-500)'/>
+            <NewPage href="/politica-privacidad" label="Politica de Privacidad" colorText='var(--primary-color-100)'/>
           </button>
           <button>
-            <NewPage href="/terminos-condiciones" label="Terminos y Condiciones" colorText='var(--primary-color-500)'/>
+            <NewPage href="/terminos-condiciones" label="Terminos y Condiciones" colorText='var(--primary-color-100)'/>
           </button>
+          </div>
+          <img src="src/assets/img/Extra/generalitat.jpg" alt="generalitatImg" />
+          <a href="https://www.instagram.com/jordi_code?igsh=MXRvbmtiYmhheHRiZw%3D%3D&utm_source=qr"> Creada y diseñada por Jordi Code</a>
         </div>
-        <img src="src/assets/img/Extra/generalitat.jpg" alt="generalitatImg" />
       </footer>
-      {/* Para cuando deban comprar el producto */}
-      <button>
-        <NewPage href="/compra-segura" label="Pago" colorText='var(--primary-color-500)'/>
-      </button>
+      {/* <div className="containerText">
+              <a >
+                  +34 635 78 12 39
+              </a>
+              <a >
+                  visualshow360@gmail.com
+              </a>
+          </div> */}
     </>
   )
 }

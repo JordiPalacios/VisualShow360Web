@@ -96,7 +96,7 @@ export const HomeWebsite = () => {
             className={isMenuToggled ? 'crossMenu' : 'hamburgerMenu'}
             onClick={() => toggleClass('menuOpen')}>
           </button>
-          <h1><NewPage href='/' label='Visual Show 360' colorText='var(--primary-color-200)'/></h1>
+          <h1><NewPage href='/' label='Visual Show 360' colorText='var(--primary-color-50)'/></h1>
         </div>
         <div className={isMenuToggled ? 'menuOpened' : ''}>
           <ul>

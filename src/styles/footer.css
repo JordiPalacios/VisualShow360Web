@@ -48,7 +48,9 @@ footer .line {
 
 .rrssContainer img {
     aspect-ratio: 4/3;
-    width: 50px;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
 }
 
 

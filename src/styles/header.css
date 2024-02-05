@@ -32,7 +32,7 @@ nav button{
     align-items: center;
     justify-content: center;
     gap: 1rem;
-    background: var(--gradient-pink);
+    background: var(--gradient-pink-7);
 }
 
 .hamburgerMenu {
@@ -73,7 +73,6 @@ nav ul {
     left: 0;
     max-height: none;
     opacity: 1;
-    background: var(--primary-color-100);
     transition: max-height .75s ease, opacity .75s ease;
     z-index: 999;
 

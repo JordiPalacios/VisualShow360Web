@@ -1,0 +1,22 @@
+.generalContainer {
+    background: var(--gradient-pink-4);
+}
+
+.normativityContainer {
+    margin: 50px 20px 0 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    text-wrap: balance;
+}
+
+.normativityContainer,
+.normativityContainer li {
+    color: var(--primary-color-100);
+}
+
+.normativityContainer h1,
+.normativityContainer h3,
+.normativityContainer h4 {
+    margin: 5px 0 5px 0;
+}

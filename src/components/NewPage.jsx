@@ -6,6 +6,7 @@ export const NewPage = ({href, label, colorText}) => {
     const handleClick = (event) => {
         event.preventDefault()
         navigate(href)
+        window.scrollTo(0, 0)
     }
 return (
     <a href={href} onClick={handleClick} style={{ color: colorText }}>

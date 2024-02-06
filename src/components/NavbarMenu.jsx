@@ -60,16 +60,16 @@ return (
                     <b><NavItem href='/' label='Home' colorText='var(--primary-color-100)' /></b>
                     <li onClick={() => toggleClass('products')}><b>Servicios Party {isMoreProductsInfo ? '⮵' : '⮷'} </b></li>
                     <div className={isMoreProductsInfo ? 'productosOpen' : 'productosClose'} >
-                        <NavItem href='#plataforma360' label='Plataforma 360' colorText='var(--primary-color-300)'/>
-                        <NavItem href='#magic-mirror' label='Magic Mirror' colorText='var(--primary-color-300)'/>
+                        <NavItem href='#plataforma360' label='Plataforma 360' colorText='var(--primary-color-300)' />
+                        <NavItem href='#magic-mirror' label='Magic Mirror' colorText='var(--primary-color-300)' />
                         <NavItem href='#white-magic-mirror' label='White Magic Mirror' colorText='var(--primary-color-300)' />
-                        <NavItem href='#ring-ring-experience' label='Ring Ring Experience' colorText='var(--primary-color-300)'/>
+                        <NavItem href='#ring-ring-experience' label='Ring Ring Experience' colorText='var(--primary-color-300)' />
                     </div>
                     <li onClick={() => toggleClass('weddings')}><b>Bodas y Eventos {isMoreWeddingsInfo ? '⮵' : '⮷'} </b></li>
                     <div className={isMoreWeddingsInfo ? "bodasEventosOpen" : 'bodasEventosClose'}>
-                        <NavItem href='#letras-love' label='Letras Love' colorText='var(--primary-color-300)'/>
-                        <NavItem href='#neones' label='Neones' colorText='var(--primary-color-300)'/>
-                        <NavItem href='#kitAntiResaca' label='Kit AntiResaca' colorText='var(--primary-color-300)'/>
+                        <NavItem href='#letras-love' label='Letras Love' colorText='var(--primary-color-300)' />
+                        <NavItem href='#neones' label='Neones' colorText='var(--primary-color-300)' />
+                        <NavItem href='#kitAntiResaca' label='Kit AntiResaca' colorText='var(--primary-color-300)' />
                     </div>
                     <b><NavItem href='#nosotros' label='Nosotros' colorText='var(--primary-color-100)' /></b>
                 </ul>

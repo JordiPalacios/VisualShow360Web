@@ -1,37 +1,26 @@
 .service3Container {
     display: flex;
     flex-direction: column;
-    position: relative;
-    background-image: url('src/assets/img/servicios/magicMirrorWhiteBg.jpg');
-    background-size: cover;
-    background-attachment: fixed;
+    background: var(--background-950);
     padding: 20px;
     align-items: center;
     text-align: center;
     text-wrap: balance;
 }
 
-.service3Container::before {
-    content: ''; 
-    position: absolute; 
-    top: -2px;
-    left: 0px;
-    right: 0px;
-    bottom: -2px;
-    background: rgba(0, 0, 0, 0.6);
-    z-index: 1;
-}
-
-.service3Container > * {
-    position: relative;
-    z-index: 2;
-}
-
 .service3Container img {
     width: 80%;
     height: auto;
-    filter: drop-shadow(0px 0px 20px var(--shadow-pink-400));
+    filter: drop-shadow(0px 0px 20px var(--accent-300));
     border-radius: 25px;
+}
+
+.service3Container h2 {
+    padding-bottom: 20px;
+}
+
+.service3Container a {
+    font-weight: bolder;
 }
 
 

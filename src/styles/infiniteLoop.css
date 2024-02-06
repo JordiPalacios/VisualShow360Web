@@ -25,10 +25,6 @@
     z-index: 2;
 }
 
-.logo:hover .logoSlide {
-    animation-play-state: paused;
-}
-
 .logoSlide {
     display: inline-block;
     animation: 10s slide infinite linear;
@@ -40,3 +36,14 @@
     margin: 0 10px;
 }
 
+/* Medidad Tablet */
+@media screen and (min-width: 748px) {
+
+}
+
+/* Medidas PC  */
+@media screen and (min-width: 1024px) {
+    .logo:hover .logoSlide {
+        animation-play-state: paused;
+    }
+}

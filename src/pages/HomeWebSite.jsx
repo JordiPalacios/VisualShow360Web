@@ -71,10 +71,10 @@ export const HomeWebsite = () => {
             </p>
             <div className="buttonsContainer">
               <button>
-                <NewPage href="/eventos-reales" label="Eventos Reales" colorText='var(--primary-color-100)'/>
+                <NewPage href="/eventos-reales" label="Eventos Reales" colorText='var(--accent-950)'/>
               </button>
               <button>
-                <NavItem href='#contacto' label='¡Sí Quiero!' colorText='var(--primary-color-100)'/>
+                <NavItem href='#contacto' label='¡Sí Quiero!' colorText='var(--accent-950)'/>
               </button>
             </div>
           </div>
@@ -95,10 +95,10 @@ export const HomeWebsite = () => {
             </p>
             <div className="buttonsContainerEven">
               <button>
-                <NewPage href="/eventos-reales" label="Eventos Reales" colorText='var(--primary-color-100)'/>
+                <NewPage href="/eventos-reales" label="Eventos Reales" colorText='var(--accent-50)'/>
               </button>
               <button>
-                <NavItem href='#contacto' label='¡Sí Quiero!' colorText='var(--primary-color-100)'/>
+                <NavItem href='#contacto' label='¡Sí Quiero!' colorText='var(--accent-50)'/>
               </button>
             </div>
           </div>
@@ -129,10 +129,10 @@ export const HomeWebsite = () => {
             </p>
             <div className="buttonsContainerEven">
               <button>
-                <NewPage href="/eventos-reales" label="Eventos Reales" colorText='var(--primary-color-100)'/>
+                <NewPage href="/eventos-reales" label="Eventos Reales" colorText='var(--accent-50)'/>
               </button>
               <button>
-                <NavItem href='#contacto' label='¡Sí Quiero!' colorText='var(--primary-color-100)'/>
+                <NavItem href='#contacto' label='¡Sí Quiero!' colorText='var(--accent-50)'/>
               </button>
             </div>
           </div>
@@ -157,14 +157,16 @@ export const HomeWebsite = () => {
                 description=''
                 msg="https://wa.me/34653781239?text=Quiero%20más%20información%20sobre%20las%20Letras%20Love!"
                 imgUrl='src/assets/img/servicios/Neones.webp'
-                colorText='var(--primary-color-100)'/>
+                darkBg={true}
+                colorText='var(--accent-950)'/>
               <ProductsCard
                 id='neones'
                 tittle='Neones'
                 description=''
                 msg="https://wa.me/34653781239?text=Quiero%20más%20información%20sobre%20los%20Neones!"
                 imgUrl='src/assets/img/servicios/Neones.webp'
-                colorText='var(--primary-color-100)'/>
+                darkBg={true}
+                colorText='var(--accent-950)'/>
             </div>
             <ProductsCard
               id='kitAntiResaca'
@@ -173,7 +175,7 @@ export const HomeWebsite = () => {
               imgUrl='src/assets/img/servicios/kitAntiresacaFocus.webp'
               msg="https://wa.me/34653781239?text=Quiero%20más%20información%20sobre%20el%20Kit%20AntiResaca!"
               darkBg={true}
-              colorText='var(--primary-color-100)'/>
+              colorText='var(--accent-950)'/>
           </div>
         </section>
         {/* !Este section es de reviews */}

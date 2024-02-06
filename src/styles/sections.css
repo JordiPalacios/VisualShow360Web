@@ -34,7 +34,7 @@ h4 {
 ul {
     padding: 0px;
     list-style: none;
-    color: var(--primary-color-100);
+    color: var(--text-50);
 }
 
 a {
@@ -46,11 +46,10 @@ button {
     font-weight: 500;
     font-family: inherit;
     padding: 0.6rem 1.2rem;
-    border: 1px solid transparent;
     border-radius: 8px;
-    background: var(--gradient-pink-3);
     cursor: pointer;
     transition: filter 0.25s;
+    border: none;
 }
 
 .buttonsContainer {
@@ -66,36 +65,15 @@ button {
 }
 
 .buttonsContainer button {
-    font-size: 1.2rem;
-    font-weight: 500;
-    font-family: inherit;
-    padding: 0.6rem 1.2rem;
-    border: 1px solid transparent;
-    border-radius: 8px;
-    background: var(--gradient-pink-3);
-    cursor: pointer;
-    transition: filter 0.25s;
+    background: var(--gradient-button-1);
 }
 
 .buttonsContainerEven button {
-    font-size: 1.2rem;
-    font-weight: 500;
-    font-family: inherit;
-    padding: 0.6rem 1.2rem;
-    border: 1px solid transparent;
-    border-radius: 8px;
-    background: var(--gradient-pink-4);
-    cursor: pointer;
-    transition: filter 0.25s;
-}
-
-.buttonsContainerEven button:hover,
-.buttonsContainer button:hover {
-    filter: drop-shadow(0 0 15px var(--primary-color-300));
+    background: var(--gradient-button-2);
 }
 
 .line {
-    border-top: 4px solid var(--primary-color-100); 
+    border-top: 4px solid var(--secondary-50); 
     width: 100%;
     margin: 5px;
 }
@@ -106,7 +84,7 @@ button {
 }
 
 .slick-dots li.slick-active button:before {
-    color: var(--primary-color-100);
+    color: var(--text-50);
     opacity: 1;
 }
 
@@ -121,14 +99,19 @@ button {
 }
 
 /* Medidad Tablet */
-/* @media screen and (min-width: 748px) {
+@media screen and (min-width: 748px) {
 
-} */
+}
 
 /* Medidas PC  */
 @media screen and (min-width: 1024px) {
     button:hover {
         filter: drop-shadow(0 0 15px var(--primary-color-300));
     }
+
+    .buttonsContainerEven button:hover,
+    .buttonsContainer button:hover {
+    filter: drop-shadow(0 0 15px var(--accent-300));
+}
 }
 

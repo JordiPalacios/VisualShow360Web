@@ -53,25 +53,25 @@ return (
                 className={isMenuToggled ? 'crossMenu' : 'hamburgerMenu'}
                 onClick={() => toggleClass('menuOpen')}>
                 </button>
-                <h1><NewPage href='/' label='Visual Show 360' colorText='var(--primary-color-50)'/></h1>
+                <h1><NewPage href='/' label='Visual Show 360' colorText='var(--text-950)'/></h1>
             </div>
             <div className={isMenuToggled ? 'menuOpened' : ''}>
                 <ul>
-                    <b><NavItem href='/' label='Home' colorText='var(--primary-color-100)' /></b>
+                    <b><NavItem href='/' label='Home' colorText='var(--text-50)' /></b>
                     <li onClick={() => toggleClass('products')}><b>Servicios Party {isMoreProductsInfo ? '⮵' : '⮷'} </b></li>
                     <div className={isMoreProductsInfo ? 'productosOpen' : 'productosClose'} >
-                        <NavItem href='#plataforma360' label='Plataforma 360' colorText='var(--primary-color-300)' />
-                        <NavItem href='#magic-mirror' label='Magic Mirror' colorText='var(--primary-color-300)' />
-                        <NavItem href='#white-magic-mirror' label='White Magic Mirror' colorText='var(--primary-color-300)' />
-                        <NavItem href='#ring-ring-experience' label='Ring Ring Experience' colorText='var(--primary-color-300)' />
+                        <NavItem href='#plataforma360' label='Plataforma 360' colorText='var(--secondary-200)' />
+                        <NavItem href='#magic-mirror' label='Magic Mirror' colorText='var(--secondary-200)' />
+                        <NavItem href='#white-magic-mirror' label='White Magic Mirror' colorText='var(--secondary-200)' />
+                        <NavItem href='#ring-ring-experience' label='Ring Ring Experience' colorText='var(--secondary-200)' />
                     </div>
                     <li onClick={() => toggleClass('weddings')}><b>Bodas y Eventos {isMoreWeddingsInfo ? '⮵' : '⮷'} </b></li>
                     <div className={isMoreWeddingsInfo ? "bodasEventosOpen" : 'bodasEventosClose'}>
-                        <NavItem href='#letras-love' label='Letras Love' colorText='var(--primary-color-300)' />
-                        <NavItem href='#neones' label='Neones' colorText='var(--primary-color-300)' />
-                        <NavItem href='#kitAntiResaca' label='Kit AntiResaca' colorText='var(--primary-color-300)' />
+                        <NavItem href='#letras-love' label='Letras Love' colorText='var(--secondary-200)' />
+                        <NavItem href='#neones' label='Neones' colorText='var(--secondary-200)' />
+                        <NavItem href='#kitAntiResaca' label='Kit AntiResaca' colorText='var(--secondary-200)' />
                     </div>
-                    <b><NavItem href='#nosotros' label='Nosotros' colorText='var(--primary-color-100)' /></b>
+                    <b><NavItem href='#nosotros' label='Nosotros' colorText='var(--text-50)' /></b>
                 </ul>
             </div>
         </nav>

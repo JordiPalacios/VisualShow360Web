@@ -7,6 +7,14 @@ Anchos pantalla en:
     *Tablet - Mínimo 748px
     *PC - 1024px
 
+Cosas Instaladas:
+    [X] Sticky a traves de NPM:
+        npm install react-slick --save
+
+Para iniciar el proyecto solo debes:
+    [] Revisar proyecto "Pokemon 1st Generation"
+    * npm install
+
 ToDo:
 
 [x]Páginas Rutas:
@@ -21,67 +29,74 @@ ToDo:
 
 
 Home Page:
-    []Header:
-        []Nabvar:
-            [] Logo Izquierda
-            [] Home
-            [] Servicios Party - Desplegable:
-                []Plataforma 360
-                []Fotomaton 360
-                []Ring Ring Experience
-            []Bodas y Eventos:
-                []Letras Love
-                []Neones
-                []Kit AntiResaca
-            []Caja Hora Loca
-            []Nosotros
-        []Vídeo Fondo + Texto Atractivo
+    [X]Header:
+        [X]Nabvar:
+            [X] Logo Izquierda
+            [X] Home
+            [X] Servicios Party - Desplegable:
+                [X]Plataforma 360
+                [X]Fotomaton 360
+                [X]Ring Ring Experience
+            [X]Bodas y Eventos:
+                [X]Letras Love
+                [X]Neones
+                [X]Kit AntiResaca
+            [X]Caja Hora Loca
+            [X]Nosotros
+        [X]Vídeo Fondo + Texto Atractivo
 
     []Main:
-        []Fotomaton 360
-            []Botón "Sí quiero" -> Envia al formulario
-            []Botón Eventos Realies -> Nos lleva a una página de vídeos
-        []Espejo Mágico
-        []Ring-Ring Experience
-        []Productos - Todos tendrán, flecha que desplega más info -> Página Producto:
-            []Letras Love
-            []Neones
-            []KitAntiresaca
-        []Mini Galeria de Vídeos / Fotos - 6 Elementos
-        []Quienes Somos 
-        []Reviews Clientes
-        []Marcas con las que se ha trabajado
-        []Formulario Contacto:
-            []Nombre
-            []Correo
-            []Num Mvl
-            []Fecha Evento
-            []Lugar
-            []He leído y acepto la politica de privacida. Acepto recibir emails promocionales. -> Dejarlo para el Final
-            []Enviar
+        [X]Fotomaton 360
+            [X]Botón "Sí quiero" -> Envia al formulario
+            [X]Botón Eventos Realies -> Nos lleva a una página de vídeos
+        [X]Espejo Mágico
+        [X]Ring-Ring Experience
+        [X]Productos - Todos tendrán, flecha que desplega más info -> Página Producto:
+            [X]Letras Love
+            [X]Neones
+            [X]KitAntiresaca
+        [X]Quienes Somos 
+        [X]Reviews Clientes
+        [X]Marcas con las que se ha trabajado
+        [X]Formulario Contacto:
+            [X]Nombre
+            [?]Correo
+            [X]Num Mvl
+            [?]Fecha Evento
+            [?]Lugar
+            [X]He leído y acepto la politica de privacida. Acepto recibir emails promocionales. -> Dejarlo para el Final
+            [X]Enviar
     []Footer:
-        []Correo empresa
-        []RRSS
+        [?]Correo empresa
+        [X]RRSS
         []Legalidades:
             []Aviso legal
             []Terminos y condiciones
             []Politica de privacidad
-        []Repetir la navbar
-        []© 2023 Todos los derechos reservados de VisualShow360
-        []Web x JordiCode
+        [X]© 2023 Todos los derechos reservados de VisualShow360
+        [X]Web x JordiCode
 []Crear Sistema de Cookies:
     []PopUp Cookies
     []Programa aceptacion Cookies
 
+[]Crear nueva página con galeria de videos:
+    [] Crear un loader - mientras cargan videos
+    [] Seccion Fotomaton 360
+    [] Seccion Magic Mirror
+    [] Seccion White Magic Mirror
+    [] Seccion Ring Ring
 
 
 
 Products Page:
+    [] Futuro
 
 Payment Page:
+    [] Futuro
 
 Not Found Page:
+ [] Crear algo chulo
 
 Estilos CSS:
-    [] Poner el estilo tan guay de midu con css de 3 lineas que tiene en AdvnetJS2023
+    [X] Poner el estilo tan guay de midu con css de 3 lineas que tiene en AdvnetJS2023
     []Fuentes: Roboto - Helvetica - Montserrat

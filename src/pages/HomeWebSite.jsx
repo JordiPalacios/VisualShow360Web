@@ -37,21 +37,33 @@ export const HomeWebsite = () => {
       <header>
         <NavbarMenu />
         <div className="presentationContainer">
-          <p>Poner eslogan - una frase que buscaria alguien que busca el mejor evento</p>
-          <h2>¡Las mejores bodas las creamos aqui!</h2>
-          <h3>Gracias a nuestro equipo de alta calidad</h3>
-          <h1>Fotomaton</h1>
-          <h1>Magic Mirror</h1>
-          <h1>RingRing Experience</h1>
-          <p>
+          <h2 style={{ 
+            color:'var(--text-50)',
+            filter: 'drop-shadow(0px 0px 10px var(--accent-300))' }}>¡Las mejores bodas las creamos aqui!</h2>
+          <h3 style={{ color:'var(--secondary-200)' }}>Gracias a nuestro equipo de alta calidad</h3>
+          <h1 style={{ color:'var(--text-100)' }}>Fotomaton</h1>
+          <h1 style={{ color:'var(--text-100)' }}>Magic Mirror</h1>
+          <h1 style={{ color:'var(--text-100)' }}>RingRing Experience</h1>
+          <p style={{ color:'var(--secondary-200)' }}>
             Haremos que tu evento sea...
           </p>
-          <h1>¡ I N O L V I D A B L E !</h1>
+          <h1 style={{ 
+            color:'var(--accent-400)' , 
+            filter: 'drop-shadow(0px 0px 10px var(--accent-400))' }}>¡ I N O L V I D A B L E !</h1>
           <video autoPlay muted loop>
-            <source src="src/assets/video/wedding1.mp4" type="video/mp4"/>
+            <source src="src/assets/video/bgPartyNight.mp4" type="video/mp4"/>
             Este navegador no soporta vídeos.
           </video>
+          <div className="rrssContainer">
+            <a href="https://www.instagram.com/visualshow360?igshid=YmMyMTA2M2Y=" target="_blank" rel="noopener noreferrer">
+              <img id="ig" src="src/assets/icons/ig.svg"/>
+            </a>            
+            <a href="https://www.tiktok.com/@visualshow360?_t=8jdUAUysy9p&_r=1" target="_blank" rel="noopener noreferrer">
+              <img id="ig" src="src/assets/icons/tiktok.svg"/>
+            </a>
+          </div>
         </div>
+        
       </header>
 
       <main>
@@ -181,7 +193,7 @@ export const HomeWebsite = () => {
         {/* !Este section es de reviews */}
         <section>
           <div className="reviewsContainer">
-            <h2>Reviews Clientes</h2>
+            <h2>Qué piensan de nosotros ...</h2>
             <div className="line"></div>
             <div className="fotomatonImg">
             <Slider {...settingsReviews}>
@@ -204,7 +216,7 @@ export const HomeWebsite = () => {
         {/* !Este section es de companies */}
         <section>
           <div className="companiesContainer">
-            <h2>Empresas con las que se han trabajado</h2>
+            <h2>Empresas que han confiado en nosotros</h2>
             <div className="line"></div>
             <div className="logoCompanies">
               {companyData.map((data) => (
@@ -224,7 +236,7 @@ export const HomeWebsite = () => {
         </section>
         <section id="nosotros">
           <div className="aboutUsContainer">
-            <h2>Sobre Nosotros - Equipo</h2>
+            <h2>¿ Quienes Somos ?</h2>
             <img src="src/assets/img/reviews_equipo/navidadDavidIvet.jpg" alt="VisualShow360Team" />
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit qui nam dicta aspernatur non expedita iusto assumenda minus harum porro ullam similique voluptas neque autem modi ipsum, quisquam dolorum officiis?
@@ -234,7 +246,7 @@ export const HomeWebsite = () => {
         {/* !Este section es de contact us */}
         <section id='contacto'>
           <div className="contactoContainer">
-            <h2>Formulario Contacto</h2>
+            <h2>¡ SÍ Quiero !</h2>
             <div className="elementsContainer">
               <div className="formContainer">
                 <FormContact />
@@ -266,17 +278,18 @@ export const HomeWebsite = () => {
           <div className="normativeContainer">
           <p>© 2024 VisualShow360 - Todos los derechos reservados</p>
           <button>
-            <NewPage href="/aviso-legal" label="Aviso Legal" colorText='var(--primary-color-100)'/>
+            <NewPage href="/aviso-legal" label="Aviso Legal" colorText='var(--text-100)'/>
           </button>
           <button>
-            <NewPage href="/politica-privacidad" label="Politica de Privacidad" colorText='var(--primary-color-100)'/>
+            <NewPage href="/politica-privacidad" label="Politica de Privacidad" colorText='var(--text-100)'/>
           </button>
           <button>
-            <NewPage href="/terminos-condiciones" label="Terminos y Condiciones" colorText='var(--primary-color-100)'/>
+            <NewPage href="/terminos-condiciones" label="Terminos y Condiciones" colorText='var(--text-100)'/>
           </button>
           </div>
           <img src="src/assets/img/Extra/generalitat.jpg" alt="generalitatImg" />
-          <a href="https://www.instagram.com/jordi_code?igsh=MXRvbmtiYmhheHRiZw%3D%3D&utm_source=qr"> Creada y diseñada por Jordi Code</a>
+          <a href="https://www.instagram.com/jordi_code?igsh=MXRvbmtiYmhheHRiZw%3D%3D&utm_source=qr" 
+          style={{ fontSize:'.6rem', padding:'10px' }}> Creada y diseñada por Jordi Code</a>
         </div>
       </footer>
       {/* <div className="containerText">

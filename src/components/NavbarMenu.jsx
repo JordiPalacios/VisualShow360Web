@@ -26,7 +26,6 @@ export const NavbarMenu = () => {
         return () => window.removeEventListener('scroll', onScroll)
         }, [breakpoint])
 
-      // ToDo: Exportar esto a un componente
     const toggleClass = (className) => {
     switch (className) {
         case 'menuOpen':
@@ -65,7 +64,7 @@ return (
                         <NavItem href='#white-magic-mirror' label='White Magic Mirror' colorText='var(--secondary-200)' />
                         <NavItem href='#ring-ring-experience' label='Ring Ring Experience' colorText='var(--secondary-200)' />
                     </div>
-                    <li onClick={() => toggleClass('weddings')}><b>Bodas y Eventos {isMoreWeddingsInfo ? '⮵' : '⮷'} </b></li>
+                    <li onClick={() => toggleClass('weddings')}><b>Experiencias Infalibles {isMoreWeddingsInfo ? '⮵' : '⮷'} </b></li>
                     <div className={isMoreWeddingsInfo ? "bodasEventosOpen" : 'bodasEventosClose'}>
                         <NavItem href='#letras-love' label='Letras Love' colorText='var(--secondary-200)' />
                         <NavItem href='#neones' label='Neones' colorText='var(--secondary-200)' />

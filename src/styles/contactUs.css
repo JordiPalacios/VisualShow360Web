@@ -115,6 +115,7 @@ textarea:focus {
     height: auto;
     margin: 0;
     padding: 0;
+    color: var(--text-100);
 }
 
 .checkBoxContainer label input[type="checkbox"] {
@@ -131,7 +132,9 @@ textarea:focus {
 form button {
     font-size: 1.25rem;
     width: 11rem;
-    color: var(--white);
+    background: var(--gradient-button-1);
+    color: var(--text-950);
+    font-weight: bolder;
     border: none;
     padding: .5rem;
     margin: .5rem 0rem 2rem;

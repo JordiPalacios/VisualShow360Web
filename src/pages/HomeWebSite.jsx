@@ -72,10 +72,10 @@ export const HomeWebsite = () => {
           <div className="service1Container">
             <h2>Fotomaton 360</h2>
             <div className="fotomatonImgService1">
-            <Slider {...settingsServices}>
-                {fotomatonData.map((data) => (
-                    <ImgSlider key={data.id} urlImg={data.urlImg} imgName={data.id} styleType='services'/>
-                ))}
+              <Slider {...settingsServices}>
+                  {fotomatonData.map((data) => (
+                      <ImgSlider key={data.id} urlImg={data.urlImg} imgName={data.id} styleType='services'/>
+                  ))}
               </Slider>
             </div>
             <p>
@@ -196,21 +196,20 @@ export const HomeWebsite = () => {
             <h2>Qué piensan de nosotros ...</h2>
             <div className="line"></div>
             <div className="fotomatonImgReviews">
-            <Slider {...settingsReviews}>
-                {reviewsData.map((data) => (
-                    <ReviewsCard
-                    key={data.id}
-                    id={data.id}
-                    tittle={data.tittle}
-                    client={data.client}
-                    description={data.description}
-                    imgUrl={data.imgUrl}
-                    colorText={data.colorText}
-                    cardClassName={data.cardClassName}/>
-                ))}
-              </Slider>
+              <Slider {...settingsReviews}>
+                  {reviewsData.map((data) => (
+                      <ReviewsCard
+                      key={data.id}
+                      id={data.id}
+                      tittle={data.tittle}
+                      client={data.client}
+                      description={data.description}
+                      imgUrl={data.imgUrl}
+                      colorText={data.colorText}
+                      cardClassName={data.cardClassName}/>
+                  ))}
+                </Slider>
             </div>
-
           </div>
         </section>
         {/* !Este section es de companies */}
@@ -225,12 +224,6 @@ export const HomeWebsite = () => {
               {companyData.map((data) => (
                 <InfiniteLoop key={data.companyName} urlImg={data.urlImg} nameImg={data.companyName} equal={false}/>
               ))}
-
-              {/* <Slider {...settingsCompanies}>
-                {companyData.map((data) => (
-                    <ImgSlider key={data.companyName} urlImg={data.urlImg} imgName={data.companyName} styleType='companies'/>
-                ))}
-              </Slider> */}
             </div>
           </div>
         </section>
@@ -292,14 +285,6 @@ export const HomeWebsite = () => {
           style={{ fontSize:'.6rem', padding:'10px' }}> Creada y diseñada por Jordi Code</a>
         </div>
       </footer>
-      {/* <div className="containerText">
-              <a >
-                  +34 635 78 12 39
-              </a>
-              <a >
-                  visualshow360@gmail.com
-              </a>
-          </div> */}
     </>
   )
 }

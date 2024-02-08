@@ -88,6 +88,10 @@ button {
     opacity: 1;
 }
 
+.slick-dots li button:before {
+    color: var(--secondary-50);
+}
+
 /* Whatsapp Logo */
 
 .contactFixed {

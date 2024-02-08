@@ -36,6 +36,10 @@
     --background-900: #211023;
     --background-950: #100811;
 
+    /** Colores pasados por VisualShow */
+    --background-VS: #410049;
+    --background-VS-2: #050006;
+
     --primary-50: #f8ebf9;
     --primary-100: #f2d7f4;
     --primary-200: #e4b0e8;
@@ -78,4 +82,7 @@
     --gradient-bg-1: linear-gradient(180deg, rgba(232,184,241,1) 0%, rgba(228,108,239,1) 50%, rgba(182,74,191,1) 100%);
     --gradient-bg-2: linear-gradient(180deg, #100811 0%, #9f56a8 25%, #a352ad 100%);
     --gradient-bg-3: linear-gradient(180deg, #100811 0%, #3c1d41 25%, #100811 100%);
+
+    /* *Gradiente que me ha pasado VisualShow */
+    --gradient-bg-4: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(89,3,99,1) 100%);
 }

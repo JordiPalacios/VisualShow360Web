@@ -1,5 +1,5 @@
 footer {
-    background: var(--background-950);
+    background: var(--background-VS-2);
     font-size: .75rem;
     color: var(--text-50);
 }
@@ -10,7 +10,6 @@ footer h2 {
 
 footer h4 {
     color: var(--accent-300);
-    filter: drop-shadow(0px 0px 20px var(--accent-100));
 }
 
 footer h2,

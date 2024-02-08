@@ -1,7 +1,7 @@
 .service3Container {
     display: flex;
     flex-direction: column;
-    background: var(--background-950);
+    background: var(--background-VS-2);
     padding: 20px;
     align-items: center;
     text-align: center;

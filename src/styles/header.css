@@ -33,11 +33,12 @@ nav button{
     justify-content: center;
     padding: 20px;
     gap: 1rem;
-    background: var(--gradient-bg-1);
+    background: var(--gradient-bg-4);
 }
 
 .hamburgerMenu {
-    background-image: url('src/assets/icons/hamburger.svg');
+    /* background-image: url('src/assets/icons/hamburger.svg'); */
+    background-image: url('src/assets/icons/hamburger_1.svg');
     background-color: transparent;
     background-size: contain;
     background-repeat: no-repeat;
@@ -46,7 +47,8 @@ nav button{
 }
 
 .crossMenu {
-    background-image: url('src/assets/icons/cross.svg');
+    /* background-image: url('src/assets/icons/cross.svg'); */
+    background-image: url('src/assets/icons/cross_1.svg');
     background-color: transparent;
     background-size: contain;
     background-repeat: no-repeat;

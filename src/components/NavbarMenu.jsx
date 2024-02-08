@@ -52,7 +52,7 @@ return (
                 className={isMenuToggled ? 'crossMenu' : 'hamburgerMenu'}
                 onClick={() => toggleClass('menuOpen')}>
                 </button>
-                <h1><NewPage href='/' label='Visual Show 360' colorText='var(--text-950)'/></h1>
+                <h1><NewPage href='/' label='Visual Show 360' colorText='var(--text-50)'/></h1>
             </div>
             <div className={isMenuToggled ? 'menuOpened' : ''}>
                 <ul>

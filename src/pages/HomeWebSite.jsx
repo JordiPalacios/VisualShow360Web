@@ -71,7 +71,7 @@ export const HomeWebsite = () => {
         <section id='plataforma360'>
           <div className="service1Container">
             <h2>Fotomaton 360</h2>
-            <div className="fotomatonImg">
+            <div className="fotomatonImgService1">
             <Slider {...settingsServices}>
                 {fotomatonData.map((data) => (
                     <ImgSlider key={data.id} urlImg={data.urlImg} imgName={data.id} styleType='services'/>
@@ -195,7 +195,7 @@ export const HomeWebsite = () => {
           <div className="reviewsContainer">
             <h2>Qué piensan de nosotros ...</h2>
             <div className="line"></div>
-            <div className="fotomatonImg">
+            <div className="fotomatonImgReviews">
             <Slider {...settingsReviews}>
                 {reviewsData.map((data) => (
                     <ReviewsCard

@@ -1,7 +1,7 @@
 .service1Container {
     display: flex;
     flex-direction: column;
-    background: var(--background-950);
+    background: var(--gradient-bg-4);
     padding: 20px;
     align-items: center;
     text-align: center;
@@ -16,7 +16,7 @@
 *** Service 1 Slider ***
 ****************************************** */
 
-.fotomatonImg {
+.fotomatonImgService1 {
     width: 100%;
     height: auto;
     overflow: hidden;

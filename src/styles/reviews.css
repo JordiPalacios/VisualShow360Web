@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     position: relative;
-    background: var(--gradient-bg-2);
+    background: var(--backgorund-VS-2);
     align-items: center;
     color: var(--text-50);
 }
@@ -13,12 +13,19 @@
 .reviewsContainer h4 {
     background: var(--accent-100);
     color: var(--text-950);
-    margin-top: 0;
-    margin-bottom: 5px;
+    margin: 10px 0 15px 0;
     padding: 10px;
     font-style: italic;
     font-weight: bold;
     border-radius: 5px;
+    filter: drop-shadow(0px 0px 15px var(--accent-200));
+}
+
+.fotomatonImgReviews {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    padding: 0 30px;
 }
 
 .reviewCard {
@@ -37,8 +44,8 @@
     width: 25%;
     min-height: 25%;
     height: auto;
-    filter: drop-shadow(0px 0px 20px var(--accent-900));
     border-radius: 50%;
+    filter: drop-shadow(0px 0px 10px var(--accent-200));
 }
 
 .description {
@@ -47,7 +54,6 @@
     gap: 1rem;
     align-items: flex-start;
 }
-
 
 /* Medidad Tablet */
 @media screen and (min-width: 748px) {

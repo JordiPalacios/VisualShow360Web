@@ -111,7 +111,7 @@ button {
 
     .buttonsContainerEven button:hover,
     .buttonsContainer button:hover {
-    filter: drop-shadow(0 0 15px var(--accent-300));
-}
+        filter: drop-shadow(0 0 15px var(--accent-300));
+    }
 }
 

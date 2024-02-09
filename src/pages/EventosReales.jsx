@@ -1,12 +1,19 @@
 import React from 'react'
 import { NavbarMenu, NewPage } from '../components'
+import { useNavigate } from 'react-router-dom'
 
 export const EventosReales = () => {
+    const navigationPage = useNavigate()
+
+    function handleClick () {
+        navigationPage('/aviso-legal')
+    }
 
     return (
         <div className='eventosContainer'>
             <NavbarMenu />
             <div>Eventos Reales</div>
+            <button onClick={handleClick}>Aviso Legal</button>
             <footer>
                 <div className="footerContainer">  
                 <h3>No hacemos eventos...</h3>      

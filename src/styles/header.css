@@ -37,7 +37,7 @@ nav button{
 }
 
 .hamburgerMenu {
-    background-image: url('src/assets/icons/hamburger.svg');
+    background-image: url('src/assets/icons/hamburgerWhite.svg');
     background-color: transparent;
     background-size: contain;
     background-repeat: no-repeat;
@@ -46,7 +46,7 @@ nav button{
 }
 
 .crossMenu {
-    background-image: url('src/assets/icons/cross.svg');
+    background-image: url('src/assets/icons/crossWhite.svg');
     background-color: transparent;
     background-size: contain;
     background-repeat: no-repeat;

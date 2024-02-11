@@ -56,7 +56,7 @@ return (
             </div>
             <div className={isMenuToggled ? 'menuOpened' : ''}>
                 <ul>
-                    <b><NavItem href='/' label='Home' colorText='var(--text-50)' /></b>
+                    <b><NewPage href='/' label='Home' colorText='var(--text-50)' /></b>
                     <li onClick={() => toggleClass('products')}><b>Servicios Party {isMoreProductsInfo ? '⮵' : '⮷'} </b></li>
                     <div className={isMoreProductsInfo ? 'productosOpen' : 'productosClose'} >
                         <NavItem href='#plataforma360' label='Plataforma 360' colorText='var(--secondary-200)' />

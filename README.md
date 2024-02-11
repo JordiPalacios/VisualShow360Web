@@ -10,6 +10,10 @@ Anchos pantalla en:
 Cosas Instaladas:
     [X] Sticky a traves de NPM:
         npm install react-slick --save
+    [] Instalar React Router:
+        npm install react-router-dom
+        
+
 
 Para iniciar el proyecto solo debes:
     [] Revisar proyecto "Pokemon 1st Generation"

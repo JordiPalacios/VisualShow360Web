@@ -282,7 +282,7 @@ export const HomeWebsite = () => {
           </div>
           <img src="src/assets/img/Extra/generalitat.jpg" alt="generalitatImg" />
           <a href="https://www.instagram.com/jordi_code?igsh=MXRvbmtiYmhheHRiZw%3D%3D&utm_source=qr" 
-          style={{ fontSize:'.6rem', padding:'10px' }}> Creada y diseñada por Jordi Code</a>
+          style={{ fontSize:'.6rem', padding:'10px' }}> Creada y diseñada x Jordi Code</a>
         </div>
       </footer>
     </>

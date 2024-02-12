@@ -32,7 +32,6 @@ nav button{
     align-items: center;
     justify-content: center;
     padding: 20px;
-    gap: 1rem;
     background: var(--gradient-bg-4);
 }
 
@@ -181,30 +180,60 @@ header video {
 /* * Media Tablet */
 
 /* Medidad Tablet */
-@media screen and (min-width: 748px) {
+@media screen and (min-width: 760px) {
+    header button {
+        display: none;
+    }
 
+    .navFixed {
+        background: var(--gradient-bg-4);
+    }
+
+    .menuResponsiveContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0px 40px 0px 40px;
+    }
+
+    .menuResponsive {
+        width: auto;
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    .menuResponsive ul {
+        display: flex;
+        flex-direction: row;
+        max-height: none;
+        margin: auto;
+        transition: none;
+        opacity: 1;
+        gap: .25rem;
+    }
+
+    .logoMenu {
+        background: none;
+        padding: 20px 0 20px 0;
+    }
 }
 
 /* * Media PC */
 
 /* Medidas PC  */
 @media screen and (min-width: 1024px) {
-    header button {
-        display: none;
-    }
-
-    .menuClosed {
+    .menuResponsiveContainer {
         display: flex;
         flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        height: auto;
+        max-width: 1050px;
     }
-    
-    .productosOpen {
-        display: flex;
-        flex-direction: column;
-    }
-    
-    .bodasEventosOpen {
-        display: flex;
-        flex-direction: column;
+
+    .menuResponsive {
+        margin: 0px;
     }
 }

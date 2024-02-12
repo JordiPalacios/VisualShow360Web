@@ -23,6 +23,7 @@
 
 .fotomatonImgReviews {
     width: 100%;
+    max-width: 500px;
     height: auto;
     overflow: hidden;
     padding: 0 30px;

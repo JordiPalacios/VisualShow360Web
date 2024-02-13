@@ -20,6 +20,14 @@ export const HomeWebsite = () => {
     slidesToScroll: 1
   })
 
+  const [sliderSettingsReviews, setSliderSettingsReviews] = useState({
+    dots: false,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1
+  })
+
 // ToDo : Simplificar estas repeticiones
 useEffect (() => {
   const handleResize = () => {
@@ -29,22 +37,26 @@ useEffect (() => {
 
     setSliderSettings(newSetttings)
   }
+
+  const handleResizeReviews = () => {
+    const newSetttingsReviews = window.innerWidth < 1024
+    ? {...sliderSettingsReviews, slidesToShow: 1}
+    : {...sliderSettingsReviews, slidesToShow: 3}
+
+    setSliderSettingsReviews(newSetttingsReviews)
+  }
+
   window.addEventListener('resize', handleResize)
+  window.addEventListener('resize', handleResizeReviews)
+
   handleResize()
+  handleResizeReviews()
 
   return () => {
     window.removeEventListener('resize', handleResize)
+    window.removeEventListener('resize', handleResizeReviews)
   }
 }, [])
-
-const settingsReviews = {
-  dots: true,
-  infinite: true,
-  speed: 1000,
-  slidesToShow: 1,
-  slidesToScroll: 1
-}
-
 
   return (
     <>
@@ -215,7 +227,7 @@ const settingsReviews = {
             <h2>Qué piensan de nosotros ...</h2>
             <div className="line"></div>
             <div className="fotomatonImgReviews">
-              <Slider {...settingsReviews}>
+              <Slider {...sliderSettingsReviews}>
                   {reviewsData.map((data) => (
                       <ReviewsCard
                       key={data.id}

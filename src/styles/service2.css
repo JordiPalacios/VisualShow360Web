@@ -12,6 +12,10 @@
     padding-bottom: 20px;
 }
 
+.service2Container h3 {
+    display: none;
+}
+
 .service2Container img {
     width: 80%;
     max-width: 350px;
@@ -33,6 +37,19 @@
         align-items: center;
         margin: 10px 10px 50px 10px;
         gap: 2.5rem;
+    }
+
+    .service2Container h2 {
+        padding-bottom: 0;
+        color: var(--accent-50);
+        filter: drop-shadow(1px 1px 10px var(--accent-200));
+    }
+
+    .service2Container h3 {
+        display: inline-block;
+        margin-bottom: 30px;
+        font-style: italic;
+        font-weight: bolder;
     }
 
     .service2Container p {

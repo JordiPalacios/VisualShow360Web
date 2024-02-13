@@ -127,6 +127,7 @@ useEffect (() => {
         <section id='magic-mirror'>
           <div className='service2Container'>
             <h2>Magic Mirror</h2>
+            <h3> ¡Titulo Guay Para PC/Tablet !</h3>
             <div className="service2ContentContainer">              
               <img src="src/assets/img/servicios/EspejoMagico.webp" alt="EspejpoMagico"/>
               <div className="service2DescriptionContainer">                
@@ -148,6 +149,7 @@ useEffect (() => {
         <section id='white-magic-mirror'>
           <div className="service3Container">
             <h2>White Magic Mirror</h2>
+            <h3> ¡Titulo Guay Para PC/Tablet !</h3>
             <div className="service3ContentContainer">              
             <img src="src/assets/img/servicios/magicMirrorWhite.jpg" alt="EspejpoMagico"/>
             <div className="service3DescriptionContainer">              

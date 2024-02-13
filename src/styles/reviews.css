@@ -69,7 +69,7 @@
 /* Medidas PC  */
 @media screen and (min-width: 1024px) {
     .fotomatonImgReviews {
-        max-width: 1000px;
+        max-width: fit-content;
     }
 
     .reviewCard img {

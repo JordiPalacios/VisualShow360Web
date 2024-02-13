@@ -52,4 +52,9 @@
     .service1Container button {
         filter: none;
     }
+
+    .fotomatonImgService1 {
+        max-width: fit-content;
+    }
+
 }

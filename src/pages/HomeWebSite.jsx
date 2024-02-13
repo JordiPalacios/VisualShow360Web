@@ -28,10 +28,9 @@ export const HomeWebsite = () => {
     slidesToScroll: 1
   })
 
-// ToDo : Simplificar estas repeticiones
 useEffect (() => {
   const handleResize = () => {
-    const newSetttings = window.innerWidth < 760
+    const newSetttings = window.innerWidth < 1024
     ? {...sliderSettings, slidesToShow: 1}
     : {...sliderSettings, slidesToShow: 3}
 
@@ -130,17 +129,19 @@ useEffect (() => {
             <h2>Magic Mirror</h2>
             <div className="service2ContentContainer">              
               <img src="src/assets/img/servicios/EspejoMagico.webp" alt="EspejpoMagico"/>
-              <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, quidem laudantium doloribus atque totam voluptate, nulla tenetur provident minima natus beatae non, reprehenderit pariatur praesentium! Dolore necessitatibus ab eaque cum!
-              </p>
-            </div>
-            <div className="buttonsContainerEven">
-              <button>
-                <NewPage href="/eventos-reales" label="Eventos Reales" colorText='var(--accent-50)'/>
-              </button>
-              <button>
-                <NavItem href='#contacto' label='¡Sí Quiero!' colorText='var(--accent-50)'/>
-              </button>
+              <div className="service2DescriptionContainer">                
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, quidem laudantium doloribus atque totam voluptate, nulla tenetur provident minima natus beatae non, reprehenderit pariatur praesentium! Dolore necessitatibus ab eaque cum!
+                </p>
+                <div className="buttonsContainerEven">
+                  <button>
+                    <NewPage href="/eventos-reales" label="Eventos Reales" colorText='var(--accent-50)'/>
+                  </button>
+                  <button>
+                    <NavItem href='#contacto' label='¡Sí Quiero!' colorText='var(--accent-50)'/>
+                  </button>
+                </div>
+              </div>
             </div>
           </div>
         </section>
@@ -149,17 +150,19 @@ useEffect (() => {
             <h2>White Magic Mirror</h2>
             <div className="service3ContentContainer">              
             <img src="src/assets/img/servicios/magicMirrorWhite.jpg" alt="EspejpoMagico"/>
+            <div className="service3DescriptionContainer">              
               <p>
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, quidem laudantium doloribus atque totam voluptate, nulla tenetur provident minima natus beatae non, reprehenderit pariatur praesentium! Dolore necessitatibus ab eaque cum!
               </p>
-            </div>
-            <div className="buttonsContainer">
+              <div className="buttonsContainer">
               <button>
                 <NewPage href="/eventos-reales" label="Eventos Reales" colorText='var(--primary-color-100)'/>
               </button>
               <button>
                 <NavItem href='#contacto' label='¡Sí Quiero!' colorText='var(--primary-color-100)'/>
               </button>
+            </div>
+            </div>
             </div>
           </div>
         </section>

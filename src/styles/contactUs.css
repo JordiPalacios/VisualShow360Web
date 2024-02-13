@@ -153,10 +153,14 @@ form button {
 
 /* Medidad Tablet */
 @media screen and (min-width: 760px) {
-
+    form button {
+        filter: drop-shadow(1px 1px 5px var(--accent-300));
+    }
 }
 
 /* Medidas PC  */
 @media screen and (min-width: 1024px) {
-    
+    form button {
+        filter: none;
+    }
 }

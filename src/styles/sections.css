@@ -116,6 +116,10 @@ button {
     .contactFixed {
         right: 10px;
     }
+
+    button {
+        margin: 10px 0 10px 0;
+    }
 }
 
 /* Medidas PC  */

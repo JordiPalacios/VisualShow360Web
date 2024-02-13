@@ -68,10 +68,18 @@
 
 /* Medidad Tablet */
 @media screen and (min-width: 760px) {
-
+    .productsContainer button {
+        filter: drop-shadow(1px 1px 5px var(--accent-300));
+    }
+    #kitAntiResaca button {
+        filter: drop-shadow(1px 1px 5px var(--accent-100));
+    }
 }
 
 /* Medidas PC  */
 @media screen and (min-width: 1024px) {
-    
+    .productsContainer button,
+    #kitAntiResaca button {
+        filter: none;
+    }
 }

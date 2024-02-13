@@ -80,7 +80,7 @@ button {
 
 /* Propiedades Slider */
 .slick-dots {
-    bottom: 0px;
+    bottom: -20px;
 }
 
 .slick-dots li.slick-active button:before {

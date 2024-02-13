@@ -68,5 +68,11 @@
 
 /* Medidas PC  */
 @media screen and (min-width: 1024px) {
-    
+    .fotomatonImgReviews {
+        max-width: 1000px;
+    }
+
+    .reviewCard img {
+        margin: 0;
+    }
 }

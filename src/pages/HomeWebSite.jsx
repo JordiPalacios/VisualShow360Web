@@ -21,7 +21,7 @@ export const HomeWebsite = () => {
   })
 
   const [sliderSettingsReviews, setSliderSettingsReviews] = useState({
-    dots: true,
+    dots: false,
     infinite: true,
     speed: 500,
     slidesToShow: 1,
@@ -39,8 +39,8 @@ useEffect (() => {
 
   const handleResizeReviews = () => {
     const newSetttingsReviews = window.innerWidth < 1024
-    ? {...sliderSettingsReviews, slidesToShow: 1}
-    : {...sliderSettingsReviews, slidesToShow: 3}
+    ? {...sliderSettingsReviews, slidesToShow: 1, dots: true}
+    : {...sliderSettingsReviews, slidesToShow: 3, dots: true}
 
     setSliderSettingsReviews(newSetttingsReviews)
   }

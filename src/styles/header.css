@@ -185,38 +185,125 @@ header video {
         display: none;
     }
 
-    .navFixed {
-        background: var(--gradient-bg-4);
-    }
-
     .menuResponsiveContainer {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        padding: 0px 40px 0px 40px;
+        padding: 0px 40px 20px 40px;
+        background: var(--gradient-bg-4);
     }
 
     .menuResponsive {
-        width: auto;
+        width: 100%;
         height: auto;
-        margin-bottom: 20px;
     }
 
     .menuResponsive ul {
         display: flex;
         flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
         max-height: none;
-        margin: auto;
+        margin: 0;
+        padding: 0;
         transition: none;
         opacity: 1;
-        gap: .25rem;
+        gap: 2rem;
     }
 
     .logoMenu {
         background: none;
         padding: 20px 0 20px 0;
     }
+
+    .tabletPCMenu {
+        display: initial;
+        width: fit-content;
+    }
+
+    .productosClose {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        max-height: 0;
+        opacity: 0;
+        transition: max-height .75s ease, opacity .75s ease;
+        overflow: hidden;
+    }
+
+    .productosClose li {
+        width: 200%;
+        max-width: 150px;
+        
+        @supports (backdrop-filter: blur(5px)) {
+            background-color: rgba(0, 0, 0, 0.6);
+            backdrop-filter: blur(5px);
+        }
+    }
+
+    .productosOpen {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        max-height: 150px;
+        opacity: 1;
+        transition: max-height .75s ease, opacity .75s ease;
+        z-index: 999;
+    }
+
+    .productosOpen li {
+        width: 200%;
+        max-width: 150px;
+        
+        @supports (backdrop-filter: blur(5px)) {
+            background-color: rgba(0, 0, 0, 0.6);
+            backdrop-filter: blur(5px);
+        }
+    }
+
+    .bodasEventosClose {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        max-height: 0;
+        opacity: 0;
+        transition: max-height .75s ease, opacity .75s ease;
+        overflow: hidden;
+    }
+
+    .bodasEventosClose li {
+        width: 200%;
+        max-width: 200px;
+        max-height: 150px;
+
+        @supports (backdrop-filter: blur(5px)) {
+            background-color: rgba(0, 0, 0, 0.6);
+            backdrop-filter: blur(5px);
+            }
+    }
+
+    .bodasEventosOpen {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        opacity: 1;
+        transition: max-height .75s ease, opacity .75s ease;
+        z-index: 999;
+    }
+
+    .bodasEventosOpen li {
+        width: 200%;
+        max-width: 200px;
+    
+        @supports (backdrop-filter: blur(5px)) {
+            background-color: rgba(0, 0, 0, 0.6);
+            backdrop-filter: blur(5px);
+        }
+        
+    }
+
 }
 
 /* * Media PC */
@@ -225,15 +312,15 @@ header video {
 @media screen and (min-width: 1024px) {
     .menuResponsiveContainer {
         display: flex;
-        flex-direction: row;
-        justify-content: space-between;
+        flex-direction: column;
+        justify-content: center;
         align-items: center;
-        width: 100%;
-        height: auto;
-        max-width: 1050px;
+        padding: 0px 40px 20px 40px;
+        background: var(--gradient-bg-4);
     }
 
     .menuResponsive {
-        margin: 0px;
+        width: 100%;
+        height: auto;
     }
 }

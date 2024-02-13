@@ -227,36 +227,32 @@ header video {
         display: flex;
         flex-direction: column;
         position: absolute;
+        width: 200%;
+        max-width: 150px;
+        height: auto;
         max-height: 0;
         opacity: 0;
         transition: max-height .75s ease, opacity .75s ease;
         overflow: hidden;
-    }
 
-    .productosClose li {
-        width: 200%;
-        max-width: 150px;
-        
         @supports (backdrop-filter: blur(5px)) {
             background-color: rgba(0, 0, 0, 0.6);
             backdrop-filter: blur(5px);
         }
     }
 
+
     .productosOpen {
         display: flex;
         flex-direction: column;
         position: absolute;
-        max-height: 150px;
+        width: 200%;
+        max-width: 150px;
+        height: auto;
         opacity: 1;
         transition: max-height .75s ease, opacity .75s ease;
         z-index: 999;
-    }
 
-    .productosOpen li {
-        width: 200%;
-        max-width: 150px;
-        
         @supports (backdrop-filter: blur(5px)) {
             background-color: rgba(0, 0, 0, 0.6);
             backdrop-filter: blur(5px);
@@ -267,16 +263,13 @@ header video {
         display: flex;
         flex-direction: column;
         position: absolute;
+        width: 200%;
+        height: auto;
+        max-width: 200px; 
         max-height: 0;
         opacity: 0;
         transition: max-height .75s ease, opacity .75s ease;
         overflow: hidden;
-    }
-
-    .bodasEventosClose li {
-        width: 200%;
-        max-width: 200px;
-        max-height: 150px;
 
         @supports (backdrop-filter: blur(5px)) {
             background-color: rgba(0, 0, 0, 0.6);
@@ -288,22 +281,18 @@ header video {
         display: flex;
         flex-direction: column;
         position: absolute;
+        width: 200%;
+        height: auto;
+        max-width: 200px; 
         opacity: 1;
         transition: max-height .75s ease, opacity .75s ease;
         z-index: 999;
-    }
 
-    .bodasEventosOpen li {
-        width: 200%;
-        max-width: 200px;
-    
         @supports (backdrop-filter: blur(5px)) {
             background-color: rgba(0, 0, 0, 0.6);
             backdrop-filter: blur(5px);
-        }
-        
+            }
     }
-
 }
 
 /* * Media PC */

@@ -185,6 +185,19 @@ header video {
         display: none;
     }
 
+    header h1,
+    header h2 {
+        font-size: 2rem;
+    }
+    
+    header h3 {
+        font-size: 1.4rem;
+    }
+    
+    header p {
+        font-size: 1.2rem;
+    }
+
     .menuResponsiveContainer {
         display: flex;
         flex-direction: column;
@@ -292,6 +305,10 @@ header video {
             background-color: rgba(0, 0, 0, 0.6);
             backdrop-filter: blur(5px);
             }
+    }
+
+    .presentationContainer .rrssContainer img{
+        width: 100%;
     }
 }
 

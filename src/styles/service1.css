@@ -29,6 +29,7 @@
     aspect-ratio: 3/4;
     max-width: 100%;
     height: auto;
+    margin-bottom: 20px;
     object-fit: cover;
     border-radius: 25px;
     padding: 15px;
@@ -36,8 +37,10 @@
 
 
 /* Medidad Tablet */
-@media screen and (min-width: 748px) {
-
+@media screen and (min-width: 760px) {
+    .fotomatonImgService1 {
+        max-width: 1100px;
+    }
 }
 
 /* Medidas PC  */

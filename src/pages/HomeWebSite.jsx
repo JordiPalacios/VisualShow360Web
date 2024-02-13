@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { FormContact, ImgSlider, InfiniteLoop, NavItem, NavbarMenu, NewPage, ProductsCard, ReviewsCard, WhatsAppMessage } from '../components'
@@ -12,23 +12,38 @@ export const HomeWebsite = () => {
   const fotomatonData = FotomatonData
   const reviewsData = ReviewsData
 
-
-// ToDo : Simplificar estas repeticiones
-  const settingsServices = {
+  const [sliderSettings, setSliderSettings] = useState({
     dots: false,
     infinite: true,
-    speed: 1000,
+    speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1
-  }
+  })
 
-  const settingsReviews = {
-    dots: true,
-    infinite: true,
-    speed: 1000,
-    slidesToShow: 1,
-    slidesToScroll: 1
+// ToDo : Simplificar estas repeticiones
+useEffect (() => {
+  const handleResize = () => {
+    const newSetttings = window.innerWidth < 760
+    ? {...sliderSettings, slidesToShow: 1}
+    : {...sliderSettings, slidesToShow: 3}
+
+    setSliderSettings(newSetttings)
   }
+  window.addEventListener('resize', handleResize)
+  handleResize()
+
+  return () => {
+    window.removeEventListener('resize', handleResize)
+  }
+}, [])
+
+const settingsReviews = {
+  dots: true,
+  infinite: true,
+  speed: 1000,
+  slidesToShow: 1,
+  slidesToScroll: 1
+}
 
 
   return (
@@ -72,7 +87,7 @@ export const HomeWebsite = () => {
           <div className="service1Container">
             <h2>Fotomaton 360</h2>
             <div className="fotomatonImgService1">
-              <Slider {...settingsServices}>
+              <Slider {...sliderSettings}>
                   {fotomatonData.map((data) => (
                       <ImgSlider key={data.id} urlImg={data.urlImg} imgName={data.id} styleType='services'/>
                   ))}
@@ -101,10 +116,12 @@ export const HomeWebsite = () => {
         <section id='magic-mirror'>
           <div className='service2Container'>
             <h2>Magic Mirror</h2>
-            <img src="src/assets/img/servicios/EspejoMagico.webp" alt="EspejpoMagico"/>
-            <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, quidem laudantium doloribus atque totam voluptate, nulla tenetur provident minima natus beatae non, reprehenderit pariatur praesentium! Dolore necessitatibus ab eaque cum!
-            </p>
+            <div className="service2ContentContainer">              
+              <img src="src/assets/img/servicios/EspejoMagico.webp" alt="EspejpoMagico"/>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, quidem laudantium doloribus atque totam voluptate, nulla tenetur provident minima natus beatae non, reprehenderit pariatur praesentium! Dolore necessitatibus ab eaque cum!
+              </p>
+            </div>
             <div className="buttonsContainerEven">
               <button>
                 <NewPage href="/eventos-reales" label="Eventos Reales" colorText='var(--accent-50)'/>
@@ -118,10 +135,12 @@ export const HomeWebsite = () => {
         <section id='white-magic-mirror'>
           <div className="service3Container">
             <h2>White Magic Mirror</h2>
+            <div className="service3ContentContainer">              
             <img src="src/assets/img/servicios/magicMirrorWhite.jpg" alt="EspejpoMagico"/>
-            <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, quidem laudantium doloribus atque totam voluptate, nulla tenetur provident minima natus beatae non, reprehenderit pariatur praesentium! Dolore necessitatibus ab eaque cum!
-            </p>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, quidem laudantium doloribus atque totam voluptate, nulla tenetur provident minima natus beatae non, reprehenderit pariatur praesentium! Dolore necessitatibus ab eaque cum!
+              </p>
+            </div>
             <div className="buttonsContainer">
               <button>
                 <NewPage href="/eventos-reales" label="Eventos Reales" colorText='var(--primary-color-100)'/>

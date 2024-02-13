@@ -21,6 +21,7 @@ footer img {
     width: 100%;
     height: auto;
     margin: 0;
+    max-width: fit-content;
 }
 
 footer button {
@@ -61,7 +62,7 @@ footer .line {
 
 
 /* Medidad Tablet */
-@media screen and (min-width: 748px) {
+@media screen and (min-width: 760px) {
 
 }
 

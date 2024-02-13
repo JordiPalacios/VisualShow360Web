@@ -27,7 +27,7 @@
 
 .logoSlide {
     display: inline-block;
-    animation: 10s slide infinite linear;
+    animation: 40s slide infinite linear;
 }
 
 .logoSlide img {
@@ -37,8 +37,10 @@
 }
 
 /* Medidad Tablet */
-@media screen and (min-width: 748px) {
-
+@media screen and (min-width: 760px) {
+    .logoSlide img {
+        width: 75px;
+    }
 }
 
 /* Medidas PC  */

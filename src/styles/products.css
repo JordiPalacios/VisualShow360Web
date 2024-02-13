@@ -24,7 +24,7 @@
 .generalProducts img {
     width: 100%;
     height: auto;
-    max-width: 500px;
+    max-width: 250px;
     aspect-ratio: 4/3;
     object-fit: cover;
     filter: drop-shadow(0px 0px 20px var(--accent-300));
@@ -51,8 +51,9 @@
 
 #kitAntiResaca img {
     width: 80%;
-    max-width: 500px;
+    max-width: 350px;
     height: auto;
+    margin-bottom: 20px;
     filter: drop-shadow(0px 0px 20px var(--accent-400));
     border-radius: 25px;
 }
@@ -66,7 +67,7 @@
 }
 
 /* Medidad Tablet */
-@media screen and (min-width: 748px) {
+@media screen and (min-width: 760px) {
 
 }
 

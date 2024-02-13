@@ -23,7 +23,7 @@
 
 .fotomatonImgReviews {
     width: 100%;
-    max-width: 500px;
+    max-width: 700px;
     height: auto;
     overflow: hidden;
     padding: 0 30px;
@@ -57,7 +57,10 @@
 }
 
 /* Medidad Tablet */
-@media screen and (min-width: 748px) {
+@media screen and (min-width: 760px) {
+    .reviewCard img {
+        margin: 0 0 20px 20px;
+    }
 
 }
 

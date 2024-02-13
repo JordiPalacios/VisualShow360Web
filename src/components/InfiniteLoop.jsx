@@ -6,7 +6,7 @@ export const InfiniteLoop = ({ urlImg, nameImg, equal }) => {
     const companyData = CompaniesData
 
     if (equal) {
-        const numImages = Array(8).fill(null)
+        const numImages = Array(32).fill(null)
 
         content = numImages.map((_, index) => (
             <img key={index} src={urlImg} alt={nameImg} />

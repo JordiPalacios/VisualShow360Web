@@ -8,7 +8,9 @@
 }
 
 .reviewsContainer h2{
-    margin: 20px 0 10px 0;
+    padding: 10px;
+    text-align: center;
+    text-wrap: balance;
 }
 .reviewsContainer h4 {
     background: var(--accent-100);

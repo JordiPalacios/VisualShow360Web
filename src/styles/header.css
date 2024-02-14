@@ -189,13 +189,13 @@ header video {
     header h2 {
         font-size: 2rem;
     }
-    
+
     header h3 {
-        font-size: 1.4rem;
+        font-size: 1.25rem;
     }
-    
+
     header p {
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
 
     .menuResponsiveContainer {
@@ -278,7 +278,7 @@ header video {
         position: absolute;
         width: 200%;
         height: auto;
-        max-width: 200px; 
+        max-width: 200px;
         max-height: 0;
         opacity: 0;
         transition: max-height .75s ease, opacity .75s ease;
@@ -296,7 +296,7 @@ header video {
         position: absolute;
         width: 200%;
         height: auto;
-        max-width: 200px; 
+        max-width: 200px;
         opacity: 1;
         transition: max-height .75s ease, opacity .75s ease;
         z-index: 999;
@@ -316,17 +316,51 @@ header video {
 
 /* Medidas PC  */
 @media screen and (min-width: 1024px) {
+    header h1,
+    header h2 {
+        font-size: 2.25rem;
+    }
+
+    header h3 {
+        font-size: 1.5rem;
+    }
+
+    header p {
+        font-size: 1rem;
+    }
+
+    header h1 {
+        transition: filter .5s ease;
+    }
+    header h1:hover {
+        filter: drop-shadow(1px 1px 15px var(--accent-500));
+    }
+
     .menuResponsiveContainer {
         display: flex;
-        flex-direction: column;
-        justify-content: center;
+        flex-direction: row;
+        justify-content: space-around;
         align-items: center;
-        padding: 0px 40px 20px 40px;
-        background: var(--gradient-bg-4);
+        padding: 0px 40px 0px 40px;
     }
 
     .menuResponsive {
-        width: 100%;
-        height: auto;
+        max-width: 60%;
     }
+
+    .menuResponsive ul {
+        gap: 2.5rem;
+    }
+
+    .menuResponsive b,
+    .menuResponsive li {
+        transition: transform .5s ease;
+    }
+
+    .menuResponsive b:hover,
+    .menuResponsive li:hover {
+        transform: scale(1.2);
+    }
+
+    
 }

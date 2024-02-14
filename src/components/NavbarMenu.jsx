@@ -85,7 +85,7 @@ return (
                                 <NavItem href='#plataforma360' label='Plataforma 360' colorText='var(--secondary-200)' />
                                 <NavItem href='#magic-mirror' label='Magic Mirror' colorText='var(--secondary-200)' />
                                 <NavItem href='#white-magic-mirror' label='White Magic Mirror' colorText='var(--secondary-200)' />
-                                <NavItem href='#ring-ring-experience' label='Ring Ring Experience' colorText='var(--secondary-200)' />
+                                <NavItem href='#ring-ring-experience' label='Ring Experience' colorText='var(--secondary-200)' />
                             </div>
                         </div>
                         <div className='tabletPCMenu'>                            

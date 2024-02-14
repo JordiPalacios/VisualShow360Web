@@ -54,7 +54,8 @@
     }
 
     .fotomatonImgService1 {
-        max-width: fit-content;
+        max-width: 1700px;
+        margin: 20px;
     }
 
 }

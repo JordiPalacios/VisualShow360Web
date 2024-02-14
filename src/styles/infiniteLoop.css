@@ -48,4 +48,8 @@
     .logo:hover .logoSlide {
         animation-play-state: paused;
     }
+
+    .logoSlide img {
+        width: 100px;
+    }
 }

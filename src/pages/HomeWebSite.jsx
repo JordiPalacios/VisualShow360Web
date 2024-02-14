@@ -65,7 +65,8 @@ useEffect (() => {
         <div className="presentationContainer">
           <h2 style={{ 
             color:'var(--text-50)',
-            filter: 'drop-shadow(0px 0px 10px var(--accent-300))' }}>¡Las mejores bodas las creamos aqui!</h2>
+            // filter: 'drop-shadow(0px 0px 5px var(--accent-300))' 
+            }}>¡Las mejores bodas las creamos aqui!</h2>
           <h3 style={{ color:'var(--secondary-200)' }}>Gracias a nuestro equipo de alta calidad</h3>
           <h1 style={{ color:'var(--text-100)' }}>Fotomaton</h1>
           <h1 style={{ color:'var(--text-100)' }}>Magic Mirror</h1>
@@ -75,7 +76,8 @@ useEffect (() => {
           </p>
           <h1 style={{ 
             color:'var(--accent-400)' , 
-            filter: 'drop-shadow(0px 0px 10px var(--accent-400))' }}>¡ I N O L V I D A B L E !</h1>
+            filter: 'drop-shadow(0px 0px 5px var(--accent-400))' 
+            }}>¡ I N O L V I D A B L E !</h1>
           <video autoPlay muted loop>
             <source src="src/assets/video/bgPartyNight.mp4" type="video/mp4"/>
             Este navegador no soporta vídeos.
@@ -97,6 +99,7 @@ useEffect (() => {
         <section id='plataforma360'>
           <div className="service1Container">
             <h2>Fotomaton 360</h2>
+            <h3> ¡Frase Guay Para PC/Tablet !</h3>
             <div className="fotomatonImgService1">
               <Slider {...sliderSettings}>
                   {fotomatonData.map((data) => (
@@ -127,7 +130,7 @@ useEffect (() => {
         <section id='magic-mirror'>
           <div className='service2Container'>
             <h2>Magic Mirror</h2>
-            <h3> ¡Titulo Guay Para PC/Tablet !</h3>
+            <h3> ¡Frase Guay Para PC/Tablet !</h3>
             <div className="service2ContentContainer">              
               <img src="src/assets/img/servicios/EspejoMagico.webp" alt="EspejpoMagico"/>
               <div className="service2DescriptionContainer">                

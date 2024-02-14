@@ -12,6 +12,10 @@
     font-weight: bolder;
 }
 
+.service1Container h3 {
+    display: none;
+}
+
 /* ******************************************
 *** Service 1 Slider ***
 ****************************************** */
@@ -45,12 +49,30 @@
         filter: drop-shadow(1px 1px 5px var(--accent-300));
     }
 
+    .service1Container h2 {
+        padding-bottom: 0;
+        color: var(--accent-50);
+        filter: drop-shadow(1px 1px 10px var(--accent-200));
+    }
+
+    .service1Container h3 {
+        display: inline-block;
+        margin-bottom: 30px;
+        font-style: italic;
+        font-weight: bolder;
+        color: var(--accent-50);
+    }
+
 }
 
 /* Medidas PC  */
 @media screen and (min-width: 1024px) {
     .service1Container button {
         filter: none;
+    }
+
+    .service1Container button:hover {
+        filter: drop-shadow(0px 0px 15px var(--accent-300));
     }
 
     .fotomatonImgService1 {

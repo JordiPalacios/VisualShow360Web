@@ -17,6 +17,7 @@
     color: var(--text-950);
     margin: 10px 0 15px 0;
     padding: 10px;
+    font-size: 1.2rem;
     font-style: italic;
     font-weight: bold;
     border-radius: 5px;

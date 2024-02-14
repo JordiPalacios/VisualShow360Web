@@ -36,5 +36,10 @@
 @media screen and (min-width: 1024px) {
     .service4Container button {
         filter: none;
+        transition: filter .5s ease;
+    }
+
+    .service4Container button:hover {
+        filter: drop-shadow(0px 0px 15px var(--accent-300));
     }
 }

@@ -10,17 +10,21 @@ export const ProductsCard = ({ id, tittle, description, imgUrl, difBg, colorText
 
   if (displayElementRow === 'rowContainer' && workingMode === 'PC') {
     content = (
-      <div id={id} className={cardClassName}>   
-        <img src={imgUrl} alt={tittle} />
-        <div className='contentContainer'>
-          <h3>{tittle}</h3>
-          <p>{description}</p>
-          <div className={buttonClassName}>        
-            <button>
-              <WhatsAppMessage className="" label="Más Información" colorText={colorText} msg={msg} />
-            </button>
-          </div>     
-        </div>
+      <div id={id} className={`${cardClassName}Container`}>  
+        <div className={cardClassName}>      
+          <img src={imgUrl} alt={tittle} />
+          <div className='contentContainer'>
+            <h3>{tittle}</h3>
+            <h4>¡ Frase Guay para PC !</h4>
+            <div className="line"></div>
+            <p>{description}</p>
+            <div className={buttonClassName}>        
+              <button>
+                <WhatsAppMessage className="" label="Más Información" colorText={colorText} msg={msg} />
+              </button>
+            </div>     
+          </div>
+        </div> 
       </div>
     )
   } else {

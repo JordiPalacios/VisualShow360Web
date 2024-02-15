@@ -36,8 +36,8 @@
         display: flex;
         flex-direction: row-reverse;
         align-items: center;
-        margin: 10px 10px 50px 10px;
-        gap: 2.5rem;
+        margin: 10px 50px 50px 10px;
+        gap: 5rem;
     }
 
     .service3Container h2 {
@@ -55,7 +55,7 @@
     }
 
     .service3Container p {
-        max-width: 500px;
+        max-width: 800px;
     }
 
     .service3Container img {

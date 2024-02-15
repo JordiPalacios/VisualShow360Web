@@ -35,7 +35,7 @@
         display: flex;
         flex-direction: row;
         align-items: center;
-        margin: 10px 10px 50px 10px;
+        margin: 10px 10px 50px 50px;
         gap: 2.5rem;
     }
 
@@ -53,7 +53,7 @@
     }
 
     .service2Container p {
-        max-width: 500px;
+        max-width: 800px;
     }
 
     .service2Container img {

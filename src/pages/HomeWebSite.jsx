@@ -151,26 +151,52 @@ useEffect (() => {
           </div>
         </section>
         <section id='magic-mirror'>
-          <div className='service2Container'>
-            <h2>Magic Mirror</h2>
-            <h3> ¡Frase Guay Para PC/Tablet !</h3>
-            <div className="service2ContentContainer">              
-              <img src="src/assets/img/servicios/EspejoMagico.webp" alt="EspejpoMagico"/>
-              <div className="service2DescriptionContainer">                
-                <p>
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, quidem laudantium doloribus atque totam voluptate, nulla tenetur provident minima natus beatae non, reprehenderit pariatur praesentium! Dolore necessitatibus ab eaque cum!
-                </p>
-                <div className="buttonsContainerEven">
-                  <button>
-                    <NewPage href="/eventos-reales" label="Eventos Reales" colorText='var(--accent-50)'/>
-                  </button>
-                  <button>
-                    <NavItem href='#contacto' label='¡Sí Quiero!' colorText='var(--accent-50)'/>
-                  </button>
+          {workingMode === 'PC' ? (
+            <div className='service2Container'>
+              <div className="service2ContentContainer">
+                <img src="src/assets/img/servicios/EspejoMagico.webp" alt="EspejpoMagico"/>           
+                <div className="service2DescriptionContainer">  
+                  <h2>Magic Mirror</h2>
+                  <h4> ¡Frase Guay Para PC !</h4>    
+                  <div className='line'></div>             
+                  <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, quidem laudantium doloribus atque totam voluptate, nulla tenetur provident minima natus beatae non, reprehenderit pariatur praesentium! Dolore necessitatibus ab eaque cum!
+                  </p>
+                  <div className="buttonsContainerEven">
+                    <button>
+                      <NewPage href="/eventos-reales" label="Eventos Reales" colorText='var(--accent-50)'/>
+                    </button>
+                    <button>
+                      <NavItem href='#contacto' label='¡Sí Quiero!' colorText='var(--accent-50)'/>
+                    </button>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
+          ) : 
+          (
+            <div className='service2Container'>
+              <h2>Magic Mirror</h2>
+              <h3> ¡Frase Guay Para PC/Tablet !</h3>
+              <div className="service2ContentContainer">              
+                <img src="src/assets/img/servicios/EspejoMagico.webp" alt="EspejpoMagico"/>
+                <div className="service2DescriptionContainer">                
+                  <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, quidem laudantium doloribus atque totam voluptate, nulla tenetur provident minima natus beatae non, reprehenderit pariatur praesentium! Dolore necessitatibus ab eaque cum!
+                  </p>
+                  <div className="buttonsContainerEven">
+                    <button>
+                      <NewPage href="/eventos-reales" label="Eventos Reales" colorText='var(--accent-50)'/>
+                    </button>
+                    <button>
+                      <NavItem href='#contacto' label='¡Sí Quiero!' colorText='var(--accent-50)'/>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          )}
+          
         </section>
         <section id='white-magic-mirror'>
           <div className="service3Container">

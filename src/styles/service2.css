@@ -77,6 +77,36 @@
 
 /* Medidas PC  */
 @media screen and (min-width: 1024px) {
+    .service2Container {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        align-items: start;
+        margin: 0;
+    }
+
+    .service2Container h4{
+        display: inline-block;
+        margin: 0;
+        font-style: italic;
+        font-weight: bolder;
+    }
+
+    .service2Container .line {
+        max-width: 80%;
+        border-top: 1px solid var(--secondary-50);
+    }
+
+    .service2ContentContainer {
+        align-items: start;
+        margin: 50px 10px 50px 50px;
+        gap: 5rem;
+    }
+
+    .service2DescriptionContainer {
+        gap: 0;
+    }
+
     .service2DescriptionContainer button {
         filter: none;
         transition: filter .5s ease;

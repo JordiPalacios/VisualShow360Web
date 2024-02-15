@@ -71,6 +71,7 @@
     .productsContainer button {
         filter: drop-shadow(1px 1px 5px var(--accent-300));
     }
+
     #kitAntiResaca button {
         filter: drop-shadow(1px 1px 5px var(--accent-100));
     }

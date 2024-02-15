@@ -36,7 +36,7 @@ footer a {
 }
 
 footer .line {
-    border-top: 1px solid var(--accent-100);
+    border-top: 1px solid var(--secondary-300);
     margin: 10px 0 20px 0;
 }
 

@@ -15,16 +15,22 @@ body, html {
 h2 {
     font-size: 2rem;
     font-weight: bolder;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 h1,h3 {
     font-size: 1.5rem;
+    font-family:'Times New Roman', Times, serif;
 }
 
 h4 {
     font-size: 1.2rem;
+    font-family: 'Times New Roman', Times, serif;
 }
 
+p {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
 
 /* Aqui cambiamos los colores para el elemento li del menu desplegable*/
 ul {

@@ -10,7 +10,7 @@ Anchos pantalla en:
 Cosas Instaladas:
     [X] Sticky a traves de NPM:
         npm install react-slick --save
-    [] Instalar React Router:
+    [X] Instalar React Router:
         npm install react-router-dom
         
 

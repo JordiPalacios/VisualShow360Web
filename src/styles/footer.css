@@ -22,6 +22,9 @@ footer img {
     height: auto;
     margin: 0;
     max-width: fit-content;
+
+    animation-timeline: none;
+    animation-name: none;
 }
 
 footer button {

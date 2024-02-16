@@ -102,6 +102,53 @@ button {
     z-index: 999;
 }
 
+    /* Animacion Aparicion Img */
+
+@keyframes showImgWhatsApp {
+    from {
+        opacity: 0;
+        scale: 0%;
+    } to {
+        opacity: 1;
+        scale: 100%;
+    }
+}
+
+
+.contactFixed img {
+    view-timeline-name: --image;
+    view-timeline-axis: block;
+
+    animation-timeline: --image;
+    animation-name: showImgWhatsApp;
+
+    animation-range: entry 50% cover 80%;
+    animation-fill-mode: both;
+}
+
+/* Animacion Aparicion Img */
+
+@keyframes showImg {
+    from {
+        opacity: 0;
+        scale: 15%;
+    } to {
+        opacity: 1;
+        scale: 100%;
+    }
+}
+
+img {
+    view-timeline-name: --image;
+    view-timeline-axis: block;
+
+    animation-timeline: --image;
+    animation-name: showImg;
+
+    animation-range: entry 15% cover 50%;
+    animation-fill-mode: both;
+}
+
 /* Medidad Tablet */
 @media screen and (min-width: 760px) {
     h2 {

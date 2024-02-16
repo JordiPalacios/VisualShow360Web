@@ -181,6 +181,9 @@ header video {
     height: auto;
     object-fit: cover;
     max-width: fit-content;
+
+    animation-timeline: none;
+    animation-name: none;
 }
 
 /* * Media Tablet */

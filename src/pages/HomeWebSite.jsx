@@ -120,11 +120,11 @@ useEffect (() => {
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero dicta labore culpa facere ab illum dolorem temporibus, fuga quibusdam, animi magnam obcaecati! Omnis dignissimos nam beatae sapiente adipisci ut soluta?
             </p>
             <div className="buttonsContainer">
-              <button>
+              {/* <button>
                 <NewPage href="/eventos-reales" label="Eventos Reales" colorText='var(--accent-950)'/>
-              </button>
+              </button> */}
               <button>
-                <NavItem href='#contacto' label='¡Sí Quiero!' colorText='var(--accent-950)'/>
+                <NavItem href='#contacto' label='¡Agenda tu reunión!' colorText='var(--accent-950)'/>
               </button>
             </div>
           </div>
@@ -149,11 +149,11 @@ useEffect (() => {
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, quidem laudantium doloribus atque totam voluptate, nulla tenetur provident minima natus beatae non, reprehenderit pariatur praesentium! Dolore necessitatibus ab eaque cum!
                   </p>
                   <div className="buttonsContainerEven">
-                    <button>
+                    {/* <button>
                       <NewPage href="/eventos-reales" label="Eventos Reales" colorText='var(--accent-50)'/>
-                    </button>
+                    </button> */}
                     <button>
-                      <NavItem href='#contacto' label='¡Sí Quiero!' colorText='var(--accent-50)'/>
+                      <NavItem href='#contacto' label='¡Agenda tu reunión!' colorText='var(--accent-50)'/>
                     </button>
                   </div>
                 </div>
@@ -171,11 +171,11 @@ useEffect (() => {
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, quidem laudantium doloribus atque totam voluptate, nulla tenetur provident minima natus beatae non, reprehenderit pariatur praesentium! Dolore necessitatibus ab eaque cum!
                   </p>
                   <div className="buttonsContainerEven">
-                    <button>
+                    {/* <button>
                       <NewPage href="/eventos-reales" label="Eventos Reales" colorText='var(--accent-50)'/>
-                    </button>
+                    </button> */}
                     <button>
-                      <NavItem href='#contacto' label='¡Sí Quiero!' colorText='var(--accent-50)'/>
+                      <NavItem href='#contacto' label='¡Agenda tu reunión!' colorText='var(--accent-50)'/>
                     </button>
                   </div>
                 </div>
@@ -195,11 +195,11 @@ useEffect (() => {
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, quidem laudantium doloribus atque totam voluptate, nulla tenetur provident minima natus beatae non, reprehenderit pariatur praesentium! Dolore necessitatibus ab eaque cum!
               </p>
               <div className="buttonsContainer">
-              <button>
+              {/* <button>
                 <NewPage href="/eventos-reales" label="Eventos Reales" colorText='var(--primary-color-100)'/>
-              </button>
+              </button> */}
               <button>
-                <NavItem href='#contacto' label='¡Sí Quiero!' colorText='var(--primary-color-100)'/>
+                <NavItem href='#contacto' label='¡Agenda tu reunión!' colorText='var(--primary-color-100)'/>
               </button>
             </div>
             </div>
@@ -214,11 +214,11 @@ useEffect (() => {
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit qui nam dicta aspernatur non expedita iusto assumenda minus harum porro ullam similique voluptas neque autem modi ipsum, quisquam dolorum officiis?
             </p>
             <div className="buttonsContainerEven">
-              <button>
+              {/* <button>
                 <NewPage href="/eventos-reales" label="Eventos Reales" colorText='var(--accent-50)'/>
-              </button>
+              </button> */}
               <button>
-                <NavItem href='#contacto' label='¡Sí Quiero!' colorText='var(--accent-50)'/>
+                <NavItem href='#contacto' label='¡Agenda tu reunión!' colorText='var(--accent-50)'/>
               </button>
             </div>
           </div>

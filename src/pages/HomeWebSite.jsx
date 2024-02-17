@@ -86,35 +86,21 @@ useEffect (() => {
       <header>
         <NavbarMenu />
         <div className="presentationContainer">
-          <h2 style={{ 
+          <h1 style={{ 
             color:'var(--text-50)',
             // filter: 'drop-shadow(0px 0px 5px var(--accent-300))' 
-            }}>¡Las mejores bodas las creamos aqui!</h2>
-          <h3 style={{ color:'var(--secondary-200)' }}>Gracias a nuestro equipo de alta calidad</h3>
-          <h1 style={{ color:'var(--text-100)' }}>Fotomaton</h1>
-          <h1 style={{ color:'var(--text-100)' }}>Magic Mirror</h1>
-          <h1 style={{ color:'var(--text-100)' }}>RingRing Experience</h1>
-          <p style={{ color:'var(--secondary-200)' }}>
-            Haremos que tu evento sea...
-          </p>
-          <h1 style={{ 
-            color:'var(--accent-400)' , 
-            filter: 'drop-shadow(0px 0px 5px var(--accent-400))' 
-            }}>¡ I N O L V I D A B L E !</h1>
+            }}>Frase Potente 1</h1>
+          <h2 style={{ color:'var(--secondary-200)' }}>Frase Potente 2</h2>
+          <div className="palabrasClave">
+            <h1>Fotomaton</h1>
+            <h1>Magic Mirror</h1>
+            <h1>RingRing Experience</h1>
+          </div>
           <video autoPlay muted loop>
             <source src="src/assets/video/bgPartyNight.mp4" type="video/mp4"/>
             Este navegador no soporta vídeos.
           </video>
-          <div className="rrssContainer">
-            <a href="https://www.instagram.com/visualshow360?igshid=YmMyMTA2M2Y=" target="_blank" rel="noopener noreferrer">
-              <img id="ig" src="src/assets/icons/ig.svg"/>
-            </a>            
-            <a href="https://www.tiktok.com/@visualshow360?_t=8jdUAUysy9p&_r=1" target="_blank" rel="noopener noreferrer">
-              <img id="ig" src="src/assets/icons/tiktok.svg"/>
-            </a>
-          </div>
         </div>
-        
       </header>
 
       <main>

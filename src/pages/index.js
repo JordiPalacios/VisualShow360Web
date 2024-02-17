@@ -1,5 +1,5 @@
 export * from './HomeWebSite'
-export * from './EventosReales'
+export * from './OtrosProductos'
 export * from './BuyProducts'
 export * from './Payment'
 export * from './AvisoLegal'

@@ -108,7 +108,7 @@ useEffect (() => {
         <section id='plataforma360'>
           <div className="service1Container">
             <h2>Fotomaton 360</h2>
-            <h3> ¡Frase Guay Para PC/Tablet !</h3>
+            <h3> ¡Frase Guay Para PC/Tablet!</h3>
             <div className="fotomatonImgService1">
               <Slider {...sliderSettings}>
                   {fotomatonData.map((data) => (
@@ -143,7 +143,7 @@ useEffect (() => {
                 <img src="src/assets/img/servicios/EspejoMagico.webp" alt="EspejpoMagico"/>           
                 <div className="service2DescriptionContainer">  
                   <h2>Magic Mirror</h2>
-                  <h4> ¡Frase Guay Para PC !</h4>    
+                  <h4> ¡Frase Guay Para PC!</h4>    
                   <div className='line'></div>             
                   <p>
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, quidem laudantium doloribus atque totam voluptate, nulla tenetur provident minima natus beatae non, reprehenderit pariatur praesentium! Dolore necessitatibus ab eaque cum!
@@ -163,7 +163,7 @@ useEffect (() => {
           (
             <div className='service2Container'>
               <h2>Magic Mirror</h2>
-              <h3> ¡Frase Guay Para PC/Tablet !</h3>
+              <h3> ¡Frase Guay Para PC/Tablet!</h3>
               <div className="service2ContentContainer">              
                 <img src="src/assets/img/servicios/EspejoMagico.webp" alt="EspejpoMagico"/>
                 <div className="service2DescriptionContainer">                
@@ -187,7 +187,7 @@ useEffect (() => {
         <section id='white-magic-mirror'>
           <div className="service3Container">
             <h2>White Magic Mirror</h2>
-            <h3> ¡Titulo Guay Para PC/Tablet !</h3>
+            <h3> ¡Titulo Guay Para PC/Tablet!</h3>
             <div className="service3ContentContainer">              
             <img src="src/assets/img/servicios/magicMirrorWhite.jpg" alt="EspejpoMagico"/>
             <div className="service3DescriptionContainer">              
@@ -206,63 +206,11 @@ useEffect (() => {
             </div>
           </div>
         </section>
-        <section id='ring-ring-experience'>
-          <div className="service4Container">
-            <h2>Ring Ring Experience</h2>
-            <img src="src/assets/img/servicios/RingRingExperience.webp" alt="InstruccionesRingRing" />
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit qui nam dicta aspernatur non expedita iusto assumenda minus harum porro ullam similique voluptas neque autem modi ipsum, quisquam dolorum officiis?
-            </p>
-            <div className="buttonsContainerEven">
-              {/* <button>
-                <NewPage href="/eventos-reales" label="Eventos Reales" colorText='var(--accent-50)'/>
-              </button> */}
-              <button>
-                <NavItem href='#contacto' label='¡Agenda tu reunión!' colorText='var(--accent-50)'/>
-              </button>
-            </div>
-          </div>
-        </section>
         {/* InfiniteLoop */}
         <section>
           <div className="logo">
             <InfiniteLoop urlImg="src/assets/img/reviews_equipo/logoVisualShow.webp" nameImg="LogoVisualShowSlide" equal={true}/>
             <InfiniteLoop urlImg="src/assets/img/reviews_equipo/logoVisualShow.webp" nameImg="LogoVisualShowSlide" equal={true}/>
-          </div>
-        </section>
-        {/* !Este section es de products */}
-        <section id='products'>
-          <div className="productsContainer">
-            <div className="productsTittle">
-              <h2>Bodas y Eventos</h2>
-            </div>
-            <div className="generalProducts">
-              <ProductsCard
-                id='letras-love'
-                tittle='Letras Love'
-                description=''
-                msg="https://wa.me/34653781239?text=Quiero%20más%20información%20sobre%20las%20Letras%20Love!"
-                imgUrl='src/assets/img/servicios/Neones.webp'
-                difBg={false}
-                colorText='var(--accent-950)'/>
-              <ProductsCard
-                id='neones'
-                tittle='Neones'
-                description=''
-                msg="https://wa.me/34653781239?text=Quiero%20más%20información%20sobre%20los%20Neones!"
-                imgUrl='src/assets/img/servicios/Neones.webp'
-                difBg={false}
-                colorText='var(--accent-950)'/>
-            </div>
-            <ProductsCard
-              id='kitAntiResaca'
-              tittle='Kit AntiResaca'
-              description='Kit AntiResaca Description: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, eaque sunt autem iusto rem dolorum error harum ut quae sequi! Id, sint repellendus. In iste aperiam id aspernatur! Aspernatur, reprehenderit!'
-              imgUrl='src/assets/img/servicios/kitAntiresacaFocus.webp'
-              msg="https://wa.me/34653781239?text=Quiero%20más%20información%20sobre%20el%20Kit%20AntiResaca!"
-              workingMode={workingMode}
-              difBg={true}
-              colorText='var(--accent-50)'/>
           </div>
         </section>
         {/* !Este section es de reviews */}

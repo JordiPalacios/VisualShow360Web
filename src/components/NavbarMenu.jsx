@@ -90,10 +90,10 @@ return (
                         <div className='tabletPCMenu'>                            
                             <li onClick={() => toggleClass('weddings')}><b>Otros Productos {isMoreWeddingsInfo ? '⮵' : '⮷'} </b></li>
                             <div className={isMoreWeddingsInfo ? "bodasEventosOpen" : 'bodasEventosClose'}>
-                                <NavItem href='#ring-ring-experience' label='Ring Experience' colorText='var(--secondary-200)' />
-                                <NavItem href='#letras-love' label='Letras Love' colorText='var(--secondary-200)' />
-                                <NavItem href='#neones' label='Neones' colorText='var(--secondary-200)' />
-                                <NavItem href='#kitAntiResaca' label='Kit AntiResaca' colorText='var(--secondary-200)' />
+                                <NewPage href='/otros-productos' label='Ring Experience' colorText='var(--secondary-200)' />
+                                <NewPage href='/otros-productos' label='Letras Love' colorText='var(--secondary-200)' />
+                                <NewPage href='/otros-productos' label='Neones' colorText='var(--secondary-200)' />
+                                <NewPage href='/otros-productos' label='Kit AntiResaca' colorText='var(--secondary-200)' />
                             </div>
                         </div>
                         <b><NavItem href='#nosotros' label='Nosotros' colorText='var(--text-50)' /></b>

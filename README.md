@@ -46,11 +46,11 @@ ToDo:
     []Poner las nuevas fotos que me pasaran para ver el movimiento
     []Bajarle la velocidad para que no nos maree
 
-[]Servicios:
+[x]Servicios:
     [x]Poner todos los filter con solamente 10px
 
-[]Servicio 1:
-    []PC -> Reducir el tamaño del slider, con un max-width
+[x]Servicio 1:
+    [x]PC -> Reducir el tamaño del slider, con un max-width
 
 []Reviews:
     []Poner debajo de cada review un link de 'Leer más' que nos lleve al perfil de bodas.net con su correspondiente logo.

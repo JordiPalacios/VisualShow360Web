@@ -11,7 +11,7 @@ export const NavItem = ({ href, label, colorText }) => {
       setTimeout(() => {
         const section = document.querySelector(href)
         if (section) section.scrollIntoView({
-          behavior: 'smooth'
+          behavior: 'smooth',
         }, 0)
         else {
           navigate(href)

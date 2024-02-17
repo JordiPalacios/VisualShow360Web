@@ -27,7 +27,7 @@
 
 .logoSlide {
     display: inline-block;
-    animation: 40s slide infinite linear;
+    animation: 150s slide infinite linear;
 }
 
 .logoSlide img {
@@ -41,12 +41,20 @@
     .logoSlide img {
         width: 75px;
     }
+
+    .logoSlide {
+        animation: 120s slide infinite linear;
+    }
 }
 
 /* Medidas PC  */
 @media screen and (min-width: 1024px) {
     .logo:hover .logoSlide {
         animation-play-state: paused;
+    }
+
+    .logoSlide {
+        animation: 90s slide infinite linear;
     }
 
     .logoSlide img {

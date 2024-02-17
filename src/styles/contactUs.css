@@ -24,7 +24,7 @@ textarea:focus {
     display: flex;
     flex-direction: column;
     position: relative;
-    background: var(--gradient-bg-4);
+    background: var(--background-VS-2);
     align-items: center;
     color: var(--accent-400);
     padding: 20px;

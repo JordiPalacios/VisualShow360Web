@@ -22,7 +22,7 @@ Para iniciar el proyecto solo debes:
 ToDo:
 
 []General :
-    []Toda la web con el gradiente de VS-2
+    [x]Toda la web con el gradiente de VS-2
     []Borrar boton de eventos reales
     []Modificar ventana eventos reales y que ahora sea la de "Otros Productos"
         []Secciones: 
@@ -36,11 +36,11 @@ ToDo:
         []Si desplazo el raton por encima que se despliegue de forma automatica
         []Revisar los cuadraditos del desplegable que creo que le falta algo
 
-[]Header :
-    []Ocultar todos los H1 de palabras clave que me diran -> Crear un div y lo oculto entero
-    []Poner solo dos frases en el header
-    []Quitar los enlaces a Ig y TikTok
-    []Modificar el estilado para que se vea bien
+[x]Header :
+    [x]Ocultar todos los H1 de palabras clave que me diran -> Crear un div y lo oculto entero
+    [x]Poner solo dos frases en el header
+    [x]Quitar los enlaces a Ig y TikTok
+    [x]Modificar el estilado para que se vea bien
 
 []Infinite Loop:
     []Poner las nuevas fotos que me pasaran para ver el movimiento

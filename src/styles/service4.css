@@ -1,7 +1,7 @@
 .service4Container {
     display: flex;
     flex-direction: column;
-    background: var(--gradient-bg-4);
+    background: var(--background-VS-2);
     align-items: center;
     text-align: center;
     text-wrap: balance;

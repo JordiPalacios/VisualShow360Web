@@ -26,7 +26,7 @@
     max-width: 500px;
     overflow: hidden;
     padding: 0 30px;
-    filter: drop-shadow(0px 0px 5px var(--accent-800));
+    filter: drop-shadow(0px 0px 10px var(--accent-800));
 }
 
 .imgServices img{
@@ -75,8 +75,7 @@
 
     .service1Container h2 {
         padding-bottom: 0;
-        color: var(--accent-50);
-        filter: drop-shadow(1px 1px 10px var(--accent-200));
+        color: var(--text-50);
     }
 
     .service1Container h3 {
@@ -84,7 +83,7 @@
         margin-bottom: 30px;
         font-style: italic;
         font-weight: bolder;
-        color: var(--accent-50);
+        color: var(--accent-400);
     }
 
     .service1Container p {

@@ -45,10 +45,9 @@ ToDo:
 []Infinite Loop:
     []Poner las nuevas fotos que me pasaran para ver el movimiento
     []Bajarle la velocidad para que no nos maree
-    []PC -> Ponerle un max-width mas limitado
 
 []Servicios:
-    []Poner todos los filter con solamente 10px
+    [x]Poner todos los filter con solamente 10px
 
 []Servicio 1:
     []PC -> Reducir el tamaño del slider, con un max-width

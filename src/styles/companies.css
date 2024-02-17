@@ -61,6 +61,7 @@
 
 /* Medidas PC  */
 @media screen and (min-width: 1024px) {
+
     .logoCompanies:hover .logoSlide {
         animation-play-state: paused;
     }

@@ -6,7 +6,9 @@
         "description":"Review 1: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, eaque sunt autem iusto rem dolorum error harum ut quae sequi! Id, sint repellendus. In iste aperiam id aspernatur! Aspernatur, reprehenderit!",
         "imgUrl":"src/assets/img/reviews_equipo/David_Ivet.JPG",
         "colorText":"var(--primary-color-100)",
-        "cardClassName":"reviewCard"
+        "cardClassName":"reviewCard",
+        "urlBodasNet": "https://www.bodas.net/animacion/360-&-magic-mirror-visualshow360--e218488/opiniones",
+        "imgBodasNet": "src/assets/img/reviews_equipo/bodasNet.svg" 
     } ,
     {
         "id":"review2",
@@ -15,7 +17,9 @@
         "description":"Review 2: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, eaque sunt autem iusto rem dolorum error harum ut quae sequi! Id, sint repellendus. In iste aperiam id aspernatur! Aspernatur, reprehenderit!",
         "imgUrl":"src/assets/img/reviews_equipo/David_Ivet.JPG",
         "colorText":"var(--primary-color-100)",
-        "cardClassName":"reviewCard"
+        "cardClassName":"reviewCard",
+        "urlBodasNet": "https://www.bodas.net/animacion/360-&-magic-mirror-visualshow360--e218488/opiniones",
+        "imgBodasNet": "src/assets/img/reviews_equipo/bodasNet.svg" 
     },
     {
         "id":"review3",
@@ -24,7 +28,9 @@
         "description":"Review 3: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, eaque sunt autem iusto rem dolorum error harum ut quae sequi! Id, sint repellendus. In iste aperiam id aspernatur! Aspernatur, reprehenderit!",
         "imgUrl":"src/assets/img/reviews_equipo/David_Ivet.JPG",
         "colorText":"var(--primary-color-100)",
-        "cardClassName":"reviewCard"
+        "cardClassName":"reviewCard",
+        "urlBodasNet": "https://www.bodas.net/animacion/360-&-magic-mirror-visualshow360--e218488/opiniones",
+        "imgBodasNet": "src/assets/img/reviews_equipo/bodasNet.svg" 
     },
     {
         "id":"review4",
@@ -33,7 +39,9 @@
         "description":"Review 3: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, eaque sunt autem iusto rem dolorum error harum ut quae sequi! Id, sint repellendus. In iste aperiam id aspernatur! Aspernatur, reprehenderit!",
         "imgUrl":"src/assets/img/reviews_equipo/David_Ivet.JPG",
         "colorText":"var(--primary-color-100)",
-        "cardClassName":"reviewCard"
+        "cardClassName":"reviewCard",
+        "urlBodasNet": "https://www.bodas.net/animacion/360-&-magic-mirror-visualshow360--e218488/opiniones",
+        "imgBodasNet": "src/assets/img/reviews_equipo/bodasNet.svg" 
     },
     {
         "id":"review5",
@@ -42,7 +50,9 @@
         "description":"Review 3: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, eaque sunt autem iusto rem dolorum error harum ut quae sequi! Id, sint repellendus. In iste aperiam id aspernatur! Aspernatur, reprehenderit!",
         "imgUrl":"src/assets/img/reviews_equipo/David_Ivet.JPG",
         "colorText":"var(--primary-color-100)",
-        "cardClassName":"reviewCard"
+        "cardClassName":"reviewCard",
+        "urlBodasNet": "https://www.bodas.net/animacion/360-&-magic-mirror-visualshow360--e218488/opiniones",
+        "imgBodasNet": "src/assets/img/reviews_equipo/bodasNet.svg" 
     },
     {
         "id":"review6",
@@ -51,7 +61,9 @@
         "description":"Review 3: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, eaque sunt autem iusto rem dolorum error harum ut quae sequi! Id, sint repellendus. In iste aperiam id aspernatur! Aspernatur, reprehenderit!",
         "imgUrl":"src/assets/img/reviews_equipo/David_Ivet.JPG",
         "colorText":"var(--primary-color-100)",
-        "cardClassName":"reviewCard"
+        "cardClassName":"reviewCard",
+        "urlBodasNet": "https://www.bodas.net/animacion/360-&-magic-mirror-visualshow360--e218488/opiniones",
+        "imgBodasNet": "src/assets/img/reviews_equipo/bodasNet.svg" 
     },
     {
         "id":"review7",
@@ -60,7 +72,9 @@
         "description":"Review 3: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, eaque sunt autem iusto rem dolorum error harum ut quae sequi! Id, sint repellendus. In iste aperiam id aspernatur! Aspernatur, reprehenderit!",
         "imgUrl":"src/assets/img/reviews_equipo/David_Ivet.JPG",
         "colorText":"var(--primary-color-100)",
-        "cardClassName":"reviewCard"
+        "cardClassName":"reviewCard",
+        "urlBodasNet": "https://www.bodas.net/animacion/360-&-magic-mirror-visualshow360--e218488/opiniones",
+        "imgBodasNet": "src/assets/img/reviews_equipo/bodasNet.svg"
     },
     {
         "id":"review8",
@@ -69,7 +83,9 @@
         "description":"Review 3: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, eaque sunt autem iusto rem dolorum error harum ut quae sequi! Id, sint repellendus. In iste aperiam id aspernatur! Aspernatur, reprehenderit!",
         "imgUrl":"src/assets/img/reviews_equipo/David_Ivet.JPG",
         "colorText":"var(--primary-color-100)",
-        "cardClassName":"reviewCard"
+        "cardClassName":"reviewCard",
+        "urlBodasNet": "https://www.bodas.net/animacion/360-&-magic-mirror-visualshow360--e218488/opiniones",
+        "imgBodasNet": "src/assets/img/reviews_equipo/bodasNet.svg"
     }
     
 ]

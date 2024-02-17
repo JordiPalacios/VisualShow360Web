@@ -21,75 +21,45 @@ Para iniciar el proyecto solo debes:
 
 ToDo:
 
-[x]Páginas Rutas:
-    [x]Home -> Tendremos Todo
-    [x]Eventos Reales -> Galeria de vídeos donde verán en acción el Fotomaton - Espejo Mágico - Ring Ring - Etc...
-    [x]Productos -> Tendremos las Letras LOVE - Neones - KitAnitresaca
-    [x]Pago -> La pasarela de pago para pagar
-    [x]Politica Privacidad
-    [x]Terminos y Condiciones
-    [x]Aviso Legal
-    [x]Página Error -> Por si se equivocan
+[]General :
+    []Toda la web con el gradiente de VS-2
+    []Borrar boton de eventos reales
+    []Modificar ventana eventos reales y que ahora sea la de "Otros Productos"
+        []Secciones: 
+            []RingRing Experience
+            []Neones
+            []Letras Love
+            []KitAnitResaca
+
+[]Navbar :
+    []PC:
+        []Si desplazo el raton por encima que se despliegue de forma automatica
+        []Revisar los cuadraditos del desplegable que creo que le falta algo
+
+[]Header :
+    []Ocultar todos los H1 de palabras clave que me diran -> Crear un div y lo oculto entero
+    []Poner solo dos frases en el header
+    []Quitar los enlaces a Ig y TikTok
+    []Modificar el estilado para que se vea bien
+
+[]Infinite Loop:
+    []Poner las nuevas fotos que me pasaran para ver el movimiento
+    []Bajarle la velocidad para que no nos maree
+    []PC -> Ponerle un max-width mas limitado
+
+[]Servicios:
+    []Poner todos los filter con solamente 10px
+
+[]Servicio 1:
+    []PC -> Reducir el tamaño del slider, con un max-width
+
+[]Reviews:
+    []Poner debajo de cada review un link de 'Leer más' que nos lleve al perfil de bodas.net con su correspondiente logo.
 
 
-Home Page:
-    [X]Header:
-        [X]Nabvar:
-            [X] Logo Izquierda
-            [X] Home
-            [X] Servicios Party - Desplegable:
-                [X]Plataforma 360
-                [X]Fotomaton 360
-                [X]Ring Ring Experience
-            [X]Bodas y Eventos:
-                [X]Letras Love
-                [X]Neones
-                [X]Kit AntiResaca
-            [X]Caja Hora Loca
-            [X]Nosotros
-        [X]Vídeo Fondo + Texto Atractivo
-
-    []Main:
-        [X]Fotomaton 360
-            [X]Botón "Sí quiero" -> Envia al formulario
-            [X]Botón Eventos Realies -> Nos lleva a una página de vídeos
-        [X]Espejo Mágico
-        [X]Ring-Ring Experience
-        [X]Productos - Todos tendrán, flecha que desplega más info -> Página Producto:
-            [X]Letras Love
-            [X]Neones
-            [X]KitAntiresaca
-        [X]Quienes Somos 
-        [X]Reviews Clientes
-        [X]Marcas con las que se ha trabajado
-        [X]Formulario Contacto:
-            [X]Nombre
-            [?]Correo
-            [X]Num Mvl
-            [?]Fecha Evento
-            [?]Lugar
-            [X]He leído y acepto la politica de privacida. Acepto recibir emails promocionales. -> Dejarlo para el Final
-            [X]Enviar
-    []Footer:
-        [?]Correo empresa
-        [X]RRSS
-        []Legalidades:
-            []Aviso legal
-            []Terminos y condiciones
-            []Politica de privacidad
-        [X]© 2023 Todos los derechos reservados de VisualShow360
-        [X]Web x JordiCode
 []Crear Sistema de Cookies:
     []PopUp Cookies
     []Programa aceptacion Cookies
-
-[]Crear nueva página con galeria de videos:
-    [] Crear un loader - mientras cargan videos
-    [] Seccion Fotomaton 360
-    [] Seccion Magic Mirror
-    [] Seccion White Magic Mirror
-    [] Seccion Ring Ring
-
 
 
 Products Page:
@@ -102,5 +72,4 @@ Not Found Page:
  [] Crear algo chulo
 
 Estilos CSS:
-    [X] Poner el estilo tan guay de midu con css de 3 lineas que tiene en AdvnetJS2023
-    []Fuentes: Roboto - Helvetica - Montserrat
+    []Fuentes: Roboto - Helvetica - Montserrat -> Me los pasaran

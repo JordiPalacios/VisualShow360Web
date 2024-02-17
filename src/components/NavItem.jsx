@@ -3,41 +3,39 @@ import { useNavigate } from 'react-router-dom'
 
 export const NavItem = ({ href, label, colorText, page }) => {
   const navigate = useNavigate()
+  let offset
 
   const handleClick = ( event ) => {
     event.preventDefault()
+
     if (page === 'home') {
       navigate('/')
-      setTimeout(() => {
-        const section = document.querySelector(href)
+    } else if (page === 'otrosProductos') {
+      if (window.location.pathname !== '/otros-productos') {
+        navigate('otros-productos')
+      }
+    }
+
+    setTimeout(() => {
+      const section = href.startsWith('#')
+        ? document.querySelector(href)
+        : document.querySelector(href.split('#')[1])
+
         if (section) {
-          const offset = section.getBoundingClientRect().top + window.scrollY - 100
+          if (page === 'home') {
+            offset = 
+          section.getBoundingClientRect().top + window.scrollY - 100
+          } else if (page === 'otrosProductos') {
+            offset = 
+          section.getBoundingClientRect().top + window.scrollY - 180
+          }
+          
           window.scrollTo ({
             top: offset,
             behavior : 'smooth'
           })
         }
-        else {
-          navigate(href)
-        }
-
-      }, 200)
-    } else if (page === 'otrosProductos') {
-      navigate('otros-productos')
-      setTimeout(() => {
-        const section = document.querySelector(href)
-        if (section) {
-          const offsetProducts = section.getBoundingClientRect().top + window.scrollY - 100
-          window.scrollTo({
-            top: offsetProducts,
-            behavior: 'smooth'
-          })
-        }
-        else {
-          navigate(href)
-        }
-      }, 200)
-    }
+      }, 250)
   }
 
   return (

@@ -52,8 +52,8 @@ ToDo:
 [x]Servicio 1:
     [x]PC -> Reducir el tamaño del slider, con un max-width
 
-[]Reviews:
-    []Poner debajo de cada review un link de 'Leer más' que nos lleve al perfil de bodas.net con su correspondiente logo.
+[x]Reviews:
+    [x]Poner debajo de cada review un link de 'Leer más' que nos lleve al perfil de bodas.net con su correspondiente logo.
 
 
 []Crear Sistema de Cookies:

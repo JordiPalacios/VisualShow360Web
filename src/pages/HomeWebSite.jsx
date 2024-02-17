@@ -254,7 +254,10 @@ useEffect (() => {
                       description={data.description}
                       imgUrl={data.imgUrl}
                       colorText={data.colorText}
-                      cardClassName={data.cardClassName}/>
+                      cardClassName={data.cardClassName}
+                      urlBodasNet={data.urlBodasNet}
+                      imgBodasNet={data.imgBodasNet}
+                      />
                   ))}
                 </Slider>
             </div>

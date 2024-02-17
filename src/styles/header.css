@@ -162,6 +162,7 @@ header video {
     align-items: center;
     justify-content: center;
     min-height: 150px;
+    margin-bottom: 20px;
     gap: 1rem;
     text-align: center;
     text-wrap: balance;
@@ -303,6 +304,8 @@ header video {
 
     .presentationContainer {
         min-height: 225px;
+        margin-top: 40px;
+        margin-bottom: 0;
     }
 }
 
@@ -350,5 +353,6 @@ header video {
 
     .presentationContainer {
         min-height: 300px;
+        margin-top: 10px;
     }
 }

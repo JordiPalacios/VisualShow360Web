@@ -1,22 +1,41 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom'
 
-export const NavItem = ({ href, label, colorText }) => {
+export const NavItem = ({ href, label, colorText, page }) => {
   const navigate = useNavigate()
 
   const handleClick = ( event ) => {
     event.preventDefault()
-    if (href.startsWith('#')) {
+    if (page === 'home') {
       navigate('/')
       setTimeout(() => {
         const section = document.querySelector(href)
-        if (section) section.scrollIntoView({
-          behavior: 'smooth',
-        }, 0)
+        if (section) {
+          const offset = section.getBoundingClientRect().top + window.scrollY - 50
+          window.scrollTo ({
+            top: offset,
+            behavior : 'smooth'
+          })
+        }
         else {
           navigate(href)
         }
 
+      })
+    } else if (page === 'otrosProductos') {
+      navigate('otros-productos')
+      setTimeout(() => {
+        const section = document.querySelector(href)
+        if (section) {
+          const offsetProducts = section.getBoundingClientRect().top + window.scrollY - 80
+          window.scrollTo({
+            top: offsetProducts,
+            behavior: 'smooth'
+          })
+        }
+        else {
+          navigate(href)
+        }
       })
     }
   }

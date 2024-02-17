@@ -82,21 +82,21 @@ return (
                         <div className='tabletPCMenu'>                            
                             <li onClick={() => toggleClass('products')}><b>Servicios Party {isMoreProductsInfo ? '⮵' : '⮷'} </b></li>
                             <div className={isMoreProductsInfo ? 'productosOpen' : 'productosClose'} >
-                                <NavItem href='#plataforma360' label='Plataforma 360' colorText='var(--secondary-200)' />
-                                <NavItem href='#magic-mirror' label='Magic Mirror' colorText='var(--secondary-200)' />
-                                <NavItem href='#white-magic-mirror' label='White Magic Mirror' colorText='var(--secondary-200)' />                                
+                                <NavItem href='#plataforma360' label='Plataforma 360' colorText='var(--secondary-200)' page='home' />
+                                <NavItem href='#magic-mirror' label='Magic Mirror' colorText='var(--secondary-200)' page='home' />
+                                <NavItem href='#white-magic-mirror' label='White Magic Mirror' colorText='var(--secondary-200)' page='home' />                                
                             </div>
                         </div>
                         <div className='tabletPCMenu'>                            
                             <li onClick={() => toggleClass('weddings')}><b>Otros Productos {isMoreWeddingsInfo ? '⮵' : '⮷'} </b></li>
                             <div className={isMoreWeddingsInfo ? "bodasEventosOpen" : 'bodasEventosClose'}>
-                                <NewPage href='/otros-productos' label='Ring Experience' colorText='var(--secondary-200)' />
-                                <NewPage href='/otros-productos' label='Letras Love' colorText='var(--secondary-200)' />
-                                <NewPage href='/otros-productos' label='Neones' colorText='var(--secondary-200)' />
-                                <NewPage href='/otros-productos' label='Kit AntiResaca' colorText='var(--secondary-200)' />
+                                <NavItem href='#ring-ring-experience' label='Ring Experience' colorText='var(--secondary-200)' page='otrosProductos' />
+                                <NavItem href='#letras-love' label='Letras Love' colorText='var(--secondary-200)' page='otrosProductos' />
+                                <NavItem href='#neones' label='Neones' colorText='var(--secondary-200)' page='otrosProductos' />
+                                <NavItem href='#kitAntiResaca' label='Kit AntiResaca' colorText='var(--secondary-200)' page='otrosProductos' />
                             </div>
                         </div>
-                        <b><NavItem href='#nosotros' label='Nosotros' colorText='var(--text-50)' /></b>
+                        <b><NavItem href='#nosotros' label='Nosotros' colorText='var(--text-50)' page='home' /></b>
                     </ul>
                 </div>
             </div>

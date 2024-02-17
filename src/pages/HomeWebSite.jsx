@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import { FormContact, ImgSlider, InfiniteLoop, NavItem, NavbarMenu, NewPage, ProductsCard, ReviewsCard, WhatsAppMessage } from '../components'
+import { FormContact, ImgSlider, InfiniteLoop, NavItem, NavbarMenu, NewPage, ReviewsCard, WhatsAppMessage } from '../components'
 import Slider from "react-slick";
 import CompaniesData from '../assets/mocks/companiesData.json'
 import FotomatonData from '../assets/mocks/fotomatonData.json'
@@ -140,7 +140,7 @@ useEffect (() => {
           {workingMode === 'PC' ? (
             <div className='service2Container'>
               <div className="service2ContentContainer">
-                <img src="src/assets/img/servicios/EspejoMagico.webp" alt="EspejpoMagico"/>           
+                <img src="src/assets/img/servicios/EspejoMagico.webp" alt="EspejoMagico"/>           
                 <div className="service2DescriptionContainer">  
                   <h2>Magic Mirror</h2>
                   <h4> ¡Frase Guay Para PC!</h4>    
@@ -185,26 +185,51 @@ useEffect (() => {
           
         </section>
         <section id='white-magic-mirror'>
-          <div className="service3Container">
-            <h2>White Magic Mirror</h2>
-            <h3> ¡Titulo Guay Para PC/Tablet!</h3>
-            <div className="service3ContentContainer">              
-            <img src="src/assets/img/servicios/magicMirrorWhite.jpg" alt="EspejpoMagico"/>
-            <div className="service3DescriptionContainer">              
-              <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, quidem laudantium doloribus atque totam voluptate, nulla tenetur provident minima natus beatae non, reprehenderit pariatur praesentium! Dolore necessitatibus ab eaque cum!
-              </p>
-              <div className="buttonsContainer">
-              {/* <button>
-                <NewPage href="/eventos-reales" label="Eventos Reales" colorText='var(--primary-color-100)'/>
-              </button> */}
-              <button>
-                <NavItem href='#contacto' label='¡Agenda tu reunión!' colorText='var(--primary-color-100)'/>
-              </button>
+          {workingMode === 'PC' ? (
+            <div className="service3Container">
+              <div className="service3ContentContainer">  
+                <img src="src/assets/img/servicios/magicMirrorWhite.jpg" alt="EspejoMagicoWhite"/>                      
+              <div className="service3DescriptionContainer">  
+                <h2>White Magic Mirror</h2>
+                <h4> ¡Titulo Guay Para PC/Tablet!</h4>    
+                <div className='line'></div>        
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, quidem laudantium doloribus atque totam voluptate, nulla tenetur provident minima natus beatae non, reprehenderit pariatur praesentium! Dolore necessitatibus ab eaque cum!
+                </p>
+                <div className="buttonsContainer">
+                {/* <button>
+                  <NewPage href="/eventos-reales" label="Eventos Reales" colorText='var(--primary-color-100)'/>
+                </button> */}
+                <button>
+                  <NavItem href='#contacto' label='¡Agenda tu reunión!' colorText='var(--primary-color-100)'/>
+                </button>
+              </div>
+              </div>
+              </div>
             </div>
+          ) : (
+            <div className="service3Container">
+              <h2>White Magic Mirror</h2>
+              <h3> ¡Titulo Guay Para PC/Tablet!</h3>
+              <div className="service3ContentContainer">              
+              <img src="src/assets/img/servicios/magicMirrorWhite.jpg" alt="EspejpoMagico"/>
+              <div className="service3DescriptionContainer">              
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, quidem laudantium doloribus atque totam voluptate, nulla tenetur provident minima natus beatae non, reprehenderit pariatur praesentium! Dolore necessitatibus ab eaque cum!
+                </p>
+                <div className="buttonsContainer">
+                {/* <button>
+                  <NewPage href="/eventos-reales" label="Eventos Reales" colorText='var(--primary-color-100)'/>
+                </button> */}
+                <button>
+                  <NavItem href='#contacto' label='¡Agenda tu reunión!' colorText='var(--primary-color-100)'/>
+                </button>
+              </div>
+              </div>
+              </div>
             </div>
-            </div>
-          </div>
+          )}
+          
         </section>
         {/* InfiniteLoop */}
         <section>

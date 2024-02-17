@@ -42,8 +42,12 @@
 
     .service3Container h2 {
         padding-bottom: 0;
-        color: var(--accent-300);
-        filter: drop-shadow(1px 1px 10px var(--accent-300));
+        color: var(--accent-50);
+    }
+
+    .service3Container h4 {
+        padding-bottom: 0;
+        color: var(--accent-500);
     }
 
     .service3Container h3 {
@@ -60,6 +64,11 @@
 
     .service3Container img {
         margin: 0;
+    }
+
+    .service3Container .line {
+        max-width: 80%;
+        border-top: 1px solid var(--secondary-200);
     }
 
     .service3DescriptionContainer {
@@ -79,6 +88,32 @@
 
 /* Medidas PC  */
 @media screen and (min-width: 1024px) {
+
+    .service3Container {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        align-items: start;
+        margin: 0;
+    }
+
+    .service3Container h4{
+        display: inline-block;
+        margin: 0;
+        font-style: italic;
+        font-weight: bolder;
+    }
+
+    .service3ContentContainer {
+        align-items: start;
+        margin: 50px 10px 50px 50px;
+        gap: 5rem;
+    }
+
+    .service3DescriptionContainer {
+        gap: 0;
+    }
+
     .service3DescriptionContainer button {
         filter: none;
         transition: filter .5s ease;

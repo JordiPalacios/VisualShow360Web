@@ -23,13 +23,13 @@ ToDo:
 
 []General :
     [x]Toda la web con el gradiente de VS-2
-    []Borrar boton de eventos reales
-    []Modificar ventana eventos reales y que ahora sea la de "Otros Productos"
-        []Secciones: 
-            []RingRing Experience
-            []Neones
-            []Letras Love
-            []KitAnitResaca
+    [x]Borrar boton de eventos reales
+    [x]Modificar ventana eventos reales y que ahora sea la de "Otros Productos"
+        [x]Secciones: 
+            [x]RingRing Experience
+            [x]Neones
+            [x]Letras Love
+            [x]KitAnitResaca
 
 []Navbar :
     []PC:
@@ -44,7 +44,7 @@ ToDo:
 
 []Infinite Loop:
     []Poner las nuevas fotos que me pasaran para ver el movimiento
-    []Bajarle la velocidad para que no nos maree
+    [x]Bajarle la velocidad para que no nos maree
 
 [x]Servicios:
     [x]Poner todos los filter con solamente 10px

@@ -11,7 +11,7 @@ export const NavItem = ({ href, label, colorText, page }) => {
       setTimeout(() => {
         const section = document.querySelector(href)
         if (section) {
-          const offset = section.getBoundingClientRect().top + window.scrollY - 50
+          const offset = section.getBoundingClientRect().top + window.scrollY - 100
           window.scrollTo ({
             top: offset,
             behavior : 'smooth'
@@ -21,13 +21,13 @@ export const NavItem = ({ href, label, colorText, page }) => {
           navigate(href)
         }
 
-      })
+      }, 200)
     } else if (page === 'otrosProductos') {
       navigate('otros-productos')
       setTimeout(() => {
         const section = document.querySelector(href)
         if (section) {
-          const offsetProducts = section.getBoundingClientRect().top + window.scrollY - 80
+          const offsetProducts = section.getBoundingClientRect().top + window.scrollY - 100
           window.scrollTo({
             top: offsetProducts,
             behavior: 'smooth'
@@ -36,7 +36,7 @@ export const NavItem = ({ href, label, colorText, page }) => {
         else {
           navigate(href)
         }
-      })
+      }, 200)
     }
   }
 

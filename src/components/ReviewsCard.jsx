@@ -10,7 +10,7 @@ export const ReviewsCard = ({ id, tittle, client, description, imgUrl, cardClass
             <img src={imgUrl} alt={tittle} />
             <p>{description}</p>
         </div>
-        <a href={urlBodasNet}>Leer más</a>
+        <a href={urlBodasNet}>Ver más</a>
         <img src={imgBodasNet} alt="LogoBodasNet" />
     </div>
 )

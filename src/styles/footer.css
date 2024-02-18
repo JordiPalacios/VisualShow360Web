@@ -1,20 +1,17 @@
 footer {
-    background: var(--background-VS-2);
+    background: var(--vs2);
     font-size: .75rem;
-    color: var(--text-50);
+    color: var(--textWhite);
 }
 
-footer h2 {
+footer h3 {
     font-style: italic;
-}
-
-footer h4 {
-    color: var(--accent-300);
-}
-
-footer h2,
-footer h4 {
     margin: 0;
+}
+
+footer h4 {
+    color: var(--accent);
+    margin: 0 0 25px 0;
 }
 
 footer img {
@@ -30,17 +27,17 @@ footer img {
 footer button {
     background: none;
     font-size: .75rem;
-    color: var(--text-50);
+    color: var(--textWhite);
     text-decoration: underline;
 }
 
 footer a {
-    color: var(--secondary-100);
+    color: var(--secondary);
 }
 
 footer .line {
-    border-top: 1px solid var(--secondary-300);
-    margin: 10px 0 20px 0;
+    border-top: 1px solid var(--secondary);
+    margin: 50px;
 }
 
 .footerContainer {
@@ -60,7 +57,7 @@ footer .line {
     width: 100%;
     height: auto;
     object-fit: contain;
-    filter: drop-shadow(0px 0px 5px var(--accent-50));
+    filter: drop-shadow(0px 0px 1px var(--accent));
 }
 
 

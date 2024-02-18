@@ -59,23 +59,19 @@ button {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    gap: 1rem;
-}
-
-.buttonsContainerEven {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
+    text-wrap: balance;
+    text-align: center;
     gap: 1rem;
 }
 
 .buttonsContainer button {
-    background: var(--gradient-button-1);
+    background: transparent;
+    outline: 2px solid var(--accent);
+    transition: transform .5s ease;
 }
 
-.buttonsContainerEven button {
-    background: var(--gradient-button-2);
+.buttonsContainer button a {
+    color: var(--accent)
 }
 
 .line {
@@ -108,7 +104,7 @@ button {
     z-index: 999;
 }
 
-    /* Animacion Aparicion Img */
+/* Animacion Aparicion Img */
 
 @keyframes showImgWhatsApp {
     from {
@@ -119,7 +115,6 @@ button {
         scale: 100%;
     }
 }
-
 
 .contactFixed img {
     view-timeline-name: --image;
@@ -199,13 +194,8 @@ img {
         right: 20px;
     }
 
-    button:hover {
-        filter: drop-shadow(0 0 15px var(--secondary));
-    }
-
-    .buttonsContainerEven button:hover,
     .buttonsContainer button:hover {
-        filter: drop-shadow(0 0 15px var(--accent));
+        transform: scale(1.1);
     }
 
     .slick-dots {

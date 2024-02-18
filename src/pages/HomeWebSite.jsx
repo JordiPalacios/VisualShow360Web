@@ -141,12 +141,12 @@ useEffect (() => {
                 <img src="src/assets/img/servicios/EspejoMagico.webp" alt="EspejoMagico"/>           
                 <div className="service2DescriptionContainer">  
                   <h2>Magic Mirror</h2>
-                  <h4> ¡Frase Guay Para PC!</h4>    
+                  <h3> ¡Frase Guay Para &nbsp;<span>PC/Tablet!</span></h3>    
                   <div className='line'></div>             
                   <p>
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, quidem laudantium doloribus atque totam voluptate, nulla tenetur provident minima natus beatae non, reprehenderit pariatur praesentium! Dolore necessitatibus ab eaque cum!
                   </p>
-                  <div className="buttonsContainerEven">
+                  <div className="buttonsContainer">
                     {/* <button>
                       <NewPage href="/eventos-reales" label="Eventos Reales" colorText='var(--accent-50)'/>
                     </button> */}
@@ -160,15 +160,15 @@ useEffect (() => {
           ) : 
           (
             <div className='service2Container'>
-              <h2>Magic Mirror</h2>
-              <h3> ¡Frase Guay Para PC/Tablet!</h3>
+              <h2>Magic Mirror</h2>              
+              <h3> ¡Frase Guay Para PC!</h3> 
               <div className="service2ContentContainer">              
                 <img src="src/assets/img/servicios/EspejoMagico.webp" alt="EspejpoMagico"/>
                 <div className="service2DescriptionContainer">                
                   <p>
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, quidem laudantium doloribus atque totam voluptate, nulla tenetur provident minima natus beatae non, reprehenderit pariatur praesentium! Dolore necessitatibus ab eaque cum!
                   </p>
-                  <div className="buttonsContainerEven">
+                  <div className="buttonsContainer">
                     {/* <button>
                       <NewPage href="/eventos-reales" label="Eventos Reales" colorText='var(--accent-50)'/>
                     </button> */}
@@ -189,7 +189,7 @@ useEffect (() => {
                 <img src="src/assets/img/servicios/magicMirrorWhite.jpg" alt="EspejoMagicoWhite"/>                      
               <div className="service3DescriptionContainer">  
                 <h2>White Magic Mirror</h2>
-                <h4> ¡Titulo Guay Para PC/Tablet!</h4>    
+                <h3> <span>¡Titulo Guay Para</span>&nbsp;PC/Tablet!</h3>    
                 <div className='line'></div>        
                 <p>
                   Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, quidem laudantium doloribus atque totam voluptate, nulla tenetur provident minima natus beatae non, reprehenderit pariatur praesentium! Dolore necessitatibus ab eaque cum!
@@ -264,7 +264,7 @@ useEffect (() => {
         {/* !Este section es de companies */}
         <section>
           <div className="companiesContainer">
-            <h2>Empresas que han confiado en nosotros</h2>
+            <h2>Empresas que han confiado en VisualShow</h2>
             <div className="line"></div>
             <div className="logoCompanies">
               {companyData.map((data) => (
@@ -306,9 +306,9 @@ useEffect (() => {
       </main>
       <footer>
         <div className="footerContainer">  
+          <div className="line"></div>
           <h3>No hacemos eventos...</h3>      
           <h4>¡ Creamos recuerdos !</h4>
-          <div className="line"></div>
           <div className="rrssContainer">
             <a href="https://www.instagram.com/visualshow360?igshid=YmMyMTA2M2Y=" target="_blank" rel="noopener noreferrer">
               <img id="ig" src="src/assets/icons/ig.svg"/>

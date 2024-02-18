@@ -1,7 +1,7 @@
 .service3Container {
     display: flex;
     flex-direction: column;
-    background: var(--background-VS-2);
+    background: var(--vs2);
     padding: 20px;
     align-items: center;
     text-align: center;
@@ -13,7 +13,7 @@
     max-width: 350px;
     height: auto;
     margin-bottom: 20px;
-    filter: drop-shadow(0px 0px 10px var(--accent-800));
+    filter: drop-shadow(0px 0px 10px var(--contrastBlack2));
     border-radius: 25px;
 }
 
@@ -42,12 +42,18 @@
 
     .service3Container h2 {
         padding-bottom: 0;
-        color: var(--accent-50);
+        color: var(--textWhite);
     }
 
-    .service3Container h4 {
+    .service3Container h3 {
         padding-bottom: 0;
-        color: var(--accent-500);
+        color: var(--accent);
+        padding: 5px;
+    }
+
+    .service3Container span {
+        background: var(--accent);
+        color: var(--textWhite);
     }
 
     .service3Container h3 {
@@ -68,7 +74,7 @@
 
     .service3Container .line {
         max-width: 80%;
-        border-top: 1px solid var(--secondary-200);
+        border-top: 1px solid var(--textWhite);
     }
 
     .service3DescriptionContainer {
@@ -79,11 +85,6 @@
         gap: 1rem;
     }
 
-    .service3DescriptionContainer button {
-        text-wrap: balance;
-        text-align: center;
-        filter: drop-shadow(1px 1px 5px var(--accent-100));
-    }
 }
 
 /* Medidas PC  */
@@ -97,7 +98,7 @@
         margin: 0;
     }
 
-    .service3Container h4{
+    .service3Container h3{
         display: inline-block;
         margin: 0;
         font-style: italic;
@@ -112,15 +113,6 @@
 
     .service3DescriptionContainer {
         gap: 0;
-    }
-
-    .service3DescriptionContainer button {
-        filter: none;
-        transition: filter .5s ease;
-    }
-
-    .service3DescriptionContainer button:hover {
-        filter: drop-shadow(0px 0px 15px var(--accent-100));
     }
 
 }

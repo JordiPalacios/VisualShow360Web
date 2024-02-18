@@ -32,7 +32,18 @@ nav button{
     align-items: center;
     justify-content: center;
     padding: 20px;
-    background: var(--background-VS-2);
+}
+
+.menuResponsiveContainer {
+    background: var(--vs2);
+}
+
+.menuResponsiveContainer a {
+    color: var(--textWhite);
+}
+
+.tabletPCMenu a{
+    color: var(--accent);
 }
 
 .hamburgerMenu {
@@ -55,7 +66,7 @@ nav button{
 
 nav ul {
     background: transparent;
-    text-align: center;
+    text-align: start;
     text-wrap: balance;
     margin: 0;
     padding: 0;
@@ -68,6 +79,7 @@ nav ul {
 
 .menuOpened ul{
     position: absolute;
+    text-align: center;
     width: 100%;
     top: 100%;
     left: 0;
@@ -85,6 +97,7 @@ nav ul {
 .productosClose {
     background: transparent;
     position: relative;
+    text-align: center;
     margin: 0;
     padding: 0;
     max-height: 0;
@@ -97,6 +110,7 @@ nav ul {
 .productosOpen {
     display: flex;
     flex-direction: column;
+    text-align: center;
     align-items: center;
     max-height: 150px;
     opacity: 1;
@@ -105,6 +119,7 @@ nav ul {
 
 .bodasEventosClose {
     background: transparent;
+    text-align: center;
     position: relative;
     margin: 0;
     padding: 0;
@@ -117,6 +132,7 @@ nav ul {
 
 .bodasEventosOpen {
     display: flex;
+    text-align: center;
     flex-direction: column;
     align-items: center;
     max-height: 150px;
@@ -152,7 +168,7 @@ header video {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    opacity: 0.4;
+    opacity: 1;
     z-index: -1;
 }
 
@@ -161,11 +177,31 @@ header video {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    min-height: 150px;
+    min-height: 450px;
     margin-bottom: 20px;
     gap: 1rem;
     text-align: center;
     text-wrap: balance;
+}
+
+.presentationContainer h1 {
+    font-size: 2rem;
+    font-weight: 900;
+    color: var(--accent);
+}
+
+.presentationContainer h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding: 10px;
+    background: var(--secondary);
+}
+
+.presentationContainer img {
+    width: 35px;
+    background: none;
+    border-radius: 50%;
+    rotate: 90deg;
 }
 
 .palabrasClave {
@@ -199,7 +235,6 @@ header video {
         justify-content: center;
         align-items: center;
         padding: 0px 40px 20px 40px;
-        background: var(--background-VS-2);
     }
 
     .menuResponsive {
@@ -234,10 +269,12 @@ header video {
     .productosClose {
         display: flex;
         flex-direction: column;
+        align-items: flex-start;
         position: absolute;
         width: 200%;
         max-width: 150px;
         height: auto;
+        border: 1px solid var(--textWhite);
         max-height: 0;
         opacity: 0;
         transition: max-height .75s ease, opacity .75s ease;
@@ -247,16 +284,22 @@ header video {
             background-color: rgba(0, 0, 0, 0.6);
             backdrop-filter: blur(5px);
         }
+    }
+
+    .productosClose li {
+        padding: 0 0 0 5px;
     }
 
 
     .productosOpen {
         display: flex;
         flex-direction: column;
+        align-items: flex-start;
         position: absolute;
         width: 200%;
         max-width: 150px;
         height: auto;
+        border: 1px solid var(--textWhite);
         opacity: 1;
         transition: max-height .75s ease, opacity .75s ease;
         z-index: 999;
@@ -267,12 +310,18 @@ header video {
         }
     }
 
+    .productosOpen li {
+        padding: 0 0 0 5px;
+    }
+
     .bodasEventosClose {
         display: flex;
         flex-direction: column;
+        align-items: flex-start;
         position: absolute;
         width: 200%;
         height: auto;
+        border: 1px solid var(--textWhite);
         max-width: 200px;
         max-height: 0;
         opacity: 0;
@@ -285,12 +334,18 @@ header video {
             }
     }
 
+    .bodasEventosClose li {
+        padding: 0 0 0 5px;
+    }
+
     .bodasEventosOpen {
         display: flex;
         flex-direction: column;
+        align-items: flex-start;
         position: absolute;
         width: 200%;
         height: auto;
+        border: 1px solid var(--textWhite);
         max-width: 200px;
         opacity: 1;
         transition: max-height .75s ease, opacity .75s ease;
@@ -302,10 +357,12 @@ header video {
             }
     }
 
+    .bodasEventosOpen li {
+        padding: 0 0 0 5px;
+    }
+
     .presentationContainer {
-        min-height: 225px;
-        margin-top: 40px;
-        margin-bottom: 0;
+        min-height: 550px;
     }
 }
 
@@ -322,7 +379,19 @@ header video {
         transition: filter .5s ease;
     }
     header h1:hover {
-        filter: drop-shadow(1px 1px 10px var(--accent-500));
+        filter: drop-shadow(0px 0px 5px var(--accent));
+    }
+
+    .presentationContainer h1 {
+        font-size: 5rem;
+    }
+
+    .presentationContainer h2 {
+        font-size: 3rem;
+    }
+
+    .presentationContainer h1:hover {
+        filter: none;
     }
 
     .menuResponsiveContainer {
@@ -342,17 +411,17 @@ header video {
     }
 
     .menuResponsive b,
-    .menuResponsive li {
-        transition: transform .5s ease;
+    .menuResponsive a,
+    .tabletPCMenu a {
+        transition: color .5s ease;
     }
 
     .menuResponsive b:hover,
-    .menuResponsive li:hover {
-        transform: scale(1.2);
+    .menuResponsive a:hover {
+        color: var(--accent);
     }
 
-    .presentationContainer {
-        min-height: 300px;
-        margin-top: 10px;
+    .tabletPCMenu a:hover {
+        color: var(--textWhite);
     }
 }

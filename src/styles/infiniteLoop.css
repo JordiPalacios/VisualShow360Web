@@ -49,10 +49,6 @@
 
 /* Medidas PC  */
 @media screen and (min-width: 1024px) {
-    .logo:hover .logoSlide {
-        animation-play-state: paused;
-    }
-
     .logoSlide {
         animation: 90s slide infinite linear;
     }

@@ -1,7 +1,7 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom'
 
-export const NewPage = ({href, label, colorText}) => {
+export const NewPage = ({ href, label }) => {
     const navigate = useNavigate()
     const handleClick = (event) => {
         event.preventDefault()
@@ -9,7 +9,7 @@ export const NewPage = ({href, label, colorText}) => {
         window.scrollTo(0, 0)
     }
 return (
-    <a href={href} onClick={handleClick} style={{ color: colorText }}>
+    <a href={href} onClick={handleClick}>
         {label}
     </a>
 )

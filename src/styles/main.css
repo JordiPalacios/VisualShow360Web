@@ -9,72 +9,21 @@
     -moz-osx-font-smoothing: grayscale;
     line-height: 1.5;
     
-    color: var(--text-50);
-    background-color: var(--background-950);
+    color: var(--textWhite);
+    background-color: var(--background);
 
-    --text-50: #f4f0f4;
-    --text-100: #eae1ea;
-    --text-200: #d5c3d5;
-    --text-300: #c0a5c0;
-    --text-400: #aa88aa;
-    --text-500: #956a95;
-    --text-600: #775577;
-    --text-700: #5a3f5a;
-    --text-800: #3c2a3c;
-    --text-900: #1e151e;
-    --text-950: #0f0b0f;
-
-    --background-50: #f6eef7;
-    --background-100: #eddcef;
-    --background-200: #dabade;
-    --background-300: #c897ce;
-    --background-400: #b574be;
-    --background-500: #a352ad;
-    --background-600: #82418b;
-    --background-700: #623168;
-    --background-800: #412145;
-    --background-900: #211023;
-    --background-950: #100811;
+    --textWhite: #FFFFFF;
+    --accent: #FC008B;
+    --secondary: #E82F8A;
+    --textBlack : #010101;
+    --contrast: #00d084;
+    --contrast2: #fcb900;
+    --background: #100811;
 
     /** Colores pasados por VisualShow */
-    --background-VS: #410049;
-    --background-VS-2: #050006;
-
-    --primary-50: #f8ebf9;
-    --primary-100: #f2d7f4;
-    --primary-200: #e4b0e8;
-    --primary-300: #d788dd;
-    --primary-400: #ca61d1;
-    --primary-500: #bc39c6;
-    --primary-600: #972e9e;
-    --primary-700: #712277;
-    --primary-800: #4b174f;
-    --primary-900: #260b28;
-    --primary-950: #130614;
-
-    --secondary-50: #fbe9fc;
-    --secondary-100: #f6d2f9;
-    --secondary-200: #eda6f2;
-    --secondary-300: #e479ec;
-    --secondary-400: #db4ce6;
-    --secondary-500: #d220df;
-    --secondary-600: #a819b3;
-    --secondary-700: #7e1386;
-    --secondary-800: #540d59;
-    --secondary-900: #2a062d;
-    --secondary-950: #150316;
-
-    --accent-50: #fde6fe;
-    --accent-100: #facdfe;
-    --accent-200: #f69cfc;
-    --accent-300: #f16afb;
-    --accent-400: #ed38fa;
-    --accent-500: #e806f9;
-    --accent-600: #ba05c7;
-    --accent-700: #8b0495;
-    --accent-800: #5d0363;
-    --accent-900: #2e0132;
-    --accent-950: #170119;
+    --vs: #410049;
+    --vs2: #050006;
+    --gradient-vs: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(89,3,99,1) 100%);
 
     --gradient-button-1: linear-gradient(145deg, rgba(245,211,251,1) 0%, rgba(228,108,239,1) 50%, rgba(73,8,74,1) 100%);
     --gradient-button-2: linear-gradient(145deg, rgba(120,47,129,1) 0%, rgba(89,31,97,1) 50%, rgba(59,12,65,1) 100%);
@@ -83,6 +32,4 @@
     --gradient-bg-2: linear-gradient(180deg, #100811 0%, #9f56a8 25%, #a352ad 100%);
     --gradient-bg-3: linear-gradient(180deg, #100811 0%, #3c1d41 25%, #100811 100%);
 
-    /* *Gradiente que me ha pasado VisualShow */
-    --gradient-bg-4: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(89,3,99,1) 100%);
 }

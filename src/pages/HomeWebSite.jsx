@@ -86,20 +86,18 @@ useEffect (() => {
       <header>
         <NavbarMenu />
         <div className="presentationContainer">
-          <h1 style={{ 
-            color:'var(--text-50)',
-            // filter: 'drop-shadow(0px 0px 5px var(--accent-300))' 
-            }}>Frase Potente 1</h1>
-          <h2 style={{ color:'var(--secondary-200)' }}>Frase Potente 2</h2>
+          <h1> <span style={{ color: 'var(--textWhite)' }}> ¡ FRASE</span>&nbsp;POTENTE 1 !</h1>
+          <h2>Frase Potente 2</h2>
           <div className="palabrasClave">
             <h1>Fotomaton</h1>
             <h1>Magic Mirror</h1>
             <h1>RingRing Experience</h1>
           </div>
           <video autoPlay muted loop>
-            <source src="src/assets/video/bgPartyNight.mp4" type="video/mp4"/>
+            <source src="src/assets/video/weedingBW.mp4" type="video/mp4"/>
             Este navegador no soporta vídeos.
           </video>
+          <img src="src/assets/img/Extra/arrow.gif" alt="arrowGift" />
         </div>
       </header>
 
@@ -124,7 +122,7 @@ useEffect (() => {
                 <NewPage href="/eventos-reales" label="Eventos Reales" colorText='var(--accent-950)'/>
               </button> */}
               <button>
-                <NavItem href='#contacto' label='¡Agenda tu reunión!' colorText='var(--accent-950)'/>
+                <NavItem href='#contacto' label='¡Agenda tu reunión!' colorText='var(--accent)'/>
               </button>
             </div>
           </div>
@@ -153,7 +151,7 @@ useEffect (() => {
                       <NewPage href="/eventos-reales" label="Eventos Reales" colorText='var(--accent-50)'/>
                     </button> */}
                     <button>
-                      <NavItem href='#contacto' label='¡Agenda tu reunión!' colorText='var(--accent-50)'/>
+                      <NavItem href='#contacto' label='¡Agenda tu reunión!' colorText='var(--accent)'/>
                     </button>
                   </div>
                 </div>
@@ -175,7 +173,7 @@ useEffect (() => {
                       <NewPage href="/eventos-reales" label="Eventos Reales" colorText='var(--accent-50)'/>
                     </button> */}
                     <button>
-                      <NavItem href='#contacto' label='¡Agenda tu reunión!' colorText='var(--accent-50)'/>
+                      <NavItem href='#contacto' label='¡Agenda tu reunión!' colorText='var(--accent)'/>
                     </button>
                   </div>
                 </div>
@@ -201,7 +199,7 @@ useEffect (() => {
                   <NewPage href="/eventos-reales" label="Eventos Reales" colorText='var(--primary-color-100)'/>
                 </button> */}
                 <button>
-                  <NavItem href='#contacto' label='¡Agenda tu reunión!' colorText='var(--primary-color-100)'/>
+                  <NavItem href='#contacto' label='¡Agenda tu reunión!' colorText='var(--textWhite)'/>
                 </button>
               </div>
               </div>
@@ -222,7 +220,7 @@ useEffect (() => {
                   <NewPage href="/eventos-reales" label="Eventos Reales" colorText='var(--primary-color-100)'/>
                 </button> */}
                 <button>
-                  <NavItem href='#contacto' label='¡Agenda tu reunión!' colorText='var(--primary-color-100)'/>
+                  <NavItem href='#contacto' label='¡Agenda tu reunión!' colorText='var(--textWhite)'/>
                 </button>
               </div>
               </div>
@@ -322,13 +320,13 @@ useEffect (() => {
           <div className="normativeContainer">
           <p>© 2024 VisualShow360 - Todos los derechos reservados</p>
           <button>
-            <NewPage href="/aviso-legal" label="Aviso Legal" colorText='var(--text-100)'/>
+            <NewPage href="/aviso-legal" label="Aviso Legal" colorText='var(--textWhite)'/>
           </button>
           <button>
-            <NewPage href="/politica-privacidad" label="Politica de Privacidad" colorText='var(--text-100)'/>
+            <NewPage href="/politica-privacidad" label="Politica de Privacidad" colorText='var(--textWhite)'/>
           </button>
           <button>
-            <NewPage href="/terminos-condiciones" label="Terminos y Condiciones" colorText='var(--text-100)'/>
+            <NewPage href="/terminos-condiciones" label="Terminos y Condiciones" colorText='var(--textWhite)'/>
           </button>
           </div>
           <img src="src/assets/img/Extra/generalitat.jpg" alt="generalitatImg" />

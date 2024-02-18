@@ -1,7 +1,7 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom'
 
-export const NavItem = ({ href, label, colorText, page }) => {
+export const NavItem = ({ href, label, page }) => {
   const navigate = useNavigate()
   let offset
 
@@ -40,7 +40,7 @@ export const NavItem = ({ href, label, colorText, page }) => {
 
   return (
     <li style={{ listStyleType: 'none' }}>
-        <a href={href} onClick={handleClick} style={{ color: colorText}}>
+        <a href={href} onClick={handleClick}>
             {label}
         </a>
     </li>

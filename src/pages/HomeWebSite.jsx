@@ -320,13 +320,13 @@ useEffect (() => {
           <div className="normativeContainer">
           <p>© 2024 VisualShow360 - Todos los derechos reservados</p>
           <button>
-            <NewPage href="/aviso-legal" label="Aviso Legal" colorText='var(--textWhite)'/>
+            <NewPage href="/aviso-legal" label="Aviso Legal" colorText='var(--secondary)'/>
           </button>
           <button>
-            <NewPage href="/politica-privacidad" label="Politica de Privacidad" colorText='var(--textWhite)'/>
+            <NewPage href="/politica-privacidad" label="Politica de Privacidad" colorText='var(--secondary)'/>
           </button>
           <button>
-            <NewPage href="/terminos-condiciones" label="Terminos y Condiciones" colorText='var(--textWhite)'/>
+            <NewPage href="/terminos-condiciones" label="Terminos y Condiciones" colorText='var(--secondary)'/>
           </button>
           </div>
           <img src="src/assets/img/Extra/generalitat.jpg" alt="generalitatImg" />

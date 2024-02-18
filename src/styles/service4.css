@@ -1,7 +1,7 @@
 .service4Container {
     display: flex;
     flex-direction: column;
-    background: var(--background-VS-2);
+    background: var(--vs2);
     align-items: center;
     text-align: center;
     text-wrap: balance;
@@ -13,7 +13,7 @@
     max-width: 500px;
     height: auto;
     margin-bottom: 20px;
-    filter: drop-shadow(0px 0px 10px var(--accent-800));
+    filter: drop-shadow(0px 0px 10px var(--contrastBlack2));
     border-radius: 25px;
 }
 
@@ -27,19 +27,10 @@
 
 /* Medidad Tablet */
 @media screen and (min-width: 760px) {
-    .service4Container button {
-        filter: drop-shadow(1px 1px 5px var(--accent-300));
-    }
+
 }
 
 /* Medidas PC  */
 @media screen and (min-width: 1024px) {
-    .service4Container button {
-        filter: none;
-        transition: filter .5s ease;
-    }
 
-    .service4Container button:hover {
-        filter: drop-shadow(0px 0px 15px var(--accent-300));
-    }
 }

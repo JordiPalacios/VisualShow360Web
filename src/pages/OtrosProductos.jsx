@@ -37,12 +37,12 @@ export const OtrosProductos = () => {
                     <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit qui nam dicta aspernatur non expedita iusto assumenda minus harum porro ullam similique voluptas neque autem modi ipsum, quisquam dolorum officiis?
                     </p>
-                    <div className="buttonsContainerEven">
+                    <div className="buttonsContainer">
                     {/* <button>
                         <NewPage href="/eventos-reales" label="Eventos Reales" colorText='var(--accent-50)'/>
                     </button> */}
                     <button>
-                        <NavItem href='#contacto' label='¡Agenda tu reunión!' colorText='var(--accent-50)'/>
+                        <NavItem href='#contacto' label='¡Agenda tu reunión!' colorText='var(--accent)'/>
                     </button>
                     </div>
                 </div>
@@ -61,7 +61,7 @@ export const OtrosProductos = () => {
                     msg="https://wa.me/34653781239?text=Quiero%20más%20información%20sobre%20las%20Letras%20Love!"
                     imgUrl='src/assets/img/servicios/Neones.webp'
                     difBg={false}
-                    colorText='var(--accent-950)'/>
+                    colorText='var(--accent)'/>
                 <ProductsCard
                     id='neones'
                     tittle='Neones'
@@ -69,7 +69,7 @@ export const OtrosProductos = () => {
                     msg="https://wa.me/34653781239?text=Quiero%20más%20información%20sobre%20los%20Neones!"
                     imgUrl='src/assets/img/servicios/Neones.webp'
                     difBg={false}
-                    colorText='var(--accent-950)'/>
+                    colorText='var(--accent)'/>
                 </div>
                 <ProductsCard
                 id='kitAntiResaca'
@@ -79,7 +79,7 @@ export const OtrosProductos = () => {
                 msg="https://wa.me/34653781239?text=Quiero%20más%20información%20sobre%20el%20Kit%20AntiResaca!"
                 workingMode={workingMode}
                 difBg={true}
-                colorText='var(--accent-50)'/>
+                colorText='var(--accent)'/>
             </div>
         </section>
             <footer>
@@ -98,13 +98,13 @@ export const OtrosProductos = () => {
                 <div className="normativeContainer">
                 <p>© 2024 VisualShow360 - Todos los derechos reservados</p>
                 <button>
-                    <NewPage href="/aviso-legal" label="Aviso Legal" colorText='var(--primary-color-100)'/>
+                    <NewPage href="/aviso-legal" label="Aviso Legal" colorText='var(--secondary)'/>
                 </button>
                 <button>
-                    <NewPage href="/politica-privacidad" label="Politica de Privacidad" colorText='var(--primary-color-100)'/>
+                    <NewPage href="/politica-privacidad" label="Politica de Privacidad" colorText='var(--secondary)'/>
                 </button>
                 <button>
-                    <NewPage href="/terminos-condiciones" label="Terminos y Condiciones" colorText='var(--primary-color-100)'/>
+                    <NewPage href="/terminos-condiciones" label="Terminos y Condiciones" colorText='var(--secondary)'/>
                 </button>
                 </div>
                 <img src="src/assets/img/Extra/generalitat.jpg" alt="generalitatImg" />

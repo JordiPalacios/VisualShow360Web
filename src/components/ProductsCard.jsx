@@ -3,7 +3,6 @@ import { WhatsAppMessage } from './WhatsAppMessage'
 
 export const ProductsCard = ({ id, tittle, description, imgUrl, difBg, colorText, msg, workingMode }) => {
   const cardClassName = difBg ? 'productCardRow' : 'productCard'
-  const buttonClassName = difBg ? 'buttonsContainerEven' : 'buttonsContainer'
   const displayElementRow = difBg ? 'rowContainer' : ''
 
   let content
@@ -18,7 +17,7 @@ export const ProductsCard = ({ id, tittle, description, imgUrl, difBg, colorText
             <h4>¡ Frase Guay para PC !</h4>
             <div className="line"></div>
             <p>{description}</p>
-            <div className={buttonClassName}>        
+            <div className='buttonsContainer'>        
               <button>
                 <WhatsAppMessage className="" label="Más Información" colorText={colorText} msg={msg} />
               </button>
@@ -33,7 +32,7 @@ export const ProductsCard = ({ id, tittle, description, imgUrl, difBg, colorText
         <h3>{tittle}</h3>
         <img src={imgUrl} alt={tittle} />
         <p>{description}</p>
-        <div className={buttonClassName}>        
+        <div className='buttonsContainer'>        
           <button>
             <WhatsAppMessage className="" label="Más Información" colorText={colorText} msg={msg} />
           </button>

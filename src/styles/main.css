@@ -16,8 +16,10 @@
     --accent: #FC008B;
     --secondary: #E82F8A;
     --textBlack : #010101;
-    --contrast: #00d084;
-    --contrast2: #fcb900;
+
+    --contrastBlack: #191919;
+    --contrastBlack2: #262626;
+
     --background: #100811;
 
     /** Colores pasados por VisualShow */

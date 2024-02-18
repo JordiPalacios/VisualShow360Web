@@ -271,19 +271,14 @@ header video {
         flex-direction: column;
         align-items: flex-start;
         position: absolute;
-        width: 200%;
-        max-width: 150px;
+        width: 100%;
+        max-width: 140px;
         height: auto;
-        border: 1px solid var(--textWhite);
         max-height: 0;
+        background: var(--vs2);
         opacity: 0;
         transition: max-height .75s ease, opacity .75s ease;
         overflow: hidden;
-
-        @supports (backdrop-filter: blur(5px)) {
-            background-color: rgba(0, 0, 0, 0.6);
-            backdrop-filter: blur(5px);
-        }
     }
 
     .productosClose li {
@@ -296,22 +291,16 @@ header video {
         flex-direction: column;
         align-items: flex-start;
         position: absolute;
-        width: 200%;
-        max-width: 150px;
+        width: fit-content;
         height: auto;
-        border: 1px solid var(--textWhite);
+        background: var(--vs2);
         opacity: 1;
         transition: max-height .75s ease, opacity .75s ease;
         z-index: 999;
-
-        @supports (backdrop-filter: blur(5px)) {
-            background-color: rgba(0, 0, 0, 0.6);
-            backdrop-filter: blur(5px);
-        }
     }
 
     .productosOpen li {
-        padding: 0 0 0 5px;
+        padding: 0 5px 0 5px;
     }
 
     .bodasEventosClose {
@@ -319,23 +308,17 @@ header video {
         flex-direction: column;
         align-items: flex-start;
         position: absolute;
-        width: 200%;
+        width: fit-content;
         height: auto;
-        border: 1px solid var(--textWhite);
-        max-width: 200px;
         max-height: 0;
+        background: var(--vs2);
         opacity: 0;
         transition: max-height .75s ease, opacity .75s ease;
         overflow: hidden;
-
-        @supports (backdrop-filter: blur(5px)) {
-            background-color: rgba(0, 0, 0, 0.6);
-            backdrop-filter: blur(5px);
-            }
     }
 
     .bodasEventosClose li {
-        padding: 0 0 0 5px;
+        padding: 0 5px 0 5px;
     }
 
     .bodasEventosOpen {
@@ -343,22 +326,16 @@ header video {
         flex-direction: column;
         align-items: flex-start;
         position: absolute;
-        width: 200%;
+        width: fit-content;
         height: auto;
-        border: 1px solid var(--textWhite);
-        max-width: 200px;
+        background: var(--vs2);
         opacity: 1;
         transition: max-height .75s ease, opacity .75s ease;
         z-index: 999;
-
-        @supports (backdrop-filter: blur(5px)) {
-            background-color: rgba(0, 0, 0, 0.6);
-            backdrop-filter: blur(5px);
-            }
     }
 
     .bodasEventosOpen li {
-        padding: 0 0 0 5px;
+        padding: 0 5px 0 5px;
     }
 
     .presentationContainer {
@@ -373,13 +350,6 @@ header video {
     header h1,
     header h2 {
         font-size: 2.25rem;
-    }
-
-    header h1 {
-        transition: filter .5s ease;
-    }
-    header h1:hover {
-        filter: drop-shadow(0px 0px 5px var(--accent));
     }
 
     .presentationContainer h1 {

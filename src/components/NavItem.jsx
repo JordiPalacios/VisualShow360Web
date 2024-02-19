@@ -12,7 +12,7 @@ export const NavItem = ({ href, label, page }) => {
       navigate('/')
     } else if (page === 'otrosProductos') {
       if (window.location.pathname !== '/otros-productos') {
-        navigate('otros-productos')
+        navigate('/otros-productos')
       }
     }
 

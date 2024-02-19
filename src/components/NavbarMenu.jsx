@@ -10,6 +10,36 @@ export const NavbarMenu = () => {
     const [isFixed, setIsFixed] = useState(false)
     const { breakpoint, navbarHeight, navbarRef, headerRef} = useContext(NavbarContext)
 
+    const handleMouseEnter = (menu) => {
+        if (window.innerWidth >= 748) {
+            switch (menu) {
+                case 'products' :
+                    setIsMoreProductsInfo(true)
+                    break
+                case 'weddings' :
+                    setIsMoreWeddingsInfo(true)
+                    break
+                default :
+                    break
+            }
+        }
+    }
+
+    const handleMouseLeave = (menu) => {
+        if (window.innerWidth >= 748) {
+            switch (menu) {
+                case 'products' :
+                    setIsMoreProductsInfo(false)
+                    break
+                case 'weddings' :
+                    setIsMoreWeddingsInfo(false)
+                    break
+                default :
+                    break
+            }
+        }
+    }
+
 
     const handleWindowSizeChange = () => {
         if (window.innerWidth < 748) {
@@ -79,22 +109,31 @@ return (
                 <div className={isMenuToggled ? 'menuOpened' : 'menuResponsive'}>
                     <ul>
                         <b><NewPage href='/' label='Home' /></b>
-                        <div className='tabletPCMenu'>                            
-                            <li onClick={() => toggleClass('products')}><b>Servicios Party {isMoreProductsInfo ? '⮵' : '⮷'} </b></li>
-                            <div className={isMoreProductsInfo ? 'productosOpen' : 'productosClose'} >
-                                <NavItem href='#plataforma360' label='Plataforma 360'page='home' />
-                                <NavItem href='#magic-mirror' label='Magic Mirror' page='home' />
-                                <NavItem href='#white-magic-mirror' label='White Magic Mirror'page='home' />                                
-                            </div>
+                        <div className='tabletPCMenu'>  
+                            <div onMouseLeave={() => handleMouseLeave('products')}>
+                                <li 
+                                onMouseEnter={() => handleMouseEnter('products')}                            
+                                onClick={() => toggleClass('products')}><b>Servicios Party {isMoreProductsInfo ? '⮵' : '⮷'} </b></li>
+                                <div className={isMoreProductsInfo ? 'productosOpen' : 'productosClose'}>
+                                    <NavItem href='#plataforma360' label='Plataforma 360'page='home' />
+                                    <NavItem href='#magic-mirror' label='Magic Mirror' page='home' />
+                                    <NavItem href='#white-magic-mirror' label='White Magic Mirror'page='home' />                                
+                                </div>
+                            </div>                          
                         </div>
-                        <div className='tabletPCMenu'>                            
-                            <li onClick={() => toggleClass('weddings')}><b>Otros Productos {isMoreWeddingsInfo ? '⮵' : '⮷'} </b></li>
-                            <div className={isMoreWeddingsInfo ? "bodasEventosOpen" : 'bodasEventosClose'}>
-                                <NavItem href='#ring-ring-experience' label='Ring Experience' page='otrosProductos' />
-                                <NavItem href='#letras-love' label='Letras Love' page='otrosProductos' />
-                                <NavItem href='#neones' label='Neones' page='otrosProductos' />
-                                <NavItem href='#kitAntiResaca' label='Kit AntiResaca' page='otrosProductos' />
-                            </div>
+                        <div className='tabletPCMenu'>  
+                            <div onMouseLeave={() => handleMouseLeave('weddings')} >
+                                <li 
+                                onMouseEnter={() => handleMouseEnter('weddings')}                            
+                                onClick={() => toggleClass('weddings')}
+                                ><b>Otros Productos {isMoreWeddingsInfo ? '⮵' : '⮷'} </b></li>
+                                <div className={isMoreWeddingsInfo ? "bodasEventosOpen" : 'bodasEventosClose'}>
+                                    <NavItem href='#ring-ring-experience' label='Ring Experience' page='otrosProductos' />
+                                    <NavItem href='#letras-love' label='Letras Love' page='otrosProductos' />
+                                    <NavItem href='#neones' label='Neones' page='otrosProductos' />
+                                    <NavItem href='#kitAntiResaca' label='Kit AntiResaca' page='otrosProductos' />
+                                </div>
+                            </div>                          
                         </div>
                         <b><NavItem href='#nosotros' label='Nosotros' page='home' /></b>
                     </ul>

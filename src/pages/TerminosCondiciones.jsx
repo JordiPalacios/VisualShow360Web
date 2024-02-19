@@ -8,10 +8,10 @@ export const TerminosCondiciones = () => {
         <header>
             <NavbarMenu />
         </header>
-        <main>
-            <div className='line'></div> 
+        <main>            
             <div className='normativityContainer'>
-                <h1>Adaptar a Visual Show</h1>
+                <div className='line'></div> 
+                <h1>Terminos y Condiciones</h1>
                 <p>
                     1. TÉRMINOS Y CONDICIONES GENERALES DE USO
 

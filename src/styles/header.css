@@ -179,6 +179,7 @@ header video {
     align-items: center;
     justify-content: center;
     min-height: 450px;
+    margin-top: 100px;
     margin-bottom: 20px;
     gap: 1rem;
     text-align: center;

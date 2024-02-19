@@ -12,7 +12,7 @@ main {
 
 .normativityContainer {
     margin: 0;
-    padding: 0 50px 0 50px;
+    padding: 125px 50px 0 45px;
     display: flex;
     flex-direction: column;
     text-align: left;

@@ -12,8 +12,7 @@ export const AvisoLegal = () => {
         <main>
             <div className='normativityContainer'>
                 <div className='line'></div> 
-                <h1>Adaptar a Visual Show</h1>
-                <h3>AVISO LEGAL</h3>
+                <h1>Aviso Legal</h1>
                 <h4>Datos identificativos:</h4>
                 <ul>
                     <li>Nombre comercial: Visual Show</li>

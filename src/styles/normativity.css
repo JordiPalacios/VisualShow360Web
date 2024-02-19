@@ -1,17 +1,18 @@
-.generalContainer {
+main {
     background: var(--vs2);
-    overflow: hidden;
 }
 
-.generalContainer .line {
+.normativityContainer .line {
     max-width: 100%;
     width: 100%;
     border-top: 1px solid var(--secondary);
-    margin-top: 50px;
+    padding-top: 0px;
+    margin: 0;
 }
 
 .normativityContainer {
-    margin: 50px 20px 0 20px;
+    margin: 0;
+    padding: 0 50px 0 50px;
     display: flex;
     flex-direction: column;
     text-align: left;

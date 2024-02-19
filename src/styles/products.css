@@ -71,10 +71,6 @@
 /* Medidad Tablet */
 @media screen and (min-width: 760px) {
 
-    .generalProducts {
-        gap: 5rem;
-    }
-
     .productCard {
         margin: 0 10px 0 10px;
     }
@@ -92,16 +88,11 @@
         color: var(--accent);
     }
 
-    .generalProducts {
-        gap: 8rem;
-    }
-
     .productCardRow { 
         display: flex;
         flex-direction: row-reverse;
         justify-content: center;
-        margin: 50px 50px 50px 10px;
-        gap: 5rem;
+        margin: 10px 10px 50px 10px;
     }
 
     .contentContainer {

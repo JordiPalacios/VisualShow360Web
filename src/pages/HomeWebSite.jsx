@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import { FormContact, ImgSlider, InfiniteLoop, NavItem, NavbarMenu, NewPage, ReviewsCard, WhatsAppMessage } from '../components'
+import { ContactUs, FormContact, ImgSlider, InfiniteLoop, NavItem, NavbarMenu, NewPage, ReviewsCard, WhatsAppMessage } from '../components'
 import Slider from "react-slick";
 import CompaniesData from '../assets/mocks/companiesData.json'
 import FotomatonData from '../assets/mocks/fotomatonData.json'
@@ -293,22 +293,8 @@ useEffect (() => {
           </div>
         </section>
         {/* !Este section es de contact us */}
-        <section id='contacto'>
-          <div className="contactoContainer">
-            <h2>¡ SÍ Quiero !</h2>
-            <div className="elementsContainer">
-              <div className="formContainer">
-                <FormContact />
-              </div>
-              <div className="mediaContainer">
-                {/* <video autoPlay muted loop>
-                  <source src="src/assets/video/wedding.mp4" type="video/mp4"/>
-                  Este navegador no soporta vídeos.
-                </video> */}
-                <img src="src/assets/img/Extra/logoVS360png.png" alt="logoVSpng" />
-              </div>
-            </div>
-          </div>
+        <section id="contacto">
+          <ContactUs />
         </section>
         <WhatsAppMessage className="contactFixed" msg="https://wa.me/34653781239?text=Quiero%20más%20información%20sobre%20VisualShow!" />
       </main>

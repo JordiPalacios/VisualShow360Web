@@ -60,6 +60,7 @@ button {
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    margin: 10px;
     text-wrap: balance;
     text-align: center;
     gap: 1rem;

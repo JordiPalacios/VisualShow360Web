@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { NavItem, NavbarMenu, NewPage, ProductsCard } from '../components'
+import { ContactUs, InfiniteLoop, NavItem, NavbarMenu, NewPage, ProductsCard } from '../components'
 
 export const OtrosProductos = () => {
     const [workingMode, setWorkingMode] = useState('')
@@ -35,27 +35,63 @@ export const OtrosProductos = () => {
             <main>
             {/* RingRingExperience */}
             <section id='ring-ring-experience'>
-                <div className="service4Container">
-                    <h2>Ring Ring Experience</h2>
-                    <img src="src/assets/img/servicios/RingRingExperience.webp" alt="InstruccionesRingRing" />
-                    <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit qui nam dicta aspernatur non expedita iusto assumenda minus harum porro ullam similique voluptas neque autem modi ipsum, quisquam dolorum officiis?
-                    </p>
-                    <div className="buttonsContainer">
-                    {/* <button>
-                        <NewPage href="/eventos-reales" label="Eventos Reales" colorText='var(--accent-50)'/>
-                    </button> */}
-                    <button>
-                        <NavItem href='#contacto' label='¡Agenda tu reunión!' colorText='var(--accent)'/>
-                    </button>
+                {workingMode === 'PC' ? (
+                    <div className="service4Container">
+                        <div className="service4ContentContainer">
+                            <img src="src/assets/img/servicios/ringringLondon.webp" alt="InstruccionesRingRing" />
+                            <div className="service4DescriptionContainer">
+                                <h2>Ring Ring Experience</h2> 
+                                <h3> ¡Frase Guay &nbsp;<span>PC/Tablet!</span></h3> 
+                                <div className='line'></div>                      
+                                <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit qui nam dicta aspernatur non expedita iusto assumenda minus harum porro ullam similique voluptas neque autem modi ipsum, quisquam dolorum officiis?
+                                </p>
+                                <div className="buttonsContainer">
+                                    {/* <button>
+                                        <NewPage href="/eventos-reales" label="Eventos Reales" colorText='var(--accent-50)'/>
+                                    </button> */}
+                                    <button>
+                                        <NavItem href='#contacto' label='¡Agenda tu reunión!' colorText='var(--accent)'/>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>                        
                     </div>
-                </div>
+                ) : (
+                    <div className="service4Container">
+                        <h2>Ring Ring Experience</h2>
+                        <h3>Frase Guay Tablet</h3>
+                        <div className="service4ContentContainer">
+                            <img src="src/assets/img/servicios/ringringLondon.webp" alt="InstruccionesRingRing" />
+                            <div className="service4DescriptionContainer">
+                                    <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit qui nam dicta aspernatur non expedita iusto assumenda minus harum porro ullam similique voluptas neque autem modi ipsum, quisquam dolorum officiis?
+                                </p>
+                                <div className="buttonsContainer">
+                                    {/* <button>
+                                        <NewPage href="/eventos-reales" label="Eventos Reales" colorText='var(--accent-50)'/>
+                                    </button> */}
+                                    <button>
+                                        <NavItem href='#contacto' label='¡Agenda tu reunión!' colorText='var(--accent)'/>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                )}
+                
             </section>
+            {/* InfiniteLoop */}
+            <section>
+                    <div className="logo">
+                        <InfiniteLoop urlImg="src/assets/img/reviews_equipo/logoVisualShow.webp" nameImg="LogoVisualShowSlide" equal={true}/>
+                        <InfiniteLoop urlImg="src/assets/img/reviews_equipo/logoVisualShow.webp" nameImg="LogoVisualShowSlide" equal={true}/>
+                    </div>
+                    </section>
             {/* !Este section es de products */}
             <section id='products'>
                 <div className="productsContainer">
                     <div className="productsTittle">
-                    <h2>Bodas y Eventos</h2>
                     </div>
                     <div className="generalProducts">
                         <ProductsCard
@@ -74,7 +110,7 @@ export const OtrosProductos = () => {
                             imgUrl='src/assets/img/servicios/Neones.webp'
                             difBg={false}
                             colorText='var(--accent)'/>
-                    </div>
+                    </div>                    
                     <ProductsCard
                     id='kitAntiResaca'
                     tittle='Kit AntiResaca'
@@ -86,34 +122,45 @@ export const OtrosProductos = () => {
                     colorText='var(--accent)'/>
                 </div>
             </section>
+            {/* InfiniteLoop */}
+            <section>
+                <div className="logo">
+                    <InfiniteLoop urlImg="src/assets/img/reviews_equipo/logoVisualShow.webp" nameImg="LogoVisualShowSlide" equal={true}/>
+                    <InfiniteLoop urlImg="src/assets/img/reviews_equipo/logoVisualShow.webp" nameImg="LogoVisualShowSlide" equal={true}/>
+                </div>
+            </section>
+            {/* !Este section es de contact us */}
+            <section id='contacto'>
+                <ContactUs />
+            </section>
         </main>
         <footer>
-            <div className="footerContainer">  
-            <h3>No hacemos eventos...</h3>      
-            <h4>¡ Creamos recuerdos !</h4>
-            <div className="line"></div>
-            <div className="rrssContainer">
-                <a href="https://www.instagram.com/visualshow360?igshid=YmMyMTA2M2Y=" target="_blank" rel="noopener noreferrer">
-                <img id="ig" src="src/assets/icons/ig.svg"/>
-                </a>            
-                <a href="https://www.tiktok.com/@visualshow360?_t=8jdUAUysy9p&_r=1" target="_blank" rel="noopener noreferrer">
-                <img id="ig" src="src/assets/icons/tiktok.svg"/>
-                </a>
-            </div>
-            <div className="normativeContainer">
-            <p>© 2024 VisualShow360 - Todos los derechos reservados</p>
-            <button>
-                <NewPage href="/aviso-legal" label="Aviso Legal" colorText='var(--secondary)'/>
-            </button>
-            <button>
-                <NewPage href="/politica-privacidad" label="Politica de Privacidad" colorText='var(--secondary)'/>
-            </button>
-            <button>
-                <NewPage href="/terminos-condiciones" label="Terminos y Condiciones" colorText='var(--secondary)'/>
-            </button>
-            </div>
-            <img src="src/assets/img/Extra/generalitat.jpg" alt="generalitatImg" />
-            <a href="https://www.instagram.com/jordi_code?igsh=MXRvbmtiYmhheHRiZw%3D%3D&utm_source=qr"> Creada y diseñada por Jordi Code</a>
+            <div className="footerContainer">
+                <div className="line"></div>  
+                <h3>No hacemos eventos...</h3>      
+                <h4>¡ Creamos recuerdos !</h4>
+                <div className="rrssContainer">
+                    <a href="https://www.instagram.com/visualshow360?igshid=YmMyMTA2M2Y=" target="_blank" rel="noopener noreferrer">
+                    <img id="ig" src="src/assets/icons/ig.svg"/>
+                    </a>            
+                    <a href="https://www.tiktok.com/@visualshow360?_t=8jdUAUysy9p&_r=1" target="_blank" rel="noopener noreferrer">
+                    <img id="ig" src="src/assets/icons/tiktok.svg"/>
+                    </a>
+                </div>
+                <div className="normativeContainer">
+                    <p>© 2024 VisualShow360 - Todos los derechos reservados</p>
+                    <button>
+                        <NewPage href="/aviso-legal" label="Aviso Legal" colorText='var(--secondary)'/>
+                    </button>
+                    <button>
+                        <NewPage href="/politica-privacidad" label="Politica de Privacidad" colorText='var(--secondary)'/>
+                    </button>
+                    <button>
+                        <NewPage href="/terminos-condiciones" label="Terminos y Condiciones" colorText='var(--secondary)'/>
+                    </button>
+                </div>
+                <img src="src/assets/img/Extra/generalitat.jpg" alt="generalitatImg" />
+                <a href="https://www.instagram.com/jordi_code?igsh=MXRvbmtiYmhheHRiZw%3D%3D&utm_source=qr"> Creada y diseñada por Jordi Code</a>
             </div>
         </footer>
     </>

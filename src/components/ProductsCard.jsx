@@ -40,21 +40,7 @@ export const ProductsCard = ({ id, tittle, description, imgUrl, difBg, colorText
       </div>
     )
   }
-
-  // const content = (
-  //   <div id={id} className={cardClassName}>   
-  //     <h3>{tittle}</h3>
-  //     <img src={imgUrl} alt={tittle} />
-  //     <p>{description}</p>
-  //     <div className={buttonClassName}>        
-  //       <button>
-  //         <WhatsAppMessage className="" label="Más Información" colorText={colorText} msg={msg} />
-  //       </button>
-  //   </div>     
-  //   </div>
-  // )
-
-
+  
   return (
     <>
       {content}

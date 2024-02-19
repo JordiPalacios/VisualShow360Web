@@ -16,12 +16,12 @@
 
 .reviewsContainer h4 {
     background: var(--secondary);
-    color: var(--textBlack);
+    color: var(--textWhite);
     margin: 10px 0 15px 0;
     padding: 10px;
     font-size: 1.2rem;
     font-style: italic;
-    font-weight: bold;
+    font-weight: 100;
     border-radius: 5px;
 }
 

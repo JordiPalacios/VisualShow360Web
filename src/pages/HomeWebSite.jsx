@@ -148,7 +148,7 @@ useEffect (() => {
                 <img src="src/assets/img/servicios/EspejoMagico.webp" alt="EspejoMagico"/>           
                 <div className="service2DescriptionContainer">  
                   <h2>Magic Mirror</h2>
-                  <h3> ¡Frase Guay Para &nbsp;<span>PC/Tablet!</span></h3>    
+                  <h3> ¡Frase Guay &nbsp;<span>PC/Tablet!</span></h3>    
                   <div className='line'></div>             
                   <p>
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, quidem laudantium doloribus atque totam voluptate, nulla tenetur provident minima natus beatae non, reprehenderit pariatur praesentium! Dolore necessitatibus ab eaque cum!
@@ -168,7 +168,7 @@ useEffect (() => {
           (
             <div className='service2Container'>
               <h2>Magic Mirror</h2>              
-              <h3> ¡Frase Guay Para PC!</h3> 
+              <h3> ¡Frase Guay Para Tablet!</h3> 
               <div className="service2ContentContainer">              
                 <img src="src/assets/img/servicios/EspejoMagico.webp" alt="EspejpoMagico"/>
                 <div className="service2DescriptionContainer">                
@@ -196,7 +196,7 @@ useEffect (() => {
                 <img src="src/assets/img/servicios/magicMirrorWhite.jpg" alt="EspejoMagicoWhite"/>                      
               <div className="service3DescriptionContainer">  
                 <h2>White Magic Mirror</h2>
-                <h3> <span>¡Titulo Guay Para</span>&nbsp;PC/Tablet!</h3>    
+                <h3> <span>¡Titulo Guay</span>&nbsp;PC/Tablet!</h3>    
                 <div className='line'></div>        
                 <p>
                   Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, quidem laudantium doloribus atque totam voluptate, nulla tenetur provident minima natus beatae non, reprehenderit pariatur praesentium! Dolore necessitatibus ab eaque cum!
@@ -215,7 +215,7 @@ useEffect (() => {
           ) : (
             <div className="service3Container">
               <h2>White Magic Mirror</h2>
-              <h3> ¡Titulo Guay Para PC/Tablet!</h3>
+              <h3> ¡Titulo Guay Para Tablet!</h3>
               <div className="service3ContentContainer">              
               <img src="src/assets/img/servicios/magicMirrorWhite.jpg" alt="EspejpoMagico"/>
               <div className="service3DescriptionContainer">              

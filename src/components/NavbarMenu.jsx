@@ -7,8 +7,7 @@ export const NavbarMenu = () => {
     const [isMenuToggled, setIsMenuToggled] = useState(false)
     const [isMoreProductsInfo, setIsMoreProductsInfo] = useState(false)
     const [isMoreWeddingsInfo, setIsMoreWeddingsInfo] = useState(false)
-    const [isFixed, setIsFixed] = useState(false)
-    const { breakpoint, navbarHeight, navbarRef, headerRef} = useContext(NavbarContext)
+    const { navbarRef, headerRef} = useContext(NavbarContext)
 
     const handleMouseEnter = (menu) => {
         if (window.innerWidth >= 748) {
@@ -59,23 +58,6 @@ export const NavbarMenu = () => {
 
     }, [])
 
-    useEffect (() => {
-        const onScroll = () => {
-            let windowPos = window.scrollY
-            const isNavFixed = windowPos >= breakpoint
-            setIsFixed(isNavFixed)
-            if (isNavFixed) {
-            headerRef.current.style.paddingTop = `${navbarHeight}px`
-            } else {
-            headerRef.current.style.paddingTop = `0px`
-            }
-        }
-        window.addEventListener('scroll', onScroll)
-    
-        return () => window.removeEventListener('scroll', onScroll)
-        }, [breakpoint])
-
-
     const toggleClass = (className) => {
     switch (className) {
         case 'menuOpen':
@@ -97,7 +79,7 @@ export const NavbarMenu = () => {
 
 return (
     <div ref={headerRef}>
-        <nav id='navbar' ref={navbarRef} className={isFixed ? 'navFixed' : ''}>
+        <nav id='navbar' ref={navbarRef} className='navFixed'>
             <div className="menuResponsiveContainer">                
                 <div className="logoMenu">
                     <button

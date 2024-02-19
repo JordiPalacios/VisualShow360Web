@@ -19,6 +19,8 @@
 
 .service3Container h2 {
     padding-bottom: 20px;
+    color: var(--textWhite);
+    text-decoration: 2px underline var(--secondary);
 }
 
 .service3Container h3 {
@@ -43,6 +45,7 @@
     .service3Container h2 {
         padding-bottom: 0;
         color: var(--textWhite);
+        text-decoration: none;
     }
 
     .service3Container h3 {
@@ -58,9 +61,12 @@
 
     .service3Container h3 {
         display: inline-block;
-        margin-bottom: 30px;
+        margin: 0 0 10px 0;
+        padding: 5px;
         font-style: italic;
         font-weight: bolder;
+        color: var(--textWhite);
+        background: var(--secondary);
         
     }
 
@@ -107,12 +113,16 @@
 
     .service3ContentContainer {
         align-items: start;
-        margin: 50px 10px 50px 50px;
+        margin: 50px 40px 50px 50px;
         gap: 5rem;
     }
 
     .service3DescriptionContainer {
         gap: 0;
+    }
+
+    .service3Container p {
+        max-width: 80%;
     }
 
 }

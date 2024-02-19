@@ -12,6 +12,10 @@
     font-weight: bolder;
 }
 
+.service1Container h2 {
+    text-decoration: 2px underline var(--secondary);
+}
+
 .service1Container h3 {
     display: none;
 }
@@ -94,6 +98,7 @@
     .service1Container h2 {
         padding-bottom: 0;
         color: var(--textWhite);
+        text-decoration: none;
     }
 
     .service1Container h3 {
@@ -101,8 +106,8 @@
         margin-bottom: 30px;
         font-style: italic;
         font-weight: bolder;
-        background: var(--textWhite);
-        color: var(--accent);
+        background: var(--secondary);
+        color: var(--textWhite);
         padding: 5px;
     }
 
@@ -115,7 +120,7 @@
 @media screen and (min-width: 1024px) {
 
     .fotomatonImgService1 {
-        max-width: 1200px;
+        max-width: 2000px;
         margin: 20px;
     }
 }

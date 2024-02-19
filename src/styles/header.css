@@ -144,8 +144,9 @@ nav ul {
 
 header {
     position: relative;
-    overflow: hidden;
     margin: 0;
+    overflow: hidden;
+    z-index: 999;
 }
 
 header h1,h2 {

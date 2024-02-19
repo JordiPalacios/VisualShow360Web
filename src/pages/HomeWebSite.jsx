@@ -301,10 +301,11 @@ useEffect (() => {
                 <FormContact />
               </div>
               <div className="mediaContainer">
-                <video autoPlay muted loop>
+                {/* <video autoPlay muted loop>
                   <source src="src/assets/video/wedding.mp4" type="video/mp4"/>
                   Este navegador no soporta vídeos.
-                </video>
+                </video> */}
+                {/* <img src="src/assets/img/Extra/logoVS360png.png" alt="logoVSpng" /> */}
               </div>
             </div>
           </div>
@@ -338,7 +339,7 @@ useEffect (() => {
           </div>
           <img src="src/assets/img/Extra/generalitat.jpg" alt="generalitatImg" />
           <a href="https://www.instagram.com/jordi_code?igsh=MXRvbmtiYmhheHRiZw%3D%3D&utm_source=qr" 
-          style={{ fontSize:'.6rem', padding:'10px' }}> Creada y diseñada x Jordi Code</a>
+          style={{ fontSize:'.6rem', padding:'10px' }} target="_blank"> Creada y diseñada x Jordi Code</a>
         </div>
       </footer>
     </>

@@ -1,5 +1,13 @@
 .generalContainer {
-    background: var(--gradient-pink-4);
+    background: var(--vs2);
+    overflow: hidden;
+}
+
+.generalContainer .line {
+    max-width: 100%;
+    width: 100%;
+    border-top: 1px solid var(--secondary);
+    margin-top: 50px;
 }
 
 .normativityContainer {

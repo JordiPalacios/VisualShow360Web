@@ -21,7 +21,7 @@ Para iniciar el proyecto solo debes:
 
 ToDo:
 
-[]General :
+[x]General :
     [x]Toda la web con el gradiente de VS-2
     [x]Borrar boton de eventos reales
     [x]Modificar ventana eventos reales y que ahora sea la de "Otros Productos"
@@ -31,10 +31,10 @@ ToDo:
             [x]Letras Love
             [x]KitAnitResaca
 
-[]Navbar :
-    []PC:
-        []Si desplazo el raton por encima que se despliegue de forma automatica
-        []Revisar los cuadraditos del desplegable que creo que le falta algo
+[x]Navbar :
+    [x]PC:
+        [x]Si desplazo el raton por encima que se despliegue de forma automatica
+        [x]Revisar los cuadraditos del desplegable que creo que le falta algo
 
 [x]Header :
     [x]Ocultar todos los H1 de palabras clave que me diran -> Crear un div y lo oculto entero

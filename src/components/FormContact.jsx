@@ -54,7 +54,7 @@ return (
                 <option value="boda"> Boda </option>
                 <option value="cumpleaños"> Cumpleaños </option>
                 <option value="eventoCorporativo"> Evento Corporativo </option>
-                <option value="boda"> Fiesta </option>
+                <option value="fiestaPrivada"> Fiesta Privada </option>
                 <option value="otros"> Otros </option>
             </select>
             {/* <input type="text" name='tipoEvento' placeholder='S E L E C C I O N E    E V E N T O' /> */}

@@ -29,6 +29,13 @@ export const HomeWebsite = () => {
     slidesToScroll: 1
   })
 
+  const handleClick = () => {
+    const element = document.getElementById('plataforma360')
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' })
+    }
+  }
+
 // useEffect para crear las marcas del modo trabajo PC - Tablet - Mobile
 useEffect (() => {
   const checkWorkingMode = () => {
@@ -97,7 +104,7 @@ useEffect (() => {
             <source src="src/assets/video/weedingBW.mp4" type="video/mp4"/>
             Este navegador no soporta vídeos.
           </video>
-          <img src="src/assets/img/Extra/arrow.gif" alt="arrowGift" />
+          <img onClick={handleClick} src="src/assets/img/Extra/arrow.gif" alt="arrowGift" />
         </div>
       </header>
 

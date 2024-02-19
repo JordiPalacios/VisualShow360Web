@@ -54,11 +54,6 @@
         padding: 5px;
     }
 
-    .service3Container span {
-        background: var(--accent);
-        color: var(--textWhite);
-    }
-
     .service3Container h3 {
         display: inline-block;
         margin: 0 0 10px 0;

@@ -305,7 +305,7 @@ useEffect (() => {
                   <source src="src/assets/video/wedding.mp4" type="video/mp4"/>
                   Este navegador no soporta vídeos.
                 </video> */}
-                {/* <img src="src/assets/img/Extra/logoVS360png.png" alt="logoVSpng" /> */}
+                <img src="src/assets/img/Extra/logoVS360png.png" alt="logoVSpng" />
               </div>
             </div>
           </div>

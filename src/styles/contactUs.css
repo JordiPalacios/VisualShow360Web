@@ -32,6 +32,7 @@ textarea:focus {
     align-items: center;
     color: var(--secondary);
     padding: 20px;
+    overflow: hidden;
 }
 
 .contactoContainer h2 {
@@ -159,7 +160,7 @@ form button {
 
 /* Medidad Tablet */
 @media screen and (min-width: 760px) {
-
+   
 }
 
 /* Medidas PC  */
@@ -170,5 +171,36 @@ form button {
 
     form button:hover {
         transform: scale(1.15);
+    }
+
+    .elementsContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+    }
+
+    .formContainer {
+        z-index: 2;
+        width: 100%;
+        max-width: 500px;
+        order: 1;
+    }
+
+    .mediaContainer {
+        display: block;
+        position: absolute;
+        max-width: 70vh;
+        max-width: 400px;
+        rotate: 15deg;
+        right: -60%;
+        top: 0;
+        z-index: 1;
+    }
+
+    .mediaContainer img {
+        width: auto;
+        max-width: 100%;
+        height: auto;
     }
 }

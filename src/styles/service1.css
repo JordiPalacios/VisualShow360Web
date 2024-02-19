@@ -103,7 +103,8 @@
 
     .service1Container h3 {
         display: inline-block;
-        margin-bottom: 30px;
+        margin: 0;
+        margin-bottom: 15px;
         font-style: italic;
         font-weight: bolder;
         background: var(--secondary);

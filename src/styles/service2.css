@@ -11,7 +11,7 @@
 .service2Container h2 {
     padding-bottom: 20px;
     color: var(--secondary);
-    text-decoration: 2px underline var(--textWhite);
+    text-decoration: 2px underline wavy var(--textWhite);
 }
 
 .service2Container h3 {

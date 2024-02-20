@@ -15,7 +15,7 @@
 
 .generalProducts {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     background: var(--vs2);
@@ -55,6 +55,7 @@
 #neones h3 {
     background: var(--textWhite);
     color: var(--secondary);
+    text-decoration: 2px underline var(--secondary);
     margin: 0;
     padding: 5px;
 }
@@ -62,6 +63,7 @@
 #letras-love h3 {
     background: var(--secondary);
     color: var(--textWhite);
+    text-decoration: 2px underline var(--textWhite);
     margin: 0;
     padding: 5px;
 }
@@ -92,6 +94,9 @@
 
 /* Medidad Tablet */
 @media screen and (min-width: 760px) {
+    .generalProducts {
+        flex-direction: row;
+    }
 
     .productCard {
         margin: 0 10px 0 10px;

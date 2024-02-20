@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import { ContactUs, FormContact, ImgSlider, InfiniteLoop, NavItem, NavbarMenu, NewPage, ReviewsCard, WhatsAppMessage } from '../components'
+import { ContactUs, ImgSlider, InfiniteLoop, NavItem, NavbarMenu, NewPage, ReviewsCard, WhatsAppMessage } from '../components'
 import Slider from "react-slick";
 import CompaniesData from '../assets/mocks/companiesData.json'
 import FotomatonData from '../assets/mocks/fotomatonData.json'
@@ -108,7 +108,7 @@ useEffect (() => {
             <source src="src/assets/video/weedingBW.mp4" type="video/mp4"/>
             Este navegador no soporta vídeos.
           </video>
-          <img onClick={handleClick} src="src/assets/img/Extra/arrow.gif" alt="arrowGift" />
+          <img onClick={handleClick} src="src/assets/gifts/arrow.gif" alt="arrowGift" />
         </div>
       </header>
 
@@ -149,7 +149,7 @@ useEffect (() => {
           {workingMode === 'PC' ? (
             <div className='service2Container'>
               <div className="service2ContentContainer">
-                <img src="src/assets/img/servicios/EspejoMagico.webp" alt="EspejoMagico"/>           
+                <img src="src/assets/img/servicios/magicMirror/EspejoMagico.webp" alt="EspejoMagico"/>           
                 <div className="service2DescriptionContainer">  
                   <h2>Magic Mirror</h2>
                   <h3> ¡Frase Guay &nbsp;<span>PC/Tablet!</span></h3>    
@@ -174,7 +174,7 @@ useEffect (() => {
               <h2>Magic Mirror</h2>              
               <h3> ¡Frase Guay Para Tablet!</h3> 
               <div className="service2ContentContainer">              
-                <img src="src/assets/img/servicios/EspejoMagico.webp" alt="EspejpoMagico"/>
+                <img src="src/assets/img/servicios/magicMirror/EspejoMagico.webp" alt="EspejpoMagico"/>
                 <div className="service2DescriptionContainer">                
                   <p>
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, quidem laudantium doloribus atque totam voluptate, nulla tenetur provident minima natus beatae non, reprehenderit pariatur praesentium! Dolore necessitatibus ab eaque cum!
@@ -197,7 +197,7 @@ useEffect (() => {
           {workingMode === 'PC' ? (
             <div className="service3Container">
               <div className="service3ContentContainer">  
-                <img src="src/assets/img/servicios/magicMirrorWhite.jpg" alt="EspejoMagicoWhite"/>                      
+                <img src="src/assets/img/servicios/whiteMagicMirror/magicMirrorWhiteBg.jpg" alt="EspejoMagicoWhite"/>                      
               <div className="service3DescriptionContainer">  
                 <h2>White Magic Mirror</h2>
                 <h3> <span>¡Titulo Guay</span>&nbsp;PC/Tablet!</h3>    
@@ -221,7 +221,7 @@ useEffect (() => {
               <h2>White Magic Mirror</h2>
               <h3> ¡Titulo Guay Para Tablet!</h3>
               <div className="service3ContentContainer">              
-              <img src="src/assets/img/servicios/magicMirrorWhite.jpg" alt="EspejpoMagico"/>
+              <img src="src/assets/img/servicios/whiteMagicMirror/magicMirrorWhiteBg.jpg" alt="EspejpoMagico"/>
               <div className="service3DescriptionContainer">              
                 <p>
                   Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, quidem laudantium doloribus atque totam voluptate, nulla tenetur provident minima natus beatae non, reprehenderit pariatur praesentium! Dolore necessitatibus ab eaque cum!

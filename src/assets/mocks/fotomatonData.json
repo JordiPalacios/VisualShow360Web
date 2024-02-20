@@ -1,26 +1,26 @@
 [
     {
-        "urlImg" : "src/assets/img/servicios/fotomaton360VisualShow.webp",
+        "urlImg" : "src/assets/img/servicios/fotomaton360/fotomaton360.jpeg",
         "id": "fotomaton1"
     } ,
     {
-        "urlImg" : "src/assets/img/servicios/fotomaton360VisualShow.webp",
+        "urlImg" : "src/assets/img/servicios/fotomaton360/fotomaton360VisualShow.webp",
         "id": "fotomaton2"
     },
     {
-        "urlImg" : "src/assets/img/servicios/fotomaton360VisualShow.webp",
+        "urlImg" : "src/assets/img/servicios/otrosProductos/atrezzo.jpeg",
         "id": "fotomaton3"
     },
     {
-        "urlImg" : "src/assets/img/servicios/fotomaton360VisualShow.webp",
+        "urlImg" : "src/assets/img/servicios/fotomaton360/fotomaton360.jpeg",
         "id": "fotomaton4"
     },
     {
-        "urlImg" : "src/assets/img/servicios/fotomaton360VisualShow.webp",
+        "urlImg" : "src/assets/img/servicios/fotomaton360/fotomaton360VisualShow.webp",
         "id": "fotomaton5"
     },
     {
-        "urlImg" : "src/assets/img/servicios/fotomaton360VisualShow.webp",
+        "urlImg" : "src/assets/img/servicios/otrosProductos/atrezzo.jpeg",
         "id": "fotomaton6"
     }
 ]

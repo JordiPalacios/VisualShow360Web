@@ -24,7 +24,7 @@
 .generalProducts img {
     width: 100%;
     height: auto;
-    max-width: 250px;
+    max-width: 450px;
     margin-top: 15px;
     aspect-ratio: 4/3;
     object-fit: cover;

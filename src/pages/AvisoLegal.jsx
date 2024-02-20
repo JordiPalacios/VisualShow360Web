@@ -1,5 +1,5 @@
 import React from 'react'
-import { Footer, NavbarMenu, NewPage } from '../components'
+import { Footer, NavbarMenu } from '../components'
 
 export const AvisoLegal = () => {
 

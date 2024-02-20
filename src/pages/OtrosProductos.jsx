@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { ContactUs, Footer, InfiniteLoop, NavItem, NavbarMenu, NewPage, ProductsCard } from '../components'
+import { ContactUs, Footer, InfiniteLoop, NavItem, NavbarMenu, ProductsCard } from '../components'
 
 export const OtrosProductos = () => {
     const [workingMode, setWorkingMode] = useState('')

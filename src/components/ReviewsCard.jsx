@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const ReviewsCard = ({ id, tittle, client, description, imgUrl, cardClassName, urlBodasNet, imgBodasNet }) => {
+export const ReviewsCard = ({ id, tittle, client, description, imgUrl, cardClassName }) => {
 
     const content = (
     <div id={id} className={cardClassName}> 
@@ -10,8 +10,6 @@ export const ReviewsCard = ({ id, tittle, client, description, imgUrl, cardClass
             <img src={imgUrl} alt={tittle} />
             <p>{description}</p>
         </div>
-        <a href={urlBodasNet} target="_blank">Ver más</a>
-        <img src={imgBodasNet} alt="LogoBodasNet" />
     </div>
 )
 

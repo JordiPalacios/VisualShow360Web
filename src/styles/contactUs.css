@@ -190,7 +190,6 @@ form button {
     .mediaContainer {
         display: block;
         position: absolute;
-        max-width: 70vh;
         max-width: 400px;
         rotate: 15deg;
         right: -60%;

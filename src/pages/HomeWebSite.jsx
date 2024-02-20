@@ -68,7 +68,7 @@ useEffect (() => {
   }
 
   const handleResizeReviews = () => {
-    const newSetttingsReviews = window.innerWidth < 1024
+    const newSetttingsReviews = window.innerWidth < 1300
     ? {...sliderSettingsReviews, slidesToShow: 1, dots: true}
     : {...sliderSettingsReviews, slidesToShow: 3, dots: true}
 
@@ -263,11 +263,15 @@ useEffect (() => {
                       description={data.description}
                       imgUrl={data.imgUrl}
                       cardClassName={data.cardClassName}
-                      urlBodasNet={data.urlBodasNet}
-                      imgBodasNet={data.imgBodasNet}
                       />
                   ))}
                 </Slider>
+            </div>
+            <a href="https://www.bodas.net/animacion/360-&-magic-mirror-visualshow360--e218488/opiniones" target="_blank">Ver más</a>
+            <div className="reviewsMediaContainer">
+              <a href="https://www.bodas.net/animacion/360-&-magic-mirror-visualshow360--e218488/opiniones" target="_blank">
+                <img src="src/assets/img/reviews_equipo/bodasNetSVG.svg" alt="logoVSpng" />
+              </a>                
             </div>
           </div>
         </section>

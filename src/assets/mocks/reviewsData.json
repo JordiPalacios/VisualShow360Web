@@ -1,83 +1,62 @@
 [
     {
         "id":"review1",
-        "tittle":"La BODA del AÑO LOCURA",
-        "client":"Jose y Laura",
-        "description":"Review 1: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, eaque sunt autem iusto rem dolorum error harum ut quae sequi! Id, sint repellendus. In iste aperiam id aspernatur! Aspernatur, reprehenderit!",
-        "imgUrl":"src/assets/img/reviews_equipo/David_Ivet.JPG",
+        "tittle":"¡Genial elección!",
+        "client":"Alejandro G.",
+        "description":"Son gente increíble! Hicieron un gran trabajo el día de nuestra bola. El fotomatón 360 fue un gran acierto, todo el mundo nos felicitó. El espejo más de lo mismo, con su álbum con dedicatorias, disfraces y todo lo necesario para que la gente se lo pasara súper bien...",
+        "imgUrl":"src/assets/img/reviews_equipo/clientes/id1.webp",
         "cardClassName":"reviewCard",
         "urlBodasNet": "https://www.bodas.net/animacion/360-&-magic-mirror-visualshow360--e218488/opiniones",
         "imgBodasNet": "src/assets/img/reviews_equipo/bodasNetSVG.svg" 
     } ,
     {
         "id":"review2",
-        "tittle":"Trato ÚNICO INIGUALABLE",
-        "client":"David e Ivet",
-        "description":"Review 2: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, eaque sunt autem iusto rem dolorum error harum ut quae sequi! Id, sint repellendus. In iste aperiam id aspernatur! Aspernatur, reprehenderit!",
-        "imgUrl":"src/assets/img/reviews_equipo/David_Ivet.JPG",
+        "tittle":"No puede faltar!!",
+        "client":"Lorena",
+        "description":"¡¡Una idea divertida para los más tímidos!! nos encantó y a todos los invitados!! ¡Hacían cola para tener la experiencia 360!, los videos los podías tener al momento, genial!! el staff super agradables, y muy pacientes. sin duda, recomendable 100% ¡¡Mil gracias!",
+        "imgUrl":"src/assets/img/reviews_equipo/clientes/id2.webp",
         "cardClassName":"reviewCard",
         "urlBodasNet": "https://www.bodas.net/animacion/360-&-magic-mirror-visualshow360--e218488/opiniones",
         "imgBodasNet": "src/assets/img/reviews_equipo/bodasNetSVG.svg" 
     },
     {
         "id":"review3",
-        "tittle":"Repetire sin DUDARLO",
-        "client":"Julio y Maria",
-        "description":"Review 3: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, eaque sunt autem iusto rem dolorum error harum ut quae sequi! Id, sint repellendus. In iste aperiam id aspernatur! Aspernatur, reprehenderit!",
-        "imgUrl":"src/assets/img/reviews_equipo/David_Ivet.JPG",
+        "tittle":"Triunfo total",
+        "client":"Blanca R.",
+        "description":"Fue todo un acierto contratar la plataforma 365 Desde el primer momento hubo mucha comunicación y nos lo pudieron todo súper fácil! Los invitados quedaron encantados, todo el rato había fila para subir! Se desplazaron a Huesca para el evento! Son geniales",
+        "imgUrl":"src/assets/img/reviews_equipo/clientes/id3.webp",
         "cardClassName":"reviewCard",
         "urlBodasNet": "https://www.bodas.net/animacion/360-&-magic-mirror-visualshow360--e218488/opiniones",
         "imgBodasNet": "src/assets/img/reviews_equipo/bodasNetSVG.svg" 
     },
     {
         "id":"review4",
-        "tittle":"Repetire sin DUDARLO",
-        "client":"Julio y Maria",
-        "description":"Review 3: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, eaque sunt autem iusto rem dolorum error harum ut quae sequi! Id, sint repellendus. In iste aperiam id aspernatur! Aspernatur, reprehenderit!",
-        "imgUrl":"src/assets/img/reviews_equipo/David_Ivet.JPG",
+        "tittle":"Profesionales 100%",
+        "client":"Na Al",
+        "description":"Pareja joven y divertida, muy profesionales, hicimos el videomatón 360 y todo salió perfecto. Trajeron un álbum para que la gente firmase, aunque no hicimos fotomatón. Muy bien todo! :D",
+        "imgUrl":"src/assets/img/reviews_equipo/clientes/id4.webp",
         "cardClassName":"reviewCard",
         "urlBodasNet": "https://www.bodas.net/animacion/360-&-magic-mirror-visualshow360--e218488/opiniones",
         "imgBodasNet": "src/assets/img/reviews_equipo/bodasNetSVG.svg" 
     },
     {
         "id":"review5",
-        "tittle":"Repetire sin DUDARLO",
-        "client":"Julio y Maria",
-        "description":"Review 3: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, eaque sunt autem iusto rem dolorum error harum ut quae sequi! Id, sint repellendus. In iste aperiam id aspernatur! Aspernatur, reprehenderit!",
-        "imgUrl":"src/assets/img/reviews_equipo/David_Ivet.JPG",
+        "tittle":"Divertidísimo!!!",
+        "client":"Jessica",
+        "description":"Súper puntuales , profesionales y a nuestros invitados les encantó el fotomatón ! Fue uno de los mejores momentos de la noche ! Lo recomiendo 100%",
+        "imgUrl":"src/assets/img/reviews_equipo/clientes/id5.webp",
         "cardClassName":"reviewCard",
         "urlBodasNet": "https://www.bodas.net/animacion/360-&-magic-mirror-visualshow360--e218488/opiniones",
         "imgBodasNet": "src/assets/img/reviews_equipo/bodasNetSVG.svg" 
     },
     {
         "id":"review6",
-        "tittle":"Repetire sin DUDARLO",
-        "client":"Julio y Maria",
-        "description":"Review 3: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, eaque sunt autem iusto rem dolorum error harum ut quae sequi! Id, sint repellendus. In iste aperiam id aspernatur! Aspernatur, reprehenderit!",
-        "imgUrl":"src/assets/img/reviews_equipo/David_Ivet.JPG",
+        "tittle":"Me encanto!!",
+        "client":"Yorkayna N.",
+        "description":"Tuvimos una nueva experiencia amables y eficientes y menos mal tenían un espacio para nosotros gracias, muchas gracias",
+        "imgUrl":"src/assets/img/reviews_equipo/clientes/id6.webp",
         "cardClassName":"reviewCard",
         "urlBodasNet": "https://www.bodas.net/animacion/360-&-magic-mirror-visualshow360--e218488/opiniones",
         "imgBodasNet": "src/assets/img/reviews_equipo/bodasNetSVG.svg" 
-    },
-    {
-        "id":"review7",
-        "tittle":"Repetire sin DUDARLO",
-        "client":"Julio y Maria",
-        "description":"Review 3: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, eaque sunt autem iusto rem dolorum error harum ut quae sequi! Id, sint repellendus. In iste aperiam id aspernatur! Aspernatur, reprehenderit!",
-        "imgUrl":"src/assets/img/reviews_equipo/David_Ivet.JPG",
-        "cardClassName":"reviewCard",
-        "urlBodasNet": "https://www.bodas.net/animacion/360-&-magic-mirror-visualshow360--e218488/opiniones",
-        "imgBodasNet": "src/assets/img/reviews_equipo/bodasNetSVG.svg"
-    },
-    {
-        "id":"review8",
-        "tittle":"Repetire sin DUDARLO",
-        "client":"Julio y Maria",
-        "description":"Review 3: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, eaque sunt autem iusto rem dolorum error harum ut quae sequi! Id, sint repellendus. In iste aperiam id aspernatur! Aspernatur, reprehenderit!",
-        "imgUrl":"src/assets/img/reviews_equipo/David_Ivet.JPG",
-        "cardClassName":"reviewCard",
-        "urlBodasNet": "https://www.bodas.net/animacion/360-&-magic-mirror-visualshow360--e218488/opiniones",
-        "imgBodasNet": "src/assets/img/reviews_equipo/bodasNetSVG.svg"
-    }
-    
+    }    
 ]

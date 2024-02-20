@@ -110,11 +110,6 @@
         max-width: 800px;
     }
 
-    #kitAntiResaca h3 {
-        padding-bottom: 0;
-        color: var(--accent);
-    }
-
     .productCardRow { 
         display: flex;
         flex-direction: row-reverse;

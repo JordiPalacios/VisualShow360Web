@@ -100,7 +100,11 @@ useEffect (() => {
             <h1>Magic Mirror</h1>
             <h1>RingRing Experience</h1>
           </div>
-          <video autoPlay muted loop>
+          <video className='videoMobile' autoPlay muted loop>
+            <source src="src/assets/video/videoMobileBW.mp4" type="video/mp4"/>
+            Este navegador no soporta vídeos.
+          </video>
+          <video className='videoTabletPC' autoPlay muted loop>
             <source src="src/assets/video/weedingBW.mp4" type="video/mp4"/>
             Este navegador no soporta vídeos.
           </video>
@@ -129,7 +133,7 @@ useEffect (() => {
                 <NewPage href="/eventos-reales" label="Eventos Reales" colorText='var(--accent-950)'/>
               </button> */}
               <button>
-                <NavItem href='#contacto' label='¡Agenda tu reunión!' colorText='var(--accent)'/>
+                <NavItem href='#contacto' label='¡Agenda tu reunión!' colorText='var(--accent)' page='home'/>
               </button>
             </div>
           </div>
@@ -158,7 +162,7 @@ useEffect (() => {
                       <NewPage href="/eventos-reales" label="Eventos Reales" colorText='var(--accent-50)'/>
                     </button> */}
                     <button>
-                      <NavItem href='#contacto' label='¡Agenda tu reunión!' colorText='var(--accent)'/>
+                      <NavItem href='#contacto' label='¡Agenda tu reunión!' colorText='var(--accent)' page='home'/>
                     </button>
                   </div>
                 </div>
@@ -180,7 +184,7 @@ useEffect (() => {
                       <NewPage href="/eventos-reales" label="Eventos Reales" colorText='var(--accent-50)'/>
                     </button> */}
                     <button>
-                      <NavItem href='#contacto' label='¡Agenda tu reunión!' colorText='var(--accent)'/>
+                      <NavItem href='#contacto' label='¡Agenda tu reunión!' colorText='var(--accent)' page='home'/>
                     </button>
                   </div>
                 </div>
@@ -206,7 +210,7 @@ useEffect (() => {
                   <NewPage href="/eventos-reales" label="Eventos Reales" colorText='var(--primary-color-100)'/>
                 </button> */}
                 <button>
-                  <NavItem href='#contacto' label='¡Agenda tu reunión!' colorText='var(--textWhite)'/>
+                  <NavItem href='#contacto' label='¡Agenda tu reunión!' colorText='var(--textWhite)' page='home'/>
                 </button>
               </div>
               </div>
@@ -258,7 +262,6 @@ useEffect (() => {
                       client={data.client}
                       description={data.description}
                       imgUrl={data.imgUrl}
-                      colorText={data.colorText}
                       cardClassName={data.cardClassName}
                       urlBodasNet={data.urlBodasNet}
                       imgBodasNet={data.imgBodasNet}

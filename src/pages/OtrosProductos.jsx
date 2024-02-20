@@ -51,7 +51,7 @@ export const OtrosProductos = () => {
                                         <NewPage href="/eventos-reales" label="Eventos Reales" colorText='var(--accent-50)'/>
                                     </button> */}
                                     <button>
-                                        <NavItem href='#contacto' label='¡Agenda tu reunión!' colorText='var(--accent)'/>
+                                        <NavItem href='#contacto' label='¡Agenda tu reunión!' colorText='var(--accent)' page='otrosProductos'/>
                                     </button>
                                 </div>
                             </div>
@@ -72,7 +72,7 @@ export const OtrosProductos = () => {
                                         <NewPage href="/eventos-reales" label="Eventos Reales" colorText='var(--accent-50)'/>
                                     </button> */}
                                     <button>
-                                        <NavItem href='#contacto' label='¡Agenda tu reunión!' colorText='var(--accent)'/>
+                                        <NavItem href='#contacto' label='¡Agenda tu reunión!' colorText='var(--accent)' page='otrosProductos'/>
                                     </button>
                                 </div>
                             </div>

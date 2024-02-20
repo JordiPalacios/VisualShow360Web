@@ -117,7 +117,8 @@ return (
                                 </div>
                             </div>                          
                         </div>
-                        <b><NavItem href='#nosotros' label='Nosotros' page='home' /></b>
+                        <b><a href="https://www.instagram.com/visualshow360?igshid=YmMyMTA2M2Y=" target="_blank">Eventos Reales</a></b>
+                        <b><NavItem href='#nosotros' label='Nosotros' page='home' /></b>                        
                     </ul>
                 </div>
             </div>

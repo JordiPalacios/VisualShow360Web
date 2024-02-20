@@ -62,7 +62,7 @@
     animation-timeline: --image;
     animation-name: showImgSlider;
 
-    animation-range: entry 15% cover 85%;
+    animation-range: entry 15% cover 50%;
     animation-fill-mode: both;
 }
 

@@ -1,7 +1,5 @@
 /* * Navigation */
 
-/* ToDo: Hacer que al añadir el espacio del padding top, se hace en el HOME, no se vea el salto. Queda poco estetico */
-
 nav {
     position: relative;
 }
@@ -166,11 +164,18 @@ header h2 {
 
 header video {
     position: absolute;
-    top: 50%;
+    top: 60%;
     left: 50%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
     transform: translate(-50%, -50%);
     opacity: 1;
     z-index: -1;
+}
+
+.videoTabletPC {
+    display: none;
 }
 
 .presentationContainer {
@@ -216,6 +221,14 @@ header video {
 /* Medidad Tablet */
 @media screen and (min-width: 760px) {
     .logoMenu button {
+        display: none;
+    }
+
+    .videoTabletPC {
+        display: block;
+    }
+
+    .videoMobile {
         display: none;
     }
 
@@ -346,10 +359,25 @@ header video {
     }
 }
 
-/* * Media PC */
-
 /* Medidas PC  */
-@media screen and (min-width: 1024px) {
+
+@media ( 1024px <= width ) {
+    .menuResponsive b,
+    .menuResponsive a,
+    .tabletPCMenu a {
+        transition: color .5s ease;
+    }
+
+    .menuResponsive b:hover,
+    .menuResponsive a:hover {
+        color: var(--accent);
+    }
+
+    .tabletPCMenu a:hover {
+        color: var(--textWhite);
+    }
+}
+@media (1225px <= width) {
     header h1,
     header h2 {
         font-size: 2.25rem;
@@ -381,20 +409,5 @@ header video {
 
     .menuResponsive ul {
         gap: 2.5rem;
-    }
-
-    .menuResponsive b,
-    .menuResponsive a,
-    .tabletPCMenu a {
-        transition: color .5s ease;
-    }
-
-    .menuResponsive b:hover,
-    .menuResponsive a:hover {
-        color: var(--accent);
-    }
-
-    .tabletPCMenu a:hover {
-        color: var(--textWhite);
     }
 }

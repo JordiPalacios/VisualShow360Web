@@ -1,11 +1,10 @@
 [
     {
         "id":"review1",
-        "tittle":"La BODA del AÑO",
+        "tittle":"La BODA del AÑO LOCURA",
         "client":"Jose y Laura",
         "description":"Review 1: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, eaque sunt autem iusto rem dolorum error harum ut quae sequi! Id, sint repellendus. In iste aperiam id aspernatur! Aspernatur, reprehenderit!",
         "imgUrl":"src/assets/img/reviews_equipo/David_Ivet.JPG",
-        "colorText":"var(--primary-color-100)",
         "cardClassName":"reviewCard",
         "urlBodasNet": "https://www.bodas.net/animacion/360-&-magic-mirror-visualshow360--e218488/opiniones",
         "imgBodasNet": "src/assets/img/reviews_equipo/bodasNet.jpg" 
@@ -16,7 +15,6 @@
         "client":"David e Ivet",
         "description":"Review 2: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, eaque sunt autem iusto rem dolorum error harum ut quae sequi! Id, sint repellendus. In iste aperiam id aspernatur! Aspernatur, reprehenderit!",
         "imgUrl":"src/assets/img/reviews_equipo/David_Ivet.JPG",
-        "colorText":"var(--primary-color-100)",
         "cardClassName":"reviewCard",
         "urlBodasNet": "https://www.bodas.net/animacion/360-&-magic-mirror-visualshow360--e218488/opiniones",
         "imgBodasNet": "src/assets/img/reviews_equipo/bodasNet.jpg" 
@@ -27,7 +25,6 @@
         "client":"Julio y Maria",
         "description":"Review 3: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, eaque sunt autem iusto rem dolorum error harum ut quae sequi! Id, sint repellendus. In iste aperiam id aspernatur! Aspernatur, reprehenderit!",
         "imgUrl":"src/assets/img/reviews_equipo/David_Ivet.JPG",
-        "colorText":"var(--primary-color-100)",
         "cardClassName":"reviewCard",
         "urlBodasNet": "https://www.bodas.net/animacion/360-&-magic-mirror-visualshow360--e218488/opiniones",
         "imgBodasNet": "src/assets/img/reviews_equipo/bodasNet.jpg" 
@@ -38,7 +35,6 @@
         "client":"Julio y Maria",
         "description":"Review 3: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, eaque sunt autem iusto rem dolorum error harum ut quae sequi! Id, sint repellendus. In iste aperiam id aspernatur! Aspernatur, reprehenderit!",
         "imgUrl":"src/assets/img/reviews_equipo/David_Ivet.JPG",
-        "colorText":"var(--primary-color-100)",
         "cardClassName":"reviewCard",
         "urlBodasNet": "https://www.bodas.net/animacion/360-&-magic-mirror-visualshow360--e218488/opiniones",
         "imgBodasNet": "src/assets/img/reviews_equipo/bodasNet.jpg" 
@@ -49,7 +45,6 @@
         "client":"Julio y Maria",
         "description":"Review 3: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, eaque sunt autem iusto rem dolorum error harum ut quae sequi! Id, sint repellendus. In iste aperiam id aspernatur! Aspernatur, reprehenderit!",
         "imgUrl":"src/assets/img/reviews_equipo/David_Ivet.JPG",
-        "colorText":"var(--primary-color-100)",
         "cardClassName":"reviewCard",
         "urlBodasNet": "https://www.bodas.net/animacion/360-&-magic-mirror-visualshow360--e218488/opiniones",
         "imgBodasNet": "src/assets/img/reviews_equipo/bodasNet.jpg" 
@@ -60,7 +55,6 @@
         "client":"Julio y Maria",
         "description":"Review 3: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, eaque sunt autem iusto rem dolorum error harum ut quae sequi! Id, sint repellendus. In iste aperiam id aspernatur! Aspernatur, reprehenderit!",
         "imgUrl":"src/assets/img/reviews_equipo/David_Ivet.JPG",
-        "colorText":"var(--primary-color-100)",
         "cardClassName":"reviewCard",
         "urlBodasNet": "https://www.bodas.net/animacion/360-&-magic-mirror-visualshow360--e218488/opiniones",
         "imgBodasNet": "src/assets/img/reviews_equipo/bodasNet.jpg" 
@@ -71,7 +65,6 @@
         "client":"Julio y Maria",
         "description":"Review 3: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, eaque sunt autem iusto rem dolorum error harum ut quae sequi! Id, sint repellendus. In iste aperiam id aspernatur! Aspernatur, reprehenderit!",
         "imgUrl":"src/assets/img/reviews_equipo/David_Ivet.JPG",
-        "colorText":"var(--primary-color-100)",
         "cardClassName":"reviewCard",
         "urlBodasNet": "https://www.bodas.net/animacion/360-&-magic-mirror-visualshow360--e218488/opiniones",
         "imgBodasNet": "src/assets/img/reviews_equipo/bodasNet.jpg"
@@ -82,7 +75,6 @@
         "client":"Julio y Maria",
         "description":"Review 3: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, eaque sunt autem iusto rem dolorum error harum ut quae sequi! Id, sint repellendus. In iste aperiam id aspernatur! Aspernatur, reprehenderit!",
         "imgUrl":"src/assets/img/reviews_equipo/David_Ivet.JPG",
-        "colorText":"var(--primary-color-100)",
         "cardClassName":"reviewCard",
         "urlBodasNet": "https://www.bodas.net/animacion/360-&-magic-mirror-visualshow360--e218488/opiniones",
         "imgBodasNet": "src/assets/img/reviews_equipo/bodasNet.jpg"

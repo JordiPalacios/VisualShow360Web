@@ -7,7 +7,7 @@
         "imgUrl":"src/assets/img/reviews_equipo/David_Ivet.JPG",
         "cardClassName":"reviewCard",
         "urlBodasNet": "https://www.bodas.net/animacion/360-&-magic-mirror-visualshow360--e218488/opiniones",
-        "imgBodasNet": "src/assets/img/reviews_equipo/bodasNet.jpg" 
+        "imgBodasNet": "src/assets/img/reviews_equipo/bodasNetSVG.svg" 
     } ,
     {
         "id":"review2",
@@ -17,7 +17,7 @@
         "imgUrl":"src/assets/img/reviews_equipo/David_Ivet.JPG",
         "cardClassName":"reviewCard",
         "urlBodasNet": "https://www.bodas.net/animacion/360-&-magic-mirror-visualshow360--e218488/opiniones",
-        "imgBodasNet": "src/assets/img/reviews_equipo/bodasNet.jpg" 
+        "imgBodasNet": "src/assets/img/reviews_equipo/bodasNetSVG.svg" 
     },
     {
         "id":"review3",
@@ -27,7 +27,7 @@
         "imgUrl":"src/assets/img/reviews_equipo/David_Ivet.JPG",
         "cardClassName":"reviewCard",
         "urlBodasNet": "https://www.bodas.net/animacion/360-&-magic-mirror-visualshow360--e218488/opiniones",
-        "imgBodasNet": "src/assets/img/reviews_equipo/bodasNet.jpg" 
+        "imgBodasNet": "src/assets/img/reviews_equipo/bodasNetSVG.svg" 
     },
     {
         "id":"review4",
@@ -37,7 +37,7 @@
         "imgUrl":"src/assets/img/reviews_equipo/David_Ivet.JPG",
         "cardClassName":"reviewCard",
         "urlBodasNet": "https://www.bodas.net/animacion/360-&-magic-mirror-visualshow360--e218488/opiniones",
-        "imgBodasNet": "src/assets/img/reviews_equipo/bodasNet.jpg" 
+        "imgBodasNet": "src/assets/img/reviews_equipo/bodasNetSVG.svg" 
     },
     {
         "id":"review5",
@@ -47,7 +47,7 @@
         "imgUrl":"src/assets/img/reviews_equipo/David_Ivet.JPG",
         "cardClassName":"reviewCard",
         "urlBodasNet": "https://www.bodas.net/animacion/360-&-magic-mirror-visualshow360--e218488/opiniones",
-        "imgBodasNet": "src/assets/img/reviews_equipo/bodasNet.jpg" 
+        "imgBodasNet": "src/assets/img/reviews_equipo/bodasNetSVG.svg" 
     },
     {
         "id":"review6",
@@ -57,7 +57,7 @@
         "imgUrl":"src/assets/img/reviews_equipo/David_Ivet.JPG",
         "cardClassName":"reviewCard",
         "urlBodasNet": "https://www.bodas.net/animacion/360-&-magic-mirror-visualshow360--e218488/opiniones",
-        "imgBodasNet": "src/assets/img/reviews_equipo/bodasNet.jpg" 
+        "imgBodasNet": "src/assets/img/reviews_equipo/bodasNetSVG.svg" 
     },
     {
         "id":"review7",
@@ -67,7 +67,7 @@
         "imgUrl":"src/assets/img/reviews_equipo/David_Ivet.JPG",
         "cardClassName":"reviewCard",
         "urlBodasNet": "https://www.bodas.net/animacion/360-&-magic-mirror-visualshow360--e218488/opiniones",
-        "imgBodasNet": "src/assets/img/reviews_equipo/bodasNet.jpg"
+        "imgBodasNet": "src/assets/img/reviews_equipo/bodasNetSVG.svg"
     },
     {
         "id":"review8",
@@ -77,7 +77,7 @@
         "imgUrl":"src/assets/img/reviews_equipo/David_Ivet.JPG",
         "cardClassName":"reviewCard",
         "urlBodasNet": "https://www.bodas.net/animacion/360-&-magic-mirror-visualshow360--e218488/opiniones",
-        "imgBodasNet": "src/assets/img/reviews_equipo/bodasNet.jpg"
+        "imgBodasNet": "src/assets/img/reviews_equipo/bodasNetSVG.svg"
     }
     
 ]

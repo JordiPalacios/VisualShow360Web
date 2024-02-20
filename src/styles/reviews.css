@@ -49,7 +49,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-align: center;
+    text-align: start;
     margin: 10px;
     padding: 10px;
     border: 3px dotted var(--accent);
@@ -57,16 +57,17 @@
 }
 
 .reviewCard img {
-    width: 25%px;
-    max-width: 35%;
-    min-height: 50%;
+    width: 100%;
+    max-width: 120px;
     height: auto;
-    background: transparent;
+    padding: 10px;
+    background: var(--textWhite);
 }
 
 .description img {
-    width: 25%;
-    min-height: 25%;
+    width: 100%;
+    max-width: 30%;
+    max-height: 25%;
     height: auto;
     border-radius: 50%;
     background: transparent;
@@ -87,6 +88,10 @@
         margin: 0 0 20px 20px;
     }
 
+    .reviewCard img {
+        max-width: 20%;
+    }
+
 }
 
 /* Medidas PC  */
@@ -102,5 +107,13 @@
 
     .reviewsContainer a:hover {
         transform: scale(1.2);
+    }
+
+    .reviewsContainer img {
+        max-width: 50%;
+    }
+
+    .description img {
+        max-width: 30%;
     }
 }

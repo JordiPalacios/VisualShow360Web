@@ -57,11 +57,12 @@
 }
 
 .reviewCard img {
-    width: fit-content;
+    width: 25%;
+    max-width: 35%;
     min-height: 50%;
     height: auto;
-    padding: 10px;
-    background: var(--textWhite);
+    background: transparent;
+    color: transparent;
 }
 
 .description img {

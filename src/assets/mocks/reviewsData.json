@@ -8,7 +8,7 @@
         "colorText":"var(--primary-color-100)",
         "cardClassName":"reviewCard",
         "urlBodasNet": "https://www.bodas.net/animacion/360-&-magic-mirror-visualshow360--e218488/opiniones",
-        "imgBodasNet": "src/assets/img/reviews_equipo/bodasNet.svg" 
+        "imgBodasNet": "src/assets/img/reviews_equipo/bodasNet.jpg" 
     } ,
     {
         "id":"review2",
@@ -19,7 +19,7 @@
         "colorText":"var(--primary-color-100)",
         "cardClassName":"reviewCard",
         "urlBodasNet": "https://www.bodas.net/animacion/360-&-magic-mirror-visualshow360--e218488/opiniones",
-        "imgBodasNet": "src/assets/img/reviews_equipo/bodasNet.svg" 
+        "imgBodasNet": "src/assets/img/reviews_equipo/bodasNet.jpg" 
     },
     {
         "id":"review3",
@@ -30,7 +30,7 @@
         "colorText":"var(--primary-color-100)",
         "cardClassName":"reviewCard",
         "urlBodasNet": "https://www.bodas.net/animacion/360-&-magic-mirror-visualshow360--e218488/opiniones",
-        "imgBodasNet": "src/assets/img/reviews_equipo/bodasNet.svg" 
+        "imgBodasNet": "src/assets/img/reviews_equipo/bodasNet.jpg" 
     },
     {
         "id":"review4",
@@ -41,7 +41,7 @@
         "colorText":"var(--primary-color-100)",
         "cardClassName":"reviewCard",
         "urlBodasNet": "https://www.bodas.net/animacion/360-&-magic-mirror-visualshow360--e218488/opiniones",
-        "imgBodasNet": "src/assets/img/reviews_equipo/bodasNet.svg" 
+        "imgBodasNet": "src/assets/img/reviews_equipo/bodasNet.jpg" 
     },
     {
         "id":"review5",
@@ -52,7 +52,7 @@
         "colorText":"var(--primary-color-100)",
         "cardClassName":"reviewCard",
         "urlBodasNet": "https://www.bodas.net/animacion/360-&-magic-mirror-visualshow360--e218488/opiniones",
-        "imgBodasNet": "src/assets/img/reviews_equipo/bodasNet.svg" 
+        "imgBodasNet": "src/assets/img/reviews_equipo/bodasNet.jpg" 
     },
     {
         "id":"review6",
@@ -63,7 +63,7 @@
         "colorText":"var(--primary-color-100)",
         "cardClassName":"reviewCard",
         "urlBodasNet": "https://www.bodas.net/animacion/360-&-magic-mirror-visualshow360--e218488/opiniones",
-        "imgBodasNet": "src/assets/img/reviews_equipo/bodasNet.svg" 
+        "imgBodasNet": "src/assets/img/reviews_equipo/bodasNet.jpg" 
     },
     {
         "id":"review7",
@@ -74,7 +74,7 @@
         "colorText":"var(--primary-color-100)",
         "cardClassName":"reviewCard",
         "urlBodasNet": "https://www.bodas.net/animacion/360-&-magic-mirror-visualshow360--e218488/opiniones",
-        "imgBodasNet": "src/assets/img/reviews_equipo/bodasNet.svg"
+        "imgBodasNet": "src/assets/img/reviews_equipo/bodasNet.jpg"
     },
     {
         "id":"review8",
@@ -85,7 +85,7 @@
         "colorText":"var(--primary-color-100)",
         "cardClassName":"reviewCard",
         "urlBodasNet": "https://www.bodas.net/animacion/360-&-magic-mirror-visualshow360--e218488/opiniones",
-        "imgBodasNet": "src/assets/img/reviews_equipo/bodasNet.svg"
+        "imgBodasNet": "src/assets/img/reviews_equipo/bodasNet.jpg"
     }
     
 ]

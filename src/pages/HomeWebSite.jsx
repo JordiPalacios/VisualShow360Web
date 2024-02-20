@@ -137,8 +137,8 @@ useEffect (() => {
         {/* InfiniteLoop */}
         <section>
           <div className="logo">
-            <InfiniteLoop urlImg="src/assets/img/reviews_equipo/logoVisualShow.webp" nameImg="LogoVisualShowSlide" equal={true}/>
-            <InfiniteLoop urlImg="src/assets/img/reviews_equipo/logoVisualShow.webp" nameImg="LogoVisualShowSlide" equal={true}/>
+            <InfiniteLoop urlImg="src/assets/img/Extra/show.png" nameImg="LogoVisualShowSlide" equal={true}/>
+            <InfiniteLoop urlImg="src/assets/img/Extra/show.png" nameImg="LogoVisualShowSlide" equal={true}/>
           </div>
         </section>
         <section id='magic-mirror'>
@@ -239,8 +239,8 @@ useEffect (() => {
         {/* InfiniteLoop */}
         <section>
           <div className="logo">
-            <InfiniteLoop urlImg="src/assets/img/reviews_equipo/logoVisualShow.webp" nameImg="LogoVisualShowSlide" equal={true}/>
-            <InfiniteLoop urlImg="src/assets/img/reviews_equipo/logoVisualShow.webp" nameImg="LogoVisualShowSlide" equal={true}/>
+            <InfiniteLoop urlImg="src/assets/img/Extra/show.png" nameImg="LogoVisualShowSlide" equal={true}/>
+            <InfiniteLoop urlImg="src/assets/img/Extra/show.png" nameImg="LogoVisualShowSlide" equal={true}/>
           </div>
         </section>
         {/* !Este section es de reviews */}

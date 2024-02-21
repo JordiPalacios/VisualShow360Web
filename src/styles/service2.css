@@ -97,6 +97,10 @@
         font-weight: bolder;
     }
 
+    .service2Container img {
+        max-width: 450px;
+    }
+
     .service2ContentContainer {
         align-items: start;
         margin: 50px 10px 50px 50px;

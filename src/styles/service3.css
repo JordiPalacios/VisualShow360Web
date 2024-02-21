@@ -102,6 +102,10 @@
         font-weight: bolder;
     }
 
+    .service3Container img {
+        max-width: 400px;
+    }
+
     .service3ContentContainer {
         align-items: start;
         margin: 50px 40px 50px 50px;

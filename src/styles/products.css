@@ -110,6 +110,11 @@
         max-width: 1000px;
     }
 
+    #kitAntiResaca img {
+        max-width: 400px;
+        margin: 0 20px;
+    }
+
     .productCardRow { 
         display: flex;
         flex-direction: row-reverse;

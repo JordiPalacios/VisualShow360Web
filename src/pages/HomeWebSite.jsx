@@ -149,7 +149,7 @@ useEffect (() => {
           {workingMode === 'PC' ? (
             <div className='service2Container'>
               <div className="service2ContentContainer">
-                <img src="src/assets/img/servicios/magicMirror/EspejoMagico.webp" alt="EspejoMagico"/>           
+                <img src="src/assets/gifs/GIF.gif" alt="EspejoMagico"/>           
                 <div className="service2DescriptionContainer">  
                   <h2>Magic Mirror</h2>
                   <h3> ¡Frase Guay &nbsp;<span>PC/Tablet!</span></h3>    
@@ -174,7 +174,7 @@ useEffect (() => {
               <h2>Magic Mirror</h2>              
               <h3> ¡Frase Guay Para Tablet!</h3> 
               <div className="service2ContentContainer">              
-                <img src="src/assets/img/servicios/magicMirror/EspejoMagico.webp" alt="EspejpoMagico"/>
+                <img src="src/assets/gifs/GIF.gif" alt="EspejpoMagico"/>
                 <div className="service2DescriptionContainer">                
                   <p>
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, quidem laudantium doloribus atque totam voluptate, nulla tenetur provident minima natus beatae non, reprehenderit pariatur praesentium! Dolore necessitatibus ab eaque cum!

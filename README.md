@@ -4,7 +4,7 @@ Created with React V18.2.0
 
 Anchos pantalla en:
     *Movil - Mínimo 320px
-    *Tablet - Mínimo 748px
+    *Tablet - Mínimo 760px
     *PC - 1024px
 
 Cosas Instaladas:
@@ -14,14 +14,12 @@ Cosas Instaladas:
         npm install react-router-dom
         
 
-
-Para iniciar el proyecto solo debes:
-    [] Revisar proyecto "Pokemon 1st Generation"
-    * npm install
+Para iniciar el proyecto en local solo debes hacer:
+[x] npm install
 
 ToDo:
 
-[x]General :
+[]General :
     [x]Toda la web con el gradiente de VS-2
     [x]Borrar boton de eventos reales
     [x]Modificar ventana eventos reales y que ahora sea la de "Otros Productos"
@@ -30,6 +28,7 @@ ToDo:
             [x]Neones
             [x]Letras Love
             [x]KitAnitResaca
+    []Los logos de RRSS - WhatsApp - Logo VisualShow si paso por encima que se agrande un poco en PC
 
 [x]Navbar :
     [x]PC:
@@ -42,8 +41,8 @@ ToDo:
     [x]Quitar los enlaces a Ig y TikTok
     [x]Modificar el estilado para que se vea bien
 
-[]Infinite Loop:
-    []Poner las nuevas fotos que me pasaran para ver el movimiento
+[x]Infinite Loop:
+    [x]Poner las nuevas fotos que me pasaran para ver el movimiento
     [x]Bajarle la velocidad para que no nos maree
 
 [x]Servicios:
@@ -55,20 +54,19 @@ ToDo:
 [x]Reviews:
     [x]Poner debajo de cada review un link de 'Leer más' que nos lleve al perfil de bodas.net con su correspondiente logo.
 
+Not Found Page:
+ [x] Enviar al Home Page
 
-[]Crear Sistema de Cookies:
+ []Crear Sistema de Cookies
     []PopUp Cookies
     []Programa aceptacion Cookies
 
+Estilos CSS:
+    []Fuentes: Roboto - Helvetica - Montserrat -> Falta decidirlo
 
-Products Page:
+
+<!-- Products Page:
     [] Futuro
 
 Payment Page:
-    [] Futuro
-
-Not Found Page:
- [] Crear algo chulo
-
-Estilos CSS:
-    []Fuentes: Roboto - Helvetica - Montserrat -> Me los pasaran
+    [] Futuro -->

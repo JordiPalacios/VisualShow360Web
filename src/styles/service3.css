@@ -65,10 +65,6 @@
         
     }
 
-    .service3Container p {
-        max-width: 800px;
-    }
-
     .service3Container img {
         margin: 0;
     }
@@ -115,9 +111,4 @@
     .service3DescriptionContainer {
         gap: 0;
     }
-
-    .service3Container p {
-        max-width: 80%;
-    }
-
 }

@@ -106,10 +106,6 @@
 /* Medidas PC  */
 @media screen and (min-width: 1024px) {
 
-    #kitAntiResaca p {
-        max-width: 800px;
-    }
-
     .productCardRow { 
         display: flex;
         flex-direction: row-reverse;

@@ -63,10 +63,6 @@
         padding: 5px;
     }
 
-    .service2Container p {
-        max-width: 800px;
-    }
-
     .service2Container img {
         margin: 0;
     }
@@ -108,9 +104,5 @@
 
     .service2DescriptionContainer {
         gap: 0;
-    }
-
-    .service2Container p {
-        max-width: 80%;
     }
 }

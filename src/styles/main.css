@@ -10,7 +10,7 @@
     line-height: 1.5;
     
     color: var(--textWhite);
-    background-color: var(--background);
+    background-color: var(--vs2);
 
     --textWhite: #FFFFFF;
     --accent: #FC008B;

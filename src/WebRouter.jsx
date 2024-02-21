@@ -1,6 +1,6 @@
 import React from 'react'
 import { Route, Routes } from 'react-router-dom'
-import { AvisoLegal, BuyProducts, HomeWebsite, NotFound, OtrosProductos, Payment, PoliticaPrivacidad, TerminosCondiciones } from './pages'
+import { AvisoLegal, BuyProducts, HomeWebsite, OtrosProductos, Payment, PoliticaPrivacidad, TerminosCondiciones } from './pages'
 import { Navbar } from './components'
 
 
@@ -17,7 +17,7 @@ export const WebRouter = () => {
         <Route path='terminos-condiciones' element={<TerminosCondiciones />} />
       </Route>
 
-      <Route path='*' element={<NotFound />} />
+      <Route path='*' element={<HomeWebsite />} />
     </Routes>
   )
 }

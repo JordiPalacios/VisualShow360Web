@@ -108,7 +108,7 @@ useEffect (() => {
             <source src="src/assets/video/weedingBW.mp4" type="video/mp4"/>
             Este navegador no soporta vídeos.
           </video>
-          <img onClick={handleClick} src="src/assets/gifts/arrow.gif" alt="arrowGift" />
+          <img onClick={handleClick} src="src/assets/gifs/arrow.gif" alt="arrowGift" />
         </div>
       </header>
 

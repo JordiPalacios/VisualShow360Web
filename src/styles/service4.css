@@ -110,6 +110,7 @@
     }
 
     .service4DescriptionContainer {
+        max-width: 1000px;
         gap: 0;
     }
 }

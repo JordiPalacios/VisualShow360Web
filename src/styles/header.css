@@ -32,6 +32,10 @@ nav button{
     padding: 20px;
 }
 
+.logoMenu h1 {
+    transition: transform .5s ease-in-out;
+}
+
 .menuResponsiveContainer {
     background: var(--vs2);
 }
@@ -375,6 +379,10 @@ header video {
 
     .tabletPCMenu a:hover {
         color: var(--textWhite);
+    }
+
+    .logoMenu h1:hover {
+        transform: scale(1.1);
     }
 }
 @media (1225px <= width) {

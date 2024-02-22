@@ -103,6 +103,7 @@ button {
     margin-right: 0px;
     bottom: 50px;
     right: 5px;
+    transition: transform .5s ease-in-out;
     z-index: 999;
 }
 
@@ -202,6 +203,10 @@ img {
 
     .slick-dots {
         bottom: -30px;
+    }
+
+    .contactFixed:hover {
+        transform: scale(1.25);
     }
 }
 

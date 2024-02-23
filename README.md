@@ -19,7 +19,7 @@ Para iniciar el proyecto en local solo debes hacer:
 
 ToDo:
 
-[]General :
+[x]General :
     [x]Toda la web con el gradiente de VS-2
     [x]Borrar boton de eventos reales
     [x]Modificar ventana eventos reales y que ahora sea la de "Otros Productos"
@@ -28,7 +28,7 @@ ToDo:
             [x]Neones
             [x]Letras Love
             [x]KitAnitResaca
-    []Los logos de RRSS - WhatsApp - Logo VisualShow si paso por encima que se agrande un poco en PC
+    [x]Los logos de RRSS - WhatsApp - Logo VisualShow si paso por encima que se agrande un poco en PC
 
 [x]Navbar :
     [x]PC:
@@ -64,6 +64,11 @@ Not Found Page:
 Estilos CSS:
     []Fuentes: Roboto - Helvetica - Montserrat -> Falta decidirlo
 
+Comprimir el contenido:
+    []Imágenes -> webp
+    []Vídeo -> 
+    []Fuentes -> Instaladas dentro del proyecto
+    []Borrar código inecesario
 
 <!-- Products Page:
     [] Futuro

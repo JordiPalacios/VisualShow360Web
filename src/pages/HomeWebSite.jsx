@@ -116,7 +116,7 @@ useEffect (() => {
         <section id='plataforma360'>
           <div className="service1Container">
             <h2>Fotomaton 360</h2>
-            <h3> ¡Frase Guay Para PC/Tablet!</h3>
+            <h3>Ver a tu suegra haciendo twerk te va a quitar la depresión post-boda</h3>
             <div className="fotomatonImgService1">
               <Slider {...sliderSettings}>
                   {fotomatonData.map((data) => (
@@ -132,7 +132,7 @@ useEffect (() => {
                 <NewPage href="/eventos-reales" label="Eventos Reales" colorText='var(--accent-950)'/>
               </button> */}
               <button>
-                <NavItem href='#contacto' label='¡Agenda tu reunión!' colorText='var(--accent)' page='home'/>
+                <NavItem href='#contacto' label='¡No pulses aquí!' colorText='var(--accent)' page='home'/>
               </button>
             </div>
           </div>

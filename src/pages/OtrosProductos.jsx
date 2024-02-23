@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { ContactUs, Footer, InfiniteLoop, NavItem, NavbarMenu, ProductsCard } from '../components'
+import { ContactUs, Footer, InfiniteLoop, NavItem, NavbarMenu, ProductsCard, WhatsAppMessage } from '../components'
 
 export const OtrosProductos = () => {
     const [workingMode, setWorkingMode] = useState('')
@@ -132,6 +132,7 @@ export const OtrosProductos = () => {
             <section id='contacto'>
                 <ContactUs />
             </section>
+            <WhatsAppMessage className="contactFixed" msg="https://wa.me/34653781239?text=Quiero%20más%20información%20sobre%20VisualShow!" />
         </main>
         <footer>
             <Footer />

@@ -57,6 +57,14 @@ ToDo:
 Not Found Page:
  [x] Enviar al Home Page
 
+[]Footer:
+    []Estilarlo a mi manera poniendo:
+        []Logo -> Me lo pasaran
+        []Email -> visualshow360@gmail.com
+        []RRSS -> TikTok Intagram
+        []Normativa
+        []Foto Generalitat
+        []JordiCode
  []Crear Sistema de Cookies
     []PopUp Cookies
     []Programa aceptacion Cookies

@@ -60,6 +60,7 @@ textarea:focus {
 .formContainer input{
     text-align: left;
     font-weight: 700;
+    color: var(--textWhite);
     border: 2px solid var(--secondary);
     border-radius: 15px;
 }
@@ -89,7 +90,7 @@ textarea:focus {
     border: 2px solid var(--secondary);
     border-radius: 15px;
     background-color: transparent; 
-    color: var(--secondary); 
+    color: var(--textWhite); 
     font-size: 1rem;
     cursor: pointer;
 }

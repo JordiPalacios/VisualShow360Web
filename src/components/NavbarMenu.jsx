@@ -99,7 +99,8 @@ return (
                                 <div className={isMoreProductsInfo ? 'productosOpen' : 'productosClose'}>
                                     <NavItem href='#plataforma360' label='Plataforma 360'page='home' />
                                     <NavItem href='#magic-mirror' label='Magic Mirror' page='home' />
-                                    <NavItem href='#white-magic-mirror' label='White Magic Mirror'page='home' />                                
+                                    <NavItem href='#white-magic-mirror' label='White Magic Mirror'page='home' />
+                                    <NavItem href='#ring-ring-experience' label='Ring Experience' page='otrosProductos' />                                
                                 </div>
                             </div>                          
                         </div>
@@ -108,9 +109,9 @@ return (
                                 <li 
                                 onMouseEnter={() => handleMouseEnter('weddings')}                            
                                 onClick={() => toggleClass('weddings')}
-                                ><b>Otros Productos {isMoreWeddingsInfo ? '⮵' : '⮷'} </b></li>
+                                ><b>Extras Para Tu Boda {isMoreWeddingsInfo ? '⮵' : '⮷'} </b></li>
                                 <div className={isMoreWeddingsInfo ? "bodasEventosOpen" : 'bodasEventosClose'}>
-                                    <NavItem href='#ring-ring-experience' label='Ring Experience' page='otrosProductos' />
+                                    {/* <NavItem href='#ring-ring-experience' label='Ring Experience' page='otrosProductos' /> */}
                                     <NavItem href='#letras-love' label='Letras Love' page='otrosProductos' />
                                     <NavItem href='#neones' label='Neones' page='otrosProductos' />
                                     <NavItem href='#kitAntiResaca' label='Kit AntiResaca' page='otrosProductos' />

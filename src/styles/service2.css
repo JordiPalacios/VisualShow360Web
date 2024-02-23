@@ -27,7 +27,7 @@
     max-width: 350px;
     height: auto;
     margin-bottom: 20px;
-    filter: drop-shadow(0px 0px 10px var(--contrastBlack2));
+    /* filter: drop-shadow(0px 0px 10px var(--contrastBlack2)); */
     border-radius: 25px;
 }
 

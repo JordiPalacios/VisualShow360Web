@@ -60,11 +60,11 @@ Not Found Page:
 []Footer:
     []Estilarlo a mi manera poniendo:
         []Logo -> Me lo pasaran
-        []Email -> visualshow360@gmail.com
-        []RRSS -> TikTok Intagram
-        []Normativa
-        []Foto Generalitat
-        []JordiCode
+        [x]Email -> visualshow360@gmail.com
+        []RRSS -> TikTok Intagram -> Imagenes Nuevas
+        [x]Normativa
+        [x]Foto Generalitat
+        [x]JordiCode
  []Crear Sistema de Cookies
     []PopUp Cookies
     []Programa aceptacion Cookies

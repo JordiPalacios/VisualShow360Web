@@ -28,11 +28,12 @@ footer button {
     background: none;
     font-size: .75rem;
     color: var(--textWhite);
-    text-decoration: underline;
+    text-decoration: 1px underline var(--secondary);
 }
 
 footer a {
     color: var(--secondary);
+    margin: 10px 0;
 }
 
 footer .line {
@@ -52,6 +53,10 @@ footer .line {
     flex-direction: row;
 }
 
+.rrssContainer a {
+    margin: 0;
+}
+
 .rrssContainer img {
     aspect-ratio: 4/3;
     width: 100%;
@@ -64,11 +69,34 @@ footer .line {
 
 /* Medidad Tablet */
 @media screen and (min-width: 760px) {
-    
+
 }
 
 /* Medidas PC  */
 @media screen and (min-width: 1024px) {
+    .footerDescriptionContainer {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        width: 100%;
+        height: auto;
+    }
+
+    .rrssMainContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .normativeContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
     .rrssContainer img:hover {
         transform: scale(1.25);
     }

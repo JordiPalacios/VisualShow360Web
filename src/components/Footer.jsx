@@ -36,10 +36,10 @@ useEffect (() => {
             <a href="mailto:visualshow360@gmail.com?subject=¡Hola!&body=Hola quiero saber más sobre visualshow!" target="_blank">visualshow360@gmail.com</a>
             <div className="rrssContainer">
               <a href="https://www.instagram.com/visualshow360?igshid=YmMyMTA2M2Y=" target="_blank" rel="noopener noreferrer">
-                <img id="ig" src="src/assets/icons/ig.svg"/>
+                <img id="ig" src="src/assets/icons/ig.svg" loading='lazy'/>
               </a>            
               <a href="https://www.tiktok.com/@visualshow360?_t=8jdUAUysy9p&_r=1" target="_blank" rel="noopener noreferrer">
-                <img id="ig" src="src/assets/icons/tiktok.svg"/>
+                <img id="ig" src="src/assets/icons/tiktok.svg" loading='lazy'/>
               </a>
             </div>
           </div>
@@ -61,7 +61,7 @@ useEffect (() => {
           </button>
           </div>
         </div>
-        <img src="src/assets/img/Extra/generalitat.jpg" target="_blank" alt="generalitatImg" />
+        <img src="src/assets/img/Extra/generalitat.jpg" target="_blank" alt="generalitatImg" loading='lazy' />
       </div>
     )
   } else {
@@ -72,10 +72,10 @@ useEffect (() => {
         <a href="mailto:visualshow360@gmail.com?subject=¡Hola!&body=Hola quiero saber más sobre visualshow!" target="_blank">visualshow360@gmail.com</a>
         <div className="rrssContainer">
           <a href="https://www.instagram.com/visualshow360?igshid=YmMyMTA2M2Y=" target="_blank" rel="noopener noreferrer">
-            <img id="ig" src="src/assets/icons/ig.svg"/>
+            <img id="ig" src="src/assets/icons/ig.svg" loading='lazy' />
           </a>            
           <a href="https://www.tiktok.com/@visualshow360?_t=8jdUAUysy9p&_r=1" target="_blank" rel="noopener noreferrer">
-            <img id="ig" src="src/assets/icons/tiktok.svg"/>
+            <img id="ig" src="src/assets/icons/tiktok.svg" loading='lazy' />
           </a>
         </div>
         <div className="normativeContainer">
@@ -90,9 +90,9 @@ useEffect (() => {
           <NewPage href="/terminos-condiciones" label="Terminos y Condiciones" colorText='var(--secondary)'/>
         </button>
         </div>
-        <img src="src/assets/img/Extra/generalitat.jpg" target="_blank" alt="generalitatImg" />
+        <img src="src/assets/img/Extra/generalitat.jpg" target="_blank" alt="generalitatImg" loading='lazy' />
         <a href="https://www.instagram.com/jordi_code?igsh=MXRvbmtiYmhheHRiZw%3D%3D&utm_source=qr" 
-        style={{ fontSize:'.7rem', padding:'10px' }} target="_blank"> Creada y diseñada x Jordi Code</a>
+        style={{ fontSize:'.7rem', padding:'10px' }} target="_blank" > Creada y diseñada x Jordi Code</a>
       </div>
     )
   }

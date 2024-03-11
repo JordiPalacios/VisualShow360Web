@@ -11,7 +11,7 @@ export const ContactUs = () => {
           <FormContact />
         </div>
         <div className="mediaContainer">
-          <img src="src/assets/img/Extra/logoVS360png.png" alt="logoVSpng" />
+          <img src="src/assets/img/Extra/logoVS360png.png" alt="logoVSpng" loading='lazy' />
         </div>
       </div>
     </div>

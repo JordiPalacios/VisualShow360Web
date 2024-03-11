@@ -20,7 +20,7 @@ export const ImgSlider = ({ urlImg, imgName, styleType}) => {
     
 return (
     <div className={className}>
-        <img src={urlImg} alt={imgName} />
+        <img src={urlImg} alt={imgName} loading='lazy'/>
     </div>
 )
 }

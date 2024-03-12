@@ -4,6 +4,7 @@ header {
     position: relative;
     margin: 0;
     overflow: hidden;
+    view-timeline: --scroll;
     z-index: 999;
 }
 

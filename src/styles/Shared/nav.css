@@ -17,6 +17,23 @@ nav button{
     background-position: center;
 }
 
+.triangulo-abajo, 
+.triangulo-arriba {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+}
+
+.triangulo-abajo {
+    border-top: 8px solid white;
+}
+
+.triangulo-arriba {
+    border-bottom: 8px solid white;
+}
+
 .navFixed {
     position: fixed;
     width: 100%;
@@ -268,9 +285,25 @@ nav ul {
         transition: color .5s ease;
     }
 
-    .menuResponsive b:hover,
-    .menuResponsive a:hover {
+    .triangulo-abajo {
+        transition: border-top .5s ease;
+    }
+
+    .triangulo-arriba {
+        transition: border-bottom .5s ease;
+    }
+
+    .menuResponsive li:hover,
+    .menuResponsive a:hover{
         color: var(--accent);
+
+        .triangulo-abajo{
+            border-top: 8px solid var(--accent);
+        }
+
+        .triangulo-arriba {
+            border-bottom: 8px solid var(--accent);
+        }
     }
 
     .tabletPCMenu a:hover {

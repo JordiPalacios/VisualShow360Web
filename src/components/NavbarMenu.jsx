@@ -95,7 +95,7 @@ return (
                             <div onMouseLeave={() => handleMouseLeave('products')}>
                                 <li 
                                 onMouseEnter={() => handleMouseEnter('products')}                            
-                                onClick={() => toggleClass('products')}><b>Servicios Party {isMoreProductsInfo ? '⮵' : '⮷'} </b></li>
+                                onClick={() => toggleClass('products')}><b>Servicios Party {isMoreProductsInfo ? <div className="triangulo-arriba"></div> : <div className="triangulo-abajo"></div> } </b></li>
                                 <div className={isMoreProductsInfo ? 'productosOpen' : 'productosClose'}>
                                     <NavItem href='#plataforma360' label='Plataforma 360'page='home' />
                                     <NavItem href='#magic-mirror' label='Magic Mirror' page='home' />
@@ -109,9 +109,8 @@ return (
                                 <li 
                                 onMouseEnter={() => handleMouseEnter('weddings')}                            
                                 onClick={() => toggleClass('weddings')}
-                                ><b>Extras Para Tu Boda {isMoreWeddingsInfo ? '⮵' : '⮷'} </b></li>
+                                ><b>Extras Para Tu Boda { isMoreWeddingsInfo ? <div className="triangulo-arriba"></div> : <div className="triangulo-abajo"></div> } </b></li>
                                 <div className={isMoreWeddingsInfo ? "bodasEventosOpen" : 'bodasEventosClose'}>
-                                    {/* <NavItem href='#ring-ring-experience' label='Ring Experience' page='otrosProductos' /> */}
                                     <NavItem href='#letras-love' label='Letras Love' page='otrosProductos' />
                                     <NavItem href='#neones' label='Neones' page='otrosProductos' />
                                     <NavItem href='#kitAntiResaca' label='Kit AntiResaca' page='otrosProductos' />
@@ -119,7 +118,7 @@ return (
                             </div>                          
                         </div>
                         <b><a href="https://www.instagram.com/visualshow360?igshid=YmMyMTA2M2Y=" target="_blank">Eventos Reales</a></b>
-                        <b><NavItem href='#nosotros' label='Nosotros' page='home' /></b>                        
+                        <b><NavItem href='#nosotros' label='Nosotros' page='home' /></b>             
                     </ul>
                 </div>
             </div>

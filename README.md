@@ -8,9 +8,9 @@ Anchos pantalla en:
     *PC - 1024px
 
 Cosas Instaladas:
-    [X] Sticky a traves de NPM:
+    [x] Sticky a traves de NPM:
         npm install react-slick --save
-    [X] Instalar React Router:
+    [x] Instalar React Router:
         npm install react-router-dom
         
 
@@ -18,6 +18,10 @@ Para iniciar el proyecto en local solo debes hacer:
 [x] npm install
 
 ToDo:
+
+[]SEO: 
+    []Definir los nombre que iran apareciendo en la pestaña de navegación en funcion de nuestra ubicacion en la pagina web
+    []Definir la descripcion que tendra cada pestaña de navegacion en funcion de nuestra ubicacion en la pagina web
 
 [x]General :
     [x]Toda la web con el gradiente de VS-2

@@ -1,7 +1,8 @@
 [
     {
         "urlImg" : "src/assets/img/empresas/Acciona.webp",
-        "companyName": "acciona"
+        "companyName": "acciona",
+        "alt": "acciona"
     } ,
     {
         "urlImg" : "src/assets/img/empresas/Astrazeca.webp",

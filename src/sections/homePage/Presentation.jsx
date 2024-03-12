@@ -14,8 +14,8 @@ return (
     <header>
         <NavbarMenu />
         <div className="presentationContainer">
-            <h1> <span style={{ color: 'var(--textWhite)' }}> ¡ FRASE</span>&nbsp;POTENTE 1 !</h1>
-            <h2>Frase Potente 2</h2>
+            <h1 className='h1-fade-in'> <span style={{ color: 'var(--textWhite)' }}> ¡ FRASE</span>&nbsp;POTENTE 1 !</h1>
+            <h2 className='h2-fade-in'>Frase Potente 2</h2>
             <video className='videoMobile' autoPlay muted loop>
                 <source src="src/assets/video/videoMobileBW.mp4" type="video/mp4"/>
                 Este navegador no soporta vídeos.
@@ -24,7 +24,7 @@ return (
                 <source src="src/assets/video/weedingBW.mp4" type="video/mp4"/>
                 Este navegador no soporta vídeos.
             </video>
-            <img onClick={handleClick} src="src/assets/gifs/arrow.gif" alt="arrowGift" />
+            <img className='img-fade-in' onClick={handleClick} src="src/assets/gifs/arrow.gif" alt="arrowGift" />
         </div>
     </header>
 )

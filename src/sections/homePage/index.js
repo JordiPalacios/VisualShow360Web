@@ -1,2 +1,7 @@
 export * from './Presentation'
 export * from './Service1'
+export * from './Service2'
+export * from './Service3'
+export * from './Reviews'
+export * from './Companies'
+export * from './AboutUs'

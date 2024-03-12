@@ -1,11 +1,13 @@
 import React, { useEffect, useState } from 'react'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import { ContactUs, Footer, ImgSlider, InfiniteLoop, NavItem, NavbarMenu, ReviewsCard, WhatsAppMessage } from '../components'
+import { ContactUs, Footer, ImgSlider, InfiniteLoop, NavItem, ReviewsCard, WhatsAppMessage } from '../components'
 import Slider from "react-slick";
 import CompaniesData from '../assets/mocks/companiesData.json'
 import FotomatonData from '../assets/mocks/fotomatonData.json'
 import ReviewsData from '../assets/mocks/reviewsData.json'
+import { Presentation } from '../sections/homePage/Presentation';
+import { InfiniteLoopSection } from '../sections/Shared/InfiniteLoopSection';
 
 export const HomeWebsite = () => {
   const companyData = CompaniesData
@@ -28,13 +30,6 @@ export const HomeWebsite = () => {
     slidesToShow: 1,
     slidesToScroll: 1
   })
-
-  const handleClick = () => {
-    const element = document.getElementById('plataforma360')
-    if (element) {
-      element.scrollIntoView({ behavior: 'smooth' })
-    }
-  }
 
 // useEffect para crear las marcas del modo trabajo PC - Tablet - Mobile
 useEffect (() => {
@@ -89,30 +84,8 @@ useEffect (() => {
 
   return (
     <>
-      <header>
-        <NavbarMenu />
-        <div className="presentationContainer">
-          <h1> <span style={{ color: 'var(--textWhite)' }}> ¡ FRASE</span>&nbsp;POTENTE 1 !</h1>
-          <h2>Frase Potente 2</h2>
-          <div className="palabrasClave">
-            <h1>Fotomaton</h1>
-            <h1>Magic Mirror</h1>
-            <h1>RingRing Experience</h1>
-          </div>
-          <video className='videoMobile' autoPlay muted loop>
-            <source src="src/assets/video/videoMobileBW.mp4" type="video/mp4"/>
-            Este navegador no soporta vídeos.
-          </video>
-          <video className='videoTabletPC' autoPlay muted loop>
-            <source src="src/assets/video/weedingBW.mp4" type="video/mp4"/>
-            Este navegador no soporta vídeos.
-          </video>
-          <img onClick={handleClick} src="src/assets/gifs/arrow.gif" alt="arrowGift" />
-        </div>
-      </header>
-
+      <Presentation />
       <main>
-        {/* El punto que se ve al lado del si quiero es debido a los estilos, debemos quitarlo desde el css */}
         <section id='plataforma360'>
           <div className="service1Container">
             <h2>Fotomaton 360</h2>
@@ -128,22 +101,13 @@ useEffect (() => {
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero dicta labore culpa facere ab illum dolorem temporibus, fuga quibusdam, animi magnam obcaecati! Omnis dignissimos nam beatae sapiente adipisci ut soluta?
             </p>
             <div className="buttonsContainer">
-              {/* <button>
-                <NewPage href="/eventos-reales" label="Eventos Reales" colorText='var(--accent-950)'/>
-              </button> */}
               <button>
                 <NavItem href='#contacto' label='¡No pulses aquí!' colorText='var(--accent)' page='home'/>
               </button>
             </div>
           </div>
         </section>
-        {/* InfiniteLoop */}
-        <section>
-          <div className="logo">
-            <InfiniteLoop urlImg="src/assets/img/Extra/show.webp" nameImg="VisualShow" equal={true}/>
-            <InfiniteLoop urlImg="src/assets/img/Extra/show.webp" nameImg="VisualShow" equal={true}/>
-          </div>
-        </section>
+        <InfiniteLoopSection />
         <section id='magic-mirror'>
           {workingMode === 'PC' ? (
             <div className='service2Container'>
@@ -205,9 +169,6 @@ useEffect (() => {
                   Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, quidem laudantium doloribus atque totam voluptate, nulla tenetur provident minima natus beatae non, reprehenderit pariatur praesentium! Dolore necessitatibus ab eaque cum!
                 </p>
                 <div className="buttonsContainer">
-                {/* <button>
-                  <NewPage href="/eventos-reales" label="Eventos Reales" colorText='var(--primary-color-100)'/>
-                </button> */}
                 <button>
                   <NavItem href='#contacto' label='¡Agenda tu reunión!' colorText='var(--textWhite)' page='home'/>
                 </button>
@@ -226,9 +187,6 @@ useEffect (() => {
                   Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, quidem laudantium doloribus atque totam voluptate, nulla tenetur provident minima natus beatae non, reprehenderit pariatur praesentium! Dolore necessitatibus ab eaque cum!
                 </p>
                 <div className="buttonsContainer">
-                {/* <button>
-                  <NewPage href="/eventos-reales" label="Eventos Reales" colorText='var(--primary-color-100)'/>
-                </button> */}
                 <button>
                   <NavItem href='#contacto' label='¡Agenda tu reunión!' colorText='var(--textWhite)'/>
                 </button>
@@ -239,13 +197,7 @@ useEffect (() => {
           )}
           
         </section>
-        {/* InfiniteLoop */}
-        <section>
-          <div className="logo">
-            <InfiniteLoop urlImg="src/assets/img/Extra/show.webp" nameImg="VisualShow" equal={true}/>
-            <InfiniteLoop urlImg="src/assets/img/Extra/show.webp" nameImg="VisualShow" equal={true}/>
-          </div>
-        </section>
+        <InfiniteLoopSection />
         {/* !Este section es de reviews */}
         <section>
           <div className="reviewsContainer">
@@ -304,9 +256,7 @@ useEffect (() => {
         </section>
         <WhatsAppMessage className="contactFixed" msg="https://wa.me/34653781239?text=Quiero%20más%20información%20sobre%20VisualShow!" />
       </main>
-      <footer>
-        <Footer />
-      </footer>
+      <Footer />
     </>
   )
 }

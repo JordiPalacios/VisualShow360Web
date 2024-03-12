@@ -6,11 +6,13 @@ import Slider from "react-slick";
 import FotomatonData from '../assets/mocks/fotomatonData.json'
 import { AboutUs, Companies, Presentation, Reviews } from '../sections/homePage';
 import { Footer, InfiniteLoopSection } from '../sections/Shared';
+import { useWorkingMode } from '../assets/Customhooks/useWorkingMode';
 
 export const HomeWebsite = () => {
+  const workingMode = useWorkingMode()
   
   const fotomatonData = FotomatonData
-  const [workingMode, setWorkingMode] = useState('')
+
 
   const [sliderSettings, setSliderSettings] = useState({
     dots: false,
@@ -20,27 +22,7 @@ export const HomeWebsite = () => {
     slidesToScroll: 1
   })
 
-// useEffect para crear las marcas del modo trabajo PC - Tablet - Mobile
-useEffect (() => {
-  const checkWorkingMode = () => {
-    if (window.innerWidth > 1023) {
-      setWorkingMode('PC')
-    } else if ( (window.innerWidth < 1024) && (window.innerWidth > 759)) {
-      setWorkingMode('Tablet')
-    } else {
-      setWorkingMode('Mobile')
-    }
-  }
 
-  window.addEventListener('resize', checkWorkingMode)
-
-  checkWorkingMode()
-
-  return () => {
-    window.removeEventListener('resize', checkWorkingMode)
-  }
-
-}, [])
 
 useEffect (() => {
   const handleResize = () => {

@@ -1,33 +1,12 @@
-import React, { useEffect, useState } from 'react'
+import React from 'react'
 import { ContactUs, NavItem, NavbarMenu, WhatsAppMessage } from '../components'
 import { Footer, InfiniteLoopSection } from '../sections/Shared'
 import { Products2 } from '../sections/otherProductsPage/Products2'
+import { useWorkingMode } from '../assets/Customhooks/useWorkingMode'
 
 
 export const OtrosProductos = () => {
-    const [workingMode, setWorkingMode] = useState('')
-
-    // useEffect para crear las marcas del modo trabajo PC - Tablet - Mobile
-    useEffect (() => {
-        const checkWorkingMode = () => {
-        if (window.innerWidth > 1023) {
-            setWorkingMode('PC')
-        } else if ( (window.innerWidth < 1024) && (window.innerWidth > 759)) {
-            setWorkingMode('Tablet')
-        } else {
-            setWorkingMode('Mobile')
-        }
-        }
-    
-        window.addEventListener('resize', checkWorkingMode)
-    
-        checkWorkingMode()
-    
-        return () => {
-        window.removeEventListener('resize', checkWorkingMode)
-        }
-    
-    }, [])
+    const workingMode = useWorkingMode()
 
     return (
         <>           

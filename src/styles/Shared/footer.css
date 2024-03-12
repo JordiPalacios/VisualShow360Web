@@ -1,0 +1,101 @@
+footer {
+    font-size: .75rem;
+    color: var(--textWhite);
+}
+
+footer h3 {
+    font-style: italic;
+    margin: 0;
+}
+
+footer h4 {
+    color: var(--accent);
+    margin: 0 0 25px 0;
+}
+
+footer img {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    max-width: fit-content;
+
+    animation-timeline: none;
+    animation-name: none;
+}
+
+footer button {
+    background: none;
+    font-size: .75rem;
+    color: var(--textWhite);
+    text-decoration: 1px underline var(--secondary);
+}
+
+footer a {
+    color: var(--secondary);
+    margin: 10px 0;
+}
+
+footer .line {
+    margin: 50px 0;
+}
+
+.footerContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.rrssContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.rrssContainer a {
+    margin: 0;
+}
+
+.rrssContainer img {
+    aspect-ratio: 4/3;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    filter: drop-shadow(0px 0px 1px var(--accent));
+    transition: transform .5s ease-in-out;
+}
+
+
+/* Medidad Tablet */
+@media screen and (min-width: 760px) {
+
+}
+
+/* Medidas PC  */
+@media screen and (min-width: 1024px) {
+    .footerDescriptionContainer {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        width: 100%;
+        height: auto;
+    }
+
+    .rrssMainContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .normativeContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .rrssContainer img:hover {
+        transform: scale(1.25);
+    }
+}

@@ -1,0 +1,204 @@
+/*********** Form **************
+****************************************** */
+form label {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+}
+
+form a {
+    color: var(--secondary);
+}
+
+input,
+textarea, input:focus,
+textarea:focus {
+    color: var(--secondary);
+    font-size: .8rem;
+    text-align: left;
+    width: 100%;
+    padding: 1rem;
+    background: none;
+    cursor: pointer;
+    margin: .5rem 0 .5rem;
+}
+
+.contactoContainer {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    color: var(--secondary);
+    padding: 20px;
+    overflow: hidden;
+}
+
+.contactoContainer h2 {
+    color: var(--textWhite);
+}
+
+
+.elementsContainer {
+    width: 90%;
+    height: auto;
+    max-width: 500px;
+    text-align: center;
+}
+
+.formContainer  label{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 5px;
+    margin-bottom: 2px;
+    gap: .2rem;
+}
+
+
+.formContainer input{
+    text-align: left;
+    font-weight: 700;
+    color: var(--textWhite);
+    border: 2px solid var(--secondary);
+    border-radius: 15px;
+}
+
+.formContainer input::placeholder{
+    text-align: left;
+    color: var(--secondary);
+}
+
+.formContainer input:focus {
+    border: 2px solid transparent;
+}
+
+.formContainer input[type="text"],
+.formContainer input[type="email"],
+.formContainer input[type="tel"],
+.formContainer input[type="date"] {
+    cursor: pointer;
+    text-align: left;
+    direction: ltr; 
+    padding-left: 5px; 
+}
+
+.formContainer select {
+    width: 100%;
+    padding: 1rem 0 1rem 0;
+    border: 2px solid var(--secondary);
+    border-radius: 15px;
+    background-color: transparent; 
+    color: var(--textWhite); 
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.formContainer select:focus {
+    border-color: var(--secondary);
+}
+
+.formContainer option {
+    background: var(--contrastBlack2);
+    color: var(--textWhite);
+    font-weight: bolder;
+}
+
+.checkBoxContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    gap: 5px;
+    margin: 10px 0 10px 0;
+    padding: 0;
+}
+
+.checkBoxContainer label {
+    width: fit-content;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    color: var(--textWhite);
+}
+
+.checkBoxContainer label input[type="checkbox"] {
+    transform: scale(1.25);
+}
+
+
+.checkBoxContainer .checkBoxText {
+    display: inline-block;
+    font-size: .75rem;
+    margin-left: 5px;
+}
+
+form button {
+    font-size: 1.25rem;
+    width: 11rem;
+    background: transparent;
+    outline: 2px solid var(--accent);
+    color: var(--accent);
+    font-weight: bolder;
+    border: none;
+    padding: .5rem;
+    margin: 1rem 0rem 2rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform .5s ease;
+}
+
+.mediaContainer {
+    display: none;
+}
+
+/* ***************************************
+*********** Responsive **************
+****************************************** */
+
+/* Medidad Tablet */
+@media screen and (min-width: 760px) {
+
+}
+
+/* Medidas PC  */
+@media screen and (min-width: 1024px) {
+    form button {
+        transition: transform .5s ease;
+    }
+
+    form button:hover {
+        transform: scale(1.15);
+    }
+
+    .elementsContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+    }
+
+    .formContainer {
+        z-index: 2;
+        width: 100%;
+        max-width: 500px;
+        order: 1;
+    }
+
+    .mediaContainer {
+        display: block;
+        position: absolute;
+        max-width: 400px;
+        rotate: 15deg;
+        right: -60%;
+        top: 0;
+        z-index: 1;
+    }
+
+    .mediaContainer img {
+        width: auto;
+        max-width: 100%;
+        height: auto;
+    }
+}

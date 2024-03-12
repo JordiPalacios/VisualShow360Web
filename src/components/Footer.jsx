@@ -29,8 +29,8 @@ useEffect (() => {
 
   if (workingMode === 'PC') {
     content = (
-      <div className="footerContainer"> 
-        <div className="line"></div>
+      <footer className="footerContainer"> 
+        <aside className="line"></aside>
         <div className="footerDescriptionContainer">
           <div className="rrssMainContainer">
             <a href="mailto:visualshow360@gmail.com?subject=¡Hola!&body=Hola quiero saber más sobre visualshow!" target="_blank">visualshow360@gmail.com</a>
@@ -62,12 +62,12 @@ useEffect (() => {
           </div>
         </div>
         <img src="src/assets/img/Extra/generalitat.webp" target="_blank" alt="generalitatImg" loading='lazy' />
-      </div>
+      </footer>
     )
   } else {
     content = (
-      <div className="footerContainer">  
-      <div className="line"></div>
+      <footer className="footerContainer">  
+      <aside className="line"></aside>
         <h3>¡Logo VisualShow!</h3>
         <a href="mailto:visualshow360@gmail.com?subject=¡Hola!&body=Hola quiero saber más sobre visualshow!" target="_blank">visualshow360@gmail.com</a>
         <div className="rrssContainer">
@@ -93,7 +93,7 @@ useEffect (() => {
         <img src="src/assets/img/Extra/generalitat.webp" target="_blank" alt="generalitatImg" loading='lazy' />
         <a href="https://www.instagram.com/jordi_code?igsh=MXRvbmtiYmhheHRiZw%3D%3D&utm_source=qr" 
         style={{ fontSize:'.7rem', padding:'10px' }} target="_blank" > Creada y diseñada x Jordi Code</a>
-      </div>
+      </footer>
     )
   }
 

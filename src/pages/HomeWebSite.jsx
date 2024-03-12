@@ -1,13 +1,13 @@
 import React, { useEffect, useState } from 'react'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import { ContactUs, Footer, ImgSlider, InfiniteLoop, NavItem, ReviewsCard, WhatsAppMessage } from '../components'
+import { ContactUs, ImgSlider, InfiniteLoop, NavItem, ReviewsCard, WhatsAppMessage } from '../components'
 import Slider from "react-slick";
 import CompaniesData from '../assets/mocks/companiesData.json'
 import FotomatonData from '../assets/mocks/fotomatonData.json'
 import ReviewsData from '../assets/mocks/reviewsData.json'
 import { Presentation } from '../sections/homePage/Presentation';
-import { InfiniteLoopSection } from '../sections/Shared/InfiniteLoopSection';
+import { Footer, InfiniteLoopSection } from '../sections/Shared';
 
 export const HomeWebsite = () => {
   const companyData = CompaniesData

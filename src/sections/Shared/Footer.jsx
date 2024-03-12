@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { NewPage } from './NewPage'
+import { NewPage } from '../../components/NewPage'
 
 export const Footer = () => {
 const [workingMode, setWorkingMode] = useState('')
@@ -30,7 +30,7 @@ useEffect (() => {
   if (workingMode === 'PC') {
     content = (
       <footer className="footerContainer"> 
-        <aside className="line"></aside>
+        <div className="line"></div>
         <div className="footerDescriptionContainer">
           <div className="rrssMainContainer">
             <a href="mailto:visualshow360@gmail.com?subject=¡Hola!&body=Hola quiero saber más sobre visualshow!" target="_blank">visualshow360@gmail.com</a>
@@ -67,7 +67,7 @@ useEffect (() => {
   } else {
     content = (
       <footer className="footerContainer">  
-      <aside className="line"></aside>
+      <div className="line"></div>
         <h3>¡Logo VisualShow!</h3>
         <a href="mailto:visualshow360@gmail.com?subject=¡Hola!&body=Hola quiero saber más sobre visualshow!" target="_blank">visualshow360@gmail.com</a>
         <div className="rrssContainer">

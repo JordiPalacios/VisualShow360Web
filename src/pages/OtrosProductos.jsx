@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
-import { ContactUs, Footer, NavItem, NavbarMenu, ProductsCard, WhatsAppMessage } from '../components'
-import { InfiniteLoopSection } from '../sections/Shared/InfiniteLoopSection'
+import { ContactUs, NavItem, NavbarMenu, ProductsCard, WhatsAppMessage } from '../components'
+import { Footer, InfiniteLoopSection } from '../sections/Shared'
+
 
 export const OtrosProductos = () => {
     const [workingMode, setWorkingMode] = useState('')

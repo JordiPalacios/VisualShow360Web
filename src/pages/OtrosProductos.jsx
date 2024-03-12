@@ -118,9 +118,7 @@ export const OtrosProductos = () => {
                 </div>
             </section>
             <InfiniteLoopSection />
-            <section id='contacto'>
-                <ContactUs />
-            </section>
+            <ContactUs />
             <WhatsAppMessage className="contactFixed" msg="https://wa.me/34653781239?text=Quiero%20más%20información%20sobre%20VisualShow!" />
         </main>
         <Footer />

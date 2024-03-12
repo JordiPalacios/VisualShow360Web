@@ -1,15 +1,14 @@
 import React, { useEffect, useState } from 'react'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import { ContactUs, ImgSlider, InfiniteLoop, NavItem, WhatsAppMessage } from '../components'
+import { ContactUs, ImgSlider, NavItem, WhatsAppMessage } from '../components'
 import Slider from "react-slick";
-import CompaniesData from '../assets/mocks/companiesData.json'
 import FotomatonData from '../assets/mocks/fotomatonData.json'
-import { Presentation, Reviews } from '../sections/homePage';
+import { AboutUs, Companies, Presentation, Reviews } from '../sections/homePage';
 import { Footer, InfiniteLoopSection } from '../sections/Shared';
 
 export const HomeWebsite = () => {
-  const companyData = CompaniesData
+  
   const fotomatonData = FotomatonData
   const [workingMode, setWorkingMode] = useState('')
 
@@ -178,34 +177,9 @@ useEffect (() => {
         </section>
         <InfiniteLoopSection />
         <Reviews />
-        {/* !Este section es de companies */}
-        <section>
-          <div className="companiesContainer">
-            <h2>Empresas que han confiado en VisualShow</h2>
-            <div className="line"></div>
-            <div className="logoCompanies">
-              {companyData.map((data) => (
-                <InfiniteLoop key={data.companyName} urlImg={data.urlImg} nameImg={data.companyName} equal={false}/>
-              ))}
-              {companyData.map((data) => (
-                <InfiniteLoop key={data.companyName} urlImg={data.urlImg} nameImg={data.companyName} equal={false}/>
-              ))}
-            </div>
-          </div>
-        </section>
-        <section id="nosotros">
-          <div className="aboutUsContainer">
-            <h2>¿ Quienes Somos ?</h2>
-            <img src="src/assets/img/reviews_equipo/navidadDavidIvet.webp" alt="VisualShow360Team" loading='lazy' />
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit qui nam dicta aspernatur non expedita iusto assumenda minus harum porro ullam similique voluptas neque autem modi ipsum, quisquam dolorum officiis?
-            </p>
-          </div>
-        </section>
-        {/* !Este section es de contact us */}
-        <section id="contacto">
-          <ContactUs />
-        </section>
+        <Companies />
+        <AboutUs />
+        <ContactUs />
         <WhatsAppMessage className="contactFixed" msg="https://wa.me/34653781239?text=Quiero%20más%20información%20sobre%20VisualShow!" />
       </main>
       <Footer />

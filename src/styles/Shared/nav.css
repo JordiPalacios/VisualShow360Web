@@ -142,111 +142,11 @@ nav ul {
     transition: max-height .75s ease, opacity .75s ease;
 }
 
-/* * Header */
+/* * Medida Tablet */
 
-header {
-    position: relative;
-    margin: 0;
-    overflow: hidden;
-    z-index: 999;
-}
-
-header h1,h2 {
-    margin: 5px;
-    padding: 0;
-}
-
-header h1 {
-    font-size: 1.5rem;
-}
-
-header h2 {
-    font-size: 1.5rem;
-    font-weight: 700;
-}
-
-
-header video {
-    position: absolute;
-    top: 60%;
-    left: 50%;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    transform: translate(-50%, -50%);
-    opacity: 1;
-    z-index: -1;
-}
-
-.videoTabletPC {
-    display: none;
-}
-
-.presentationContainer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    min-height: 450px;
-    margin-top: 100px;
-    margin-bottom: 20px;
-    gap: 1rem;
-    text-align: center;
-    text-wrap: balance;
-}
-
-.presentationContainer h1 {
-    font-size: 2rem;
-    font-weight: 900;
-    color: var(--accent);
-}
-
-.presentationContainer h2 {
-    font-size: 1.5rem;
-    font-weight: 700;
-    padding: 10px;
-    background: var(--secondary);
-}
-
-.presentationContainer img {
-    width: 35px;
-    background: none;
-    border-radius: 50%;
-    rotate: 90deg;
-    cursor: pointer;
-}
-
-.palabrasClave {
-    display: none;
-}
-
-/* * Media Tablet */
-
-/* Medidad Tablet */
 @media screen and (min-width: 760px) {
     .logoMenu button {
         display: none;
-    }
-
-    .videoTabletPC {
-        display: block;
-    }
-
-    .videoMobile {
-        display: none;
-    }
-
-    header h1,
-    header h2 {
-        font-size: 2rem;
-    }
-
-    header h3 {
-        font-size: 1.25rem;
-    }
-
-    header p {
-        font-size: 1rem;
     }
 
     .menuResponsiveContainer {
@@ -357,13 +257,9 @@ header video {
     .bodasEventosOpen li {
         padding: 0 5px 0 5px;
     }
-
-    .presentationContainer {
-        min-height: 550px;
-    }
 }
 
-/* Medidas PC  */
+/** Medida PC  */
 
 @media ( 1024px <= width ) {
     .menuResponsive b,
@@ -385,24 +281,8 @@ header video {
         transform: scale(1.1);
     }
 }
+
 @media (1225px <= width) {
-    header h1,
-    header h2 {
-        font-size: 2.25rem;
-    }
-
-    .presentationContainer h1 {
-        font-size: 5rem;
-    }
-
-    .presentationContainer h2 {
-        font-size: 3rem;
-    }
-
-    .presentationContainer h1:hover {
-        filter: none;
-    }
-
     .menuResponsiveContainer {
         display: flex;
         flex-direction: row;

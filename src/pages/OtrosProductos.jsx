@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
-import { ContactUs, Footer, InfiniteLoop, NavItem, NavbarMenu, ProductsCard, WhatsAppMessage } from '../components'
+import { ContactUs, Footer, NavItem, NavbarMenu, ProductsCard, WhatsAppMessage } from '../components'
+import { InfiniteLoopSection } from '../sections/Shared/InfiniteLoopSection'
 
 export const OtrosProductos = () => {
     const [workingMode, setWorkingMode] = useState('')
@@ -80,13 +81,7 @@ export const OtrosProductos = () => {
                 )}
                 
             </section>
-            {/* InfiniteLoop */}
-            <section>
-                    <div className="logo">
-                    <InfiniteLoop urlImg="src/assets/img/Extra/show.webp" nameImg="LogoVisualShowSlide" equal={true}/>
-                    <InfiniteLoop urlImg="src/assets/img/Extra/show.webp" nameImg="LogoVisualShowSlide" equal={true}/>
-                    </div>
-                    </section>
+            <InfiniteLoopSection />
             {/* !Este section es de products */}
             <section id='products'>
                 <div className="productsContainer">
@@ -121,22 +116,13 @@ export const OtrosProductos = () => {
                         colorText='var(--accent)'/>
                 </div>
             </section>
-            {/* InfiniteLoop */}
-            <section>
-                <div className="logo">
-                <InfiniteLoop urlImg="src/assets/img/Extra/show.webp" nameImg="LogoVisualShowSlide" equal={true}/>
-                <InfiniteLoop urlImg="src/assets/img/Extra/show.webp" nameImg="LogoVisualShowSlide" equal={true}/>
-                </div>
-            </section>
-            {/* !Este section es de contact us */}
+            <InfiniteLoopSection />
             <section id='contacto'>
                 <ContactUs />
             </section>
             <WhatsAppMessage className="contactFixed" msg="https://wa.me/34653781239?text=Quiero%20más%20información%20sobre%20VisualShow!" />
         </main>
-        <footer>
-            <Footer />
-        </footer>
+        <Footer />
     </>
 )
 }

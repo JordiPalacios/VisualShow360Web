@@ -37,7 +37,7 @@ export const OtrosProductos = () => {
                 {workingMode === 'PC' ? (
                     <div className="service4Container">
                         <div className="service4ContentContainer">
-                            <img src="src/assets/img/servicios/ringRing/audiolibro.jpg" alt="InstruccionesRingRing" />
+                            <img src="src/assets/img/servicios/ringRing/audiolibro.webp" alt="InstruccionesRingRing" />
                             <div className="service4DescriptionContainer">
                                 <h2>Ring Ring Experience</h2> 
                                 <h3> ¡Frase Guay &nbsp;<span>PC/Tablet!</span></h3> 
@@ -61,7 +61,7 @@ export const OtrosProductos = () => {
                         <h2>Ring Ring Experience</h2>
                         <h3>Frase Guay Tablet</h3>
                         <div className="service4ContentContainer">
-                            <img src="src/assets/img/servicios/ringRing/audiolibro.jpg" alt="InstruccionesRingRing" />
+                            <img src="src/assets/img/servicios/ringRing/audiolibro.webp" alt="InstruccionesRingRing" />
                             <div className="service4DescriptionContainer">
                                     <p>
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit qui nam dicta aspernatur non expedita iusto assumenda minus harum porro ullam similique voluptas neque autem modi ipsum, quisquam dolorum officiis?
@@ -83,8 +83,8 @@ export const OtrosProductos = () => {
             {/* InfiniteLoop */}
             <section>
                     <div className="logo">
-                    <InfiniteLoop urlImg="src/assets/img/Extra/show.png" nameImg="LogoVisualShowSlide" equal={true}/>
-                    <InfiniteLoop urlImg="src/assets/img/Extra/show.png" nameImg="LogoVisualShowSlide" equal={true}/>
+                    <InfiniteLoop urlImg="src/assets/img/Extra/show.webp" nameImg="LogoVisualShowSlide" equal={true}/>
+                    <InfiniteLoop urlImg="src/assets/img/Extra/show.webp" nameImg="LogoVisualShowSlide" equal={true}/>
                     </div>
                     </section>
             {/* !Este section es de products */}
@@ -98,7 +98,7 @@ export const OtrosProductos = () => {
                             tittle='Letras Love'
                             description=''
                             msg="https://wa.me/34653781239?text=Quiero%20más%20información%20sobre%20las%20Letras%20Love!"
-                            imgUrl='src/assets/img/servicios/otrosProductos/letrasLove.jpeg'
+                            imgUrl='src/assets/img/servicios/otrosProductos/letrasLove.webp'
                             difBg={false}
                             colorText='var(--accent)'/>
                         <ProductsCard
@@ -106,7 +106,7 @@ export const OtrosProductos = () => {
                             tittle='Neones'
                             description=''
                             msg="https://wa.me/34653781239?text=Quiero%20más%20información%20sobre%20los%20Neones!"
-                            imgUrl='src/assets/img/servicios/otrosProductos/neones.jpeg'
+                            imgUrl='src/assets/img/servicios/otrosProductos/neones.webp'
                             difBg={false}
                             colorText='var(--accent)'/>
                     </div>                    
@@ -124,8 +124,8 @@ export const OtrosProductos = () => {
             {/* InfiniteLoop */}
             <section>
                 <div className="logo">
-                <InfiniteLoop urlImg="src/assets/img/Extra/show.png" nameImg="LogoVisualShowSlide" equal={true}/>
-                <InfiniteLoop urlImg="src/assets/img/Extra/show.png" nameImg="LogoVisualShowSlide" equal={true}/>
+                <InfiniteLoop urlImg="src/assets/img/Extra/show.webp" nameImg="LogoVisualShowSlide" equal={true}/>
+                <InfiniteLoop urlImg="src/assets/img/Extra/show.webp" nameImg="LogoVisualShowSlide" equal={true}/>
                 </div>
             </section>
             {/* !Este section es de contact us */}

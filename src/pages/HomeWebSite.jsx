@@ -140,8 +140,8 @@ useEffect (() => {
         {/* InfiniteLoop */}
         <section>
           <div className="logo">
-            <InfiniteLoop urlImg="src/assets/img/Extra/show.png" nameImg="VisualShow" equal={true}/>
-            <InfiniteLoop urlImg="src/assets/img/Extra/show.png" nameImg="VisualShow" equal={true}/>
+            <InfiniteLoop urlImg="src/assets/img/Extra/show.webp" nameImg="VisualShow" equal={true}/>
+            <InfiniteLoop urlImg="src/assets/img/Extra/show.webp" nameImg="VisualShow" equal={true}/>
           </div>
         </section>
         <section id='magic-mirror'>
@@ -196,7 +196,7 @@ useEffect (() => {
           {workingMode === 'PC' ? (
             <div className="service3Container">
               <div className="service3ContentContainer">  
-                <img src="src/assets/img/servicios/whiteMagicMirror/magicMirrorWhiteBg.jpg" alt="Espejo magico blanco" loading='lazy'/>                      
+                <img src="src/assets/img/servicios/whiteMagicMirror/magicMirrorWhiteBg.webp" alt="Espejo magico blanco" loading='lazy'/>                      
               <div className="service3DescriptionContainer">  
                 <h2>White Magic Mirror</h2>
                 <h3> <span>¡Titulo Guay</span>&nbsp;PC/Tablet!</h3>    
@@ -220,7 +220,7 @@ useEffect (() => {
               <h2>White Magic Mirror</h2>
               <h3> ¡Titulo Guay Para Tablet!</h3>
               <div className="service3ContentContainer">              
-              <img src="src/assets/img/servicios/whiteMagicMirror/magicMirrorWhiteBg.jpg" alt="Espejo magico blanco" loading='lazy'/>
+              <img src="src/assets/img/servicios/whiteMagicMirror/magicMirrorWhiteBg.webp" alt="Espejo magico blanco" loading='lazy'/>
               <div className="service3DescriptionContainer">              
                 <p>
                   Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, quidem laudantium doloribus atque totam voluptate, nulla tenetur provident minima natus beatae non, reprehenderit pariatur praesentium! Dolore necessitatibus ab eaque cum!
@@ -242,8 +242,8 @@ useEffect (() => {
         {/* InfiniteLoop */}
         <section>
           <div className="logo">
-            <InfiniteLoop urlImg="src/assets/img/Extra/show.png" nameImg="VisualShow" equal={true}/>
-            <InfiniteLoop urlImg="src/assets/img/Extra/show.png" nameImg="VisualShow" equal={true}/>
+            <InfiniteLoop urlImg="src/assets/img/Extra/show.webp" nameImg="VisualShow" equal={true}/>
+            <InfiniteLoop urlImg="src/assets/img/Extra/show.webp" nameImg="VisualShow" equal={true}/>
           </div>
         </section>
         {/* !Este section es de reviews */}
@@ -292,7 +292,7 @@ useEffect (() => {
         <section id="nosotros">
           <div className="aboutUsContainer">
             <h2>¿ Quienes Somos ?</h2>
-            <img src="src/assets/img/reviews_equipo/navidadDavidIvet.jpg" alt="VisualShow360Team" loading='lazy' />
+            <img src="src/assets/img/reviews_equipo/navidadDavidIvet.webp" alt="VisualShow360Team" loading='lazy' />
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit qui nam dicta aspernatur non expedita iusto assumenda minus harum porro ullam similique voluptas neque autem modi ipsum, quisquam dolorum officiis?
             </p>

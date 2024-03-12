@@ -61,7 +61,7 @@ useEffect (() => {
           </button>
           </div>
         </div>
-        <img src="src/assets/img/Extra/generalitat.jpg" target="_blank" alt="generalitatImg" loading='lazy' />
+        <img src="src/assets/img/Extra/generalitat.webp" target="_blank" alt="generalitatImg" loading='lazy' />
       </div>
     )
   } else {
@@ -90,7 +90,7 @@ useEffect (() => {
           <NewPage href="/terminos-condiciones" label="Terminos y Condiciones" colorText='var(--secondary)'/>
         </button>
         </div>
-        <img src="src/assets/img/Extra/generalitat.jpg" target="_blank" alt="generalitatImg" loading='lazy' />
+        <img src="src/assets/img/Extra/generalitat.webp" target="_blank" alt="generalitatImg" loading='lazy' />
         <a href="https://www.instagram.com/jordi_code?igsh=MXRvbmtiYmhheHRiZw%3D%3D&utm_source=qr" 
         style={{ fontSize:'.7rem', padding:'10px' }} target="_blank" > Creada y diseñada x Jordi Code</a>
       </div>

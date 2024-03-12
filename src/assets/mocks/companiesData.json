@@ -1,58 +1,58 @@
 [
     {
-        "urlImg" : "src/assets/img/empresas/Acciona.png",
+        "urlImg" : "src/assets/img/empresas/Acciona.webp",
         "companyName": "acciona"
     } ,
     {
-        "urlImg" : "src/assets/img/empresas/Astrazeca.png",
+        "urlImg" : "src/assets/img/empresas/Astrazeca.webp",
         "companyName": "astrazeca"
     },
     {
-        "urlImg" : "src/assets/img/empresas/Atresmedia.png",
+        "urlImg" : "src/assets/img/empresas/Atresmedia.webp",
         "companyName": "atresmedia"
     },
     {
-        "urlImg" : "src/assets/img/empresas/Barcelona.png",
+        "urlImg" : "src/assets/img/empresas/Barcelona.webp",
         "companyName": "barcelona"
     },
     {
-        "urlImg" : "src/assets/img/empresas/CaixaBanc.png",
+        "urlImg" : "src/assets/img/empresas/CaixaBanc.webp",
         "companyName": "caixabanc"
     },
     {
-        "urlImg" : "src/assets/img/empresas/Cosmopolitan.png",
+        "urlImg" : "src/assets/img/empresas/Cosmopolitan.webp",
         "companyName": "cosmopolitan"
     },
     {
-        "urlImg" : "src/assets/img/empresas/Dell.png",
+        "urlImg" : "src/assets/img/empresas/Dell.webp",
         "companyName": "dell"
     },
     {
-        "urlImg" : "src/assets/img/empresas/Esquire.png",
+        "urlImg" : "src/assets/img/empresas/Esquire.webp",
         "companyName": "esquire"
     },
     {
-        "urlImg" : "src/assets/img/empresas/Fore.png",
+        "urlImg" : "src/assets/img/empresas/Fore.webp",
         "companyName": "fore"
     },
     {
-        "urlImg" : "src/assets/img/empresas/Google.png",
+        "urlImg" : "src/assets/img/empresas/Google.webp",
         "companyName": "google"
     },
     {
-        "urlImg" : "src/assets/img/empresas/Nissan.png",
+        "urlImg" : "src/assets/img/empresas/Nissan.webp",
         "companyName": "nissan"
     },
     {
-        "urlImg" : "src/assets/img/empresas/Scalpers.png",
+        "urlImg" : "src/assets/img/empresas/Scalpers.webp",
         "companyName": "scalpers"
     },
     {
-        "urlImg" : "src/assets/img/empresas/Servi.png",
+        "urlImg" : "src/assets/img/empresas/Servi.webp",
         "companyName": "servi"
     },
     {
-        "urlImg" : "src/assets/img/empresas/TikTok.png",
+        "urlImg" : "src/assets/img/empresas/TikTok.webp",
         "companyName": "tiktok"
     }
     

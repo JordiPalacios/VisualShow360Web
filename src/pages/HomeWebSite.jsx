@@ -94,7 +94,7 @@ useEffect (() => {
                 <div className="service2DescriptionContainer">  
                   <h2>Magic Mirror</h2>
                   <h3> ¡Frase Guay &nbsp;<span>PC/Tablet!</span></h3>    
-                  <div className='line'></div>             
+                  <hr className='line'></hr>             
                   <p>
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, quidem laudantium doloribus atque totam voluptate, nulla tenetur provident minima natus beatae non, reprehenderit pariatur praesentium! Dolore necessitatibus ab eaque cum!
                   </p>
@@ -142,7 +142,7 @@ useEffect (() => {
               <div className="service3DescriptionContainer">  
                 <h2>White Magic Mirror</h2>
                 <h3> <span>¡Titulo Guay</span>&nbsp;PC/Tablet!</h3>    
-                <div className='line'></div>        
+                <hr className='line'></hr>        
                 <p>
                   Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, quidem laudantium doloribus atque totam voluptate, nulla tenetur provident minima natus beatae non, reprehenderit pariatur praesentium! Dolore necessitatibus ab eaque cum!
                 </p>

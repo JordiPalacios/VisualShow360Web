@@ -1,5 +1,6 @@
 import React from 'react'
-import { Footer, NavbarMenu } from '../components'
+import { NavbarMenu } from '../components'
+import { Footer } from '../sections/Shared'
 
 export const PoliticaPrivacidad = () => {
 
@@ -184,9 +185,7 @@ export const PoliticaPrivacidad = () => {
                 </p>
             </div>
         </main>
-        <footer>
-            <Footer />
-        </footer>
+        <Footer />
     </>
 )
 }

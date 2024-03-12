@@ -1,5 +1,6 @@
 import React from 'react'
-import { Footer, NavbarMenu } from '../components'
+import { NavbarMenu } from '../components'
+import { Footer } from '../sections/Shared'
 
 export const TerminosCondiciones = () => {
 
@@ -177,9 +178,7 @@ export const TerminosCondiciones = () => {
                 </p>
             </div>
         </main>
-        <footer>
-            <Footer />
-        </footer>
+        <Footer />
     </>
 )
 }

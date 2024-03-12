@@ -1,5 +1,6 @@
 import React from 'react'
-import { Footer, NavbarMenu } from '../components'
+import { NavbarMenu } from '../components'
+import { Footer } from '../sections/Shared'
 
 export const AvisoLegal = () => {
 
@@ -64,9 +65,7 @@ export const AvisoLegal = () => {
             </div>
         </main>
 
-        <footer>
-            <Footer />
-        </footer>
+        <Footer />
     </>
 )
 }

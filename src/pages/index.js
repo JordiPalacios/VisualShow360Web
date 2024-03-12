@@ -1,7 +1,5 @@
 export * from './HomeWebSite'
 export * from './OtrosProductos'
-export * from './BuyProducts'
-export * from './Payment'
 export * from './AvisoLegal'
 export * from './PoliticaPrivacidad'
 export * from './TerminosCondiciones'

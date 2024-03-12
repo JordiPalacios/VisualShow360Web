@@ -1,29 +1,19 @@
 import React, { useEffect, useState } from 'react'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import { ContactUs, ImgSlider, InfiniteLoop, NavItem, ReviewsCard, WhatsAppMessage } from '../components'
+import { ContactUs, ImgSlider, InfiniteLoop, NavItem, WhatsAppMessage } from '../components'
 import Slider from "react-slick";
 import CompaniesData from '../assets/mocks/companiesData.json'
 import FotomatonData from '../assets/mocks/fotomatonData.json'
-import ReviewsData from '../assets/mocks/reviewsData.json'
-import { Presentation } from '../sections/homePage/Presentation';
+import { Presentation, Reviews } from '../sections/homePage';
 import { Footer, InfiniteLoopSection } from '../sections/Shared';
 
 export const HomeWebsite = () => {
   const companyData = CompaniesData
   const fotomatonData = FotomatonData
-  const reviewsData = ReviewsData
   const [workingMode, setWorkingMode] = useState('')
 
   const [sliderSettings, setSliderSettings] = useState({
-    dots: false,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 1,
-    slidesToScroll: 1
-  })
-
-  const [sliderSettingsReviews, setSliderSettingsReviews] = useState({
     dots: false,
     infinite: true,
     speed: 500,
@@ -62,23 +52,12 @@ useEffect (() => {
     setSliderSettings(newSetttings)
   }
 
-  const handleResizeReviews = () => {
-    const newSetttingsReviews = window.innerWidth < 1300
-    ? {...sliderSettingsReviews, slidesToShow: 1, dots: true}
-    : {...sliderSettingsReviews, slidesToShow: 3, dots: true}
-
-    setSliderSettingsReviews(newSetttingsReviews)
-  }
-
   window.addEventListener('resize', handleResize)
-  window.addEventListener('resize', handleResizeReviews)
 
   handleResize()
-  handleResizeReviews()
 
   return () => {
     window.removeEventListener('resize', handleResize)
-    window.removeEventListener('resize', handleResizeReviews)
   }
 }, [])
 
@@ -198,34 +177,7 @@ useEffect (() => {
           
         </section>
         <InfiniteLoopSection />
-        {/* !Este section es de reviews */}
-        <section>
-          <div className="reviewsContainer">
-            <h2>Qué piensan de nosotros ...</h2>
-            <div className="line"></div>
-            <div className="fotomatonImgReviews">
-              <Slider {...sliderSettingsReviews}>
-                  {reviewsData.map((data) => (
-                      <ReviewsCard
-                      key={data.id}
-                      id={data.id}
-                      tittle={data.tittle}
-                      client={data.client}
-                      description={data.description}
-                      imgUrl={data.imgUrl}
-                      cardClassName={data.cardClassName}
-                      />
-                  ))}
-                </Slider>
-            </div>
-            <a href="https://www.bodas.net/animacion/360-&-magic-mirror-visualshow360--e218488/opiniones" target="_blank">Ver más</a>
-            <div className="reviewsMediaContainer">
-              <a href="https://www.bodas.net/animacion/360-&-magic-mirror-visualshow360--e218488/opiniones" target="_blank">
-                <img src="src/assets/img/reviews_equipo/bodasNetSVG.svg" alt="bodas.net" loading='lazy' />
-              </a>                
-            </div>
-          </div>
-        </section>
+        <Reviews />
         {/* !Este section es de companies */}
         <section>
           <div className="companiesContainer">

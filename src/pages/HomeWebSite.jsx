@@ -6,7 +6,7 @@ import Slider from "react-slick";
 import FotomatonData from '../assets/mocks/fotomatonData.json'
 import { AboutUs, Companies, Presentation, Reviews } from '../sections/homePage';
 import { Footer, InfiniteLoopSection } from '../sections/Shared';
-import { useWorkingMode } from '../assets/Customhooks/useWorkingMode';
+import { useWorkingMode } from '../assets/customhooks/useWorkingMode';
 
 export const HomeWebsite = () => {
   const workingMode = useWorkingMode()

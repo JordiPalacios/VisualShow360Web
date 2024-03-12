@@ -1,6 +1,6 @@
 import React from 'react'
-import { ContactUs, NavItem, NavbarMenu, WhatsAppMessage } from '../components'
-import { Footer, InfiniteLoopSection } from '../sections/Shared'
+import { NavItem, NavbarMenu, WhatsAppMessage } from '../components'
+import { ContactUs, Footer, InfiniteLoopSection } from '../sections/Shared'
 import { Products2 } from '../sections/otherProductsPage/Products2'
 import { useWorkingMode } from '../assets/customhooks/useWorkingMode'
 

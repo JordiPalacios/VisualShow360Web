@@ -1,7 +1,27 @@
 import React from 'react'
+import { FormContact } from '../../components/FormContact'
 
 export const ContactUs = () => {
+
+  const content = (
+    <section id="contacto">
+      <div className="contactoContainer">
+        <h2>¡ SÍ Quiero !</h2>
+        <div className="elementsContainer">
+          <div className="formContainer">
+            <FormContact />
+          </div>
+          <div className="mediaContainer">
+            <img src="src/assets/img/Extra/logoVS360png.png" alt="logoVSpng" loading='lazy' />
+          </div>
+        </div>
+      </div>
+    </section>
+  )
+    
 return (
-    <div>ContactUs</div>
+    <>
+      {content}
+    </>
 )
 }

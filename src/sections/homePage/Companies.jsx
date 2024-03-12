@@ -8,7 +8,7 @@ return (
     <section>
         <div className="companiesContainer">
             <h2>Empresas que han confiado en VisualShow</h2>
-            <div className="line"></div>
+            <hr className="line"></hr>
             <div className="logoCompanies">
             {companyData.map((data) => (
                 <InfiniteLoop key={data.companyName} urlImg={data.urlImg} nameImg={data.companyName} equal={false}/>

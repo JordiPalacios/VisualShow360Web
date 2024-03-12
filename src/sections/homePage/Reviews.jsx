@@ -38,7 +38,7 @@ return (
     <section>
         <div className="reviewsContainer">
             <h2>Qué piensan de nosotros ...</h2>
-            <div className="line"></div>
+            <hr className="line"></hr>
             <div className="fotomatonImgReviews">
                 <Slider {...sliderSettingsReviews}>
                     {reviewsData.map((data) => (

@@ -1,4 +1,3 @@
-
 /*********** Form **************
 ****************************************** */
 form label {
@@ -28,7 +27,6 @@ textarea:focus {
     display: flex;
     flex-direction: column;
     position: relative;
-    background: var(--vs2);
     align-items: center;
     color: var(--secondary);
     padding: 20px;

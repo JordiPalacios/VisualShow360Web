@@ -1,7 +1,6 @@
 .service2Container {
     display: flex;
     flex-direction: column;
-    background: var(--vs2);
     align-items: center;
     text-align: center;
     text-wrap: balance;

@@ -1,7 +1,6 @@
 .service1Container {
     display: flex;
     flex-direction: column;
-    background: var(--vs2);
     padding: 20px;
     align-items: center;
     text-align: center;

@@ -1,5 +1,4 @@
 footer {
-    background: var(--vs2);
     font-size: .75rem;
     color: var(--textWhite);
 }
@@ -37,8 +36,7 @@ footer a {
 }
 
 footer .line {
-    border-top: 1px solid var(--secondary);
-    margin: 50px;
+    margin: 50px 0;
 }
 
 .footerContainer {

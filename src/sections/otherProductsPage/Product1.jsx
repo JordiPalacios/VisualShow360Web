@@ -1,13 +1,9 @@
 import React from 'react'
 import { useWorkingMode } from '../../assets/customhooks/useWorkingMode'
 import { NavItem } from '../../components'
-import { useSEO } from '../../assets/customhooks/useSEO'
 
 export const Product1 = () => {
     const workingMode = useWorkingMode()
-
-    const title = 'RingRing, Neones & Letras Love'
-    useSEO({ title, description: title })
 
 return (
     <section id='ring-ring-experience'>

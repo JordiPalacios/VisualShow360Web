@@ -10,6 +10,10 @@ export const HomeWebsite = () => {
     <>
       <Helmet>
         <title>VisualShow360 | Atrezzo & Fotomaton360</title>
+        <meta name='keywords' content='Fotomaton Barcelona '/>
+        <meta name='description' content='Fotomaton Barcelona con atrezzo increible' />
+        <meta name='author' content='VisualShow360'/>
+        <meta name="rating" content="General" />
       </Helmet>
       <Presentation />
       <main>

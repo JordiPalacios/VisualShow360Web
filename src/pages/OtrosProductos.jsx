@@ -12,6 +12,10 @@ export const OtrosProductos = () => {
         <>        
             <Helmet>
                 <title>VisualShow360 | RingRing, Neones & Letras Love</title>
+                <meta name='keywords' content='RingRing, Neones, Letras Love, Barcelona, Atrezzo, Bodas, Eventos, Catalunya' />
+                <meta name='description' content='RingRing, Neones & Letras Love' />
+                <meta name='author' content='VisualShow360'/>
+                <meta name="rating" content="General" />
             </Helmet>
             <header>
                 <NavbarMenu />

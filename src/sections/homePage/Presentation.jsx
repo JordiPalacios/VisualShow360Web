@@ -1,10 +1,7 @@
 import React from 'react'
 import { NavbarMenu } from '../../components'
-import { useSEO } from '../../assets/customhooks/useSEO'
 
 export const Presentation = () => {
-    const title = 'Atrezzo & Fotomaton360'
-    useSEO({ title, description: title })
 
     const handleClick = () => {
         const element = document.getElementById('plataforma360')

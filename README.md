@@ -1,89 +1,38 @@
-VisualShow360 Responsive Web
 
-Created with React V18.2.0
+# VisualShow360 | Atrezzo & Fotomaton360
 
-Anchos pantalla en:
-    *Movil - Mínimo 320px
-    *Tablet - Mínimo 760px
-    *PC - 1024px
+Creation of the website for the company dedicated to event planning thanks to its:
 
-Cosas Instaladas:
-    [x] Sticky a traves de NPM:
-        npm install react-slick --save
-    [x] Instalar React Router:
-        npm install react-router-dom
-        
+- 360 Photoboth
+- Magic Mirror
+- Ring Ring Experience
+- Unique Props
 
-Para iniciar el proyecto en local solo debes hacer:
-[x] npm install
+View more about 
+[VisualShow360](https://www.instagram.com/visualshow360?igshid=YmMyMTA2M2Y=)
 
-ToDo:
 
-[]SEO: 
-    []Definir los nombre que iran apareciendo en la pestaña de navegación en funcion de nuestra ubicacion en la pagina web
-    []Definir la descripcion que tendra cada pestaña de navegacion en funcion de nuestra ubicacion en la pagina web
 
-[x]General :
-    [x]Toda la web con el gradiente de VS-2
-    [x]Borrar boton de eventos reales
-    [x]Modificar ventana eventos reales y que ahora sea la de "Otros Productos"
-        [x]Secciones: 
-            [x]RingRing Experience
-            [x]Neones
-            [x]Letras Love
-            [x]KitAnitResaca
-    [x]Los logos de RRSS - WhatsApp - Logo VisualShow si paso por encima que se agrande un poco en PC
+## Launguages Used
 
-[x]Navbar :
-    [x]PC:
-        [x]Si desplazo el raton por encima que se despliegue de forma automatica
-        [x]Revisar los cuadraditos del desplegable que creo que le falta algo
+Se ha creado la página web con los lenguajes siguientes:
+The web site was created using the following languajes: 
 
-[x]Header :
-    [x]Ocultar todos los H1 de palabras clave que me diran -> Crear un div y lo oculto entero
-    [x]Poner solo dos frases en el header
-    [x]Quitar los enlaces a Ig y TikTok
-    [x]Modificar el estilado para que se vea bien
+- HTML
+- CSS
+- JavaScript
+- React
 
-[x]Infinite Loop:
-    [x]Poner las nuevas fotos que me pasaran para ver el movimiento
-    [x]Bajarle la velocidad para que no nos maree
+Using [Vite](https://vitejs.dev/) as the bundler
 
-[x]Servicios:
-    [x]Poner todos los filter con solamente 10px
+## Installation
 
-[x]Servicio 1:
-    [x]PC -> Reducir el tamaño del slider, con un max-width
+Install VisualShow project with [npm](https://www.npmjs.com/) only
 
-[x]Reviews:
-    [x]Poner debajo de cada review un link de 'Leer más' que nos lleve al perfil de bodas.net con su correspondiente logo.
+```bash
+  npm install
 
-Not Found Page:
- [x] Enviar al Home Page
-
-[]Footer:
-    []Estilarlo a mi manera poniendo:
-        []Logo -> Me lo pasaran
-        [x]Email -> visualshow360@gmail.com
-        []RRSS -> TikTok Intagram -> Imagenes Nuevas
-        [x]Normativa
-        [x]Foto Generalitat
-        [x]JordiCode
- []Crear Sistema de Cookies
-    []PopUp Cookies
-    []Programa aceptacion Cookies
-
-Estilos CSS:
-    []Fuentes: Roboto - Helvetica - Montserrat -> Falta decidirlo
-
-Comprimir el contenido:
-    []Imágenes -> webp
-    []Vídeo -> 
-    []Fuentes -> Instaladas dentro del proyecto
-    []Borrar código inecesario
-
-<!-- Products Page:
-    [] Futuro
-
-Payment Page:
-    [] Futuro -->
+  // Start running project in localhost
+  npm run dev
+```
+    

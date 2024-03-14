@@ -1,7 +1,7 @@
 /* Definimos los colores de la web */
 :root {
-    font-family: Montserrat, Roboto, Helvetica, Arial, sans-serif;
-    font-weight: 400px;
+    font-family: 'Lora Variable', 'Adamina' ,'Roboto', Helvetica, Arial, sans-serif;
+    font-weight: normal;
     font-size: 16px;
     font-synthesis: none;
     text-rendering: optimizeLegibility;
@@ -12,6 +12,13 @@
     color: var(--textWhite);
     background-color: var(--vs2);
 
+    /** Fonts */
+    --primary-font: 'Lora Variable', serif;
+    --secondary-font: 'Adamina', serif;
+    --tertiary-font: 'Roboto', sans-serif;
+    --accent-font: 'Lobster', system-ui;
+
+    /** Primary Colors */
     --textWhite: #FFFFFF;
     --accent: #FC008B;
     --secondary: #E82F8A;
@@ -22,7 +29,7 @@
 
     --background: #100811;
 
-    /** Colores pasados por VisualShow */
+    /** VisualShow Colors*/
     --vs: #410049;
     --vs2: #050006;
     --gradient-vs: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(89,3,99,1) 100%);

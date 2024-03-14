@@ -11,26 +11,19 @@ body, html {
     padding: 0;
     min-width: 100%;
     min-height: 100%;
+    font-family: var(--primary-font);
 }
 
-h2 {
-    font-size: 2rem;
-    font-weight: bolder;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-
-h1,h3 {
-    font-size: 1.5rem;
-    font-family:'Times New Roman', Times, serif;
+h3 {
+    font-family: var(--tertiary-font);
 }
 
 h4 {
-    font-size: 1.2rem;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: var(--accent-font);
 }
 
 p {
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: var(--secondary-font);
 }
 
 /* Aqui cambiamos los colores para el elemento li del menu desplegable*/
@@ -47,7 +40,7 @@ a {
 button {
     font-size: 1.2rem;
     font-weight: 500;
-    font-family: inherit;
+    font-family: var(--primary-font);
     padding: 0.6rem 1.2rem;
     border-radius: 8px;
     cursor: pointer;
@@ -69,7 +62,7 @@ button {
 .buttonsContainer button {
     background: transparent;
     outline: 2px solid var(--accent);
-    transition: transform .5s ease;
+    transition: transform .5s ease-in-out;
 }
 
 .buttonsContainer button a {
@@ -157,22 +150,6 @@ img {
 
 /* Medidad Tablet */
 @media screen and (min-width: 760px) {
-    h2 {
-        font-size: 2.5rem;
-        font-weight: bolder;
-    }
-    
-    h1 {
-        font-size: 2rem;
-    }
-
-    h3 {
-        font-size: 1.5rem;
-    }
-    
-    h4 {
-        font-size: 1.7rem;
-    }
 
     .contactFixed {
         right: 10px;
@@ -185,23 +162,6 @@ img {
 
 /* Medidas PC  */
 @media screen and (min-width: 1024px) {
-
-    h2 {
-        font-size: 3rem;
-        font-weight: bolder;
-    }
-    
-    h1 {
-        font-size: 2.5rem;
-    }
-
-    h3 {
-        font-size: 2rem;
-    }
-    
-    h4 {
-        font-size: 2.2rem;
-    }
 
     .contactFixed {
         right: 20px;

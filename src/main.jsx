@@ -1,3 +1,8 @@
+import '@fontsource-variable/lora';
+import '@fontsource/roboto/700.css';
+import '@fontsource/adamina';
+import '@fontsource/lobster';
+
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import Web from './Web.jsx'

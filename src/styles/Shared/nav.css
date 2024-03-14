@@ -4,6 +4,10 @@ nav {
     position: relative;
 }
 
+nav h1 {
+    font-size: 2rem;
+}
+
 nav b {
     cursor: pointer;
 }
@@ -208,8 +212,7 @@ nav ul {
         flex-direction: column;
         align-items: flex-start;
         position: absolute;
-        width: 100%;
-        max-width: 140px;
+        width: fit-content;
         height: auto;
         max-height: 0;
         background: var(--vs2);
@@ -219,7 +222,7 @@ nav ul {
     }
 
     .productosClose li {
-        padding: 0 0 0 5px;
+        padding: 0 5px 0 5px;
     }
 
 
@@ -279,6 +282,7 @@ nav ul {
 /** Medida PC  */
 
 @media ( 1024px <= width ) {
+
     .menuResponsive b,
     .menuResponsive a,
     .tabletPCMenu a {

@@ -13,16 +13,6 @@ header h1,h2 {
     padding: 0;
 }
 
-header h1 {
-    font-size: 1.5rem;
-}
-
-header h2 {
-    font-size: 1.5rem;
-    font-weight: 700;
-}
-
-
 header video {
     position: absolute;
     top: 60%;
@@ -53,7 +43,6 @@ header video {
 }
 
 .presentationContainer h1 {
-    font-size: 2rem;
     font-weight: 900;
     color: var(--accent);
 }
@@ -106,19 +95,6 @@ header video {
         display: none;
     }
 
-    header h1,
-    header h2 {
-        font-size: 2rem;
-    }
-
-    header h3 {
-        font-size: 1.25rem;
-    }
-
-    header p {
-        font-size: 1rem;
-    }
-
     .presentationContainer {
         min-height: 840px;
     }
@@ -127,18 +103,6 @@ header video {
 /** Medida PC  */
 
 @media (1225px <= width) {
-    header h1,
-    header h2 {
-        font-size: 2.25rem;
-    }
-
-    .presentationContainer h1 {
-        font-size: 5rem;
-    }
-
-    .presentationContainer h2 {
-        font-size: 3rem;
-    }
 
     .presentationContainer h1:hover {
         filter: none;

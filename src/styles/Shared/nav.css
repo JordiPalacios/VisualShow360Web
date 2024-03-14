@@ -8,6 +8,26 @@ nav h1 {
     font-size: 2rem;
 }
 
+nav ul {
+    background: transparent;
+    font-size: 1.15rem;
+    text-align: start;
+    text-wrap: balance;
+    margin: 0;
+    padding: 0;
+    max-height: 0;
+    opacity: 0;
+    width: 100%;
+    overflow: hidden;
+}
+
+.productosOpen,
+.productosClose,
+.bodasEventosOpen,
+.bodasEventosClose {
+    font-size: 1.05rem;
+}
+
 nav b {
     cursor: pointer;
 }
@@ -66,7 +86,7 @@ nav button{
 }
 
 .tabletPCMenu a{
-    color: var(--accent);
+    color: var(--accent-2);
 }
 
 .hamburgerMenu {
@@ -85,19 +105,6 @@ nav button{
     background-repeat: no-repeat;
     animation: rubberBand;
     animation-duration: 1s;
-}
-
-nav ul {
-    background: transparent;
-    text-align: start;
-    text-wrap: balance;
-    margin: 0;
-    padding: 0;
-    max-height: 0;
-    opacity: 0;
-    transition: max-height .75s ease, opacity .75s ease;
-    width: 100%;
-    overflow: hidden;
 }
 
 .menuOpened ul{
@@ -166,6 +173,11 @@ nav ul {
 /* * Medida Tablet */
 
 @media screen and (min-width: 760px) {
+
+    .tabletPCMenu a{
+        color: var(--accent);
+    }
+
     .logoMenu button {
         display: none;
     }

@@ -88,7 +88,7 @@ textarea:focus {
     border: 2px solid var(--secondary);
     border-radius: 15px;
     background-color: transparent; 
-    color: var(--textWhite); 
+    color: var(--secondary); 
     font-size: 1rem;
     cursor: pointer;
 }
@@ -100,7 +100,6 @@ textarea:focus {
 .formContainer option {
     background: var(--contrastBlack2);
     color: var(--textWhite);
-    font-weight: bolder;
 }
 
 .checkBoxContainer {

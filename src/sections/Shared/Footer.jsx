@@ -45,20 +45,21 @@ useEffect (() => {
           </div>
           <div className="logoContainer">
             <h3>¡Logo VisualShow!</h3>
-            <p>© 2024 VisualShow360 - Todos los derechos reservados</p>
-            <a href="https://www.instagram.com/jordi_code?igsh=MXRvbmtiYmhheHRiZw%3D%3D&utm_source=qr" 
-          style={{ fontSize:'.7rem', padding:'10px' }} target="_blank"> Creada y diseñada x Jordi Code</a>
+            <p><small>© 2024 VisualShow360 - Todos los derechos reservados</small></p>
+            <a href="https://www.instagram.com/jordi_code?igsh=MXRvbmtiYmhheHRiZw%3D%3D&utm_source=qr" target="_blank"> 
+              <small>Creada y diseñada x Jordi Code</small>
+            </a>
           </div>
           <div className="normativeContainer">
-          <button>
-            <NewPage href="/aviso-legal" label="Aviso Legal" colorText='var(--secondary)'/>
-          </button>
-          <button>
-            <NewPage href="/politica-privacidad" label="Politica de Privacidad" colorText='var(--secondary)'/>
-          </button>
-          <button>
-            <NewPage href="/terminos-condiciones" label="Terminos y Condiciones" colorText='var(--secondary)'/>
-          </button>
+            <button>
+              <NewPage href="/aviso-legal" label="Aviso Legal" colorText='var(--secondary)'/>
+            </button>
+            <button>
+              <NewPage href="/politica-privacidad" label="Politica de Privacidad" colorText='var(--secondary)'/>
+            </button>
+            <button>
+              <NewPage href="/terminos-condiciones" label="Terminos y Condiciones" colorText='var(--secondary)'/>
+            </button>
           </div>
         </div>
         <img src="src/assets/img/Extra/generalitat.webp" target="_blank" alt="generalitatImg" loading='lazy' />
@@ -79,7 +80,7 @@ useEffect (() => {
           </a>
         </div>
         <div className="normativeContainer">
-        <p>© 2024 VisualShow360 - Todos los derechos reservados</p>
+        <p><small>© 2024 VisualShow360 - Todos los derechos reservados</small></p>
         <button>
           <NewPage href="/aviso-legal" label="Aviso Legal" colorText='var(--secondary)'/>
         </button>
@@ -91,8 +92,9 @@ useEffect (() => {
         </button>
         </div>
         <img src="src/assets/img/Extra/generalitat.webp" target="_blank" alt="generalitatImg" loading='lazy' />
-        <a href="https://www.instagram.com/jordi_code?igsh=MXRvbmtiYmhheHRiZw%3D%3D&utm_source=qr" 
-        style={{ fontSize:'.7rem', padding:'10px' }} target="_blank" > Creada y diseñada x Jordi Code</a>
+        <a href="https://www.instagram.com/jordi_code?igsh=MXRvbmtiYmhheHRiZw%3D%3D&utm_source=qr" target="_blank" > 
+          <small>Creada y diseñada x Jordi Code</small>
+        </a>
       </footer>
     )
   }

@@ -15,7 +15,6 @@ View more about
 
 ## Launguages Used
 
-Se ha creado la página web con los lenguajes siguientes:
 The web site was created using the following languajes: 
 
 - HTML
@@ -35,4 +34,3 @@ Install VisualShow project with [npm](https://www.npmjs.com/) only
   // Start running project in localhost
   npm run dev
 ```
-    

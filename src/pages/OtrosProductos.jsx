@@ -12,10 +12,23 @@ export const OtrosProductos = () => {
         <>        
             <Helmet>
                 <title>VisualShow360 | RingRing, Neones & Letras Love</title>
+
                 <meta name='keywords' content='RingRing, Neones, Letras Love, Barcelona, Atrezzo, Bodas, Eventos, Catalunya' />
-                <meta name='description' content='RingRing, Neones & Letras Love' />
+                {/*! Modificar decripcion */}
+                <meta name='description' content='El mejor audiolibro de barcelona para bodas, fiestas, eventos. Especialistas en crear momentos únicos para tus momentos más especiales.' />
                 <meta name='author' content='VisualShow360'/>
                 <meta name="rating" content="General" />
+                <meta property="og:title" content="VisualShow360" />
+                {/*! Modificar decripcion */}
+                <meta property="og:description" content="El mejor audiolibro de barcelona para bodas, fiestas, eventos. Especialistas en crear momentos únicos para tus momentos más especiales." />
+                <meta property="og:type" content="website" />
+                <meta property="og:url" content="https://visualshow360.com/" />
+                {/*! Modificar foto del fotomaton */}
+                <meta property="og:image" content="src/assets/img/servicios/ringRing/audiolibro.webp" />
+                <meta property="og:image:type" content="image/webp" />
+                <meta property="og:image:alt" content="Audio Libro Barcelona" />
+
+                <link rel="canonical" href="https://visualshow360.com/" />             
             </Helmet>
             <header>
                 <NavbarMenu />

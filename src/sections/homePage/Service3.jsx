@@ -12,8 +12,8 @@ return (
             <div className="service3ContentContainer">  
             <img src="src/assets/img/servicios/whiteMagicMirror/magicMirrorWhiteBg.webp" alt="Espejo magico blanco" loading='lazy'/>                      
             <div className="service3DescriptionContainer">  
-            <h2>White Magic Mirror</h2>
-            <h3> <span>¡Titulo Guay</span>&nbsp;PC/Tablet!</h3>    
+            <h1>White Magic Mirror</h1>
+            <h2> <span>¡Titulo Guay</span>&nbsp;PC/Tablet!</h2>    
             <hr className='line'></hr>        
             <p>
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, quidem laudantium doloribus atque totam voluptate, nulla tenetur provident minima natus beatae non, reprehenderit pariatur praesentium! Dolore necessitatibus ab eaque cum!
@@ -28,8 +28,8 @@ return (
         </div>
         ) : (
         <div className="service3Container">
-            <h2>White Magic Mirror</h2>
-            <h3> ¡Titulo Guay Para Tablet!</h3>
+            <h1>White Magic Mirror</h1>
+            <h2> ¡Titulo Guay Para Tablet!</h2>
             <div className="service3ContentContainer">              
             <img src="src/assets/img/servicios/whiteMagicMirror/magicMirrorWhiteBg.webp" alt="Espejo magico blanco" loading='lazy'/>
             <div className="service3DescriptionContainer">              

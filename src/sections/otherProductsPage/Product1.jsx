@@ -12,8 +12,8 @@ return (
                 <div className="service4ContentContainer">
                     <img src="src/assets/img/servicios/ringRing/audiolibro.webp" alt="RingRing" />
                     <div className="service4DescriptionContainer">
-                        <h2>Ring Ring Experience</h2> 
-                        <h3> ¡Frase Guay &nbsp;<span>PC/Tablet!</span></h3> 
+                        <h1>Ring Ring Experience</h1> 
+                        <h2> ¡Frase Guay &nbsp;<span>PC/Tablet!</span></h2> 
                         <div className='line'></div>                      
                         <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit qui nam dicta aspernatur non expedita iusto assumenda minus harum porro ullam similique voluptas neque autem modi ipsum, quisquam dolorum officiis?
@@ -28,8 +28,8 @@ return (
             </div>
         ) : (
             <div className="service4Container">
-                <h2>Ring Ring Experience</h2>
-                <h3>Frase Guay Tablet</h3>
+                <h1>Ring Ring Experience</h1>
+                <h2>Frase Guay Tablet</h2>
                 <div className="service4ContentContainer">
                     <img src="src/assets/img/servicios/ringRing/audiolibro.webp" alt="RingRing" />
                     <div className="service4DescriptionContainer">

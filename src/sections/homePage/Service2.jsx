@@ -11,8 +11,8 @@ return (
             <div className="service2ContentContainer">
             <img src="src/assets/gifs/GIF.gif" alt="Espejo magico" loading='lazy'/>           
             <div className="service2DescriptionContainer">  
-                <h2>Magic Mirror</h2>
-                <h3> ¡Frase Guay &nbsp;<span>PC/Tablet!</span></h3>    
+                <h1>Magic Mirror</h1>
+                <h2> ¡Frase Guay &nbsp;<span>PC/Tablet!</span></h2>    
                 <hr className='line'></hr>             
                 <p>
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, quidem laudantium doloribus atque totam voluptate, nulla tenetur provident minima natus beatae non, reprehenderit pariatur praesentium! Dolore necessitatibus ab eaque cum!
@@ -28,8 +28,8 @@ return (
         ) : 
         (
         <div className='service2Container'>
-            <h2>Magic Mirror</h2>              
-            <h3> ¡Frase Guay Para Tablet!</h3> 
+            <h1>Magic Mirror</h1>              
+            <h2> ¡Frase Guay Para Tablet!</h2> 
             <div className="service2ContentContainer">              
             <img src="src/assets/gifs/GIF.gif" alt="Espejo magico" loading='lazy'/>
             <div className="service2DescriptionContainer">                

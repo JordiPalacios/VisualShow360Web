@@ -44,13 +44,11 @@ header video {
 }
 
 .presentationContainer h1 {
-    font-size: 2.25rem;
     font-weight: 900;
     color: var(--accent);
 }
 
 .presentationContainer h2 {
-    font-size: 1.5rem;
     font-weight: 700;
     padding: 10px;
     background: var(--secondary);
@@ -100,27 +98,11 @@ header video {
     .presentationContainer {
         min-height: 840px;
     }
-
-    .presentationContainer h1 {
-        font-size: 3rem;
-    }
-
-    .presentationContainer h2 {
-        font-size: 2rem;
-    }
 }
 
 /** Medida PC  */
 
 @media (1225px <= width) {
-
-    .presentationContainer h1 {
-        font-size: 5rem;
-    }
-
-    .presentationContainer h2 {
-        font-size: 2.5rem;
-    }
 
     .presentationContainer h1:hover {
         filter: none;

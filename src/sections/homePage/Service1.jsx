@@ -37,8 +37,8 @@ export const Service1 = () => {
 return (
     <section id='plataforma360'>
         <div className="service1Container">
-            <h2>Fotomaton 360</h2>
-            <h3>Ver a tu suegra haciendo twerk te va a quitar la depresión post-boda</h3>
+            <h1>Fotomaton 360</h1>
+            <h2>Ver a tu suegra haciendo twerk te va a quitar la depresión post-boda</h2>
             <div className="fotomatonImgService1">
             <Slider {...sliderSettings}>
                 {fotomatonData.map((data) => (

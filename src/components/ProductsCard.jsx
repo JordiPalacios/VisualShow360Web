@@ -13,8 +13,8 @@ export const ProductsCard = ({ id, tittle, description, imgUrl, difBg, colorText
         <div className={cardClassName}>      
           <img src={imgUrl} alt={tittle} />
           <div className='contentContainer'>
-            <h3>{tittle}</h3>
-            <h4>¡ Frase Guay para PC !</h4>
+            <h1>{tittle}</h1>
+            <h2>¡ Frase Guay para PC !</h2>
             <div className="line"></div>
             <p>{description}</p>
             <div className='buttonsContainer'>        
@@ -29,7 +29,7 @@ export const ProductsCard = ({ id, tittle, description, imgUrl, difBg, colorText
   } else {
     content = (
       <div id={id} className={cardClassName}>
-        <h3>{tittle}</h3>
+        <h1>{tittle}</h1>
         <img src={imgUrl} alt={tittle} />
         <p>{description}</p>
         <div className='buttonsContainer'>        

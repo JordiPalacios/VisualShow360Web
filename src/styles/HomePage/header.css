@@ -29,6 +29,7 @@ header video {
     display: none;
 }
 
+
 .presentationContainer {
     display: flex;
     flex-direction: column;
@@ -43,6 +44,7 @@ header video {
 }
 
 .presentationContainer h1 {
+    font-size: 2.25rem;
     font-weight: 900;
     color: var(--accent);
 }
@@ -98,11 +100,27 @@ header video {
     .presentationContainer {
         min-height: 840px;
     }
+
+    .presentationContainer h1 {
+        font-size: 3rem;
+    }
+
+    .presentationContainer h2 {
+        font-size: 2rem;
+    }
 }
 
 /** Medida PC  */
 
 @media (1225px <= width) {
+
+    .presentationContainer h1 {
+        font-size: 5rem;
+    }
+
+    .presentationContainer h2 {
+        font-size: 2.5rem;
+    }
 
     .presentationContainer h1:hover {
         filter: none;

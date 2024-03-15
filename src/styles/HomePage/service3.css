@@ -16,13 +16,13 @@
     border-radius: 25px;
 }
 
-.service3Container h2 {
+.service3Container h1 {
     padding-bottom: 20px;
     color: var(--textWhite);
     text-decoration: 2px underline wavy var(--secondary);
 }
 
-.service3Container h3 {
+.service3Container h2 {
     display: none;
 }
 
@@ -41,19 +41,19 @@
         gap: 5rem;
     }
 
-    .service3Container h2 {
+    .service3Container h1 {
         padding-bottom: 0;
         color: var(--textWhite);
         text-decoration: none;
     }
 
-    .service3Container h3 {
+    .service3Container h2 {
         padding-bottom: 0;
         color: var(--accent);
         padding: 5px;
     }
 
-    .service3Container h3 {
+    .service3Container h2 {
         display: inline-block;
         margin: 0 0 10px 0;
         padding: 5px;
@@ -94,7 +94,7 @@
         margin: 0;
     }
 
-    .service3Container h3{
+    .service3Container h2{
         display: inline-block;
         margin: 0;
         font-style: italic;

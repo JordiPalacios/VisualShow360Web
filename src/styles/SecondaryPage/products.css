@@ -30,8 +30,8 @@
     border-radius: 25px;
 }
 
-.generalProducts h3,
-#kitAntiResaca h3 {
+.generalProducts h1,
+#kitAntiResaca h1 {
     padding-bottom: 20px;
 }
 
@@ -50,7 +50,7 @@
     font-weight: bolder;
 }
 
-#neones h3 {
+#neones h1 {
     background: var(--textWhite);
     color: var(--secondary);
     text-decoration: 2px underline var(--secondary);
@@ -58,7 +58,7 @@
     padding: 5px;
 }
 
-#letras-love h3 {
+#letras-love h1 {
     background: var(--secondary);
     color: var(--textWhite);
     text-decoration: 2px underline var(--textWhite);
@@ -66,7 +66,7 @@
     padding: 5px;
 }
 
-#kitAntiResaca h3 {
+#kitAntiResaca h1 {
     color: var(--textWhite);
     text-decoration: 2px underline var(--accent);
     margin: 0;
@@ -126,7 +126,7 @@
         justify-content: start;
     }
 
-    .contentContainer h4 {
+    .contentContainer h2 {
         display: inline-block;
         margin: 0;
         font-style: italic;

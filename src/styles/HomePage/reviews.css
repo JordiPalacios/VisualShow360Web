@@ -4,6 +4,7 @@
     position: relative;
     align-items: center;
     color: var(--textWhite);
+    margin-top: 10px;
 }
 
 .reviewsContainer h3{

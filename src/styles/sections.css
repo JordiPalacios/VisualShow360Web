@@ -16,6 +16,7 @@ body, html {
 
 h1{
     font-size: 2.25rem;
+    margin: 5px;
 }
 
 h2 {
@@ -30,6 +31,11 @@ h3 {
 h4 {
     font-size: 1rem;
     font-family: var(--accent-font);
+}
+
+footer {
+    font-size: .75rem;
+    color: var(--textWhite);
 }
 
 .logoMenu h1 {
@@ -164,6 +170,31 @@ img {
 
 /* Medidad Tablet */
 @media screen and (min-width: 760px) {
+
+    h1{
+        font-size: 2.5rem;
+    }
+    
+    h2 {
+        font-size: 2rem;
+    }
+    
+    h3 {
+        font-size: 1.5;
+    }
+    
+    h4 {
+        font-size: 1.25rem;
+    }
+
+    footer {
+        font-size: 1rem;
+    }
+    
+    p {
+        font-size: 1.05rem;
+        font-family: var(--secondary-font);
+    }
 
     .contactFixed {
         right: 10px;

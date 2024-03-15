@@ -5,10 +5,10 @@
     text-align: center;
     text-wrap: balance;
     padding-top: 100px;
+    padding-bottom: 20px;
 }
 
 .service4Container h1 {
-    padding-bottom: 20px;
     color: var(--secondary);
     text-decoration: 2px underline var(--textWhite);
 }

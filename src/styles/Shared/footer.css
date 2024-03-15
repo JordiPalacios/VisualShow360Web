@@ -1,24 +1,16 @@
-footer {
-    font-size: .75rem;
-    color: var(--textWhite);
-}
-
+/*! ****************** */
+/*! Provisional */
 footer h3 {
     font-style: italic;
     margin: 0;
 }
-
-footer h4 {
-    color: var(--accent);
-    margin: 0 0 25px 0;
-}
+/*! ***************** */
 
 footer img {
     width: 100%;
     height: auto;
     margin: 0;
     max-width: fit-content;
-
     animation-timeline: none;
     animation-name: none;
 }
@@ -64,14 +56,28 @@ footer .line {
     transition: transform .5s ease-in-out;
 }
 
+.normativeContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
 
 /* Medidad Tablet */
 @media screen and (min-width: 760px) {
-
+    .normativeContainer {
+        display: initial;
+    }
 }
 
 /* Medidas PC  */
 @media screen and (min-width: 1024px) {
+
+    footer img {
+        margin-bottom: 10px;
+    }
+
     .footerDescriptionContainer {
         display: flex;
         flex-direction: row;

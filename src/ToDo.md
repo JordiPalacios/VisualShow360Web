@@ -74,9 +74,6 @@ Not Found Page:
     []PopUp Cookies
     []Programa aceptacion Cookies
 
-Estilos CSS:
-    []Fuentes: Roboto - Helvetica - Montserrat --> Pendiente
-
 Optimizar el contenido:
     []Imágenes -> webp
     []Vídeo -> 

@@ -22,7 +22,7 @@ return (
                 Este navegador no soporta vídeos.
             </video>
             <video className='videoTabletPC' autoPlay muted loop>
-                <source src="src/assets/video/weedingBW.mp4" type="video/mp4"/>
+                <source src="src\assets\video\weedingBW.mp4" type="video/mp4"/>
                 Este navegador no soporta vídeos.
             </video>
             <img className='img-fade-in' onClick={handleClick} src="src/assets/gifs/arrow.gif" alt="arrowGift" />

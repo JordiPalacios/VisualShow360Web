@@ -86,6 +86,14 @@ header video {
 
 @media screen and (min-width: 760px) {
 
+    .presentationContainer h1 {
+        font-size: 3rem;
+    }
+
+    .presentationContainer h2 {
+        font-size: 2.25rem;
+    }
+
     .videoTabletPC {
         display: block;
     }
@@ -102,6 +110,14 @@ header video {
 /** Medida PC  */
 
 @media (1225px <= width) {
+
+    .presentationContainer h1 {
+        font-size: 4.5rem;
+    }
+
+    .presentationContainer h2 {
+        font-size: 3rem;
+    }
 
     .presentationContainer h1:hover {
         filter: none;

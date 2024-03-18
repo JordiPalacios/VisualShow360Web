@@ -13,11 +13,8 @@
     background-color: var(--vs2);
 
     /** Fonts */
-    /* --primary-font: 'Lora Variable', serif; */
     --primary-font: 'Nunito Sans Variable', sans-serif;
-    /* --secondary-font: 'Adamina', serif; */
     --secondary-font: 'Roboto', sans-serif;
-    /* --tertiary-font: 'Roboto', sans-serif; */
     --accent-font: 'Lobster', system-ui;
 
     /** Primary Colors */

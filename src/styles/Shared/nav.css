@@ -331,7 +331,7 @@ nav button{
 @media (1225px <= width) {
 
     nav ul {
-        font-size: 1.2em;
+        font-size: 1.2rem;
     }
 
     .productosOpen,

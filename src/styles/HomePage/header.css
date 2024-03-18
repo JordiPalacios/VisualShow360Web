@@ -44,12 +44,11 @@ header video {
 }
 
 .presentationContainer h1 {
-    font-weight: 900;
-    color: var(--accent);
+    font-weight: 700;
+    color: var(--text-white);
 }
 
 .presentationContainer h2 {
-    font-weight: 700;
     padding: 10px;
     background: var(--secondary);
 }

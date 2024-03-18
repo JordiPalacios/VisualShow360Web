@@ -1,7 +1,7 @@
 .service3Container {
     display: flex;
     flex-direction: column;
-    padding: 20px;
+    padding: 0px 20px 20px 20px;
     align-items: center;
     text-align: center;
     text-wrap: balance;
@@ -37,7 +37,7 @@
         display: flex;
         flex-direction: row-reverse;
         align-items: center;
-        margin: 10px 50px 50px 10px;
+        margin: 10px 50px 10px 10px;
         gap: 5rem;
     }
 

@@ -15,7 +15,7 @@ return (
     <header>
         <NavbarMenu />
         <div className="presentationContainer">
-            <h1 className='h1-fade-in'> <span style={{ color: 'var(--textWhite)' }}> ¡ FRASE</span>&nbsp;POTENTE 1 !</h1>
+            <h1 className='h1-fade-in'> ¡ FRASE&nbsp;<span style={{ color: 'var(--accent)', fontWeight: '900'}}>POTENTE 1 !</span></h1>
             <h2 className='h2-fade-in'>Frase Potente 2</h2>
             <video className='videoMobile' autoPlay muted loop>
                 <source src="src/assets/video/videoMobileBW.mp4" type="video/mp4"/>

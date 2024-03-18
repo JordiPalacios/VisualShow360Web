@@ -20,12 +20,13 @@ h1{
 }
 
 h2 {
+    font-family: var(--secondary-font);
     font-size: 1.75rem;
 }
 
 h3 {
     font-size: 1.25;
-    font-family: var(--tertiary-font);
+    font-family: var(--secondary-font);
 }
 
 h4 {
@@ -173,10 +174,6 @@ img {
 
     h1{
         font-size: 2.5rem;
-    }
-    
-    h2 {
-        font-size: 2rem;
     }
     
     h3 {

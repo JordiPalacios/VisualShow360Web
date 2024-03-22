@@ -14,167 +14,95 @@ export const TerminosCondiciones = () => {
                 <div className='line'></div> 
                 <h1>Terminos y Condiciones</h1>
                 <p>
-                    1. TÉRMINOS Y CONDICIONES GENERALES DE USO
+                    ¡Bienvenido a VisualShow360!
 
-                    El objeto de las condiciones: El Sitio Web
+                    Estos términos y condiciones describen las reglas y regulaciones para el uso del sitio web de VisualShow360, ubicado en https://visualshow360.com.
 
-                    El objeto de las presentes Condiciones Generales de Uso (en adelante, Condiciones) es regular el acceso y la utilización del Sitio Web. A los efectos de las presentes Condiciones se entenderá como Sitio Web: la apariencia externa de los interfaces de pantalla, tanto de forma estática como de forma dinámica, es decir, el árbol de navegación; y todos los elementos integrados tanto en los interfaces de pantalla como en el árbol de navegación (en adelante, Contenidos) y todos aquellos servicios o recursos en línea que en su caso ofrezca a los Usuarios (en adelante, Servicios).
+                    Al acceder a este sitio web, asumimos que aceptas estos términos y condiciones. No continúes usando VisualShow360 si no estás de acuerdo con todos los términos y condiciones establecidos en esta página.
 
-                    Party Crew Factory reserva la facultad de modificar, en cualquier momento, y sin aviso previo, la presentación y configuración del Sitio Web y de los Contenidos y Servicios que en él pudieran estar incorporados. El Usuario reconoce y acepta que en cualquier momento pueda interrumpir, desactivar y/o cancelar cualquiera de estos elementos que se integran en el Sitio Web o el acceso a los mismos.
+                    Cookies:
+                    El sitio web utiliza cookies para ayudar a personalizar tu experiencia en línea. Al acceder a VisualShow360, aceptaste utilizar las cookies necesarias.
 
-                    El acceso al Sitio Web por el Usuario tiene carácter libre y, por regla general, es gratuito sin que el Usuario tenga que proporcionar una contraprestación para poder disfrutar de ello, salvo en lo relativo al coste de conexión a través de la red de telecomunicaciones suministrada por el proveedor de acceso que hubiere contratado el Usuario.
+                    Una cookie es un archivo de texto que un servidor de páginas web coloca en tu disco duro. Las cookies no se pueden utilizar para ejecutar programas o enviar virus a tu computadora. Las cookies se te asignan de forma exclusiva y solo un servidor web en el dominio que emitió la cookie puede leerlas.
 
-                    El Usuario
+                    Podemos utilizar cookies para recopilar, almacenar y rastrear información con fines estadísticos o de marketing para operar nuestro sitio web. Tienes la capacidad de aceptar o rechazar cookies opcionales. Hay algunas cookies obligatorias que son necesarias para el funcionamiento de nuestro sitio web. Estas cookies no requieren tu consentimiento ya que siempre funcionan. Ten en cuenta que al aceptar las cookies requeridas, también aceptas las cookies de terceros, que podrían usarse a través de servicios proporcionados por terceros si utilizas dichos servicios en nuestro sitio web, por ejemplo, una ventana de visualización de video proporcionada por terceros e integrada en nuestro sitio web.
 
-                    El acceso, la navegación y uso del Sitio Web, así como por los espacios habilitados para interactuar entre los Usuarios, y el Usuario y , como los comentarios y/o espacios de blogging, confiere la condición de Usuario, por lo que se aceptan, desde que se inicia la navegación por el Sitio Web, todas las Condiciones aquí establecidas, así como sus ulteriores modificaciones, sin perjuicio de la aplicación de la correspondiente normativa legal de obligado cumplimiento según el caso. Dada la relevancia de lo anterior, se recomienda al Usuario leerlas cada vez que visite el Sitio Web.
+                    Licencia:
+                    A menos que se indique lo contrario, VisualShow360 y/o sus licenciantes poseen los derechos de propiedad intelectual de todo el material en VisualShow360. Todos los derechos de propiedad intelectual son reservados. Puedes acceder desde VisualShow360 para tu uso personal sujeto a las restricciones establecidas en estos términos y condiciones.
 
-                    El Sitio Web proporciona gran diversidad de información, servicios y datos. El Usuario asume su responsabilidad para realizar un uso correcto del Sitio Web. Esta responsabilidad se extenderá a:
+                    No debes:
 
-                    Un uso de la información, Contenidos y/o Servicios y datos ofrecidos por sin que sea contrario a lo dispuesto por las presentes Condiciones, la Ley, la moral o el orden público, o que de cualquier otro modo puedan suponer lesión de los derechos de terceros o del mismo funcionamiento del Sitio Web.
+                    Copiar o volver a publicar material de VisualShow360
+                    Vender, alquilar o sublicenciar material de VisualShow360
+                    Reproducir, duplicar o copiar material de VisualShow360
+                    Redistribuir contenido de VisualShow360
+                    Este acuerdo comenzará el fecha presente.
 
-                    La veracidad y licitud de las informaciones aportadas por el Usuario en los formularios extendidos por para el acceso a ciertos Contenidos o Servicios ofrecidos por el Sitio Web. En todo caso, el Usuario notificará de forma inmediata a acerca de cualquier hecho que permita el uso indebido de la información registrada en dichos formularios, tales como, pero no sólo, el robo, extravío, o el acceso no autorizado a identificadores y/o contraseñas, con el fin de proceder a su inmediata cancelación.
+                    Partes de este sitio web ofrecen a los usuarios la oportunidad de publicar e intercambiar opiniones e información en determinadas áreas. VisualShow360 no filtra, edita, publica ni revisa los comentarios antes de su presencia en el sitio web. Los comentarios no reflejan los puntos de vista ni las opiniones de VisualShow360, sus agentes y/o afiliados. Los comentarios reflejan los puntos de vista y opiniones de la persona que publica. En la medida en que lo permitan las leyes aplicables, VisualShow360 no será responsable de los comentarios ni de ninguna responsabilidad, daños o gastos causados ​​o sufridos como resultado de cualquier uso o publicación o apariencia de comentarios en este sitio web.
 
-                    Party Crew Factory se reserva el derecho de retirar todos aquellos comentarios y aportaciones que vulneren la ley, el respeto a la dignidad de la persona, que sean discriminatorios, xenófobos, racistas, pornográficos, spamming, que atenten contra la juventud o la infancia, el orden o la seguridad pública o que, a su juicio, no resultan adecuados para su publicación.
+                    VisualShow360 se reserva el derecho de monitorear todos los comentarios y eliminar los que puedan considerarse inapropiados, ofensivos o que incumplan estos Términos y Condiciones.
 
-                    En cualquier caso, Party Crew Factory no será responsable de las opiniones vertidas por los Usuarios a través de comentarios u otras herramientas de blogging o de participación que pueda haber.
+                    Garantizas y declaras que:
 
-                    El mero acceso a este Sitio Web no supone entablar ningún tipo de relación de carácter comercial entre Party Crew Factory y el Usuario.
+                    Tienes derecho a publicar comentarios en nuestro sitio web y tienes todas las licencias y consentimientos necesarios para hacerlo;
+                    Los comentarios no invaden ningún derecho de propiedad intelectual, incluidos, entre otros, los derechos de autor, patentes o marcas comerciales de terceros;
+                    Los comentarios no contienen ningún material difamatorio, calumnioso, ofensivo, indecente o ilegal de otro modo, que sea una invasión de la privacidad.
+                    Los comentarios no se utilizarán para solicitar o promover negocios o actividades comerciales personalizadas o presentes o actividades ilegales.
+                    Por la presente, otorgas a VisualShow360 una licencia no exclusiva para usar, reproducir, editar y autorizar a otros a usar, reproducir y editar cualquiera de tus comentarios en todas y cada una de las formas, formatos, o medios.
 
-                    Siempre en el respeto de la legislación vigente, este Sitio Web se dirige a todas las personas, sin importar su edad, que puedan acceder y/o navegar por las páginas del Sitio Web.
+                    Hipervínculos a nuestro contenido:
+                    Las siguientes organizaciones pueden vincularse a nuestro sitio web sin aprobación previa por escrito:
 
-                    El Sitio Web está dirigido principalmente a Usuarios residentes en España. Party Crew Factory no asegura que el Sitio Web cumpla con legislaciones de otros países, ya sea total o parcialmente. Si el Usuario reside o tiene su domiciliado en otro lugar y decide acceder y/o navegar en el Sitio Web lo hará bajo su propia responsabilidad, deberá asegurarse de que tal acceso y navegación cumple con la legislación local que le es aplicable, no asumiendo Party Crew Factory responsabilidad alguna que se pueda derivar de dicho acceso.
+                    Agencias gubernamentales;
+                    Motores de búsqueda;
+                    Organizaciones de noticias;
+                    Los distribuidores de directorios en línea pueden vincularse a nuestro sitio web de la misma manera que hacen hipervínculos a los sitios web de otras empresas que figuran en la lista; y
+                    Empresas acreditadas en todo el sistema, excepto que soliciten organizaciones sin fines de lucro, centros comerciales de caridad y grupos de recaudación de fondos de caridad que no pueden hacer hipervínculos a nuestro sitio web.
+                    Estas organizaciones pueden enlazar a nuestra página de inicio, a publicaciones o a otra información del sitio siempre que el enlace: (a) no sea engañoso de ninguna manera; (b) no implique falsamente patrocinio, respaldo o aprobación de la parte vinculante y sus productos y/o servicios; y (c) encaja en el contexto del sitio de la parte vinculante.
 
-                    2. ACCESO Y NAVEGACIÓN EN EL SITIO WEB: EXCLUSIÓN DE GARANTÍAS Y RESPONSABILIDAD
+                    Podemos considerar y aprobar otras solicitudes de enlaces de los siguientes tipos de organizaciones:
 
-                    Party Crew Factory no garantiza la continuidad, disponibilidad y utilidad del Sitio Web, ni de los Contenidos o Servicios. Party Crew Factory hará todo lo posible por el buen funcionamiento del Sitio Web, sin embargo, no se responsabiliza ni garantiza que el acceso a este Sitio Web no vaya a ser ininterrumpido o que esté libre de error.
+                    fuentes de información de consumidores y/o empresas comúnmente conocidas;
+                    sitios de la comunidad .com;
+                    asociaciones u otros grupos que representan organizaciones benéficas;
+                    distribuidores de directorios en línea;
+                    portales de Internet;
+                    firmas de contabilidad, derecho y consultoría; y
+                    instituciones educativas y asociaciones comerciales.
+                    Aprobaremos las solicitudes de enlace de estas organizaciones si: (a) el enlace no nos haría vernos desfavorablemente a nosotros mismos ni a nuestras empresas acreditadas; (b) la organización no tiene registros negativos con nosotros; (c) el beneficio para nosotros de la visibilidad del hipervínculo compensa la ausencia de VisualShow360; y (d) el enlace está en el contexto de información general de recursos.
 
-                    Tampoco se responsabiliza o garantiza que el contenido o software al que pueda accederse a través de este Sitio Web, esté libre de error o cause un daño al sistema informático (software y hardware) del Usuario. En ningún caso Party Crew Factory serà responsable por las pérdidas, daños o perjuicios de cualquier tipo que surjan por el acceso, navegación y el uso del Sitio Web, incluyéndose, pero no limitándose, a los ocasionados a los sistemas informáticos o los provocados por la introducción de virus.
+                    Estas organizaciones pueden enlazar a nuestra página de inicio siempre que el enlace: (a) no sea engañoso de ninguna manera; (b) no implique falsamente patrocinio, respaldo o aprobación de la parte vinculante y sus productos o servicios; y (c) encaja en el contexto del sitio de la parte vinculante.
 
-                    Party Crew Factory tampoco se hace responsable de los daños que pudiesen ocasionarse a los usuarios por un uso inadecuado de este Sitio Web. En particular, no se hace responsable en modo alguno de las caídas, interrupciones, falta o defecto de las telecomunicaciones que pudieran ocurrir.
+                    Si eres una de las organizaciones enumeradas en el párrafo 2 y estás interesada en vincularte a nuestro sitio web, debes informarnos enviando un correo electrónico a VisualShow360. Incluye tu nombre, el nombre de tu organización, la información de contacto, así como la URL de tu sitio, una lista de las URL desde las que tienes la intención de vincular a nuestro sitio web y una lista de las URL de nuestro sitio a las que te gustaría acceder. Espera 2-3 semanas para recibir una respuesta.
 
-                    3. TÉRMINOS Y CONDICIONES DE VENTA
+                    Las organizaciones aprobadas pueden hacer hipervínculos a nuestro sitio web de la siguiente manera:
 
-                    Interpretación y definiciones
+                    Mediante el uso de nuestro nombre corporativo; o
+                    Mediante el uso del localizador uniforme de recursos al que se está vinculando; o
+                    Usar cualquier otra descripción de nuestro sitio web al que está vinculado que tenga sentido dentro del contexto y formato del contenido en el sitio de la parte vinculante.
+                    No se permitirá el uso del logotipo de VisualShow360 u otro material gráfico para vincular sin un acuerdo de licencia de marca comercial.
 
-                    Interpretación
+                    Responsabilidad del contenido:
+                    No seremos responsables de ningún contenido que aparezca en tu sitio web. Aceptas protegernos y defendernos contra todas las reclamaciones que se presenten en tu sitio web. Ningún enlace(s) debe aparecer en ningún sitio web que pueda interpretarse como difamatorio, obsceno o criminal, o que infrinja, de otra manera viole o defienda la infracción u otra violación de los derechos de terceros.
 
-                    Las palabras cuya letra inicial está en mayúscula tienen significados definidos bajo las siguientes condiciones. Las siguientes definiciones tendrán el mismo significado independientemente de que aparezcan en singular o en plural.
+                    Reserva de derechos:
+                    Nos reservamos el derecho de solicitar que elimines todos los enlaces o cualquier enlace en particular a nuestro sitio web. Apruebas eliminar de inmediato todos los enlaces a nuestro sitio web cuando se solicite. También nos reservamos el derecho de modificar estos términos y condiciones y su política de enlaces en cualquier momento. Al vincular continuamente a nuestro sitio web, aceptas estar vinculado y seguir estos términos y condiciones de vinculación.
 
-                    Definiciones
+                    Eliminación de enlaces de nuestro sitio web:
+                    Si encuentras algún enlace en nuestro sitio que sea ofensivo por cualquier motivo, puedes contactarnos e informarnos en cualquier momento. Consideraremos las solicitudes para eliminar enlaces, pero no estamos obligados a hacerlo ni a responder directamente.
 
-                    A los efectos de esta Política de devolución y reembolso:
+                    No nos aseguramos de que la información de este sitio web sea correcta. No garantizamos su integridad o precisión, ni prometemos asegurarnos de que el sitio web permanezca disponible o que el material en el sitio se mantenga actualizado.
 
-                    Compañía (denominada «la Compañía», «Nosotros», «Nos» o «Nuestro» en este Acuerdo) se refiere a Party Crew Factory.
+                    Exención de responsabilidad:
+                    En la medida máxima permitida por la ley aplicable, excluimos todas las representaciones, garantías y condiciones relacionadas con nuestro sitio web y el uso de este. Nada en este descargo de responsabilidad:
 
-                    Los bienes se refieren a los artículos que se ofrecen a la venta en el Servicio.
+                    limitará o excluirá nuestra responsabilidad o la tuya por muerte o lesiones personales;
+                    limitará o excluirá nuestra responsabilidad o la tuya por fraude o tergiversación fraudulenta;
+                    limitará cualquiera de nuestras responsabilidades o las tuyas de cualquier manera que no esté permitida por la ley aplicable; o
+                    excluirá cualquiera de nuestras responsabilidades o las tuyas que no puedan estar excluidas según la ley aplicable.
+                    Las limitaciones y prohibiciones de responsabilidad establecidas en esta sección y en otras partes de este descargo de responsabilidad: (a) están sujetas al párrafo anterior; y (b) regirá todas las responsabilidades que surjan en virtud de la exención de responsabilidad, incluidas las responsabilidades que surjan en el contrato, en agravio y por incumplimiento de la obligación legal.
 
-                    Órdenes significa una solicitud por su parte para comprar nuestros productos.
-
-                    El servicio se refiere al sitio web.
-
-                    El sitio web se refiere a Maria Sofia Sada, accesible desde https://partycrewfactory.com
-
-                    Usted significa la persona que accede o usa el Servicio, o la empresa u otra entidad legal en nombre de la cual dicha persona accede o usa el Servicio, según corresponda.
-
-                    Sus derechos de cancelación de pedidos
-
-                    Tiene derecho a cancelar su pedido en un plazo de 5 días sin dar ninguna razón para hacerlo.
-
-                    El plazo para cancelar un Pedido es de 5 días a partir de la fecha en la que recibió la Mercancía o en la que un tercero que haya designado, que no es el transportista, toma posesión del producto entregado.
-
-                    Para ejercer su derecho de cancelación, debe informarnos de su decisión mediante una declaración clara. Puede informarnos de su decisión mediante:
-
-                    Por correo electrónico: shop@partycrewfactory.com
-
-                    Condiciones para devoluciones
-
-                    A partir de la recepción del pedido, el comprador tiene un plazo máximo de 7 días para devolver el producto que no sea personalizado, siempre  y cuando lo notifique anteriormente por correo electrónico a shop@partycrewfactory.com. El producto deberá estar en perfectas condiciones y en su embalaje original.
-
-                    Los siguientes productos no se pueden devolver:
-
-                    El suministro de Bienes confeccionados según Sus especificaciones o claramente personalizados con imagenes o palabras propias del cliente.
-                    El suministro de Bienes que por su naturaleza no sean aptos para ser devueltos, se deterioren rápidamente o cuando la fecha de caducidad haya terminado.
-                    El suministro de Bienes que no son aptos para devolución por razones de protección de la salud o higiene y fueron abiertos después de la entrega.
-                    El suministro de Bienes que, después de la entrega, de acuerdo con su naturaleza, se mezclan inseparablemente con otros artículos.
-                    Nos reservamos el derecho de rechazar devoluciones de cualquier mercancía que no cumpla con las condiciones de devolución anteriores a nuestro exclusivo criterio.
-
-                    Bienes devueltos
-
-                    Usted es responsable del costo y riesgo de devolvernos los Productos. Debe enviar los Productos a la siguiente dirección:
-
-                    Calle San Juan de ortega 68 4-a, Madrid.
-
-                    No nos hacemos responsables de los bienes dañados o perdidos en el envío de devolución. Por lo tanto, recomendamos un servicio de correo asegurado y rastreable. No podemos emitir un reembolso sin la recepción real de los Productos o prueba de la devolución recibida.
-
-                    Cambios
-
-                    No realizamos cambios de los productos, únicamente si el producto tiene alguna falla. 
-
-                    Contáctenos, si tiene alguna pregunta sobre nuestra Política de devoluciones y cambios, comuníquese con nosotros a nuestro mail shop@partycrewfactory.com
-
-                    Política de producción
-
-                    Todos nuestros productos son hechos a mano, por lo cual, una vez que se realiza el pago del mismo, comenzamos con la producción de su pedido. La demora de la misma podrá ser entre 15 a 20 días hábiles, siempre y cuando nos hayas detallado todos los puntos a personalizar de su pedido. De lo contrario, el pedido comenzará su producción una vez que nos hayan detallado todos los requerimientos del mismo y comenzará a contabilizar los 15 a 20 días hábiles desde la recepción de la personalización. 
-
-                    La producción de los tatuajes personalizados se realizan según la publicación detallada del mismo:
-                    -Los pedidos que ingresan los dias Lunes a Viernes, se estarán despachando el Miércoles de la semana siguiente. 
-                    -Si tu pedido ingreso el dia Sábado o Domingo, no se enviara el miércoles de la semana entrante, sino de la que le sigue. 
-
-                    Política de envíos
-
-                    Los siguientes son los términos y condiciones que constituyen nuestra Política de Envíos.
-
-                    Política de envío nacional:
-
-                    Tiempo de procesamiento del envío: todos los pedidos se procesan dentro de 3-5 días hábiles. Los pedidos no se envían ni se entregan en fines de semana o días festivos. 
-
-                    Sí estamos experimentando un gran volumen de pedidos, los envíos pueden retrasarse unos días. Por favor permita días adicionales en tránsito para la entrega. Si hay un retraso significativo en el envío de su pedido, nos pondremos en contacto con usted vía email o teléfono.
-
-                    Tarifas de envío y estimaciones de entrega
-
-                    Los gastos de envío de su pedido se calcularán y se mostrarán al finalizar la compra.
-
-                    Ocasionalmente pueden producirse retrasos en la entrega.
-
-                    Confirmación de envío y seguimiento de pedidos
-
-                    Recibirá un correo electrónico de confirmación de envío una vez que se haya enviado su pedido.
-
-                    Derechos de aduanas, aranceles e impuestos
-
-                    Party Crew Factory no es responsable de las aduanas e impuestos aplicados a su pedido. Todas las tarifas impuestas durante o después del envío son responsabilidad del cliente (tarifas, impuestos, etc.).
-
-                    Daños y perjuicios: Party Crew Factory no se hace responsable de ningún producto dañado o perdido durante el envío. Si recibió su pedido dañado, comuníquese con el transportista para presentar una reclamación. Guarde todos los materiales de embalaje y los productos dañados antes de presentar una reclamación.
-
-                    Política de envíos internacionales: Actualmente no realizamos envíos fuera de la UE.
-
-                    Impuestos y precios
-
-                    Todos nuestros precios incluyen el Impuesto sobre el Valor Añadido (IVA). Party Crew Factory se reserva el derecho a modificar precios, artículos, ofertas y otras condiciones comerciales sin previo aviso.
-
-                    Forma de pago
-
-                    El pago de los productos se realizará en el momento de hacer el pedido en nuestra web y lo podrás hacer con tarjeta de débito y crédito o por transferencia bancaria.
-
-                    Una vez realizado el pago por Transferencia, debes enviar el comprobante de pago a nuestro mail shop@partycrewfactory.com con referencia al número de pedido.
-
-                    No aceptamos comprobantes de pago por whastapp. 
-
-                    En el caso de no realizar el pago dentro de las 48 horas, su pedido se cancelará automáticamente. 
-
-                    4. PROPIEDAD INTELECTUAL E INDUSTRIAL
-
-                    Party Crew Factory por sí o como parte cesionaria, es titular de todos los derechos de propiedad intelectual e industrial del Sitio Web, así como de los elementos contenidos en el mismo (a título enunciativo y no exhaustivo, imágenes, sonido, audio, vídeo, software o textos, marcas o logotipos, combinaciones de colores, estructura y diseño, selección de materiales usados, programas de ordenador necesarios para su funcionamiento, acceso y uso, etc.). Serán, por consiguiente, obras protegidas como propiedad intelectual por el ordenamiento jurídico español, siéndoles aplicables tanto la normativa española y comunitaria en este campo, como los tratados internacionales relativos a la materia y suscritos por España.
-
-                    Todos los derechos reservados. En virtud de lo dispuesto en la Ley de Propiedad Intelectual, quedan expresamente prohibidas la reproducción, la distribución y la comunicación pública, incluida su modalidad de puesta a disposición, de la totalidad o parte de los contenidos de esta página web, con fines comerciales, en cualquier soporte y por cualquier medio técnico, sin la autorización de Party Crew Factory.
-
-                    El Usuario se compromete a respetar los derechos de propiedad intelectual e industrial de https://partycrewfactory.com. Podrá visualizar los elementos del Sitio Web o incluso imprimirlos, copiarlos y almacenarlos en el disco duro de su ordenador o en cualquier otro soporte físico siempre y cuando sea, exclusivamente, para su uso personal. El Usuario, sin embargo, no podrá suprimir, alterar, o manipular cualquier dispositivo de protección o sistema de seguridad que estuviera instalado en el Sitio Web.
-
-                    En caso de que el Usuario o tercero considere que cualquiera de los Contenidos del Sitio Web suponga una violación de los derechos de protección de la propiedad intelectual, deberá comunicarlo inmediatamente a Party Crew Factory a través de los datos de contacto del apartado de Aviso Legal.
-
-                    5. ACEPTACIÓN DE LAS CONDICIONES DE VENTA
-
-                    La adquisición de cualquier producto ofrecido en esta web, supone el conocimiento y aceptación de las condiciones legales -condiciones de venta y aviso legal- de esta web.
+                    Siempre que el sitio web y la información y los servicios en el sitio se proporcionen de forma gratuita, no seremos responsables de ninguna pérdida o daño de cualquier naturaleza.
                 </p>
             </div>
         </main>

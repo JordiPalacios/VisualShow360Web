@@ -82,13 +82,13 @@ useEffect (() => {
         <div className="normativeContainer">
         <p><small>© 2024 VisualShow360 - Todos los derechos reservados</small></p>
         <button>
-          <NewPage href="/aviso-legal" label="Aviso Legal" colorText='var(--secondary)'/>
+          <NewPage href="/aviso-legal" label="Aviso Legal" />
         </button>
         <button>
-          <NewPage href="/politica-privacidad" label="Politica de Privacidad" colorText='var(--secondary)'/>
+          <NewPage href="/politica-privacidad" label="Politica de Privacidad" />
         </button>
         <button>
-          <NewPage href="/terminos-condiciones" label="Terminos y Condiciones" colorText='var(--secondary)'/>
+          <NewPage href="/terminos-condiciones" label="Terminos y Condiciones" />
         </button>
         </div>
         <img src="src/assets/img/Extra/generalitat.webp" target="_blank" alt="generalitatImg" loading='lazy' />

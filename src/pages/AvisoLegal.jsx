@@ -14,18 +14,6 @@ export const AvisoLegal = () => {
             <div className='normativityContainer'>
                 <div className='line'></div> 
                 <h1>Aviso Legal</h1>
-                <h4>Datos identificativos:</h4>
-                <ul>
-                    <li>Nombre comercial: Visual Show</li>
-                    <li>Denominación Social: visualshow</li>
-                    <li>Domicilio social: visualshow</li>
-                    <li>Correo electrónico: info@visualshow.com</li>
-                </ul>
-                <p>
-                    Fotobooth Atelier como responsables de esta web, asumen el compromiso de procesar la información de sus usuarios y clientes con plenas garantías y cumplir con los requisitos nacionales y europeos que regulan la recopilación y uso de los datos personales de sus usuarios. Esta web, por tanto, cumple rigurosamente con La Ley Orgánica 15/1999, de 13 de diciembre, de Protección de Datos de Carácter Personal (LOPD), y con el Real Decreto 1720/2007, de 21 de diciembre (LOPD). Cumple también con el Reglamento (UE) 2016/679 del Parlamento Europeo y del Consejo de 27 de abril de 2016 relativo a la protección de las personas físicas (RGPD), así como con la Ley 34/2002, de 11 de julio, de Servicios de la Sociedad de la Información y Comercio Electrónico (LSSICE ó LSSI).<br/>
-                    La web de Fotobooth Atelier tiene el objetivo de informar sobre los servicios de la empresa y facilitar una vía de contacto con nosotras para una mayor información sobre nuestros servicios.
-                </p>
-                <h4>Condiciones de uso:</h4>
                 <p>
                     1.- Información general y de contacto.
 

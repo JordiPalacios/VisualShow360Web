@@ -1,4 +1,3 @@
-import React from 'react'
 import {  NavbarMenu, WhatsAppMessage } from '../components'
 import { ContactUs, Footer, InfiniteLoopSection } from '../sections/Shared'
 import { Product1, Products2 } from '../sections/otherProductsPage'

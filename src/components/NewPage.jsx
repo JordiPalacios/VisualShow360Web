@@ -1,5 +1,5 @@
-import React from 'react'
 import { useNavigate } from 'react-router-dom'
+import PropTypes from 'prop-types'
 
 export const NewPage = ({ href, label }) => {
     const navigate = useNavigate()
@@ -13,4 +13,9 @@ return (
         {label}
     </a>
 )
+}
+
+NewPage.propTypes = {
+    href: PropTypes.string.isRequired,
+    label: PropTypes.string.isRequired
 }

@@ -49,6 +49,7 @@ header video {
 }
 
 .presentationContainer h2 {
+    font-family: 'Anton', sans-serif;
     padding: 10px;
     background: var(--secondary);
 }

@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import FotomatonData from '../../assets/mocks/fotomatonData.json'
@@ -47,8 +47,27 @@ return (
             </Slider>
             </div>
             <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero dicta labore culpa facere ab illum dolorem temporibus, fuga quibusdam, animi magnam obcaecati! Omnis dignissimos nam beatae sapiente adipisci ut soluta?
+            Sabemos que quieres que tus invitados FLIPEN y se lo cuenten a todo el mundo. <br />
+            Crea una boda de esas que no se olvidan fácilmente. <br />
+            <br />
+            Vamos, que se entere todo el mundo de que te has casado. <br />
+            <br />
+            Podemos hacer que eso pase. <br />
+            <br />
+            Tus invitados tendrán la sensación de subir a una atracción, su momento de protagonismo, dónde podrán bailar y brillar como verdaderas estrellas.<br />
+            <br />
+            Y prepárate, al levantarte llorando con depresión post-boda, te enviaremos todos los vídeos 360... y las lágrimas serán de risas aseguradas. <br />
+            <br /> 
+            ¿ Quieres tener estos videos para toda la vida, verdad? <br />
+            <br /> 
             </p>
+            <ul>
+                <li>Alfombra roja y separadores de seguridad</li>
+                <li>Mesa de atrezzo premium</li>
+                <li>Personalización de logo y música</li>
+                <li>Descarga de vídeos al momento</li>
+                <li>2 Staff cañeros</li>
+            </ul>
             <div className="buttonsContainer">
             <button>
                 <NavItem href='#contacto' label='¡No pulses aquí!' colorText='var(--accent)' page='home'/>

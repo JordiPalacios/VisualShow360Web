@@ -1,5 +1,6 @@
-import React, { useEffect, useRef, useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import { NavbarContext } from './NavbarContext'
+import PropTypes from 'prop-types'
 
 export const NavbarProvider = ({ children }) => {
     const [navbarHeight, setNavbarHeight] = useState(0)
@@ -22,4 +23,8 @@ export const NavbarProvider = ({ children }) => {
             {children}
         </NavbarContext.Provider>
     )
+}
+
+NavbarProvider.propTypes = {
+    children: PropTypes.node.isRequired
 }

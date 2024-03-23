@@ -1,5 +1,4 @@
-import React from 'react'
-import { useWorkingMode } from '../../assets/customhooks/useWorkingMode'
+import { useWorkingMode } from '../../assets/Customhooks/useWorkingMode'
 import { NavItem } from '../../components'
 
 export const Product1 = () => {

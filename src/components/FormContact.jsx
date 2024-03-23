@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import { NewPage } from './NewPage'
 
 export const FormContact = () => {

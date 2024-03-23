@@ -1,4 +1,3 @@
-import React from 'react'
 import { WhatsAppMessage } from '../components'
 import { AboutUs, Companies, Presentation, Reviews, Service1, Service2, Service3 } from '../sections/homePage';
 import { ContactUs, Footer, InfiniteLoopSection } from '../sections/Shared';

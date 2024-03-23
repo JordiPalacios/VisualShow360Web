@@ -1,4 +1,4 @@
-import React from 'react'
+import PropTypes from 'prop-types'
 
 export const WhatsAppMessage = ({ msg, className, label, colorText }) => {
     let content 
@@ -23,4 +23,11 @@ return (
         {content}
     </>
 )
+}
+
+WhatsAppMessage.propTypes = {
+    msg: PropTypes.string.isRequired,
+    className: PropTypes.string,
+    label: PropTypes.string,
+    colorText: PropTypes.string
 }

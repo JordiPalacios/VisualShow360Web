@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from 'react-slick'
@@ -54,9 +54,9 @@ return (
                     ))}
                 </Slider>
             </div>
-            <a href="https://www.bodas.net/animacion/360-&-magic-mirror-visualshow360--e218488/opiniones" target="_blank">Ver más</a>
+            <a href="https://www.bodas.net/animacion/360-&-magic-mirror-visualshow360--e218488/opiniones" target="_blank" rel='noreferrer'>Ver más</a>
             <div className="reviewsMediaContainer">
-            <a href="https://www.bodas.net/animacion/360-&-magic-mirror-visualshow360--e218488/opiniones" target="_blank">
+            <a href="https://www.bodas.net/animacion/360-&-magic-mirror-visualshow360--e218488/opiniones" target="_blank" rel='noreferrer'>
                 <img src="src/assets/img/reviews_equipo/bodasNetSVG.svg" alt="bodas.net" loading='lazy' />
             </a>                
             </div>

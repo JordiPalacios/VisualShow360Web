@@ -1,5 +1,4 @@
-import React from 'react'
-import { NavbarMenu, NewPage } from '../components'
+import { NavbarMenu} from '../components'
 import { Footer } from '../sections/Shared'
 
 export const PoliticaPrivacidad = () => {
@@ -23,7 +22,7 @@ export const PoliticaPrivacidad = () => {
                     Cuidamos tus datos personales y nos comprometemos a garantizar su confidencialidad y seguridad.
 
                     Información personal que recopilamos:
-                    Cuando visitas VisualShow360, recopilamos automáticamente cierta información sobre tu dispositivo, incluida información sobre tu navegador web, dirección IP, zona horaria y algunas de las cookies instaladas en tu dispositivo. Además, a medida que navegas, recopilamos información sobre las páginas web individuales o los productos que ves, qué sitios web o términos de búsqueda te remitieron a la web y cómo interactúas. Nos referimos a esta información recopilada automáticamente como "Información del dispositivo". Además, podemos recopilar los datos personales que nos proporcionas (incluidos, entre otros, nombre, apellido, dirección, información de pago, etc.) durante el registro para poder cumplir con el acuerdo.
+                    Cuando visitas VisualShow360, recopilamos automáticamente cierta información sobre tu dispositivo, incluida información sobre tu navegador web, dirección IP, zona horaria y algunas de las cookies instaladas en tu dispositivo. Además, a medida que navegas, recopilamos información sobre las páginas web individuales o los productos que ves, qué sitios web o términos de búsqueda te remitieron a la web y cómo interactúas. Nos referimos a esta información recopilada automáticamente como &quot;Información del dispositivo&quot;. Además, podemos recopilar los datos personales que nos proporcionas (incluidos, entre otros, nombre, apellido, dirección, información de pago, etc.) durante el registro para poder cumplir con el acuerdo.
 
                     ¿Por qué procesamos tus datos?
                     Nuestra máxima prioridad es la seguridad de los datos del cliente y, como tal, podemos procesar solo los datos mínimos del usuario, solo en la medida en que sea absolutamente necesario para mantener el sitio web. La información recopilada automáticamente se utiliza solo para identificar casos potenciales de abuso y establecer información estadística sobre el uso del sitio web. Esta información estadística no se agrega de tal manera que identifique a ningún usuario en particular del sistema.

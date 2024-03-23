@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import { NewPage } from '../../components/NewPage'
 
 export const Footer = () => {
@@ -33,7 +33,7 @@ useEffect (() => {
         <hr className="line"></hr>
         <div className="footerDescriptionContainer">
           <div className="rrssMainContainer">
-            <a href="mailto:visualshow360@gmail.com?subject=¡Hola!&body=Hola quiero saber más sobre visualshow!" target="_blank">visualshow360@gmail.com</a>
+            <a href="mailto:visualshow360@gmail.com?subject=¡Hola!&body=Hola quiero saber más sobre visualshow!" target="_blank" rel='noreferrer'>visualshow360@gmail.com</a>
             <div className="rrssContainer">
               <a href="https://www.instagram.com/visualshow360?igshid=YmMyMTA2M2Y=" target="_blank" rel="noopener noreferrer">
                 <img id="ig" src="src/assets/icons/ig.svg" alt='igSVG' loading='lazy'/>
@@ -46,7 +46,7 @@ useEffect (() => {
           <div className="logoContainer">
             <h3>¡Logo VisualShow!</h3>
             <p><small>© 2024 VisualShow360 - Todos los derechos reservados</small></p>
-            <a href="https://www.instagram.com/jordi_code?igsh=MXRvbmtiYmhheHRiZw%3D%3D&utm_source=qr" target="_blank"> 
+            <a href="https://www.instagram.com/jordi_code?igsh=MXRvbmtiYmhheHRiZw%3D%3D&utm_source=qr" target="_blank" rel='noreferrer'> 
               <small>Creada y diseñada x Jordi Code</small>
             </a>
           </div>
@@ -70,7 +70,7 @@ useEffect (() => {
       <footer className="footerContainer">  
       <hr className="line"></hr>
         <h3>¡Logo VisualShow!</h3>
-        <a href="mailto:visualshow360@gmail.com?subject=¡Hola!&body=Hola quiero saber más sobre visualshow!" target="_blank">visualshow360@gmail.com</a>
+        <a href="mailto:visualshow360@gmail.com?subject=¡Hola!&body=Hola quiero saber más sobre visualshow!" target="_blank" rel='noreferrer'>visualshow360@gmail.com</a>
         <div className="rrssContainer">
           <a href="https://www.instagram.com/visualshow360?igshid=YmMyMTA2M2Y=" target="_blank" rel="noopener noreferrer">
             <img id="ig" src="src/assets/icons/ig.svg" alt='igSVG' loading='lazy' />
@@ -92,7 +92,7 @@ useEffect (() => {
         </button>
         </div>
         <img src="src/assets/img/Extra/generalitat.webp" target="_blank" alt="generalitatImg" loading='lazy' />
-        <a href="https://www.instagram.com/jordi_code?igsh=MXRvbmtiYmhheHRiZw%3D%3D&utm_source=qr" target="_blank" > 
+        <a href="https://www.instagram.com/jordi_code?igsh=MXRvbmtiYmhheHRiZw%3D%3D&utm_source=qr" target="_blank" rel='noreferrer'> 
           <small>Creada y diseñada x Jordi Code</small>
         </a>
       </footer>

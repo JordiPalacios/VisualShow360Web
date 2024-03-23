@@ -1,5 +1,5 @@
-import React from 'react'
 import { WhatsAppMessage } from './WhatsAppMessage'
+import PropTypes from 'prop-types'
 
 export const ProductsCard = ({ id, tittle, description, imgUrl, difBg, colorText, msg, workingMode }) => {
   const cardClassName = difBg ? 'productCardRow' : 'productCard'
@@ -46,4 +46,15 @@ export const ProductsCard = ({ id, tittle, description, imgUrl, difBg, colorText
       {content}
     </>
   )
+}
+
+ProductsCard.propTypes = {
+  id: PropTypes.string.isRequired,
+  tittle: PropTypes.string.isRequired,
+  description: PropTypes.string.isRequired,
+  imgUrl: PropTypes.string.isRequired,
+  difBg: PropTypes.bool,
+  colorText: PropTypes.string.isRequired,
+  msg: PropTypes.string.isRequired,
+  workingMode: PropTypes.string.isRequired
 }

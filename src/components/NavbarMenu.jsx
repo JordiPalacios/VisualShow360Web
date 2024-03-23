@@ -1,4 +1,4 @@
-import React, { useContext, useEffect, useState } from 'react'
+import { useContext, useEffect, useState } from 'react'
 import { NavbarContext } from '../context/NavbarContext'
 import { NewPage } from './NewPage'
 import { NavItem } from './NavItem'
@@ -117,7 +117,7 @@ return (
                                 </div>
                             </div>                          
                         </div>
-                        <b><a href="https://www.instagram.com/visualshow360?igshid=YmMyMTA2M2Y=" target="_blank">Eventos Reales</a></b>
+                        <b><a href="https://www.instagram.com/visualshow360?igshid=YmMyMTA2M2Y=" target="_blank" rel='noreferrer'>Eventos Reales</a></b>
                         <b><NavItem href='#nosotros' label='Nosotros' page='home' /></b>             
                     </ul>
                 </div>

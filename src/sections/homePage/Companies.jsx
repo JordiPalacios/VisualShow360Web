@@ -1,4 +1,3 @@
-import React from 'react'
 import CompaniesData from '../../assets/mocks/companiesData.json'
 import { InfiniteLoop } from '../../components'
 

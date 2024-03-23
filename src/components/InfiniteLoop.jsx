@@ -1,25 +1,27 @@
-import React from 'react'
 import CompaniesData from '../assets/mocks/companiesData.json'
+import PropTypes from 'prop-types'
 
 export const InfiniteLoop = ({ urlImg, nameImg, equal }) => {
-    let content 
     const companyData = CompaniesData
+    const numImages = Array(32).fill(null)
 
-    if (equal) {
-        const numImages = Array(32).fill(null)
-
-        content = numImages.map((_, index) => (
+    let content = equal 
+        ? numImages.map((_, index) => (
             <img key={index} src={urlImg} alt={nameImg} loading='lazy' />
         ))
-    } else {
-        content = companyData.map((data, index) => (
+        : companyData.map((data, index) => (
             <img key={index} src={data.urlImg} alt={data.nameImg} loading='lazy' />
-        ))
-    }
+        )) 
     
 return (
     <div className="logoSlide">
         {content}
     </div>
 )
+}
+
+InfiniteLoop.propTypes = {
+    urlImg: PropTypes.string.isRequired,
+    nameImg: PropTypes.string.isRequired,
+    equal: PropTypes.bool.isRequired
 }

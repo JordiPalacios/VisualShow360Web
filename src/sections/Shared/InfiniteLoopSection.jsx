@@ -1,4 +1,3 @@
-import React from 'react'
 import { InfiniteLoop } from '../../components'
 
 export const InfiniteLoopSection = () => {

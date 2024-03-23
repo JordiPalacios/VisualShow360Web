@@ -1,4 +1,3 @@
-import React from 'react'
 import { NavbarMenu } from '../../components'
 
 export const Presentation = () => {
@@ -15,8 +14,8 @@ return (
     <header>
         <NavbarMenu />
         <div className="presentationContainer">
-            <h1 className='h1-fade-in'> ¡ FRASE&nbsp;<span style={{ color: 'var(--accent)', fontWeight: '900'}}>POTENTE 1 !</span></h1>
-            <h2 className='h2-fade-in'>Frase Potente 2</h2>
+            <h1 className='h1-fade-in'> ¡ SE CASAN&nbsp;<span style={{ color: 'var(--accent)', fontWeight: '900'}}>190.000</span> PAREJAS AL AÑO !</h1>
+            <h2 className='h2-fade-in'>HAZ QUE TU BODA SEA ESPECIAL</h2>
             <video className='videoMobile' autoPlay muted loop>
                 <source src="src/assets/video/videoMobileBW.mp4" type="video/mp4"/>
                 Este navegador no soporta vídeos.

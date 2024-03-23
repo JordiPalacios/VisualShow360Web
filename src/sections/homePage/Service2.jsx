@@ -1,6 +1,5 @@
-import React from 'react'
 import { NavItem } from '../../components'
-import { useWorkingMode } from '../../assets/customhooks/useWorkingMode'
+import { useWorkingMode } from '../../assets/Customhooks/useWorkingMode'
 
 export const Service2 = () => {
     const workingMode = useWorkingMode()

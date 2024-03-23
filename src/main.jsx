@@ -3,6 +3,7 @@ import '@fontsource/roboto/700.css';
 import '@fontsource/adamina';
 import '@fontsource/lobster';
 import '@fontsource-variable/nunito-sans';
+import '@fontsource/anton';
 
 import React from 'react'
 import ReactDOM from 'react-dom/client'

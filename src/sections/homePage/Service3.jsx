@@ -21,7 +21,7 @@ return (
             </p>
             <div className="buttonsContainer">
             <button>
-                <NavItem href='#contacto' label='¡Agenda tu reunión!' colorText='var(--textWhite)' page='home'/>
+                <NavItem href='#contacto' label='¡Agenda tu reunión!' colorText='var(--textWhite)' page='home' />
             </button>
             </div>
             </div>
@@ -41,7 +41,7 @@ return (
             </p>
             <div className="buttonsContainer">
             <button>
-                <NavItem href='#contacto' label='¡Agenda tu reunión!' colorText='var(--textWhite)'/>
+                <NavItem href='#contacto' label='¡Agenda tu reunión!' colorText='var(--textWhite)' page='home'/>
             </button>
             </div>
             </div>

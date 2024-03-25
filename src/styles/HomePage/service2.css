@@ -26,16 +26,46 @@
     max-width: 350px;
     height: auto;
     margin-bottom: 20px;
-    /* filter: drop-shadow(0px 0px 10px var(--contrastBlack2)); */
     border-radius: 25px;
 }
 
+.service2DescriptionContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.detailsService2 {
+    width: fit-content;
+    border: 2px solid var(--accent-2);
+    margin-bottom: 10px;
+    padding: 20px;
+}
+
+.detailsService2 span {
+    background: var(--textWhite);
+    color: var(--accent);
+    font-family: var(--secondary-font);
+    font-weight: bolder;
+    padding: 5px;
+}
+
+.detailsService2 h2{
+    display: initial;
+    font-family: var(--tittle-font);
+    text-decoration: 2px underline var(--accent);
+    font-size: 2rem;
+    margin: 0;
+}
+
 /* Medidad Tablet */
+
 @media screen and (min-width: 760px) {
     .service2ContentContainer {
         display: flex;
         flex-direction: row;
-        align-items: center;
+        align-items: stretch;
         margin: 10px 10px 10px 50px;
         gap: 2.5rem;
     }
@@ -48,7 +78,7 @@
 
     .service2Container h2 {
         display: inline-block;
-        margin: 0 0 10px 0;
+        margin: 0;
         padding: 5px;
         font-style: italic;
         font-weight: bolder;
@@ -64,6 +94,7 @@
 
     .service2Container img {
         margin: 0;
+        object-fit: contain;
     }
 
     .service2Container .line {
@@ -76,12 +107,15 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        gap: 1rem;
+    }
+
+    .detailsService2 {
+        display: none;
     }
 }
 
 /* Medidas PC  */
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1300px) {
     .service2Container {
         display: flex;
         flex-direction: row-reverse;
@@ -91,22 +125,28 @@
     }
 
     .service2Container h2{
-        display: inline-block;
-        font-style: italic;
-        font-weight: bolder;
+        display: initial;
     }
 
     .service2Container img {
-        max-width: 450px;
+        max-width: 550px;
     }
 
     .service2ContentContainer {
-        align-items: start;
+        align-items: center;
         margin: 50px 10px 50px 50px;
     }
 
     .service2DescriptionContainer {
         max-width: 1000px;
         gap: 0;
+    }
+
+    .detailsService2 {
+        display: inline-block;
+    }
+
+    .detailsService2 h2 {
+        font-size: 2.5rem;
     }
 }

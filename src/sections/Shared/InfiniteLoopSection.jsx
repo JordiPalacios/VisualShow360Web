@@ -1,4 +1,4 @@
-import { InfiniteLoop } from '../../components'
+import { InfiniteLoop } from '../../components/'
 
 export const InfiniteLoopSection = () => {
 return (

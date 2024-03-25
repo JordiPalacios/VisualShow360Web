@@ -7,6 +7,11 @@
     padding: 20px;
 }
 
+.reviewsContainer h2 {
+    font-family: var(--tittle-font);
+    font-size: 2rem;
+}
+
 .reviewsContainer h3{
     padding: 10px;
     margin: 0;
@@ -30,7 +35,7 @@
 .reviewsContainer a {
     color:  var(--accent);
     text-decoration: underline;
-    font-size: .8rem;
+    font-size: 1rem;
     margin-bottom: 10px;
     transition: transform .5s ease;
 }
@@ -40,7 +45,7 @@
     max-width: 700px;
     height: auto;
     overflow: hidden;
-    padding: 30px;
+    padding: 0 30px;
 }
 
 .reviewCard {
@@ -131,21 +136,37 @@
         max-width: 20%;
     }
 
+    .reviewsContainer h2 {
+        font-size: 2.5rem;
+    }
+
+    .reviewsContainer a {
+        font-size: 1.05rem;
+    }
+
 }
 
 /* Medidas PC  */
 @media screen and (min-width: 1300px) {
     .fotomatonImgReviews {
         max-width: 1400px;
-        margin: 20px;
+        margin: 0 20px;
     }
 
     .description img {
         margin: 0;
     }
 
+    .reviewsContainer a {
+        font-size: 1.2rem;
+    }
+
     .reviewsContainer a:hover {
         transform: scale(1.2);
+    }
+
+    .reviewsContainer h2 {
+        font-size: 2.75rem;
     }
 
     .reviewsContainer img {
@@ -157,8 +178,8 @@
     }
 
     .reviewsMediaContainer img {
-    width: auto;
-    max-width: 100%;
-    height: auto;
-}
+        width: auto;
+        max-width: 100%;
+        height: auto;
+    }
 }

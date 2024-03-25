@@ -44,14 +44,16 @@ header video {
 }
 
 .presentationContainer h1 {
+    font-size: 3rem;
     font-weight: 700;
-    color: var(--text-white);
+    color: var(--textWhite);
 }
 
 .presentationContainer h2 {
     font-family: 'Anton', sans-serif;
-    padding: 10px;
-    background: var(--secondary);
+    font-size: 2rem;
+    padding: 0px;
+    background: none;
 }
 
 .presentationContainer img {
@@ -72,27 +74,122 @@ header video {
     }
 }
 
+.h1-fade-in,
+.h2-fade-in,
+.h2-fade-in-accent{
+    margin: -0.25rem;
+    padding: 0;
+}
+
 .h1-fade-in {
     animation: fadeInScale 1s ease-in forwards;
+    line-height: 3rem;
 }
 
 .h2-fade-in {
-    animation: fadeInScale 2s ease-in-out forwards;
+    opacity: 0;
+    animation: fadeInScale 1s ease-in-out forwards;
+    animation-delay: 1s;
 }
+
+.h2-fade-in-accent {
+    position: absolute;
+    top: 57%;
+    left: 60%;
+    rotate: -10deg;
+    opacity: 0;
+    animation: fadeInScale 1.5s ease-in-out forwards;
+    animation-delay: 1s;
+    color: var(--accent);
+    font-size: 2rem;
+}
+
+.presentationContainer .h2-fade-in-accent {
+    font-size: 2.5rem;
+}
+
 .img-fade-in {
-    animation: fadeInScale 2s ease-in-out forwards;
+    opacity: 0;
+    animation: fadeInScale 1s ease-in-out forwards;
+    animation-delay: 1s;
 }
+
+.tittles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0rem;
+}
+
+@media screen and (min-width: 620px) {
+    .h2-fade-in-accent {
+        top: 54%;
+    }
+}
+
 
 /* * Medida Tablet */
 
 @media screen and (min-width: 760px) {
 
     .presentationContainer h1 {
-        font-size: 3rem;
+        font-size: 3.25rem;
     }
 
     .presentationContainer h2 {
-        font-size: 2.25rem;
+        font-size: 2.5rem;
+    }
+
+    .presentationContainer .h2-fade-in-accent {
+        font-size: 3.25rem;
+        top: 55%;
+    }
+
+    .videoTabletPC {
+        display: block;
+    }
+
+    .videoMobile {
+        display: none;
+    }
+
+    .presentationContainer {
+        min-height: 840px;
+    }
+
+    .h1-fade-in,
+    .h2-fade-in,
+    .h2-fade-in-accent{
+        margin: -0.75rem;
+        padding: 0;
+    }
+
+    .h1-fade-in {
+        line-height: initial;
+    }
+}
+
+@media screen and (min-width: 900px) {
+
+    .presentationContainer h1 {
+        font-size: 4rem;
+    }
+
+    .presentationContainer h2 {
+        font-size: 3rem;
+    }
+
+    .h1-fade-in,
+    .h2-fade-in,
+    .h2-fade-in-accent{
+        margin: -1rem;
+        padding: 0;
+    }
+
+    .presentationContainer .h2-fade-in-accent {
+        font-size: 3.75rem;
+        top: 56%;
     }
 
     .videoTabletPC {
@@ -113,15 +210,51 @@ header video {
 @media (1225px <= width) {
 
     .presentationContainer h1 {
-        font-size: 4.5rem;
+        font-size: 5rem;
     }
 
     .presentationContainer h2 {
-        font-size: 3rem;
+        font-size: 4rem;
+    }
+
+    .h1-fade-in,
+    .h2-fade-in,
+    .h2-fade-in-accent{
+        margin: -1.25rem;
+        padding: 0;
+    }
+
+    .presentationContainer .h2-fade-in-accent {
+        font-size: 4.75rem;
+        top: 57%;
     }
 
     .presentationContainer h1:hover {
         filter: none;
+    }
+
+}
+
+@media (1400px <= width) {
+
+    .presentationContainer h1 {
+        font-size: 6rem;
+    }
+
+    .presentationContainer h2 {
+        font-size: 5rem;
+    }
+
+    .h1-fade-in,
+    .h2-fade-in,
+    .h2-fade-in-accent{
+        margin: -1.5rem;
+        padding: 0;
+    }
+
+    .presentationContainer .h2-fade-in-accent {
+        font-size: 6.25rem;
+        top: 58%;
     }
 
 }

@@ -33,7 +33,7 @@ useEffect (() => {
         <hr className="line"></hr>
         <div className="footerDescriptionContainer">
           <div className="rrssMainContainer">
-            <a href="mailto:visualshow360@gmail.com?subject=¡Hola!&body=Hola quiero saber más sobre visualshow!" target="_blank" rel='noreferrer'>visualshow360@gmail.com</a>
+            <a href="mailto:visualshow360@gmail.com?subject=Información sobre los servicios de VisualShow360&body=Hola quiero saber más sobre visualshow!" target="_blank" rel='noreferrer'>visualshow360@gmail.com</a>
             <div className="rrssContainer">
               <a href="https://www.instagram.com/visualshow360?igshid=YmMyMTA2M2Y=" target="_blank" rel="noopener noreferrer">
                 <img id="ig" src="src/assets/icons/ig.svg" alt='igSVG' loading='lazy'/>
@@ -76,7 +76,7 @@ useEffect (() => {
             <img id="ig" src="src/assets/icons/ig.svg" alt='igSVG' loading='lazy' />
           </a>            
           <a href="https://www.tiktok.com/@visualshow360?_t=8jdUAUysy9p&_r=1" target="_blank" rel="noopener noreferrer">
-            <img id="tiktok" src="src/assets/icons/tiktok.svg" alt='tiktokSVG' loading='lazy' />
+            <img id="tiktok" src="src/assets/icons/tiktok1.svg" alt='tiktokSVG' loading='lazy' />
           </a>
         </div>
         <div className="normativeContainer">

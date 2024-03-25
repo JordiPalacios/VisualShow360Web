@@ -28,7 +28,7 @@ footer a {
 }
 
 footer .line {
-    margin: 50px 0;
+    border-top: 1px solid var(--secondary);
 }
 
 .footerContainer {
@@ -65,14 +65,19 @@ footer .line {
 }
 
 /* Medidad Tablet */
-@media screen and (min-width: 760px) {
+@media (760px <= width) {
+
+    footer button {
+        font-size: .9rem;
+    }
+
     .normativeContainer {
         display: initial;
     }
 }
 
 /* Medidas PC  */
-@media screen and (min-width: 1024px) {
+@media (1024px <= width) {
 
     footer img {
         margin-bottom: 10px;
@@ -103,5 +108,12 @@ footer .line {
 
     .rrssContainer img:hover {
         transform: scale(1.25);
+    }
+}
+
+@media (2000px <= width) {
+
+    footer button {
+        font-size: 1.2rem;
     }
 }

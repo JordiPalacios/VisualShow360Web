@@ -29,3 +29,7 @@ main {
 .normativityContainer h4 {
     margin: 5px 0 5px 0;
 }
+
+.normativityContainer a { 
+    color: var(--accent);
+}

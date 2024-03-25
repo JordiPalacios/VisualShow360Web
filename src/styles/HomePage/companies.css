@@ -8,8 +8,10 @@
 }
 
 .companiesContainer h2 {
-    background: var(--secondary);
-    color: var(--textWhite);
+    font-family: var(--tittle-font);
+    font-size: 2rem;
+    background: var(--textWhite);
+    color: var(--accent);
 }
 
 .companiesContainer .line {
@@ -44,10 +46,14 @@
 
 /* Medidad Tablet */
 @media screen and (min-width: 760px) {
-
+    .companiesContainer h2 {
+        font-size: 2.5rem;
+    }
 }
 
 /* Medidas PC  */
 @media screen and (min-width: 1024px) {
-
+    .companiesContainer h2 {
+        font-size: 2.75rem;
+    }
 }

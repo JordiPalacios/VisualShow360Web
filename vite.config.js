@@ -6,4 +6,5 @@ export default defineConfig({
   plugins: [
     react()
   ],
+  base: 'https://jordipalacios.github.io/VisualShow360Web/',
 })

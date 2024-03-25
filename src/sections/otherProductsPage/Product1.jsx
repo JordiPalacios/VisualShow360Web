@@ -10,7 +10,7 @@ return (
             <div className="service4Container">
                 <div className="service4ContentContainer">
                     <img src="src/assets/img/servicios/ringRing/audiolibro.webp" alt="ringRing" />
-                    <img src="img/servicios/ringRing/audiolibro.webp" alt="RingRing" />
+                    <img src="./img/servicios/ringRing/audiolibro.webp" alt="RingRing" />
                     <div className="service4DescriptionContainer">
                         <h1>Ring Ring Experience</h1> 
                         <h2>¿SABES QUE LO PRIMERO QUE OLVIDAMOS DE UNA PERSONA ES SU VOZ?</h2> 

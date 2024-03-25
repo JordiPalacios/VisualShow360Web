@@ -37,7 +37,7 @@ export const Reviews = () => {
 return (
     <section>
         <div className="reviewsContainer">
-            <h2>Qué piensan de nosotros</h2>
+            <h2><span style={{ color: 'var(--accent)' }}>Qué</span> piensan de nosotros</h2>
             <hr className="line"></hr>
             <div className="fotomatonImgReviews">
                 <Slider {...sliderSettingsReviews}>

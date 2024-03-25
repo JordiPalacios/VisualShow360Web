@@ -36,7 +36,7 @@
     .service3ContentContainer {
         display: flex;
         flex-direction: row-reverse;
-        align-items: center;
+        align-items: stretch;
         margin: 10px 50px 10px 10px;
         gap: 5rem;
     }
@@ -65,6 +65,7 @@
     }
 
     .service3Container img {
+        object-fit: cover;
         margin: 0;
     }
 
@@ -87,10 +88,6 @@
 @media screen and (min-width: 1024px) {
 
     .service3Container {
-        display: flex;
-        flex-direction: row-reverse;
-        justify-content: center;
-        align-items: start;
         margin: 0;
     }
 
@@ -106,7 +103,6 @@
     }
 
     .service3ContentContainer {
-        align-items: start;
         margin: 50px 40px 50px 50px;
 
     }

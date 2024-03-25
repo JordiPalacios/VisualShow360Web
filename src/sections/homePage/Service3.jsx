@@ -12,10 +12,12 @@ return (
             <img src="src/assets/img/servicios/whiteMagicMirror/magicMirrorWhiteBg.webp" alt="Espejo magico blanco" loading='lazy'/>                      
             <div className="service3DescriptionContainer">  
             <h1>White Magic Mirror</h1>
-            <h2> <span>¡Titulo Guay</span>&nbsp;PC/Tablet!</h2>    
+            <h2>TUS FOTOS DE REVISTA</h2>    
             <hr className='line'></hr>        
             <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, quidem laudantium doloribus atque totam voluptate, nulla tenetur provident minima natus beatae non, reprehenderit pariatur praesentium! Dolore necessitatibus ab eaque cum!
+                Mucho <span style={{ color: 'var(--accent)'}}>cuidadito</span> con éste fotomatón, puede pasar de ser tu aliado a llevarse todo el protagonismo. <br />
+                <br />
+                Eligue un buen fondo y crea los <span style={{ color: 'var(--accent)'}}>RECUERDOS</span> más espectaculares de tu boda. No seas cutre, que en ese momento ya no hay fotógrafos.
             </p>
             <div className="buttonsContainer">
             <button>
@@ -28,12 +30,14 @@ return (
         ) : (
         <div className="service3Container">
             <h1>White Magic Mirror</h1>
-            <h2> ¡Titulo Guay Para Tablet!</h2>
+            <h2>TUS FOTOS DE REVISTA</h2>
             <div className="service3ContentContainer">              
             <img src="src/assets/img/servicios/whiteMagicMirror/magicMirrorWhiteBg.webp" alt="Espejo magico blanco" loading='lazy'/>
             <div className="service3DescriptionContainer">              
             <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, quidem laudantium doloribus atque totam voluptate, nulla tenetur provident minima natus beatae non, reprehenderit pariatur praesentium! Dolore necessitatibus ab eaque cum!
+                Mucho <span style={{ color: 'var(--accent)'}}>cuidadito</span> con éste fotomatón, puede pasar de ser tu aliado a llevarse todo el protagonismo. <br />
+                <br />
+                Eligue un buen fondo y crea los <span style={{ color: 'var(--accent)'}}>RECUERDOS</span> más espectaculares de tu boda. No seas cutre, que en ese momento ya no hay fotógrafos.
             </p>
             <div className="buttonsContainer">
             <button>

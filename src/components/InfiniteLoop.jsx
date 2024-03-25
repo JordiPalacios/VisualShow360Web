@@ -1,4 +1,4 @@
-import CompaniesData from '../assets/mocks/companiesData.json'
+import CompaniesData from '../../public/mocks/companiesData.json'
 import PropTypes from 'prop-types'
 
 export const InfiniteLoop = ({ urlImg, nameImg, equal }) => {

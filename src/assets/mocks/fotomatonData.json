@@ -1,26 +1,26 @@
 [
     {
-        "urlImg" : "src/assets/img/servicios/fotomaton360/fotomaton360_1.webp",
+        "urlImg" : "./img/servicios/fotomaton360/fotomaton360_1.webp",
         "id": "fotomaton360"
     } ,
     {
-        "urlImg" : "src/assets/img/servicios/fotomaton360/atrezzo.webp",
+        "urlImg" : "./img/servicios/fotomaton360/atrezzo.webp",
         "id": "fotomatonBarcelona"
     },
     {
-        "urlImg" : "src/assets/img/servicios/fotomaton360/fotomaton360_2.webp",
+        "urlImg" : "./img/servicios/fotomaton360/fotomaton360_2.webp",
         "id": "fotomatonAtrezzo"
     },
     {
-        "urlImg" : "src/assets/img/servicios/fotomaton360/atrezzo_1.webp",
+        "urlImg" : "./img/servicios/fotomaton360/atrezzo_1.webp",
         "id": "fotomatonAtrezzoBoda"
     },
     {
-        "urlImg" : "src/assets/img/servicios/fotomaton360/fotomaton360.webp",
+        "urlImg" : "./img/servicios/fotomaton360/fotomaton360.webp",
         "id": "fotomatonEvento"
     },
     {
-        "urlImg" : "src/assets/img/servicios/fotomaton360/atrezzo_3.webp",
+        "urlImg" : "./img/servicios/fotomaton360/atrezzo_3.webp",
         "id": "fotomatonAtrezzoEvento"
     }
 ]

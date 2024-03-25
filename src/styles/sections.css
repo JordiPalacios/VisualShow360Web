@@ -40,6 +40,10 @@ footer {
     color: var(--textWhite);
 }
 
+video {
+    pointer-events: none;
+}
+
 .logoMenu h1 {
     font-size: 2rem;
 }

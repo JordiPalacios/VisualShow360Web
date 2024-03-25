@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     position: relative;
-    background-image: url('img/reviews_equipo/bwDavidIvet.webp');
+    background-image: url('/img/reviews_equipo/bwDavidIvet.webp');
     background-size:contain;
     background-attachment: fixed;
     padding: 20px;

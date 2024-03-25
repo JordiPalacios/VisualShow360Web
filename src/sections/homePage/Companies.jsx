@@ -1,4 +1,4 @@
-import CompaniesData from './mocks/companiesData.json'
+import CompaniesData from '../../../public/mocks/companiesData.json'
 import { InfiniteLoop } from '../../components'
 
 export const Companies = () => {

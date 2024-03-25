@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import FotomatonData from './mocks/fotomatonData.json'
+import FotomatonData from '../../../public/mocks/fotomatonData.json'
 import Slider from 'react-slick';
 import { ImgSlider, NavItem } from '../../components';
 

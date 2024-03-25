@@ -3,7 +3,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from 'react-slick'
 import { ReviewsCard } from '../../components'
-import ReviewsData from '../../assets/mocks/reviewsData.json'
+import ReviewsData from '../../../public/mocks/reviewsData.json'
 
 export const Reviews = () => {
     const reviewsData = ReviewsData

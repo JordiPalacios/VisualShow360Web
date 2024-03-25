@@ -19,6 +19,36 @@
     display: none;
 }
 
+.descriptionContainerService1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 0rem;
+}
+
+.service1Details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    text-wrap: balance;
+    border: 2px solid var(--accent-2);
+    padding: 10px;
+}
+
+.service1Details h2 {
+    display: initial;
+    font-family: var(--tittle-font);
+    background-color: var(--secondary);
+    color: var(--textWhite);
+    text-decoration: 2px underline var(--textWhite);
+    font-size: 2rem;
+    margin: 0;
+}
+
 /* ******************************************
 *** Service 1 Slider ***
 ****************************************** */
@@ -104,8 +134,6 @@
         display: inline-block;
         margin: 0;
         margin-bottom: 15px;
-        font-style: italic;
-        font-weight: bolder;
         background: var(--secondary);
         color: var(--textWhite);
         padding: 5px;
@@ -114,6 +142,16 @@
     .service1Container p {
         max-width: 1000px;
     }
+
+    .service1Details h2 {
+        font-size: 2.5rem;
+        margin-bottom: 0;
+    }
+
+    .descriptionContainerService1 {
+        gap: 1rem;
+    }
+    
 }
 
 /* Medidas PC  */
@@ -123,4 +161,29 @@
         max-width: 1500px;
         margin: 20px;
     }
+    
+    .service1Details h2 {
+        font-size: 2.75rem;
+    }
+}
+
+@media screen and (min-width: 1330px) {
+
+    .descriptionContainerService1 {
+        flex-direction: row;
+        text-align: start;
+        gap: 1rem;
+    }
+
+    .service1Details h2 {
+        font-size: 2.5rem;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    
+    .service1Details h2 {
+        font-size: 3rem;
+    }
+
 }

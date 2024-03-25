@@ -21,7 +21,7 @@ export const HomeWebsite = () => {
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://visualshow360.com/" />
         {/*! Modificar foto del fotomaton */}
-        <meta property="og:image" content="src/assets/img/servicios/fotomaton360/fotomaton360_2.webp" />
+        <meta property="og:image" content="./img/servicios/fotomaton360/fotomaton360_2.webp" />
         <meta property="og:image:type" content="image/webp" />
         <meta property="og:image:alt" content="Fotomaton 360 Barcelona" />
 

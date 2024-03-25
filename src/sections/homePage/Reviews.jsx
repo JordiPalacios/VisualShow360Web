@@ -57,7 +57,7 @@ return (
             <a href="https://www.bodas.net/animacion/360-&-magic-mirror-visualshow360--e218488/opiniones" target="_blank" rel='noreferrer'>Ver más</a>
             <div className="reviewsMediaContainer">
             <a href="https://www.bodas.net/animacion/360-&-magic-mirror-visualshow360--e218488/opiniones" target="_blank" rel='noreferrer'>
-                <img src="src/assets/img/reviews_equipo/bodasNetSVG.svg" alt="bodas.net" loading='lazy' />
+                <img src="./img/reviews_equipo/bodasNetSVG.svg" alt="bodas.net" loading='lazy' />
             </a>                
             </div>
         </div>

@@ -20,15 +20,14 @@ return (
                 <h2 className="h2-fade-in-accent">ESPECIAL</h2>
             </div>
             <video className='videoMobile' autoPlay muted loop>
-                <source src="src/assets/video/videoMobileBW.mp4" type="video/mp4"/>
+                <source src="./video/videoMobileBW.mp4" type="video/mp4"/>
                 Este navegador no soporta vídeos.
             </video>
             <video className='videoTabletPC' autoPlay muted loop>
-                {/* <source src="src/assets/video/weedingBW.mp4" type="video/mp4"/> */}
                 <source src="./video/weedingBW.mp4" type="video/mp4"/>
                 Este navegador no soporta vídeos.
             </video>
-            <img className='img-fade-in' onClick={handleClick} src="src/assets/gifs/arrow.gif" alt="arrowGift" />
+            <img className='img-fade-in' onClick={handleClick} src="./gifs/arrow.gif" alt="arrowGift" />
         </div>
     </header>
 )

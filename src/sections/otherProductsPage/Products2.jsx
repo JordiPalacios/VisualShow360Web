@@ -34,7 +34,7 @@ return (
                     tittle='Letras Love'
                     description=''
                     msg="https://wa.me/34653781239?text=Quiero%20más%20información%20sobre%20las%20Letras%20Love!"
-                    imgUrl='src/assets/img/servicios/otrosProductos/letrasLove.webp'
+                    imgUrl='./img/servicios/otrosProductos/letrasLove.webp'
                     difBg={false}
                     colorText='var(--accent)'/>
                 <ProductsCard
@@ -42,7 +42,7 @@ return (
                     tittle='Neones'
                     description=''
                     msg="https://wa.me/34653781239?text=Quiero%20más%20información%20sobre%20los%20Neones!"
-                    imgUrl='src/assets/img/servicios/otrosProductos/neones.webp'
+                    imgUrl='./img/servicios/otrosProductos/neones.webp'
                     difBg={false}
                 colorText='var(--accent)'/>
             </div>                    
@@ -50,7 +50,7 @@ return (
                 id='kitAntiResaca'
                 tittle='Kit AntiResaca'
                 description='Kit AntiResaca Description: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, eaque sunt autem iusto rem dolorum error harum ut quae sequi! Id, sint repellendus. In iste aperiam id aspernatur! Aspernatur, reprehenderit!'
-                imgUrl='src/assets/img/servicios/otrosProductos/kitAntiresaca.webp'
+                imgUrl='./img/servicios/otrosProductos/kitAntiresaca.webp'
                 msg="https://wa.me/34653781239?text=Quiero%20más%20información%20sobre%20el%20Kit%20AntiResaca!"
                 workingMode={workingMode}
                 difBg={true}

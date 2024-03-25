@@ -36,10 +36,10 @@ useEffect (() => {
             <a href="mailto:visualshow360@gmail.com?subject=Información sobre los servicios de VisualShow360&body=Hola quiero saber más sobre visualshow!" target="_blank" rel='noreferrer'>visualshow360@gmail.com</a>
             <div className="rrssContainer">
               <a href="https://www.instagram.com/visualshow360?igshid=YmMyMTA2M2Y=" target="_blank" rel="noopener noreferrer">
-                <img id="ig" src="src/assets/icons/ig.svg" alt='igSVG' loading='lazy'/>
+                <img id="ig" src="./icons/ig.svg" alt='igSVG' loading='lazy'/>
               </a>            
               <a href="https://www.tiktok.com/@visualshow360?_t=8jdUAUysy9p&_r=1" target="_blank" rel="noopener noreferrer">
-                <img id="tiktok" src="src/assets/icons/tiktok.svg" alt='tiktokSVG' loading='lazy'/>
+                <img id="tiktok" src="./icons/tiktok.svg" alt='tiktokSVG' loading='lazy'/>
               </a>
             </div>
           </div>
@@ -62,7 +62,7 @@ useEffect (() => {
             </button>
           </div>
         </div>
-        <img src="src/assets/img/Extra/generalitat.webp" target="_blank" alt="generalitatImg" loading='lazy' />
+        <img src="./img/Extra/generalitat.webp" target="_blank" alt="generalitatImg" loading='lazy' />
       </footer>
     )
   } else {
@@ -73,10 +73,10 @@ useEffect (() => {
         <a href="mailto:visualshow360@gmail.com?subject=¡Hola!&body=Hola quiero saber más sobre visualshow!" target="_blank" rel='noreferrer'>visualshow360@gmail.com</a>
         <div className="rrssContainer">
           <a href="https://www.instagram.com/visualshow360?igshid=YmMyMTA2M2Y=" target="_blank" rel="noopener noreferrer">
-            <img id="ig" src="src/assets/icons/ig.svg" alt='igSVG' loading='lazy' />
+            <img id="ig" src="./icons/ig.svg" alt='igSVG' loading='lazy' />
           </a>            
           <a href="https://www.tiktok.com/@visualshow360?_t=8jdUAUysy9p&_r=1" target="_blank" rel="noopener noreferrer">
-            <img id="tiktok" src="src/assets/icons/tiktok1.svg" alt='tiktokSVG' loading='lazy' />
+            <img id="tiktok" src="./icons/tiktok1.svg" alt='tiktokSVG' loading='lazy' />
           </a>
         </div>
         <div className="normativeContainer">
@@ -91,7 +91,7 @@ useEffect (() => {
           <NewPage href="/terminos-condiciones" label="Terminos y Condiciones" />
         </button>
         </div>
-        <img src="src/assets/img/Extra/generalitat.webp" target="_blank" alt="generalitatImg" loading='lazy' />
+        <img src="./img/Extra/generalitat.webp" target="_blank" alt="generalitatImg" loading='lazy' />
         <a href="https://www.instagram.com/jordi_code?igsh=MXRvbmtiYmhheHRiZw%3D%3D&utm_source=qr" target="_blank" rel='noreferrer'> 
           <small>Creada y diseñada x Jordi Code</small>
         </a>

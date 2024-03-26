@@ -15,7 +15,7 @@
 }
 
 .companiesContainer .line {
-    color: var(--accent);
+    border-top: 1px solid var(--textWhite);
 }
 
 /* ******************************************

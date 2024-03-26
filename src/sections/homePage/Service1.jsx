@@ -37,7 +37,7 @@ export const Service1 = () => {
 return (
     <section id='plataforma360'>
         <div className="service1Container">
-            <h1>Fotomaton 360</h1>
+            <h1>Plataforma 360</h1>
             <h2>Ver a tu suegra bailando twerk te va a quitar la depresión post-boda</h2>
             <div className="fotomatonImgService1">
             <Slider {...sliderSettings}>

@@ -66,7 +66,7 @@ return (
                     ◦	Goma de pelo
                     ◦	Chicle “happydent” mentolado
                     ◦	Chocolate “toblerone” (Sabor sorpresa) 
-                    ◦	Toallita desodorante'
+                    ◦	Toallita desodorante'
                 imgUrl='./img/servicios/otrosProductos/kitAntiresaca.webp'
                 msg="https://wa.me/34653781239?text=Quiero%20más%20información%20sobre%20el%20Kit%20AntiResaca!"
                 workingMode={workingMode}

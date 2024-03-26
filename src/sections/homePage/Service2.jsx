@@ -10,7 +10,7 @@ return (
             <div className="service2ContentContainer">
             <img src="./gifs/GIF.gif" alt="Espejo magico" loading='lazy'/>           
             <div className="service2DescriptionContainer">  
-                <h1>Magic Mirror</h1>
+                <h1>Magic Mirror Led</h1>
                 <h2> EL FOTOMATON QUE&nbsp;<span>NO SE ESPERAN</span></h2>    
                 <hr className='line'></hr>    
                 <p>
@@ -43,7 +43,7 @@ return (
         ) : 
         (
         <div className='service2Container'>
-            <h1>Magic Mirror</h1>              
+            <h1>Magic Mirror Led</h1>              
             <h2> ¡Frase Guay Para Tablet!</h2> 
             <div className="service2ContentContainer">              
                 <img src="./gifs/GIF.gif" alt="Espejo magico" loading='lazy'/>

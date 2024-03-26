@@ -87,7 +87,7 @@ return (
                 type="checkbox" />
             </label>
             <label className="checkBoxText">
-                He leído y acepto la <NewPage href="/politica-privacidad" label="Politica de Privacidad. " />
+                He leído y acepto la <NewPage href="/politica-privacidad" label="Politica de Privacidad" />
             </label>
         </div>
         <button type="submit">Enviar</button>

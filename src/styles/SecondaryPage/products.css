@@ -92,6 +92,43 @@
     text-wrap: balance;
 }
 
+.descriptionKitContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    text-align: center;
+    gap: 0rem;
+}
+
+.descriptionKitContainer p{
+    width: 40%;
+    height: auto;
+}
+
+.detailsKit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    text-wrap: balance;
+    border: 2px solid var(--accent-2);
+    padding: 10px;
+    margin: 20px 0;
+}
+
+.detailsKit h2 {
+    display: initial;
+    font-family: var(--tittle-font);
+    background-color: var(--secondary);
+    color: var(--textWhite);
+    text-decoration: underline;
+    text-decoration-color: var(--textWhite);
+    font-size: 2rem;
+    margin: 0;
+}
+
 /* Medidad Tablet */
 @media screen and (min-width: 760px) {
     .generalProducts {
@@ -100,6 +137,10 @@
 
     .productCard {
         margin: 0 10px 0 10px;
+    }
+
+    .descriptionKitContainer {
+        gap: 1rem;
     }
 }
 
@@ -119,8 +160,10 @@
         display: flex;
         flex-direction: row-reverse;
         justify-content: center;
+        align-items: center;
         margin: 10px 10px 50px 10px;
     }
+
 
     .contentContainer {
         display: flex;
@@ -139,5 +182,17 @@
     .contentContainer .line {
         max-width: 80%;
         border-top: 1px solid var(--secondary);
+    }
+}
+
+@media screen and (min-width: 1330px) {
+    .descriptionKitContainer {
+        flex-direction: row;
+        text-align: center;
+        gap: 2rem;
+    }
+
+    .detailsKit h2 {
+        font-size: 1.75rem;
     }
 }

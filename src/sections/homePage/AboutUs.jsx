@@ -5,7 +5,23 @@ return (
             <h2>¿Quienes Somos?</h2>
             <img src="./img/reviews_equipo/navidadDavidIvet.webp" alt="VisualShow360Team" loading='lazy' />
             <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit qui nam dicta aspernatur non expedita iusto assumenda minus harum porro ullam similique voluptas neque autem modi ipsum, quisquam dolorum officiis?
+            ¡Somos Ivet & David! <br />
+            <br />
+            Hace años David me dijo unas palabras que nunca olvidaré: <br />
+            “Para que algo salga bien tiene que apasionarte” <br />
+            <br />
+            Somos y seremos los responsables de crear la mejor experiencia de fotomatón para tu boda. Alejándonos del típico servicio y llevándolo a otro nivel para que sea una experiencia más en tu evento y diferenciarte del resto de bodas. <br />
+            <br />
+            Y sobre todo, que os queden las mejores fotos de vuestra vida.   <br />
+            <br />
+            ¡Ah! Y se nos olvidaba, llevamos más de 5 años dedicándonos a eventos, y 2 años especializados en servicios para bodas. <br />
+            <br />
+            También somos pareja. Y somos el equipo perfecto. <br /> 
+            David tiene una idea, yo la pongo en marcha.  <br />
+            Y allí es donde le doy mi toque de personalidad, como si fuera yo la que me casara.   <br />
+            (Ya conoceréis los otros miembros del equipo, que sin ellos nada sería posible).  <br />
+            <br />
+            Y lo más importante, sabemos lo que buscais, por que también lo buscamos nosotros. <br />
             </p>
         </div>
     </section>

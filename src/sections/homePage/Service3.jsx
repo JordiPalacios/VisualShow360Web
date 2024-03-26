@@ -11,7 +11,7 @@ return (
             <div className="service3ContentContainer">  
             <img src="./img/servicios/whiteMagicMirror/magicMirrorWhiteBg.webp" alt="Espejo magico blanco" loading='lazy'/>                      
             <div className="service3DescriptionContainer">  
-            <h1>White Magic Mirror</h1>
+            <h1>Magic Mirror White</h1>
             <h2>TUS FOTOS DE REVISTA</h2>    
             <hr className='line'></hr>        
             <p>
@@ -29,7 +29,7 @@ return (
         </div>
         ) : (
         <div className="service3Container">
-            <h1>White Magic Mirror</h1>
+            <h1>Magic Mirror White</h1>
             <h2>TUS FOTOS DE REVISTA</h2>
             <div className="service3ContentContainer">              
             <img src="./img/servicios/whiteMagicMirror/magicMirrorWhiteBg.webp" alt="Espejo magico blanco" loading='lazy'/>

@@ -23,6 +23,10 @@ ToDo:
     []Definir los nombre que iran apareciendo en la pestaña de navegación en funcion de nuestra ubicacion en la pagina web
     []Definir la descripcion que tendra cada pestaña de navegacion en funcion de nuestra ubicacion en la pagina web, es la que se mostrara debajo del link
 
+[]Hostinger:
+    []Al refrescar la web desde otros productos que no me salte el fallo 404
+    []Revisar si tiene sistema de cookies
+
 [x]General :
     [x]Toda la web con el gradiente de VS-2
     [x]Borrar boton de eventos reales

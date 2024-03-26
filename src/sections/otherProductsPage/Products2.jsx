@@ -49,7 +49,24 @@ return (
             <ProductsCard
                 id='kitAntiResaca'
                 tittle='Kit AntiResaca'
-                description='Kit AntiResaca Description: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, eaque sunt autem iusto rem dolorum error harum ut quae sequi! Id, sint repellendus. In iste aperiam id aspernatur! Aspernatur, reprehenderit!'
+                description='BOLSITA KIT DE SUPERVIVENCIA 
+
+                “Olvídate del típico regalo que coge polvo”
+                
+                Buscas un detalle para tus invitados. Pero que al menos, les sirva para algo. 
+                
+                Con éste kit anti resaca personalizado vas a sorprenderles y se van a llevar el regalo más original y sobre todo, podrá ser usado durante toda la boda. 
+                
+                ¡Tus invitados te lo agradecerán!
+                
+                Éstas bolsitas incluyen: 
+                    ◦	Bebida isotónica sabor naranja 
+                    ◦	Toallita desmaquillante / Agua micelar
+                    ◦	Gel Hidroalcohólico
+                    ◦	Goma de pelo
+                    ◦	Chicle “happydent” mentolado
+                    ◦	Chocolate “toblerone” (Sabor sorpresa) 
+                    ◦	Toallita desodorante'
                 imgUrl='./img/servicios/otrosProductos/kitAntiresaca.webp'
                 msg="https://wa.me/34653781239?text=Quiero%20más%20información%20sobre%20el%20Kit%20AntiResaca!"
                 workingMode={workingMode}

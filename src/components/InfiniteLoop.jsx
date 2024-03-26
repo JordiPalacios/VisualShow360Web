@@ -7,10 +7,10 @@ export const InfiniteLoop = ({ urlImg, nameImg, equal }) => {
 
     let content = equal 
         ? numImages.map((_, index) => (
-            <img key={index} src={urlImg} alt={nameImg} loading='lazy' />
+            <img key={index} src={urlImg} alt={nameImg} />
         ))
         : companyData.map((data, index) => (
-            <img key={index} src={data.urlImg} alt={data.nameImg} loading='lazy' />
+            <img key={index} src={data.urlImg} alt={data.nameImg} />
         )) 
     
 return (

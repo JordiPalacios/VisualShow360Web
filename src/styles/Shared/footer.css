@@ -19,7 +19,8 @@ footer button {
     background: none;
     font-size: .75rem;
     color: var(--textWhite);
-    text-decoration: 1px underline var(--secondary);
+    text-decoration: underline;
+    text-decoration-color: var(--secondary);
 }
 
 footer a {

@@ -34,7 +34,7 @@
 
 .reviewsContainer a {
     color:  var(--accent);
-    text-decoration: underline;
+    text-decoration: underline var(--accent);
     font-size: 1rem;
     margin-bottom: 10px;
     transition: transform .5s ease;

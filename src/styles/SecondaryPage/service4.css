@@ -10,7 +10,8 @@
 
 .service4Container h1 {
     color: var(--secondary);
-    text-decoration: 2px underline var(--textWhite);
+    text-decoration: underline;
+    text-decoration-color: var(--textWhite);
 }
 
 .service4Container h2 {

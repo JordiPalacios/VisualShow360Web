@@ -36,7 +36,8 @@ textarea:focus {
 .contactoContainer h2 {
     font-family: var(--tittle-font);
     font-size: 2rem;
-    text-decoration: 2px underline var(--accent);
+    text-decoration: underline ;
+    text-decoration-color: var(--accent);
     color: var(--textWhite);
 }
 
@@ -129,6 +130,11 @@ textarea:focus {
     display: inline-block;
     font-size: .75rem;
     margin-left: 5px;
+}
+
+.checkBoxContainer label input[type="checkbox"] {
+    width: 5px;
+    height: 5px;
 }
 
 form button {

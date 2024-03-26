@@ -53,7 +53,8 @@
 #neones h1 {
     background: var(--textWhite);
     color: var(--secondary);
-    text-decoration: 2px underline var(--secondary);
+    text-decoration: underline;
+    text-decoration-color: var(--secondary);
     margin: 0;
     padding: 5px;
 }
@@ -61,14 +62,16 @@
 #letras-love h1 {
     background: var(--secondary);
     color: var(--textWhite);
-    text-decoration: 2px underline var(--textWhite);
+    text-decoration: underline;
+    text-decoration-color: var(--textWhite);
     margin: 0;
     padding: 5px;
 }
 
 #kitAntiResaca h1 {
     color: var(--textWhite);
-    text-decoration: 2px underline var(--accent);
+    text-decoration: underline;
+    text-decoration-color: var(--accent);
     margin: 0;
     padding: 5px;
 }

@@ -76,7 +76,7 @@ useEffect (() => {
             <img id="ig" src="./icons/ig.svg" alt='igSVG' loading='lazy' />
           </a>            
           <a href="https://www.tiktok.com/@visualshow360?_t=8jdUAUysy9p&_r=1" target="_blank" rel="noopener noreferrer">
-            <img id="tiktok" src="./icons/tiktok1.svg" alt='tiktokSVG' loading='lazy' />
+            <img id="tiktok" src="./icons/tiktok.svg" alt='tiktokSVG' loading='lazy' />
           </a>
         </div>
         <div className="normativeContainer">

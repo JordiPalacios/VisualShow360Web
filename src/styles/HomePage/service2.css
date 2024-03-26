@@ -44,21 +44,31 @@
     padding: 20px;
 }
 
-.detailsService2 span {
-    background: var(--textWhite);
+.service2Container span {
     color: var(--accent);
-    font-family: var(--secondary-font);
     font-weight: bolder;
+}
+
+.service2Container .citaReview {
+    font-family: var(--accent-font);
+    color: var(--accent);
+    background-color: var(--textWhite);
     padding: 5px;
 }
 
-.detailsService2 h2{
+.service2Container .detailsService2 h2{
     display: initial;
     font-family: var(--tittle-font);
-    text-decoration: underline;
-    text-decoration-color: var(--accent);
     font-size: 2rem;
+    color: var(--secondary);
+    background-color: transparent;
     margin: 0;
+}
+
+.service2Container .detailsService2 span {
+    font-weight: 900;
+    background-color: var(--textWhite);
+    padding: 5px;
 }
 
 /* Medidad Tablet */
@@ -88,12 +98,6 @@
         color: var(--secondary);
     }
 
-    .service2Container span {
-        background: var(--textWhite);
-        color: var(--accent);
-        padding: 5px;
-    }
-
     .service2Container img {
         margin: 0;
         object-fit: contain;
@@ -114,6 +118,7 @@
     .detailsService2 {
         display: none;
     }
+
 }
 
 /* Medidas PC  */
@@ -148,7 +153,7 @@
         display: inline-block;
     }
 
-    .detailsService2 h2 {
+    .service2Container .detailsService2 h2 {
         font-size: 2.5rem;
     }
 }

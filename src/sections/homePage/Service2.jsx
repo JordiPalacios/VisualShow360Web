@@ -19,7 +19,7 @@ return (
                     AHORA, PREPÁRATE PORQUE TODOS <span style={{ color: 'var(--accent)', background: 'none'}}>TE VAN A PREGUNTAR</span> DE DÓNDE LO HAS SACADO. <br />
                     <br />
                     Asegúrate de que se lo cuenten a todos sus amigos, mira: <br />
-                    <span>&quot; Maria puso un fotomatón muy raro que fue la pxxx hostia, y vaya fiestón se montó &quot;</span>
+                    <span className='citaReview'>&quot; Maria puso un fotomatón muy raro que fue la pxxx hostia, y vaya fiestón se montó &quot;</span>
                     </p>
                 <div className="detailsService2"> 
                     <h2>¿Qué incluye?</h2>                   
@@ -30,7 +30,7 @@ return (
                         <li>• Máxima calidad de imágen</li>
                         <li>• La mejor mesa de ATREZZO que verás nunca</li>
                     </ul>
-                    <span>CREAREMOS EL FIESTÓN </span>
+                    <span> CREAREMOS EL FIESTÓN </span>
                 </div>      
                 <div className="buttonsContainer">
                     <button>
@@ -55,7 +55,7 @@ return (
                         <br />
                         Asegúrate de que se lo cuenten a todos sus amigos, mira: <br />
                         <br />
-                        <span>&quot; Maria puso un fotomatón muy raro que fue la pxxx hostia, y vaya fiestón se montó &quot;</span>
+                        <span className='citaReview'>&quot; Maria puso un fotomatón muy raro que fue la pxxx hostia, y vaya fiestón se montó &quot;</span>
                         </p>
                     <div className="detailsService2"> 
                         <h2>¿Qué incluye?</h2>                   
@@ -66,7 +66,7 @@ return (
                             <li>• Máxima calidad de imágen</li>
                             <li>• La mejor mesa de ATREZZO que verás nunca</li>
                         </ul>
-                        <span>CREAREMOS EL FIESTÓN </span>
+                        <span> CREAREMOS EL FIESTÓN </span>
                     </div>
                     <div className="buttonsContainer">
                         <button>

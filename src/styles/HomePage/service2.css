@@ -54,6 +54,7 @@
     color: var(--accent);
     background-color: var(--textWhite);
     padding: 5px;
+    text-decoration: underline;
 }
 
 .service2Container .detailsService2 h2{

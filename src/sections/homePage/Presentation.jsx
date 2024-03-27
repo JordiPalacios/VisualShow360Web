@@ -19,11 +19,11 @@ return (
                 <h2 className='h2-fade-in'>HAZ QUE TU BODA SEA</h2>
                 <h2 className="h2-fade-in-accent">ESPECIAL</h2>
             </div>
-            <video className='videoMobile' controlsList='nodownload' autoPlay muted loop playsInline >
+            <video className='videoMobile' controlsList='nodownload' playsInline loop muted autoPlay  >
                 <source src="./video/videoMobileBW.mp4" type="video/mp4"/>
                 Este navegador no soporta vídeos.
             </video>
-            <video className='videoTabletPC'controlsList='nodownload' autoPlay muted loop playsInline>
+            <video className='videoTabletPC'controlsList='nodownload' playsInline loop muted autoPlay >
                 <source src="./video/weedingBW.mp4" type="video/mp4"/>
                 Este navegador no soporta vídeos.
             </video>

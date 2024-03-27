@@ -102,7 +102,7 @@
 }
 
 .descriptionKitContainer p{
-    width: 40%;
+    width: 100%;
     height: auto;
 }
 
@@ -168,7 +168,6 @@
     .contentContainer {
         display: flex;
         flex-direction: column;
-        align-items: center;
         justify-content: start;
     }
 
@@ -188,9 +187,13 @@
 @media screen and (min-width: 1330px) {
     .descriptionKitContainer {
         flex-direction: row;
-        align-items: flex-start;
+        align-items: center;
         text-align: center;
         gap: 2rem;
+    }
+
+    .descriptionKitContainer p{
+        width: 40%;
     }
 
     .detailsKit h2 {

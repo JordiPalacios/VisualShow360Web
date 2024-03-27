@@ -19,13 +19,13 @@ export const ProductsCard = ({ id, tittle, imgUrl, kitAnti, colorText, msg, work
             {kitAnti ? (
                 <div className="descriptionKitContainer">                
                   <p>
-                      “Olvídate del típico regalo que coge polvo” <br />
+                      <span style={{color:'var(--accent)', backgroundColor: 'var(--textWhite)', padding: '10px'}}>“Olvídate del típico regalo que coge polvo”</span> <br />
                       <br />
-                      Buscas un detalle para tus invitados. Pero que al menos, les sirva para algo.  <br />
+                      Buscas un <span style={{color: 'var(--accent)'}}>detalle</span> para tus invitados. Pero que al menos, les sirva para algo.  <br />
                       <br />
-                      Con éste kit anti resaca personalizado vas a sorprenderles y se van a llevar el regalo más original y sobre todo, podrá ser usado durante toda la boda.  <br />
+                      Con éste kit anti resaca <span style={{color: 'var(--accent)'}}>personalizado</span> vas a sorprenderles y se van a llevar el regalo más original y sobre todo, podrá ser usado durante <span style={{color: 'var(--accent)'}}>toda la boda.</span>  <br />
                       <br />
-                      ¡Tus invitados te lo agradecerán! <br />
+                      ¡Tus invitados te lo agradecerán!
                   </p>
                   <div className="detailsKit"> 
                       <h2>Éstas bolsitas incluyen:</h2>                   
@@ -60,13 +60,13 @@ export const ProductsCard = ({ id, tittle, imgUrl, kitAnti, colorText, msg, work
         {kitAnti ? (
           <div className="descriptionKitContainer">                
           <p>
-              “Olvídate del típico regalo que coge polvo” <br />
+              <span style={{color:'var(--accent)', backgroundColor: 'var(--textWhite)', padding: '10px'}}>“Olvídate del típico regalo que coge polvo”</span> <br />
               <br />
-              Buscas un detalle para tus invitados. Pero que al menos, les sirva para algo.  <br />
+              Buscas un <span style={{color: 'var(--accent)'}}>detalle</span> para tus invitados. Pero que al menos, les sirva para algo.  <br />
               <br />
-              Con éste kit anti resaca personalizado vas a sorprenderles y se van a llevar el regalo más original y sobre todo, podrá ser usado durante toda la boda.  <br />
+              Con éste kit anti resaca <span style={{color: 'var(--accent)'}}>personalizado</span> vas a sorprenderles y se van a llevar el regalo más original y sobre todo, podrá ser usado durante <span style={{color: 'var(--accent)'}}>toda la boda.</span>  <br />
               <br />
-              ¡Tus invitados te lo agradecerán! <br />
+              ¡Tus invitados te lo agradecerán!
           </p>
           <div className="detailsKit"> 
               <h2>Éstas bolsitas incluyen:</h2>                   

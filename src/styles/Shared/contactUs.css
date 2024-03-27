@@ -88,7 +88,7 @@ textarea:focus {
 
 .formContainer select {
     width: 100%;
-    padding: 1rem 0 1rem 0;
+    padding: 1rem 0 1rem 5px;
     border: 2px solid var(--secondary);
     border-radius: 15px;
     background-color: transparent; 

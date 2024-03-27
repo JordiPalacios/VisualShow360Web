@@ -106,16 +106,23 @@ textarea:focus {
     color: var(--textWhite);
 }
 
+
+/* ************************************************** */
+/* * CheckBox Personalization Creating a NewCheckBox */
+
 .checkBoxContainer {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
+    position: relative;
     width: 100%;
     height: auto;
     gap: 5px;
     margin: 10px 0 10px 0;
     padding: 0;
+    cursor: pointer;
+    user-select: none;
 }
 
 .checkBoxContainer label {
@@ -126,16 +133,57 @@ textarea:focus {
     color: var(--textWhite);
 }
 
+.checkBoxContainer input[type="checkbox"] {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.checkBoxContainer .checkbox {
+    position: absolute;
+    top: -15%;
+    left: 4%;
+    height: 20px;
+    width: 20px;
+    background-color: var(--vs2);
+    border: 2px solid var(--accent);
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.checkBoxContainer input:checked ~ .checkbox {
+    background-color: var(--accent);
+}
+
+.checkBoxContainer .checkbox::after {
+    content: '';
+    position: absolute;
+    display: none;
+}
+
+.checkBoxContainer input:checked ~ .checkbox::after {
+    display: block;
+}
+
+.checkBoxContainer .checkbox::after {
+    left: 4px;
+    top: 1px;
+    width: 5px;
+    height: 10px;
+    border: solid var(--textWhite);
+    border-width: 0 3px 3px 0;
+    transform: rotate(45deg);
+}
+
 .checkBoxContainer .checkBoxText {
     display: inline-block;
     font-size: .75rem;
-    margin-left: 5px;
+    margin-left: 40px;
 }
 
-.checkBoxContainer label input[type="checkbox"] {
-    width: 5px;
-    height: 5px;
-}
+/* ************************************************** */
 
 form button {
     font-size: 1.25rem;
@@ -177,10 +225,14 @@ form button {
         transform: scale(1.15);
     }
 
-    .checkBoxContainer label input[type="checkbox"] {
-        width: 20px;
-        height: 20px;
-    }
+    
+.checkBoxContainer .checkbox {
+    top: 5%;
+    left: 4%;
+    height: 20px;
+    width: 20px;
+}
+
     .checkBoxContainer .checkBoxText {
         font-size: 1rem;
     }

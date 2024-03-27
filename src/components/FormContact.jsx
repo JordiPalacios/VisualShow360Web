@@ -84,7 +84,8 @@ return (
                 required 
                 id='miCheckbox' 
                 name="Permiso Envio Correos" 
-                type="checkbox" />
+                type="checkbox"  hidden/>
+                <span className='checkbox'></span>
             </label>
             <label className="checkBoxText">
                 He leído y acepto la <NewPage href="/politica-privacidad" label="Politica de Privacidad" />

@@ -121,6 +121,9 @@ header video {
     .presentationContainer h2 {
         font-size: 2.5rem;
     }
+    .presentationContainer {
+        min-height: 755px;
+    }
 
     .presentationContainer .h2TittleAccent {
         font-size: 3.25rem;

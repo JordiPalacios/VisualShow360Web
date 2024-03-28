@@ -84,7 +84,7 @@ header video {
 
 .h2TittleAccent {
     position: absolute;
-    top: 57%;
+    top: 60%;
     left: 60%;
     rotate: -10deg;
     color: var(--accent);
@@ -105,7 +105,7 @@ header video {
 
 @media ( 620px <= width ) {
     .h2TittleAccent {
-        top: 54%;
+        top: 56%;
     }
 }
 
@@ -128,7 +128,7 @@ header video {
 
     .presentationContainer .h2TittleAccent {
         font-size: 3.25rem;
-        top: 55%;
+        top: 56%;
     }
 
     .videoTabletPC,
@@ -178,7 +178,7 @@ header video {
 
     .presentationContainer .h2TittleAccent {
         font-size: 3.75rem;
-        top: 56%;
+        top: 57%;
     }
 
     .videoTabletPC {
@@ -215,7 +215,7 @@ header video {
 
     .presentationContainer .h2TittleAccent {
         font-size: 4.75rem;
-        top: 57%;
+        top: 58%;
     }
 
     .presentationContainer h1:hover {
@@ -243,7 +243,7 @@ header video {
 
     .presentationContainer .h2TittleAccent {
         font-size: 6.25rem;
-        top: 58%;
+        top: 59%;
     }
 
 }

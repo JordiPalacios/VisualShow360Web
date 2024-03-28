@@ -8,7 +8,7 @@ export const WhatsAppMessage = ({ msg, className, label, colorText }) => {
         <div className="contactFixed">
             <div className="cursor"></div>
                 <a href={msg} target="_blank" rel="noopener noreferrer">
-                    <img id="whatsScroll" src="./icons/whatsapp.svg" alt='whatsAppSvg' loading='lazy' />
+                    <img id="whatsScroll" src="./icons/whatsapp.svg" alt='whatsAppSvg' />
                 </a>
             </div>
     } else {

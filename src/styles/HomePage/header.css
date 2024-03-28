@@ -121,6 +121,7 @@ header video {
     .presentationContainer h2 {
         font-size: 2.5rem;
     }
+
     .presentationContainer {
         min-height: 755px;
     }
@@ -159,9 +160,6 @@ header video {
 }
 
 @media screen and (min-width: 900px) {
-    .presentationContainer {
-        min-height: 840px;
-    }
 
     .presentationContainer h1 {
         font-size: 4rem;
@@ -195,6 +193,10 @@ header video {
 /** Medida PC  */
 
 @media (1225px <= width) {
+
+    .presentationContainer {
+        min-height: 850px;
+    }
 
     .presentationContainer h1 {
         font-size: 5rem;

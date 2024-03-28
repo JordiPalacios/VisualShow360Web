@@ -1,7 +1,10 @@
 import { useNavigate } from 'react-router-dom'
 import PropTypes from 'prop-types'
+import { useWorkingMode } from '../assets/Customhooks/useWorkingMode'
 
 export const NavItem = ({ href, label, page }) => {
+  const workingMode = useWorkingMode()
+
   const navigate = useNavigate()
   let offset
 
@@ -23,11 +26,26 @@ export const NavItem = ({ href, label, page }) => {
 
         if (section) {
           if (page === 'home') {
-            offset = 
-          section.getBoundingClientRect().top + window.scrollY - 100
+            if ((window.innerWidth > 760) &&(window.innerWidth < 1330)) {
+              offset = 
+                    section.getBoundingClientRect().top + window.scrollY - 145
+            } else {
+              offset = 
+                    section.getBoundingClientRect().top + window.scrollY - 100
+            }
           } else if (page === 'otrosProductos') {
-            offset = 
-          section.getBoundingClientRect().top + window.scrollY - 180
+            if (href === '#ring-ring-experience') {
+              offset = 
+              section.getBoundingClientRect().top + window.scrollY - 180
+            } else {
+              if ((window.innerWidth > 760) &&(window.innerWidth < 1330)) {
+                offset = 
+                section.getBoundingClientRect().top + window.scrollY - 145
+              } else {                
+                offset = 
+                section.getBoundingClientRect().top + window.scrollY - 100
+              }
+            }
           }
           
           window.scrollTo ({

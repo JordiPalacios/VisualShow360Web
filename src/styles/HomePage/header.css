@@ -156,6 +156,9 @@ header video {
 }
 
 @media screen and (min-width: 900px) {
+    .presentationContainer {
+        min-height: 840px;
+    }
 
     .presentationContainer h1 {
         font-size: 4rem;

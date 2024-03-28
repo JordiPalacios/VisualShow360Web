@@ -103,7 +103,7 @@ header video {
     gap: 0rem;
 }
 
-@media ( 620px<= width ) {
+@media ( 620px <= width ) {
     .h2TittleAccent {
         top: 54%;
     }
@@ -112,7 +112,7 @@ header video {
 
 /* * Medida Tablet */
 
-@media ( 760px<= width ) {
+@media ( 760px <= width ) {
 
     .presentationContainer h1 {
         font-size: 3.25rem;
@@ -192,7 +192,7 @@ header video {
 
 /** Medida PC  */
 
-@media (1225px <= width) {
+@media ( 1225px <= width ) {
 
     .presentationContainer {
         min-height: 850px;
@@ -224,7 +224,7 @@ header video {
 
 }
 
-@media (1400px <= width) {
+@media ( 1400px <= width ) {
 
     .presentationContainer h1 {
         font-size: 6rem;

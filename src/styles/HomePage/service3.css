@@ -33,7 +33,7 @@
 
 
 /* Medidad Tablet */
-@media ( 760px<= width ) {
+@media ( 760px <= width ) {
     .service3ContentContainer {
         display: flex;
         flex-direction: row-reverse;
@@ -86,7 +86,7 @@
 }
 
 /* Medidas PC  */
-@media ( 1024px<= width ) {
+@media ( 1024px <= width ) {
 
     .service3Container {
         margin: 0;

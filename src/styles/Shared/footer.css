@@ -66,7 +66,7 @@ footer .line {
 }
 
 /* Medidad Tablet */
-@media (760px <= width) {
+@media ( 760px <= width ) {
 
     footer button {
         font-size: .9rem;
@@ -78,7 +78,7 @@ footer .line {
 }
 
 /* Medidas PC  */
-@media (1024px <= width) {
+@media ( 1024px <= width ) {
 
     footer img {
         margin-bottom: 10px;
@@ -112,7 +112,7 @@ footer .line {
     }
 }
 
-@media (2000px <= width) {
+@media ( 2000px <= width ) {
 
     footer button {
         font-size: 1.2rem;

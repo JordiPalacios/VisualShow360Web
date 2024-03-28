@@ -63,12 +63,12 @@
 }
 
 /* Medidas PC  */
-@media ( 1024px <= width ) {
+@media ( 1025px <= width ) {
     .aboutUsContainer h2 {
         font-size: 2.75rem;
     }
 
-    .aboutUscontentContainer {
+    .aboutUsContentContainer {
         display: flex;
         flex-direction: row;
         align-items: start;

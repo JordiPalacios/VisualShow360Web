@@ -37,7 +37,7 @@
 }
 
 /* Medidad Tablet */
-@media ( 760px<= width ) {
+@media ( 760px <= width ) {
     .logoSlide img {
         width: 125px;
     }
@@ -48,7 +48,7 @@
 }
 
 /* Medidas PC  */
-@media ( 1024px<= width ) {
+@media ( 1024px <= width ) {
     .logoSlide {
         animation: 90s slide infinite linear;
     }

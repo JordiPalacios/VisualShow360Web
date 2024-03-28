@@ -7,9 +7,8 @@ export const Presentation = () => {
     const handleClick = () => {
         const element = document.getElementById('plataforma360')
         if (element) {
-        element.scrollIntoView({ behavior: 'smooth' })
+        element.scrollIntoView({ behavior: 'smooth', top: '0' })
         }
-
     }
 
 return (

@@ -1,3 +1,7 @@
+#plataforma360 {
+    scroll-margin-top: 100px;
+}
+
 .service1Container {
     display: flex;
     flex-direction: column;
@@ -160,7 +164,7 @@
 @media screen and (min-width: 1024px) {
 
     .fotomatonImgService1 {
-        max-width: 1500px;
+        max-width: 1200px;
         margin: 20px;
     }
     
@@ -184,6 +188,10 @@
 
 @media screen and (min-width: 1400px) {
     
+    .fotomatonImgService1 {
+        max-width: 1400px;
+    }
+
     .service1Details h2 {
         font-size: 3rem;
     }

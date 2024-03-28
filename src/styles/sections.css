@@ -14,6 +14,11 @@ body, html {
     font-family: var(--primary-font);
 }
 
+h1,h2,h3,h4,
+p,img,button, ul {
+    user-select: none;
+}
+
 h1{
     font-family: var(--tittle-font);
     font-size: 2rem;

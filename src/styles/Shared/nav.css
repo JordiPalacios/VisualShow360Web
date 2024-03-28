@@ -358,6 +358,10 @@ nav button{
     nav ul {
         font-size: 1.1rem;
     }
+    
+    nav ul b {
+        cursor: default;
+    }
 }
 
 @media ( 1364px <= width ) {

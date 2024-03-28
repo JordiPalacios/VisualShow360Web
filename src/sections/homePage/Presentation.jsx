@@ -1,4 +1,5 @@
 import { NavbarMenu } from '../../components'
+import { MediaRepresentation } from '../../components/MediaPresentation'
 
 export const Presentation = () => {
 
@@ -19,14 +20,7 @@ return (
                 <h2 className='h2-fade-in'>HAZ QUE TU BODA SEA</h2>
                 <h2 className="h2-fade-in-accent">ESPECIAL</h2>
             </div>
-            <video className='videoMobile' controlsList='nodownload' playsInline loop muted autoPlay  >
-                <source src="./video/videoMobileBW.mp4" type="video/mp4"/>
-                Este navegador no soporta vídeos.
-            </video>
-            <video className='videoTabletPC'controlsList='nodownload' playsInline loop muted autoPlay >
-                <source src="./video/weedingBW.mp4" type="video/mp4"/>
-                Este navegador no soporta vídeos.
-            </video>
+            <MediaRepresentation />
             <img className='img-fade-in' onClick={handleClick} src="./gifs/arrow.gif" alt="arrowGift" />
         </div>
     </header>

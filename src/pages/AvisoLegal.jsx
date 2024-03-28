@@ -29,7 +29,7 @@ export const AvisoLegal = () => {
                     Ivet Casas Prados, provista con DNI XXXXXXXXX, con domicilio en Carrer Roger de Flor X, 1, 08240, Barcelona.
                     <br />
                     <br />
-                    - Dirección electrónica de contacto: <span style={{ color : 'var(--accent)'}}>visualshow360@gmail.com</span>
+                    - Dirección electrónica de contacto: <span style={{ color : 'var(--accent)'}}>contacto@visualshow360.com</span>
                     <br />
                     <br />
                     2.- Responsabilidad sobre los contenidos puestos a disposición del público a través de VisualShow360.

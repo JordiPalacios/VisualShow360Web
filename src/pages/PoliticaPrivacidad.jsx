@@ -31,7 +31,7 @@ export const PoliticaPrivacidad = () => {
                     Nuestra máxima prioridad es la seguridad de los datos del cliente y, como tal, podemos procesar solo los datos mínimos del usuario, solo en la medida en que sea absolutamente necesario para mantener el sitio web. La información recopilada automáticamente se utiliza solo para identificar casos potenciales de abuso y establecer información estadística sobre el uso del sitio web. Esta información estadística no se agrega de tal manera que identifique a ningún usuario en particular del sistema.
                     <br />
                     <br />
-                    Puedes visitar la web sin decirnos quién eres ni revelar ninguna información por la cual alguien pueda identificarte como una persona específica. Sin embargo, si deseas utilizar algunas de las funciones del sitio web, o deseas recibir nuestro boletín informativo o proporcionar otros detalles al completar un formulario, puedes proporcionarnos datos personales, como tu correo electrónico, nombre, apellido, ciudad de residencia, organización y número de teléfono. Puedes optar por no proporcionar tus datos personales, pero es posible que no puedas aprovechar algunas de las funciones del sitio web. Por ejemplo, no podrás recibir nuestro boletín ni contactarnos directamente desde el sitio web. Los usuarios que no estén seguros de qué información es obligatoria pueden ponerse en contacto con nosotros a través de <span style={{ color : 'var(--accent)'}}>visualshow360@gmail.com</span>.
+                    Puedes visitar la web sin decirnos quién eres ni revelar ninguna información por la cual alguien pueda identificarte como una persona específica. Sin embargo, si deseas utilizar algunas de las funciones del sitio web, o deseas recibir nuestro boletín informativo o proporcionar otros detalles al completar un formulario, puedes proporcionarnos datos personales, como tu correo electrónico, nombre, apellido, ciudad de residencia, organización y número de teléfono. Puedes optar por no proporcionar tus datos personales, pero es posible que no puedas aprovechar algunas de las funciones del sitio web. Por ejemplo, no podrás recibir nuestro boletín ni contactarnos directamente desde el sitio web. Los usuarios que no estén seguros de qué información es obligatoria pueden ponerse en contacto con nosotros a través de <span style={{ color : 'var(--accent)'}}>contacto@visualshow360.com</span>.
                     <br />
                     <br />
                     Tus derechos: <br />
@@ -65,7 +65,7 @@ export const PoliticaPrivacidad = () => {
                     <br />
                     <br />
                     Información de contacto: <br />
-                    Si deseas comunicarte con nosotros para comprender más sobre esta <NewPage href="/politica-privacidad" label='Política de Privadicad'/> o deseas comunicarte con nosotros en relación con cualquier asunto sobre los derechos individuales y tu información personal, puedes enviarnos un correo electrónico a <span style={{ color : 'var(--accent)'}}>visualshow360@gmail.com</span>.
+                    Si deseas comunicarte con nosotros para comprender más sobre esta <NewPage href="/politica-privacidad" label='Política de Privadicad'/> o deseas comunicarte con nosotros en relación con cualquier asunto sobre los derechos individuales y tu información personal, puedes enviarnos un correo electrónico a <span style={{ color : 'var(--accent)'}}>contacto@visualshow360.com</span>.
 
                 </p>
             </div>

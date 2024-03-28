@@ -128,7 +128,7 @@
 }
 
 /* Medidad Tablet */
-@media screen and (min-width: 760px) {
+@media ( 760px<= width ) {
     .description img {
         margin: 0 0 20px 20px;
     }
@@ -148,7 +148,7 @@
 }
 
 /* Medidas PC  */
-@media screen and (min-width: 1300px) {
+@media ( 1300px<= width ) {
     .fotomatonImgReviews {
         max-width: 1400px;
         margin: 0 20px;

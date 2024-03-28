@@ -68,7 +68,7 @@
 
 /* Medidad Tablet */
 
-@media screen and (min-width: 760px) {
+@media ( 760px<= width ) {
     .service2ContentContainer {
         display: flex;
         flex-direction: row;
@@ -117,7 +117,7 @@
 }
 
 /* Medidas PC  */
-@media screen and (min-width: 1300px) {
+@media ( 1300px<= width ) {
     .service2Container {
         display: flex;
         flex-direction: row-reverse;

@@ -130,7 +130,7 @@
 }
 
 /* Medidad Tablet */
-@media screen and (min-width: 760px) {
+@media ( 760px<= width ) {
     .generalProducts {
         flex-direction: row;
     }
@@ -145,7 +145,7 @@
 }
 
 /* Medidas PC  */
-@media screen and (min-width: 1024px) {
+@media ( 1024px<= width ) {
 
     #kitAntiResaca .contentContainer {
         max-width: 1000px;
@@ -184,7 +184,7 @@
     }
 }
 
-@media screen and (min-width: 1330px) {
+@media ( 1330px<= width ) {
     .descriptionKitContainer {
         flex-direction: row;
         align-items: center;

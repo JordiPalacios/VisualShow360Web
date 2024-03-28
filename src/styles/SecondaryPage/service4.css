@@ -32,7 +32,7 @@
 }
 
 /* Medidad Tablet */
-@media screen and (min-width: 760px) {
+@media ( 760px<= width ) {
 
     .service4Container {
         padding-top: 150px;
@@ -88,7 +88,7 @@
 }
 
 /* Medidas PC  */
-@media screen and (min-width: 1024px) {
+@media ( 1024px<= width ) {
     .service4Container {
         display: flex;
         flex-direction: row-reverse;

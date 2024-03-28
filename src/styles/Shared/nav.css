@@ -164,7 +164,7 @@ nav button{
 
 /* * Medida Tablet */
 
-@media screen and (min-width: 760px) {
+@media ( 760px<= width ) {
 
 
     .tabletPCMenu a{

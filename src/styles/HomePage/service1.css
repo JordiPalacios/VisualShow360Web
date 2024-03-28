@@ -102,7 +102,7 @@
 }
 
 /* Medidad Tablet */
-@media screen and (min-width: 760px) {
+@media ( 760px<= width ) {
     #plataforma360 {
         scroll-margin-top: 145px;
     }
@@ -164,7 +164,7 @@
 }
 
 /* Medidas PC  */
-@media screen and (min-width: 1024px) {
+@media ( 1024px<= width ) {
 
     .fotomatonImgService1 {
         max-width: 1200px;
@@ -176,7 +176,7 @@
     }
 }
 
-@media screen and (min-width: 1330px) {
+@media ( 1330px<= width ) {
     #plataforma360 {
         scroll-margin-top: 100px;
     }
@@ -192,7 +192,7 @@
     }
 }
 
-@media screen and (min-width: 1400px) {
+@media ( 1400px<= width ) {
     
     .fotomatonImgService1 {
         max-width: 1400px;

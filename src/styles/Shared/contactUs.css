@@ -209,14 +209,14 @@ form button {
 ****************************************** */
 
 /* Medidad Tablet */
-@media screen and (min-width: 760px) {
+@media ( 760px<= width ) {
     .contactoContainer h2 {
         font-size: 2.5rem;
     }
 }
 
 /* Medidas PC  */
-@media screen and (min-width: 1024px) {
+@media ( 1024px<= width ) {
     form button {
         transition: transform .5s ease;
     }

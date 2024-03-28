@@ -56,14 +56,14 @@
 }
 
 /* Medidad Tablet */
-@media screen and (min-width: 760px) {
+@media ( 760px <= width ) {
     .aboutUsContainer h2 {
         font-size: 2.5rem;
     }
 }
 
 /* Medidas PC  */
-@media screen and (min-width: 1024px) {
+@media ( 1024px <= width ) {
     .aboutUsContainer h2 {
         font-size: 2.75rem;
     }

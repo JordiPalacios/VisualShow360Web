@@ -103,7 +103,7 @@ header video {
     gap: 0rem;
 }
 
-@media screen and (min-width: 620px) {
+@media ( 620px<= width ) {
     .h2TittleAccent {
         top: 54%;
     }
@@ -112,7 +112,7 @@ header video {
 
 /* * Medida Tablet */
 
-@media screen and (min-width: 760px) {
+@media ( 760px<= width ) {
 
     .presentationContainer h1 {
         font-size: 3.25rem;
@@ -159,7 +159,7 @@ header video {
     }
 }
 
-@media screen and (min-width: 900px) {
+@media ( 900px <= width ) {
 
     .presentationContainer h1 {
         font-size: 4rem;

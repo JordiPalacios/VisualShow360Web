@@ -1,16 +1,15 @@
 import { useCheckIOS } from "../assets/Customhooks/useCheckIOS"
 import { useWorkingMode } from "../assets/Customhooks/useWorkingMode"
 
-export const MediaRepresentation = () => {
-    const isIOS = true
-    // useCheckIOS()
+export const MediaDisplay = () => {
+    const isIOS = useCheckIOS()
     const workingMode = useWorkingMode() 
 
     const renderMedia = () => {
         if (isIOS && workingMode === 'Mobile') {
-            return <img className='videoMobile' src="./img/servicios/fotomaton360/atrezzo_3.webp" alt="atrezzoVisualShow" />
+            return <img className='imgMobile' src="./img/servicios/fotomaton360/atrezzo_3.webp" alt="atrezzoVisualShow" />
         } else if (isIOS && workingMode === 'Tablet') {
-            return <img className='videoTabletPC' src="./img/servicios/fotomaton360/atrezzo_3.webp" alt="atrezzoVisualShow" />
+            return <img className='imgTablet' src="./img/servicios/fotomaton360/atrezzo_3.webp" alt="atrezzoVisualShow" />
         } else {
             return (
                 <>

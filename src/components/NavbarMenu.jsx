@@ -2,12 +2,14 @@ import { useContext, useEffect, useState } from 'react'
 import { NavbarContext } from '../context/NavbarContext'
 import { NewPage } from './NewPage'
 import { NavItem } from './NavItem'
+import { useWorkingMode } from '../assets/Customhooks/useWorkingMode'
 
 export const NavbarMenu = () => {
     const [isMenuToggled, setIsMenuToggled] = useState(false)
     const [isMoreProductsInfo, setIsMoreProductsInfo] = useState(false)
     const [isMoreWeddingsInfo, setIsMoreWeddingsInfo] = useState(false)
     const { navbarRef, headerRef} = useContext(NavbarContext)
+    const workingMode = useWorkingMode()
 
     const handleMouseEnter = (menu) => {
         if (window.innerWidth >= 748) {
@@ -59,22 +61,24 @@ export const NavbarMenu = () => {
     }, [])
 
     const toggleClass = (className) => {
-    switch (className) {
-        case 'menuOpen':
-        setIsMenuToggled(!isMenuToggled)
-        break;
-
-        case 'products':
-        setIsMoreProductsInfo(!isMoreProductsInfo)
-        break;
-
-        case 'weddings':
-        setIsMoreWeddingsInfo(!isMoreWeddingsInfo)
-        break;
-
-        default:
-        break;
-    }
+        if (workingMode !== 'PC'){        
+            switch (className) {
+            case 'menuOpen':
+                setIsMenuToggled(!isMenuToggled)
+                break;
+                
+            case 'products':
+                setIsMoreProductsInfo(!isMoreProductsInfo)
+                break;
+                
+            case 'weddings':
+                setIsMoreWeddingsInfo(!isMoreWeddingsInfo)
+                break;
+                
+            default:
+                break;
+            }
+        }
     }
 
 return (

@@ -169,7 +169,7 @@ textarea:focus {
 
 .checkBoxContainer .checkbox::after {
     left: 4px;
-    top: 1px;
+    top: 0px;
     width: 5px;
     height: 10px;
     border: solid var(--textWhite);

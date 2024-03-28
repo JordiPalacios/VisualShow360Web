@@ -25,7 +25,14 @@ header video {
     z-index: -1;
 }
 
-.videoTabletPC {
+.presentationContainer .imgMobile {
+    position: absolute;
+    filter: brightness(50%);
+    z-index: -1;
+}
+
+.videoTabletPC,
+.imgTablet {
     display: none;
 }
 
@@ -35,7 +42,7 @@ header video {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    min-height: 750px;
+    min-height: 550px;
     margin-top: 100px;
     margin-bottom: 20px;
     gap: 1rem;
@@ -56,7 +63,7 @@ header video {
     background: none;
 }
 
-.presentationContainer img {
+.presentationContainer .goService1 {
     width: 35px;
     background: none;
     border-radius: 50%;
@@ -64,18 +71,18 @@ header video {
     cursor: pointer;
 }
 
-.h1-fade-in,
-.h2-fade-in,
-.h2-fade-in-accent{
+.h1Tittle,
+.h2Tittle,
+.h2TittleAccent{
     margin: -0.25rem;
     padding: 0;
 }
 
-.h1-fade-in {
+.h1Tittle {
     line-height: 3rem;
 }
 
-.h2-fade-in-accent {
+.h2TittleAccent {
     position: absolute;
     top: 57%;
     left: 60%;
@@ -84,7 +91,7 @@ header video {
     font-size: 2rem;
 }
 
-.presentationContainer .h2-fade-in-accent {
+.presentationContainer .h2TittleAccent {
     font-size: 2.5rem;
 }
 
@@ -97,7 +104,7 @@ header video {
 }
 
 @media screen and (min-width: 620px) {
-    .h2-fade-in-accent {
+    .h2TittleAccent {
         top: 54%;
     }
 }
@@ -115,31 +122,35 @@ header video {
         font-size: 2.5rem;
     }
 
-    .presentationContainer .h2-fade-in-accent {
+    .presentationContainer .h2TittleAccent {
         font-size: 3.25rem;
         top: 55%;
     }
 
-    .videoTabletPC {
+    .videoTabletPC,
+    .imgTablet {
         display: block;
     }
 
-    .videoMobile {
+    .videoMobile,
+    .imgMobile {
         display: none;
     }
 
-    .presentationContainer {
-        min-height: 840px;
+    .presentationContainer .imgTablet {
+        position: absolute;
+        filter: brightness(50%);
+        z-index: -1;
     }
 
-    .h1-fade-in,
-    .h2-fade-in,
-    .h2-fade-in-accent{
+    .h1Tittle,
+    .h2Tittle,
+    .h2TittleAccent{
         margin: -0.75rem;
         padding: 0;
     }
 
-    .h1-fade-in {
+    .h1Tittle {
         line-height: initial;
     }
 }
@@ -154,14 +165,14 @@ header video {
         font-size: 3rem;
     }
 
-    .h1-fade-in,
-    .h2-fade-in,
-    .h2-fade-in-accent{
+    .h1Tittle,
+    .h2Tittle,
+    .h2TittleAccent{
         margin: -1rem;
         padding: 0;
     }
 
-    .presentationContainer .h2-fade-in-accent {
+    .presentationContainer .h2TittleAccent {
         font-size: 3.75rem;
         top: 56%;
     }
@@ -172,10 +183,6 @@ header video {
 
     .videoMobile {
         display: none;
-    }
-
-    .presentationContainer {
-        min-height: 840px;
     }
 }
 
@@ -191,14 +198,14 @@ header video {
         font-size: 4rem;
     }
 
-    .h1-fade-in,
-    .h2-fade-in,
-    .h2-fade-in-accent{
+    .h1Tittle,
+    .h2Tittle,
+    .h2TittleAccent{
         margin: -1.25rem;
         padding: 0;
     }
 
-    .presentationContainer .h2-fade-in-accent {
+    .presentationContainer .h2TittleAccent {
         font-size: 4.75rem;
         top: 57%;
     }
@@ -219,14 +226,14 @@ header video {
         font-size: 5rem;
     }
 
-    .h1-fade-in,
-    .h2-fade-in,
-    .h2-fade-in-accent{
+    .h1Tittle,
+    .h2Tittle,
+    .h2TittleAccent{
         margin: -1.5rem;
         padding: 0;
     }
 
-    .presentationContainer .h2-fade-in-accent {
+    .presentationContainer .h2TittleAccent {
         font-size: 6.25rem;
         top: 58%;
     }

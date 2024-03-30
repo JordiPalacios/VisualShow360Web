@@ -9,7 +9,7 @@ return (
                 ¡Somos Ivet & David! <br />
                 <br />
                 Hace años David me dijo unas palabras que nunca olvidaré: <br />
-                <span>“Para que algo salga bien tiene que apasionarte”</span><br />
+                <span style={{ backgroundColor: 'var(--textWhite)', textDecoration: 'underline' }}>“Para que algo salga bien tiene que apasionarte”</span><br />
                 <br />
                 Somos y seremos los responsables de crear la <span>mejor experiencia</span> de fotomatón para tu boda. Alejándonos del típico servicio y llevándolo a otro nivel para que sea una experiencia más en tu evento y <span>diferenciarte</span> del resto de bodas. <br />
                 <br />

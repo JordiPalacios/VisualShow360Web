@@ -33,7 +33,7 @@ useEffect (() => {
         <hr className="line"></hr>
         <div className="footerDescriptionContainer">
           <div className="rrssMainContainer">
-            <a href="mailto:visualshow360@gmail.com?subject=Información sobre los servicios de VisualShow360&body=Hola quiero saber más sobre visualshow!" target="_blank" rel='noreferrer'>visualshow360@gmail.com</a>
+            <a href="mailto:visualshow360@gmail.com?subject=Información sobre los servicios de VisualShow360&body=¡Hola quiero saber más sobre visualshow!" target="_blank" rel='noreferrer'>visualshow360@gmail.com</a>
             <div className="rrssContainer">
               <a href="https://www.instagram.com/visualshow360?igshid=YmMyMTA2M2Y=" target="_blank" rel="noopener noreferrer">
                 <img id="ig" src="./icons/ig.svg" alt='igSVG' loading='lazy'/>

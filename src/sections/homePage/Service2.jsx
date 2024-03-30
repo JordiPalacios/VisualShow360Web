@@ -10,8 +10,8 @@ return (
             <div className="service2ContentContainer">
             <img src="./gifs/GIF.gif" alt="Espejo magico" loading='lazy'/>           
             <div className="service2DescriptionContainer">  
-                <h1>Magic Mirror Led</h1>
-                <h2> EL FOTOMATON QUE&nbsp;<span>NO SE ESPERAN</span></h2>    
+                <h1>Magic Mirror LED</h1>
+                <h2> EL FOTOMATÓN QUE&nbsp;<span>NO SE ESPERAN</span></h2>    
                 <hr className='line'></hr>    
                 <p>
                     MAGIC MIRROR LED ES SÓLO  <span style={{ color: 'var(--accent)', background: 'none'}}>APTO</span> PARA <span style={{ color: 'var(--accent)', background: 'none'}}>PAREJAS</span> QUE QUIERAN <span style={{ color: 'var(--accent)', background: 'none'}}>DIFERENCIARSE</span> Y ALEJARSE DEL TÍPICO FOTOMATÓN DE HACE 10 AÑOS. <br />
@@ -43,8 +43,8 @@ return (
         ) : 
         (
         <div className='service2Container'>
-            <h1>Magic Mirror Led</h1>              
-            <h2> ¡Frase Guay Para Tablet!</h2> 
+            <h1>Magic Mirror LED</h1>              
+            <h2>EL FOTOMATÓN QUE&nbsp;<span>NO SE ESPERAN</span></h2> 
             <div className="service2ContentContainer">              
                 <img src="./gifs/GIF.gif" alt="Espejo magico" loading='lazy'/>
                 <div className="service2DescriptionContainer">                             

@@ -99,9 +99,13 @@ return (
                         <b><NewPage href='/' label='Home' /></b>
                         <div className='tabletPCMenu'>  
                             <div onMouseLeave={() => handleMouseLeave('products')}>
+                                <b>                                    
                                 <li 
                                 onMouseEnter={() => handleMouseEnter('products')}                            
-                                onClick={() => toggleClass('products')}><b>Servicios Party {isMoreProductsInfo ? <div className="triangulo-arriba"></div> : <div className="triangulo-abajo"></div> } </b></li>
+                                onClick={() => toggleClass('products')}>
+                                    Servicios Party {isMoreProductsInfo ? <div className="triangulo-arriba"></div> : <div className="triangulo-abajo"></div>}
+                                </li>
+                                </b>
                                 <div className={isMoreProductsInfo ? 'productosOpen' : 'productosClose'}>
                                     <NavItem href='#plataforma360' label='Plataforma 360'page='home' />
                                     <NavItem href='#magic-mirror' label='Magic Mirror' page='home' />
@@ -112,10 +116,14 @@ return (
                         </div>
                         <div className='tabletPCMenu'>  
                             <div onMouseLeave={() => handleMouseLeave('weddings')} >
+                                <b>
                                 <li 
                                 onMouseEnter={() => handleMouseEnter('weddings')}                            
                                 onClick={() => toggleClass('weddings')}
-                                ><b>Extras Para Tu Boda { isMoreWeddingsInfo ? <div className="triangulo-arriba"></div> : <div className="triangulo-abajo"></div> } </b></li>
+                                >
+                                    Extras Para Tu Boda { isMoreWeddingsInfo ? <div className="triangulo-arriba"></div> : <div className="triangulo-abajo"></div> }
+                                </li>
+                                </b>
                                 <div className={isMoreWeddingsInfo ? "bodasEventosOpen" : 'bodasEventosClose'}>
                                     <NavItem href='#letras-love' label='Letras Love' page='otrosProductos' />
                                     <NavItem href='#neones' label='Neones' page='otrosProductos' />
@@ -123,14 +131,16 @@ return (
                                 </div>
                             </div>                          
                         </div>
-                        <b><a 
-                        href="https://www.instagram.com/visualshow360?igshid=YmMyMTA2M2Y=" 
-                        target="_blank" 
-                        rel='noreferrer'
-                        title='Enlace al Instagram de VisualShow360 para ver más ejemplos de bodas en barcelona'
-                        aria-label='Enlace al Instagram de VisualShow360 para ver más ejemplos de bodas en barcelona'>
-                            Eventos Reales
-                        </a></b>
+                        <b>
+                            <a 
+                            href="https://www.instagram.com/visualshow360?igshid=YmMyMTA2M2Y=" 
+                            target="_blank" 
+                            rel='noreferrer'
+                            title='Enlace al Instagram de VisualShow360 para ver más ejemplos de bodas en barcelona'
+                            aria-label='Enlace al Instagram de VisualShow360 para ver más ejemplos de bodas en barcelona'>
+                                Eventos Reales
+                            </a>
+                        </b>
                         <b><NavItem href='#nosotros' label='Nosotros' page='home' /></b>             
                     </ul>
                 </div>

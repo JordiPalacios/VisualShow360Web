@@ -3,7 +3,7 @@ import { useWorkingMode } from '../../assets/Customhooks/useWorkingMode'
 import { LazyLoadImage } from 'react-lazy-load-image-component'
 
 export const Service2 = () => {
-    const workingMode = useWorkingMode()
+    const workingMode = useWorkingMode('Mobile')
 return (
     <section id='magic-mirror'>
         {workingMode === 'PC' ? (

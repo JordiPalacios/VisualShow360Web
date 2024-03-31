@@ -3,7 +3,7 @@ import { useWorkingMode } from '../../assets/Customhooks/useWorkingMode'
 import { NavItem } from '../../components'
 
 export const Product1 = () => {
-    const workingMode = useWorkingMode()
+    const workingMode = useWorkingMode('Mobile')
 
 return (
     <section id='ring-ring-experience'>

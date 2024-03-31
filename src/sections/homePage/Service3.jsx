@@ -3,7 +3,7 @@ import { useWorkingMode } from '../../assets/Customhooks/useWorkingMode'
 import { NavItem } from '../../components'
 
 export const Service3 = () => {
-    const workingMode = useWorkingMode()
+    const workingMode = useWorkingMode('Mobile')
 
 return (
     <section id='white-magic-mirror'>

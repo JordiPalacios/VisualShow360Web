@@ -1,10 +1,7 @@
 import { useNavigate } from 'react-router-dom'
 import PropTypes from 'prop-types'
-import { useWorkingMode } from '../assets/Customhooks/useWorkingMode'
 
 export const NavItem = ({ href, label, page }) => {
-  const workingMode = useWorkingMode()
-
   const navigate = useNavigate()
   let offset
 

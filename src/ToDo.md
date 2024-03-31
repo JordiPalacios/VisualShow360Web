@@ -17,11 +17,6 @@ Cosas Instaladas:
 ToDo:
 
 [] David & Ivet:
-    [] Datos legales para poner en la seccion de "Aviso Legal" 
-        · Nombre: Ivet Casas Prados
-        · DNI: 39474056F
-        · Domicilio: Carrer Roger de Flor
-        · Numero: ?
     [] Nuevo Logo de VisualShow360
         · Ponerlo en zona formulario + footer. ¿En la barra navegación también?
     [] Dominio web para vincularlo a hostinger

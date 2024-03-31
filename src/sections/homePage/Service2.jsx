@@ -34,7 +34,7 @@ return (
                     <span> CREAREMOS EL FIESTÓN </span>
                 </div>      
                 <div className="buttonsContainer">
-                    <button>
+                    <button id='EnvioAlFormularioContacto' aria-label='Nos mueve hasta el formulario de contacto'>
                         <NavItem href='#contacto' label='¡Agenda tu reunión!' colorText='var(--accent)' page='home'/>
                     </button>
                 </div>
@@ -70,7 +70,7 @@ return (
                         <span> CREAREMOS EL FIESTÓN </span>
                     </div>
                     <div className="buttonsContainer">
-                        <button>
+                        <button id='EnvioAlFormularioContacto' aria-label='Nos mueve hasta el formulario de contacto'>
                             <NavItem href='#contacto' label='¡Agenda tu reunión!' colorText='var(--accent)' page='home'/>
                         </button>
                     </div>

@@ -30,13 +30,13 @@ export const Footer = () => {
             </a>
           </div>
           <div className="normativeContainer">
-            <button>
+            <button id='AvisoLegal' aria-label='Nos mueve hasta la página de Aviso Legal'>
               <NewPage href="/aviso-legal" label="Aviso Legal" colorText='var(--secondary)'/>
             </button>
-            <button>
+            <button id='PoliticaPrivacidad' aria-label='Nos mueve hasta la página de Politica de Privacidad'>
               <NewPage href="/politica-privacidad" label="Politica de Privacidad" colorText='var(--secondary)'/>
             </button>
-            <button>
+            <button id='TerminosCondiciones' aria-label='Nos mueve hasta la página de Terminos y Condiciones'>
               <NewPage href="/terminos-condiciones" label="Terminos y Condiciones" colorText='var(--secondary)'/>
             </button>
           </div>
@@ -60,13 +60,13 @@ export const Footer = () => {
         </div>
         <div className="normativeContainer">
         <p><small>© 2024 VisualShow360 - Todos los derechos reservados</small></p>
-        <button>
+        <button id='AvisoLegal' aria-label='Nos mueve hasta la página de Aviso Legal'>
           <NewPage href="/aviso-legal" label="Aviso Legal" />
         </button>
-        <button>
+        <button id='PoliticaPrivacidad' aria-label='Nos mueve hasta la página de Politica de Privacidad'>
           <NewPage href="/politica-privacidad" label="Politica de Privacidad" />
         </button>
-        <button>
+        <button id='TerminosCondiciones' aria-label='Nos mueve hasta la página de Terminos y Condiciones'>
           <NewPage href="/terminos-condiciones" label="Terminos y Condiciones" />
         </button>
         </div>

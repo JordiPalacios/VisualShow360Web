@@ -87,6 +87,8 @@ return (
             <div className="menuResponsiveContainer">                
                 <div className="logoMenu">
                     <button
+                    id='AbrirCerrarElMenu'
+                    aria-label='Se abrirá o cerrará el menú, según el estado en el que se encuentre'
                     className={isMenuToggled ? 'crossMenu' : 'hamburgerMenu'}
                     onClick={() => toggleClass('menuOpen')}>
                     </button>

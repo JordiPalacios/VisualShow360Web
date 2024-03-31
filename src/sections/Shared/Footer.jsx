@@ -1,32 +1,10 @@
-import { useEffect, useState } from 'react'
 import { NewPage } from '../../components/NewPage'
 import { LazyLoadImage } from 'react-lazy-load-image-component'
+import { useWorkingMode } from '../../assets/Customhooks/useWorkingMode'
 
 export const Footer = () => {
-const [workingMode, setWorkingMode] = useState('')
-let content
-
-// useEffect para crear las marcas del modo trabajo PC - Tablet - Mobile
-useEffect (() => {
-  const checkWorkingMode = () => {
-    if (window.innerWidth > 1023) {
-      setWorkingMode('PC')
-    } else if ( (window.innerWidth < 1024) && (window.innerWidth > 759)) {
-      setWorkingMode('Tablet')
-    } else {
-      setWorkingMode('Mobile')
-    }
-  }
-
-  window.addEventListener('resize', checkWorkingMode)
-
-  checkWorkingMode()
-
-  return () => {
-    window.removeEventListener('resize', checkWorkingMode)
-  }
-
-}, [])
+  const workingMode = useWorkingMode('Mobile')
+  let content
 
   if (workingMode === 'PC') {
     content = (

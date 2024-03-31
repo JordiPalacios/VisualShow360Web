@@ -1,29 +1,8 @@
-import { useEffect, useState } from 'react'
 import { ProductsCard } from '../../components'
+import { useWorkingMode } from '../../assets/Customhooks/useWorkingMode'
 
 export const Products2 = () => {
-    const [workingMode, setWorkingMode] = useState('')
-
-    useEffect (() => {
-        const checkWorkingMode = () => {
-        if (window.innerWidth > 1023) {
-            setWorkingMode('PC')
-        } else if ( (window.innerWidth < 1024) && (window.innerWidth > 759)) {
-            setWorkingMode('Tablet')
-        } else {
-            setWorkingMode('Mobile')
-        }
-        }
-    
-        window.addEventListener('resize', checkWorkingMode)
-    
-        checkWorkingMode()
-    
-        return () => {
-        window.removeEventListener('resize', checkWorkingMode)
-        }
-    
-    }, [])
+    const workingMode = useWorkingMode('Mobile')
     
 return (
     <section id='products'>

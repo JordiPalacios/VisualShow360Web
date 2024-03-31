@@ -19,14 +19,14 @@ export const AvisoLegal = () => {
                     En cumplimiento de lo dispuesto en la Ley 34/2002, de 11 de julio, de Servicios de la Sociedad de la Información y del Comercio Electrónico, los responsables de la página web VisualShow360 <NewPage href="/" label='(https://visualshow360.com)'/>, en adelante VisualShow360, ponen en conocimiento de los usuarios de la presente página web los siguientes extremos, en relación con el prestador de servicios de la sociedad de la información:
                     <br />
                     <br />
-                    Ivet Casas Prados, provista con DNI XXXXXXXXX, con domicilio en Carrer Roger de Flor X, 1, 08240, Barcelona.
+                    Ivet Casas Prados, provista con DNI 39474056F, con domicilio en C/ Numancia 31, 08240, Manresa, Barcelona.
                     <br />
                     <br />
                     Adicionalmente, se informa a los usuarios que para el planteamiento o resolución de cualquier conflicto, incidencia o cuestión que pudiera surgir respecto del acceso a la presente página web, de su uso y / o de los contenidos puestos a disposición del público a través de la misma, quedan habilitadas las siguientes direcciones de contacto y comunicación directa y efectiva:
                     <br />
                     <br />
                     - Dirección postal de contacto: <br />
-                    Ivet Casas Prados, provista con DNI XXXXXXXXX, con domicilio en Carrer Roger de Flor X, 1, 08240, Barcelona.
+                    Ivet Casas Prados, provista con DNI 39474056F, con domicilio en C/ Numancia 31, 08240, Manresa, Barcelona.
                     <br />
                     <br />
                     - Dirección electrónica de contacto: <span style={{ color : 'var(--accent)'}}>contacto@visualshow360.com</span>

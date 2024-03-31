@@ -21,7 +21,7 @@ return (
                 <h2 className="h2TittleAccent">ESPECIAL</h2>
             </div>
             <MediaDisplay />
-            <img className='goService1' onClick={handleClick} src="./gifs/arrow.gif" alt="arrowGift" />
+            <img className='goService1' onClick={handleClick} src="./gifs/arrow.gif" alt="arrowGift" loading="lazy"/>
         </div>
     </header>
 )

@@ -4,7 +4,7 @@ return (
         <div className="aboutUsContainer">
             <h2>¿Quienes Somos?</h2>
             <div className="aboutUsContentContainer">                
-                <img src="./img/reviews_equipo/navidadDavidIvet.webp" alt="VisualShow360Team" />
+                <img src="./img/reviews_equipo/navidadDavidIvet.webp" alt="VisualShow360Team" loading="lazy"/>
                 <p>
                 ¡Somos Ivet & David! <br />
                 <br />

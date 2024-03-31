@@ -1,10 +1,29 @@
 import { NewPage } from '../../components/NewPage'
 import { LazyLoadImage } from 'react-lazy-load-image-component'
 import { useWorkingMode } from '../../assets/Customhooks/useWorkingMode'
+import { useState } from 'react'
 
 export const Footer = () => {
-  const workingMode = useWorkingMode('Mobile')
   let content
+  const workingMode = useWorkingMode('Mobile')
+  const [igSelected, setIgSelected] = useState(false)
+  const [tikTokSelected, setTikTokSelected] = useState(false)
+  
+  const handleMouseEnter = (socialNetwork) => {
+    if(socialNetwork === 'ig') {
+      setIgSelected(true)
+    } else if (socialNetwork === 'tiktok') {
+      setTikTokSelected(true)
+    }
+  }
+
+  const handleMouseLeave = (socialNetwork) => {
+    if(socialNetwork === 'ig') {
+      setIgSelected(false)
+    } else if (socialNetwork === 'tiktok') {
+      setTikTokSelected(false)
+    }
+  }
 
   if (workingMode === 'PC') {
     content = (
@@ -21,20 +40,24 @@ export const Footer = () => {
               contacto@visualshow360.com</a>
             <div className="rrssContainer">
               <a 
+              onMouseEnter={() => handleMouseEnter('ig')}
+              onMouseLeave={() => handleMouseLeave('ig')}
               href="https://www.instagram.com/visualshow360?igshid=YmMyMTA2M2Y=" 
               target="_blank" 
               rel="noopener noreferrer"
               title='Enlace al Instagram de VisualShow360'
               aria-label='Enlace al Instagram de VisualShow360'>
-                <LazyLoadImage id="ig" src="./icons/ig.svg" alt='igSVG' />
+                <LazyLoadImage id="ig" className='igRRSS' src={igSelected ? "./icons/ig2.png" : "./icons/ig1.png"} alt='igSVG' />
               </a>            
               <a 
+              onMouseEnter={() => handleMouseEnter('tiktok')}
+              onMouseLeave={() => handleMouseLeave('tiktok')}
               href="https://www.tiktok.com/@visualshow360?_t=8jdUAUysy9p&_r=1" 
               target="_blank" 
               rel="noopener noreferrer"
               title='Enlace al TikTok de VisualShow360'
               aria-label='Enlace al TikTok de VisualShow360'>
-                <LazyLoadImage id="tiktok" src="./icons/tiktok.svg" alt='tiktokSVG' />
+                <LazyLoadImage id="tiktok" className='tiktokRRSS' src={tikTokSelected ? "./icons/tiktok4.png" : "./icons/tiktok3.png"} alt='tiktokSVG' />
               </a>
             </div>
           </div>
@@ -85,7 +108,7 @@ export const Footer = () => {
           rel="noopener noreferrer"
           title='Enlace al Instagram de VisualShow360'
           aria-label='Enlace al Instagram de VisualShow360'>
-            <LazyLoadImage id="ig" src="./icons/ig.svg" alt='igSVG' />
+            <LazyLoadImage id="ig" src="./icons/ig1.png" alt='igSVG' />
           </a>            
           <a 
           href="https://www.tiktok.com/@visualshow360?_t=8jdUAUysy9p&_r=1" 
@@ -93,7 +116,7 @@ export const Footer = () => {
           rel="noopener noreferrer"
           title='Enlace al TikTok de VisualShow360'
           aria-label='Enlace al TikTok de VisualShow360'>
-            <LazyLoadImage id="tiktok" src="./icons/tiktok.svg" alt='tiktokSVG' />
+            <LazyLoadImage id="tiktok" src="./icons/tiktok3.png" alt='tiktokSVG' />
           </a>
         </div>
         <div className="normativeContainer">

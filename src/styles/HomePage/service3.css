@@ -17,6 +17,7 @@
 }
 
 .service3Container h1 {
+    font-size: 2.5rem;
     padding-bottom: 20px;
     color: var(--textWhite);
     text-decoration: underline;
@@ -43,6 +44,7 @@
     }
 
     .service3Container h1 {
+        font-size: 2.75rem;
         padding-bottom: 0;
         color: var(--textWhite);
         text-decoration: none;
@@ -92,6 +94,10 @@
         margin: 0;
     }
 
+    .service3Container h1 {
+        font-size: 3rem;
+    }
+
     .service3Container h2{
         display: inline-block;
         margin: 0;
@@ -112,4 +118,5 @@
         max-width: 1000px;
         gap: 0;
     }
+
 }

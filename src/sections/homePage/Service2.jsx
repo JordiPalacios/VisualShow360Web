@@ -1,5 +1,6 @@
 import { NavItem } from '../../components'
 import { useWorkingMode } from '../../assets/Customhooks/useWorkingMode'
+import { LazyLoadImage } from 'react-lazy-load-image-component'
 
 export const Service2 = () => {
     const workingMode = useWorkingMode()
@@ -8,7 +9,7 @@ return (
         {workingMode === 'PC' ? (
         <div className='service2Container'>
             <div className="service2ContentContainer">
-            <img src="./gifs/GIF.gif" alt="Espejo magico" loading='lazy'/>           
+            <LazyLoadImage src="./gifs/GIF.gif" alt="Espejo magico" />           
             <div className="service2DescriptionContainer">  
                 <h1>Magic Mirror LED</h1>
                 <h2> EL FOTOMATÓN QUE&nbsp;<span>NO SE ESPERAN</span></h2>    
@@ -46,7 +47,7 @@ return (
             <h1>Magic Mirror LED</h1>              
             <h2>EL FOTOMATÓN QUE&nbsp;<span>NO SE ESPERAN</span></h2> 
             <div className="service2ContentContainer">              
-                <img src="./gifs/GIF.gif" alt="Espejo magico" loading='lazy'/>
+                <LazyLoadImage src="./gifs/GIF.gif" alt="Espejo magico" />
                 <div className="service2DescriptionContainer">                             
                     <p>
                         MAGIC MIRROR LED ES SÓLO  <span style={{ color: 'var(--accent)', background: 'none'}}>APTO</span> PARA <span style={{ color: 'var(--accent)', background: 'none'}}>PAREJAS</span> QUE QUIERAN <span style={{ color: 'var(--accent)', background: 'none'}}>DIFERENCIARSE</span> Y ALEJARSE DEL TÍPICO FOTOMATÓN DE HACE 10 AÑOS. <br />

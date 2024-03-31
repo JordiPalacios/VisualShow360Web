@@ -11,7 +11,7 @@ export const ProductsCard = ({ id, tittle, imgUrl, kitAnti, colorText, msg, work
     content = (
       <div id={id} className={`${cardClassName}Container`}>  
         <div className={cardClassName}>      
-          <img src={imgUrl} alt={tittle} loading="lazy"/>
+          <img src={imgUrl} alt={tittle} />
           <div className='contentContainer'>
             <h1>{tittle}</h1>
             <h2>BOLSITA KIT DE SUPERVIVENCIA</h2>
@@ -56,7 +56,7 @@ export const ProductsCard = ({ id, tittle, imgUrl, kitAnti, colorText, msg, work
     content = (
       <div id={id} className={cardClassName}>
         <h1>{tittle}</h1>
-        <img src={imgUrl} alt={tittle} loading="lazy"/>
+        <img src={imgUrl} alt={tittle} />
         {kitAnti ? (
           <div className="descriptionKitContainer">                
           <p>

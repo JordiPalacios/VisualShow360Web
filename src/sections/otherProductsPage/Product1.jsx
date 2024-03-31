@@ -1,3 +1,4 @@
+import { LazyLoadImage } from 'react-lazy-load-image-component'
 import { useWorkingMode } from '../../assets/Customhooks/useWorkingMode'
 import { NavItem } from '../../components'
 
@@ -9,7 +10,7 @@ return (
         {workingMode === 'PC' ? (
             <div className="service4Container">
                 <div className="service4ContentContainer">
-                    <img src="./img/servicios/ringRing/audiolibroVS.webp" alt="RingRing" loading="lazy"/>
+                    <LazyLoadImage src="./img/servicios/ringRing/audiolibroVS.webp" alt="RingRing" />
                     <div className="service4DescriptionContainer">
                         <h1>Ring Ring Experience</h1> 
                         <h2>¿SABES QUE LO PRIMERO QUE OLVIDAMOS DE UNA PERSONA ES SU VOZ?</h2> 
@@ -37,7 +38,7 @@ return (
                 <h1>Ring Ring Experience</h1>
                 <h2>¿SABES QUE LO PRIMERO QUE OLVIDAMOS DE UNA PERSONA ES SU VOZ?</h2>
                 <div className="service4ContentContainer">
-                    <img src="./img/servicios/ringRing/audiolibroVS.webp" alt="RingRing" loading="lazy" />
+                    <LazyLoadImage src="./img/servicios/ringRing/audiolibroVS.webp" alt="RingRing"  />
                     <div className="service4DescriptionContainer">
                         <p>
                             No hay nada mejor que tener para siempe <span style={{ color: 'var(--accent)', background: 'none'}}>grabada</span> la voz de tus seres más <span style={{ color: 'var(--accent)', background: 'none'}}>queridos</span> en el día de tu boda. <br />

@@ -1,4 +1,5 @@
 import PropTypes from 'prop-types'
+import { LazyLoadImage } from 'react-lazy-load-image-component'
 
 export const WhatsAppMessage = ({ msg, className, label, colorText }) => {
     let content 
@@ -8,7 +9,7 @@ export const WhatsAppMessage = ({ msg, className, label, colorText }) => {
         <div className="contactFixed">
             <div className="cursor"></div>
                 <a href={msg} target="_blank" rel="noopener noreferrer">
-                    <img id="whatsScroll" src="./icons/whatsapp.svg" alt='whatsAppSvg' loading="lazy"/>
+                    <LazyLoadImage id="whatsScroll" src="./icons/whatsapp.svg" alt='whatsAppSvg' />
                 </a>
             </div>
     } else {

@@ -3,8 +3,8 @@ import { useCheckIOS } from "../assets/Customhooks/useCheckIOS"
 import { useWorkingMode } from "../assets/Customhooks/useWorkingMode"
 
 export const MediaDisplay = () => {
-    const isIOS = useCheckIOS()
-    const workingMode = useWorkingMode() 
+    const isIOS = useCheckIOS(false)
+    const workingMode = useWorkingMode('Mobile') 
 
     const renderMedia = () => {
         if (isIOS && workingMode === 'Mobile') {

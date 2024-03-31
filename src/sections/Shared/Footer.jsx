@@ -13,12 +13,12 @@ export const Footer = () => {
         <div className="footerDescriptionContainer">
           <div className="rrssMainContainer">
             <a 
-            href="mailto:visualshow360@gmail.com?subject=Información sobre los servicios de VisualShow360&body=¡Hola quiero saber más sobre visualshow!" 
+            href="mailto:contacto@visualshow360.com?subject=Información sobre los servicios de VisualShow360&body=¡Hola quiero saber más sobre visualshow!" 
             target="_blank" 
             rel='noreferrer'
             title='Enlace al correo de VisualShow360'
             aria-label='Enlace al correo de VisualShow360'>
-              visualshow360@gmail.com</a>
+              contacto@visualshow360.com</a>
             <div className="rrssContainer">
               <a 
               href="https://www.instagram.com/visualshow360?igshid=YmMyMTA2M2Y=" 
@@ -71,12 +71,12 @@ export const Footer = () => {
       <hr className="line"></hr>
         <h3>¡Logo VisualShow!</h3>
         <a 
-        href="mailto:visualshow360@gmail.com?subject=Información sobre los servicios de VisualShow360&body=Hola quiero saber más sobre visualshow!" 
+        href="mailto:contacto@visualshow360.com?subject=Información sobre los servicios de VisualShow360&body=Hola quiero saber más sobre visualshow!" 
         target="_blank" 
         rel='noreferrer'
         title='Enlace al correo de VisualShow360'
         aria-label='Enlace al correo de VisualShow360'>
-          visualshow360@gmail.com
+          contacto@visualshow360.com
         </a>
         <div className="rrssContainer">
           <a 

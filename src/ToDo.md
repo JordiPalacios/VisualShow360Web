@@ -19,13 +19,12 @@ ToDo:
 [] David & Ivet:
     [] Datos legales para poner en la seccion de "Aviso Legal" 
         · Nombre: Ivet Casas Prados
-        · DNI: ?
+        · DNI: 39474056F
         · Domicilio: Carrer Roger de Flor
         · Numero: ?
     [] Nuevo Logo de VisualShow360
         · Ponerlo en zona formulario + footer. ¿En la barra navegación también?
     [] Dominio web para vincularlo a hostinger
-    [] Nombre del correo corporativo: xxx@visualshow360.com
     [] ¿Nuevo ícono de  tiktok o dejamos el que esta?
     [] Vídeo horizontal en blanco y negro para la presentación en PC.
     [] Vídeo presentación en Android vertical ¿Gusta el que esta ahora? ¿O pongo que en mvl solo se vea la foto y evitamos problemas?

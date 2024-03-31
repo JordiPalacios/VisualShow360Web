@@ -123,7 +123,14 @@ return (
                                 </div>
                             </div>                          
                         </div>
-                        <b><a href="https://www.instagram.com/visualshow360?igshid=YmMyMTA2M2Y=" target="_blank" rel='noreferrer'>Eventos Reales</a></b>
+                        <b><a 
+                        href="https://www.instagram.com/visualshow360?igshid=YmMyMTA2M2Y=" 
+                        target="_blank" 
+                        rel='noreferrer'
+                        title='Enlace al Instagram de VisualShow360 para ver más ejemplos de bodas en barcelona'
+                        aria-label='Enlace al Instagram de VisualShow360 para ver más ejemplos de bodas en barcelona'>
+                            Eventos Reales
+                        </a></b>
                         <b><NavItem href='#nosotros' label='Nosotros' page='home' /></b>             
                     </ul>
                 </div>

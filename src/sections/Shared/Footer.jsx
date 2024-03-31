@@ -12,12 +12,28 @@ export const Footer = () => {
         <hr className="line"></hr>
         <div className="footerDescriptionContainer">
           <div className="rrssMainContainer">
-            <a href="mailto:visualshow360@gmail.com?subject=Información sobre los servicios de VisualShow360&body=¡Hola quiero saber más sobre visualshow!" target="_blank" rel='noreferrer'>visualshow360@gmail.com</a>
+            <a 
+            href="mailto:visualshow360@gmail.com?subject=Información sobre los servicios de VisualShow360&body=¡Hola quiero saber más sobre visualshow!" 
+            target="_blank" 
+            rel='noreferrer'
+            title='Enlace al correo de VisualShow360'
+            aria-label='Enlace al correo de VisualShow360'>
+              visualshow360@gmail.com</a>
             <div className="rrssContainer">
-              <a href="https://www.instagram.com/visualshow360?igshid=YmMyMTA2M2Y=" target="_blank" rel="noopener noreferrer">
+              <a 
+              href="https://www.instagram.com/visualshow360?igshid=YmMyMTA2M2Y=" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              title='Enlace al Instagram de VisualShow360'
+              aria-label='Enlace al Instagram de VisualShow360'>
                 <LazyLoadImage id="ig" src="./icons/ig.svg" alt='igSVG' />
               </a>            
-              <a href="https://www.tiktok.com/@visualshow360?_t=8jdUAUysy9p&_r=1" target="_blank" rel="noopener noreferrer">
+              <a 
+              href="https://www.tiktok.com/@visualshow360?_t=8jdUAUysy9p&_r=1" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              title='Enlace al TikTok de VisualShow360'
+              aria-label='Enlace al TikTok de VisualShow360'>
                 <LazyLoadImage id="tiktok" src="./icons/tiktok.svg" alt='tiktokSVG' />
               </a>
             </div>
@@ -25,7 +41,12 @@ export const Footer = () => {
           <div className="logoContainer">
             <h3>¡Logo VisualShow!</h3>
             <p><small>© 2024 VisualShow360 - Todos los derechos reservados</small></p>
-            <a href="https://www.instagram.com/jordi_code?igsh=MXRvbmtiYmhheHRiZw%3D%3D&utm_source=qr" target="_blank" rel='noreferrer'> 
+            <a 
+            href="https://www.instagram.com/jordi_code?igsh=MXRvbmtiYmhheHRiZw%3D%3D&utm_source=qr" 
+            target="_blank" 
+            rel='noreferrer'
+            title='Enlace al Instagram de Jordi Code' 
+            aria-label='Enlace al Instagram de Jordi Code'> 
               <small>Creada y diseñada x Jordi Code</small>
             </a>
           </div>
@@ -49,12 +70,29 @@ export const Footer = () => {
       <footer className="footerContainer">  
       <hr className="line"></hr>
         <h3>¡Logo VisualShow!</h3>
-        <a href="mailto:visualshow360@gmail.com?subject=Información sobre los servicios de VisualShow360&body=Hola quiero saber más sobre visualshow!" target="_blank" rel='noreferrer'>visualshow360@gmail.com</a>
+        <a 
+        href="mailto:visualshow360@gmail.com?subject=Información sobre los servicios de VisualShow360&body=Hola quiero saber más sobre visualshow!" 
+        target="_blank" 
+        rel='noreferrer'
+        title='Enlace al correo de VisualShow360'
+        aria-label='Enlace al correo de VisualShow360'>
+          visualshow360@gmail.com
+        </a>
         <div className="rrssContainer">
-          <a href="https://www.instagram.com/visualshow360?igshid=YmMyMTA2M2Y=" target="_blank" rel="noopener noreferrer">
+          <a 
+          href="https://www.instagram.com/visualshow360?igshid=YmMyMTA2M2Y=" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          title='Enlace al Instagram de VisualShow360'
+          aria-label='Enlace al Instagram de VisualShow360'>
             <LazyLoadImage id="ig" src="./icons/ig.svg" alt='igSVG' />
           </a>            
-          <a href="https://www.tiktok.com/@visualshow360?_t=8jdUAUysy9p&_r=1" target="_blank" rel="noopener noreferrer">
+          <a 
+          href="https://www.tiktok.com/@visualshow360?_t=8jdUAUysy9p&_r=1" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          title='Enlace al TikTok de VisualShow360'
+          aria-label='Enlace al TikTok de VisualShow360'>
             <LazyLoadImage id="tiktok" src="./icons/tiktok.svg" alt='tiktokSVG' />
           </a>
         </div>
@@ -71,7 +109,12 @@ export const Footer = () => {
         </button>
         </div>
         <LazyLoadImage src="./img/Extra/generalitat.webp" target="_blank" alt="generalitatImg" />
-        <a href="https://www.instagram.com/jordi_code?igsh=MXRvbmtiYmhheHRiZw%3D%3D&utm_source=qr" target="_blank" rel='noreferrer'> 
+        <a 
+          href="https://www.instagram.com/jordi_code?igsh=MXRvbmtiYmhheHRiZw%3D%3D&utm_source=qr" 
+          target="_blank" 
+          rel='noreferrer' 
+          title='Enlace al Instagram de Jordi Code' 
+          aria-label='Enlace al Instagram de Jordi Code'> 
           <small>Creada y diseñada x Jordi Code</small>
         </a>
       </footer>

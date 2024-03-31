@@ -8,13 +8,24 @@ export const WhatsAppMessage = ({ msg, className, label, colorText }) => {
         content = 
         <div className="contactFixed">
             <div className="cursor"></div>
-                <a href={msg} target="_blank" rel="noopener noreferrer">
+                <a 
+                href={msg} 
+                target="_blank" 
+                rel="noopener noreferrer"
+                title='Enlace al WhatsApp de VisualShow360 para pedir información'
+                aria-label='Enlace al WhatsApp de VisualShow360 para pedir información'>
                     <LazyLoadImage id="whatsScroll" src="./icons/whatsapp.svg" alt='whatsAppSvg' />
                 </a>
             </div>
     } else {
         content = 
-        <a href={msg} target="_blank" rel="noopener noreferrer" style={{ color: colorText }}>
+        <a 
+        href={msg} 
+        target="_blank" 
+        rel="noopener noreferrer" 
+        style={{ color: colorText }}
+        title="Enlace al WhatsApp de VisualShow360 para pedir información"
+        aria-label='Enlace al WhatsApp de VisualShow360 para pedir información'>
             {label}
         </a>
     }

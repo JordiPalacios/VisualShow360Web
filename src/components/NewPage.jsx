@@ -9,7 +9,11 @@ export const NewPage = ({ href, label }) => {
         window.scrollTo(0, 0)
     }
 return (
-    <a href={href} onClick={handleClick}>
+    <a 
+    href={href} 
+    onClick={handleClick}
+    title={`Enlace a la página de ${label}`}
+    aria-label={`Enlace a la página de ${label}`}>
         {label}
     </a>
 )

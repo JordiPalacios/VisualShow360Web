@@ -55,7 +55,11 @@ export const NavItem = ({ href, label, page }) => {
 
   return (
     <li style={{ listStyleType: 'none' }}>
-        <a href={href} onClick={handleClick}>
+        <a 
+        href={href} 
+        onClick={handleClick}
+        title={`Enlace hacia ${href.replace('#', '')}`}
+        aria-label={`Enlace hacia ${href.replace('#', '')}`}>
             {label}
         </a>
     </li>

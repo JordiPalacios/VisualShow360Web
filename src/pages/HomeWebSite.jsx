@@ -10,6 +10,8 @@ export const HomeWebsite = () => {
   const LazyLoadInfiniteLoop = useLazyLoadComponent(InfiniteLoopSection)
   const LazyLoadReviews = useLazyLoadComponent(Reviews)
   const LazyLoadCompanies = useLazyLoadComponent(Companies)
+  const LazyLoadAboutUs = useLazyLoadComponent(AboutUs)
+  const LazyLoadContactUs = useLazyLoadComponent(ContactUs)
   const LazyLoadFooter = useLazyLoadComponent(Footer)
 
 
@@ -38,8 +40,8 @@ export const HomeWebsite = () => {
         <LazyLoadInfiniteLoop />
         <LazyLoadReviews />         
         <LazyLoadCompanies />              
-        <AboutUs />
-        <ContactUs />
+        <LazyLoadAboutUs />
+        <LazyLoadContactUs />
         <WhatsAppMessage className="contactFixed" msg="https://wa.me/34653781239?text=¡Quiero%20más%20información%20sobre%20VisualShow!" />
       </main>
       <LazyLoadFooter />

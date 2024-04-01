@@ -44,7 +44,7 @@ export const Footer = () => {
               target="_blank" 
               rel="noopener noreferrer"              
               aria-label='Enlace al Instagram de VisualShow360'>
-                <img id="ig" className='igRRSS' src={igSelected ? "./icons/ig2.png" : "./icons/ig1.png"} alt='igSVG' />
+                <img id="ig" className='igRRSS' src={igSelected ? "./icons/ig2.webp" : "./icons/ig1.webp"} alt='igSVG' />
               </a>            
               <a 
               onMouseEnter={() => handleMouseEnter('tiktok')}
@@ -53,7 +53,7 @@ export const Footer = () => {
               target="_blank" 
               rel="noopener noreferrer"              
               aria-label='Enlace al TikTok de VisualShow360'>
-                <img id="tiktok" className='tiktokRRSS' src={tikTokSelected ? "./icons/tiktok4.png" : "./icons/tiktok3.png"} alt='tiktokSVG' />
+                <img id="tiktok" className='tiktokRRSS' src={tikTokSelected ? "./icons/tiktok4.webp" : "./icons/tiktok3.webp"} alt='tiktokSVG' />
               </a>
             </div>
           </div>
@@ -101,14 +101,14 @@ export const Footer = () => {
           target="_blank" 
           rel="noopener noreferrer"          
           aria-label='Enlace al Instagram de VisualShow360'>
-            <img id="ig" src="./icons/ig1.png" alt='igSVG' />
+            <img id="ig" src="./icons/ig1.webp" alt='igSVG' />
           </a>            
           <a 
           href="https://www.tiktok.com/@visualshow360?_t=8jdUAUysy9p&_r=1" 
           target="_blank" 
           rel="noopener noreferrer"          
           aria-label='Enlace al TikTok de VisualShow360'>
-            <img id="tiktok" src="./icons/tiktok3.png" alt='tiktokSVG' />
+            <img id="tiktok" src="./icons/tiktok3.webp" alt='tiktokSVG' />
           </a>
         </div>
         <div className="normativeContainer">

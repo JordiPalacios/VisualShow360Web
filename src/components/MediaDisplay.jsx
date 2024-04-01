@@ -8,8 +8,6 @@ export const MediaDisplay = () => {
     const src = "./img/servicios/fotomaton360/atrezzo_3.webp"
     const alt = "atrezzoVisualShow360"
 
-    console.log("workingMode: ", workingMode)
-
     let media
     
     if ( isIOS && workingMode !== 'PC' ) {

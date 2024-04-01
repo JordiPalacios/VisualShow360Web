@@ -1,11 +1,11 @@
-import { useEffect, useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from 'react-slick'
 import { ReviewsCard } from '../../components'
 import ReviewsData from '../../assets/mocks/reviewsData.json'
 
-export const Reviews = () => {
+const Reviews = () => {
     const reviewsData = ReviewsData
 
     const [sliderSettingsReviews, setSliderSettingsReviews] = useState({
@@ -73,4 +73,33 @@ return (
         </div>
         </section>
 )
+}
+
+export const LazyReviews = () => {
+    const [show, setShow] = useState(false)
+    const elementRef = useRef()
+
+    useEffect( function () {
+        const onChange = (entries, observer) => {
+            const element = entries[0]
+            if (element.isIntersecting) {
+                setShow(true)
+                observer.disconnect()
+            }
+        }
+
+        const observer = new IntersectionObserver(onChange, {
+            rootMargin: '100px'
+        })
+
+        observer.observe(elementRef.current)
+
+        return () => observer.disconnect()
+    })
+
+    return (
+        <section ref={elementRef}>
+            {show ? <Reviews /> : null}
+        </section>
+    )
 }

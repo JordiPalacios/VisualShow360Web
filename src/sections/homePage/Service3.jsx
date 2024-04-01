@@ -1,7 +1,9 @@
+import { useContext, useEffect, useRef } from 'react'
 import { useWorkingMode } from '../../assets/Customhooks/useWorkingMode'
 import { NavItem } from '../../components'
+import { LoadContext } from '../../context/LoadContext'
 
-export const Service3 = () => {
+const Service3 = () => {
     const workingMode = useWorkingMode()
 
 return (
@@ -50,4 +52,33 @@ return (
         )}        
     </section>
 )
+}
+
+export const LazyService3 = () => {
+    const { show } = useContext(LoadContext)
+    const elementRef = useRef()
+
+    useEffect( function () {
+        const onChange = (entries, observer) => {
+            const element = entries[0]
+            if (element.isIntersecting) {
+                setShow(true)
+                observer.disconnect()
+            }
+        }
+
+        const observer = new IntersectionObserver(onChange, {
+            rootMargin: '100px'
+        })
+
+        observer.observe(elementRef.current)
+
+        return () => observer.disconnect()
+    })
+
+    return (
+        <section ref={elementRef}>
+            {show ? <Service3 /> : null}
+        </section>
+    )
 }

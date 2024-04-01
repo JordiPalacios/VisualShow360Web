@@ -1,3 +1,4 @@
+import { LazyLoadImage } from 'react-lazy-load-image-component'
 import CompaniesData from '../assets/mocks/companiesData.json'
 import PropTypes from 'prop-types'
 
@@ -7,10 +8,10 @@ export const InfiniteLoop = ({ urlImg, nameImg, equal }) => {
 
     let content = equal 
         ? numImages.map((_, index) => (
-            <img key={index} src={urlImg} alt={nameImg} />
+            <LazyLoadImage key={index} src={urlImg} alt={nameImg} />
         ))
         : companyData.map((data, index) => (
-            <img key={index} src={data.urlImg} alt={data.nameImg} />
+            <LazyLoadImage key={index} src={data.urlImg} alt={data.companyName} />
         )) 
     
 return (

@@ -84,7 +84,7 @@ return (
 }
 
 export const LazyService2 = () => {
-    const {show} = useContext(LoadContext)
+    const { show, setShow } = useContext(LoadContext)
     const elementRef = useRef()
 
     useEffect( function () {

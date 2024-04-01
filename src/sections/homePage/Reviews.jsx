@@ -77,7 +77,7 @@ return (
 }
 
 export const LazyReviews = () => {
-    const {show} = useContext(LoadContext)
+    const { show, setShow } = useContext(LoadContext)
     const elementRef = useRef()
 
     useEffect( function () {

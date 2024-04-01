@@ -20,7 +20,7 @@ return (
 }
 
 export const LazyInfiniteLoopSection = () => {
-    const {show} = useContext(LoadContext)
+    const { show, setShow } = useContext(LoadContext)
     const elementRef = useRef()
 
     useEffect( function() {

@@ -33,7 +33,7 @@ export const LazyInfiniteLoopSection = () => {
         }
 
         const observer = new IntersectionObserver(onChange, {
-            rootMargin: '100px'
+            rootMargin: '200px'
         })
 
         observer.observe(elementRef.current)

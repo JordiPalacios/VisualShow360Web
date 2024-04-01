@@ -57,8 +57,7 @@ return (
             <a 
             href="https://www.bodas.net/animacion/360-&-magic-mirror-visualshow360--e218488/opiniones" 
             target="_blank" 
-            rel='noreferrer'
-            title='Enlace a las opiniones de VisualShow360 en Bodas.net'
+            rel='noreferrer'            
             aria-label='Enlace a las opiniones de VisualShow360 en Bodas.net'>
                 Ver más
             </a>
@@ -66,8 +65,7 @@ return (
             <a 
             href="https://www.bodas.net/animacion/360-&-magic-mirror-visualshow360--e218488/opiniones" 
             target="_blank" 
-            rel='noreferrer'
-            title='Enlace a las opiniones de VisualShow360 en Bodas.net'
+            rel='noreferrer'            
             aria-label='Enlace a las opiniones de VisualShow360 en Bodas.net'>
                 <img src="./img/reviews_equipo/bodasNetSVG.svg" alt="bodas.net" />
             </a>                

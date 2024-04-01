@@ -91,7 +91,7 @@ return (
                 He leído y acepto la <NewPage href="/politica-privacidad" label="Politica de Privacidad" />
             </label>
         </div>
-        <button id='EnviarFormulario' aria-label='Se enviará el formulario '  type="submit">Enviar</button>
+        <button id='EnviarFormularioVisualShow' aria-label='Se enviará el formulario'  type="submit">Enviar</button>
     </form>
 )
 }

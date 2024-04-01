@@ -135,8 +135,7 @@ return (
                             <a 
                             href="https://www.instagram.com/visualshow360?igshid=YmMyMTA2M2Y=" 
                             target="_blank" 
-                            rel='noreferrer'
-                            title='Enlace al Instagram de VisualShow360 para ver más ejemplos de bodas en barcelona'
+                            rel='noreferrer'                            
                             aria-label='Enlace al Instagram de VisualShow360 para ver más ejemplos de bodas en barcelona'>
                                 Eventos Reales
                             </a>

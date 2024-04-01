@@ -26,7 +26,7 @@ return (
                             Tanto es el coste que tiene celebrar tu boda, y lo poco que cuesta <span style={{ color: 'var(--accent)', background: 'none'}}>RECORDARLA</span> para siempre.
                         </p>
                         <div className="buttonsContainer">
-                            <button id='EnvioAlFormularioContacto' aria-label='Nos mueve hasta el formulario de contacto'>
+                            <button id='P1PcFormularioContacto' aria-label='Nos mueve hasta el formulario de contacto'>
                                 <NavItem href='#contacto' label='¡Agenda tu reunión!' colorText='var(--accent)' page='otrosProductos'/>
                             </button>
                         </div>
@@ -51,7 +51,7 @@ return (
                             Tanto es el coste que tiene celebrar tu boda, y lo poco que cuesta <span style={{ color: 'var(--accent)', background: 'none'}}>RECORDARLA</span> para siempre.
                         </p>
                         <div className="buttonsContainer">
-                            <button id='EnvioAlFormularioContacto' aria-label='Nos mueve hasta el formulario de contacto'>
+                            <button id='P1OthersFormularioContacto' aria-label='Nos mueve hasta el formulario de contacto'>
                                 <NavItem href='#contacto' label='¡Agenda tu reunión!' colorText='var(--accent)' page='otrosProductos'/>
                             </button>
                         </div>

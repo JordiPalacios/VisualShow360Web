@@ -20,7 +20,7 @@ return (
                 Eligue un buen fondo y crea los <span style={{ color: 'var(--accent)'}}>RECUERDOS</span> más espectaculares de tu boda. No seas cutre, que en ese momento ya no hay fotógrafos.
             </p>
             <div className="buttonsContainer">
-            <button id='EnvioAlFormularioContacto' aria-label='Nos mueve hasta el formulario de contacto'>
+            <button id='S3PcFormularioContacto' aria-label='Nos mueve hasta el formulario de contacto'>
                 <NavItem href='#contacto' label='¡Agenda tu reunión!' colorText='var(--textWhite)' page='home' />
             </button>
             </div>
@@ -40,7 +40,7 @@ return (
                 Eligue un buen fondo y crea los <span style={{ color: 'var(--accent)'}}>RECUERDOS</span> más espectaculares de tu boda. No seas cutre, que en ese momento ya no hay fotógrafos.
             </p>
             <div className="buttonsContainer">
-            <button id='EnvioAlFormularioContacto' aria-label='Nos mueve hasta el formulario de contacto'>
+            <button id='S3OthersFormularioContacto' aria-label='Nos mueve hasta el formulario de contacto'>
                 <NavItem href='#contacto' label='¡Agenda tu reunión!' colorText='var(--textWhite)' page='home'/>
             </button>
             </div>

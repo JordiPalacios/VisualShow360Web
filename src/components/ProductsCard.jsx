@@ -44,7 +44,7 @@ export const ProductsCard = ({ id, tittle, imgUrl, kitAnti, colorText, msg, work
                 <p> </p>
               )}
             <div className='buttonsContainer'>        
-              <button id='WhatsAppMasInformacion' aria-label='Abrirá el chat de WhatsApp para pedir más información'>
+              <button id='WhatsAppMasInformacionKitAnti' aria-label='Abrirá el chat de WhatsApp para pedir más información'>
                 <WhatsAppMessage className="" label="Más Información" colorText={colorText} msg={msg} />
               </button>
             </div>     
@@ -84,7 +84,7 @@ export const ProductsCard = ({ id, tittle, imgUrl, kitAnti, colorText, msg, work
           ) : (
           <p> </p>
         )}
-        <div className='buttonsContainer'>        
+        <div className='buttonsContainerOthers'>        
           <button id='WhatsAppMasInformacion' aria-label='Abrirá el chat de WhatsApp para pedir más información'>
             <WhatsAppMessage className="" label="Más Información" colorText={colorText} msg={msg} />
           </button>

@@ -11,8 +11,7 @@ export const NewPage = ({ href, label }) => {
 return (
     <a 
     href={href} 
-    onClick={handleClick}
-    title={`Enlace a la página de ${label}`}
+    onClick={handleClick}    
     aria-label={`Enlace a la página de ${label}`}>
         {label}
     </a>

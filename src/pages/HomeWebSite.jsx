@@ -1,3 +1,4 @@
+import { LazyLoadComponent } from 'react-lazy-load-image-component';
 import { WhatsAppMessage } from '../components'
 import { AboutUs, Companies, Presentation, Reviews, Service1, Service2, Service3 } from '../sections/homePage';
 import { ContactUs, Footer, InfiniteLoopSection } from '../sections/Shared';
@@ -29,18 +30,22 @@ export const HomeWebsite = () => {
       </Helmet>
       <Presentation />
       <main>
-        <Service1 />            
-        <InfiniteLoopSection />        
-        <Service2 />
-        <Service3 />               
-        <InfiniteLoopSection />
-        <Reviews />         
-        <Companies />
+        <LazyLoadComponent>
+          <Service1 />            
+          <InfiniteLoopSection />        
+          <Service2 />
+          <Service3 /> 
+          <InfiniteLoopSection />
+          <Reviews />         
+          <Companies />
+        </LazyLoadComponent>              
         <AboutUs />
         <ContactUs />
         <WhatsAppMessage className="contactFixed" msg="https://wa.me/34653781239?text=¡Quiero%20más%20información%20sobre%20VisualShow!" />
       </main>
-      <Footer />
+      <LazyLoadComponent>        
+        <Footer />
+      </LazyLoadComponent>
     </>
   )
 }

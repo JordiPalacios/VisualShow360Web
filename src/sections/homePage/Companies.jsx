@@ -1,7 +1,8 @@
+import { useEffect, useRef, useState } from 'react'
 import CompaniesData from '../../assets/mocks/companiesData.json'
 import { InfiniteLoop } from '../../components'
 
-export const Companies = () => {
+const Companies = () => {
     const companyData = CompaniesData
 return (
     <section>
@@ -27,4 +28,33 @@ return (
         </div>
     </section>
 )
+}
+
+export const LazyCompanies = () => {
+    const [show, setShow] = useState(false)
+    const elementRef = useRef()
+
+    useEffect( function () {
+        const onChange = (entries, observer) => {
+            const element = entries[0]
+            if (element.isIntersecting) {
+                setShow(true)
+                observer.disconnect()
+            }
+        }
+
+        const observer = new IntersectionObserver(onChange, {
+            rootMargin: '100px'
+        })
+
+        observer.observe(elementRef.current)
+
+        return () => observer.disconnect()
+    })
+
+    return (
+        <section ref={elementRef}>
+            {show ? <Companies /> : null}
+        </section>
+    )
 }

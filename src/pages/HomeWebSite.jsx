@@ -1,5 +1,5 @@
 import { MetaTags, WhatsAppMessage } from '../components'
-import { AboutUs, Companies, Presentation, Reviews, Service1, Service2, Service3 } from '../sections/homePage';
+import { AboutUs, LazyCompanies, Presentation, Reviews, Service1, Service2, Service3 } from '../sections/homePage';
 import { ContactUs, Footer, InfiniteLoopSection } from '../sections/Shared';
 
 
@@ -29,7 +29,7 @@ export const HomeWebsite = () => {
         <Service3 /> 
         <InfiniteLoopSection />
         <Reviews />         
-        <Companies />              
+        <LazyCompanies />              
         <AboutUs />
         <ContactUs />
         <WhatsAppMessage className="contactFixed" msg="https://wa.me/34653781239?text=¡Quiero%20más%20información%20sobre%20VisualShow!" />

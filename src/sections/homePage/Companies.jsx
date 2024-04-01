@@ -1,6 +1,7 @@
-import { useEffect, useRef, useState } from 'react'
+import { useContext, useEffect, useRef } from 'react'
 import CompaniesData from '../../assets/mocks/companiesData.json'
 import { InfiniteLoop } from '../../components'
+import { LoadContext } from '../../context/LoadContext'
 
 const Companies = () => {
     const companyData = CompaniesData
@@ -31,7 +32,7 @@ return (
 }
 
 export const LazyCompanies = () => {
-    const [show, setShow] = useState(false)
+    const { show } = useContext(LoadContext)
     const elementRef = useRef()
 
     useEffect( function () {

@@ -1,9 +1,10 @@
-import { useEffect, useRef, useState } from 'react'
+import { useContext, useEffect, useRef, useState } from 'react'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from 'react-slick'
 import { ReviewsCard } from '../../components'
 import ReviewsData from '../../assets/mocks/reviewsData.json'
+import { LoadContext } from '../../context/LoadContext';
 
 const Reviews = () => {
     const reviewsData = ReviewsData
@@ -76,7 +77,7 @@ return (
 }
 
 export const LazyReviews = () => {
-    const [show, setShow] = useState(false)
+    const {show} = useContext(LoadContext)
     const elementRef = useRef()
 
     useEffect( function () {

@@ -1,5 +1,6 @@
-import { useEffect, useRef, useState } from 'react'
+import { useContext, useEffect, useRef } from 'react'
 import { InfiniteLoop } from '../../components/'
+import { LoadContext } from '../../context/LoadContext'
 
 const InfiniteLoopSection = () => {
 return (
@@ -19,7 +20,7 @@ return (
 }
 
 export const LazyInfiniteLoopSection = () => {
-    const [show, setShow] = useState(false)
+    const {show} = useContext(LoadContext)
     const elementRef = useRef()
 
     useEffect( function() {

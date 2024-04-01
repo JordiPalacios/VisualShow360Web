@@ -1,12 +1,16 @@
 import { useNavigate } from 'react-router-dom'
 import PropTypes from 'prop-types'
+import { useContext } from 'react'
+import { LoadContext } from '../context/LoadContext'
 
 export const NavItem = ({ href, label, page }) => {
   const navigate = useNavigate()
+  const { setShow } = useContext(LoadContext)
   let offset
 
   const handleClick = ( event ) => {
     event.preventDefault()
+    setShow(true)
 
     if (page === 'home') {
       navigate('/')

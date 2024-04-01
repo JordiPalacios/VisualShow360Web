@@ -1,5 +1,5 @@
 import { NavbarMenu, NewPage } from '../components'
-import { Footer } from '../sections/Shared'
+import { LazyFooter } from '../sections/Shared'
 
 export const AvisoLegal = () => {
 
@@ -67,7 +67,7 @@ export const AvisoLegal = () => {
             </div>
         </main>
 
-        <Footer />
+        <LazyFooter />
     </>
 )
 }

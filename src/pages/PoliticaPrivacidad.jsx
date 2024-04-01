@@ -1,5 +1,5 @@
 import { NavbarMenu, NewPage} from '../components'
-import { Footer } from '../sections/Shared'
+import { LazyFooter } from '../sections/Shared'
 
 export const PoliticaPrivacidad = () => {
 
@@ -70,7 +70,7 @@ export const PoliticaPrivacidad = () => {
                 </p>
             </div>
         </main>
-        <Footer />
+        <LazyFooter />
     </>
 )
 }

@@ -1,8 +1,8 @@
 import { NewPage } from '../../components/NewPage'
 import { useWorkingMode } from '../../assets/Customhooks/useWorkingMode'
-import { useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 
-export const Footer = () => {
+const Footer = () => {
   let content
   const workingMode = useWorkingMode()
   const [igSelected, setIgSelected] = useState(false)
@@ -140,4 +140,33 @@ return (
       {content}
     </>
 )
+}
+
+export const LazyFooter = () => {
+  const [show, setShow] = useState(false)
+  const elementRef = useRef()
+
+  useEffect( function () {
+    const onChange = (entries, observer) => {
+      const element = entries[0]
+      if (element.isIntersecting) {
+        setShow(true)
+        observer.disconnect()
+      }
+    }
+
+    const observer = new IntersectionObserver(onChange, {
+      rootMargin: '100px'
+    })
+
+    observer.observe(elementRef.current)
+
+    return () => observer.disconnect()
+  })
+
+  return (
+    <section ref={elementRef}>
+      {show ? <Footer /> : null}
+    </section>
+  )
 }

@@ -1,5 +1,5 @@
 import { NavbarMenu, NewPage } from '../components'
-import { Footer } from '../sections/Shared'
+import { LazyFooter } from '../sections/Shared'
 
 export const TerminosCondiciones = () => {
 
@@ -125,7 +125,7 @@ export const TerminosCondiciones = () => {
                 </p>
             </div>
         </main>
-        <Footer />
+        <LazyFooter />
     </>
 )
 }

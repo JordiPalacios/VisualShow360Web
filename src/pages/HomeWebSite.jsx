@@ -1,5 +1,5 @@
 import { MetaTags, WhatsAppMessage } from '../components'
-import { AboutUs, LazyCompanies, LazyReviews, Presentation, Service1, Service2, Service3 } from '../sections/homePage';
+import { LazyAboutUs, LazyCompanies, LazyReviews, LazyService2, LazyService3, Presentation, Service1 } from '../sections/homePage';
 import { ContactUs, LazyFooter, LazyInfiniteLoopSection } from '../sections/Shared';
 
 
@@ -25,12 +25,12 @@ export const HomeWebsite = () => {
       <main>
         <Service1 />            
         <LazyInfiniteLoopSection />        
-        <Service2 />
-        <Service3 /> 
+        <LazyService2 />
+        <LazyService3 /> 
         <LazyInfiniteLoopSection />
         <LazyReviews />         
         <LazyCompanies />              
-        <AboutUs />
+        <LazyAboutUs />
         <ContactUs />
         <WhatsAppMessage className="contactFixed" msg="https://wa.me/34653781239?text=¡Quiero%20más%20información%20sobre%20VisualShow!" />
       </main>

@@ -108,8 +108,8 @@ return (
                                 </b>
                                 <div className={isMoreProductsInfo ? 'productosOpen' : 'productosClose'}>
                                     <NavItem href='#plataforma360' label='Plataforma 360'page='home' />
-                                    <NavItem href='#magic-mirror' label='Magic Mirror' page='home' />
-                                    <NavItem href='#white-magic-mirror' label='White Magic Mirror'page='home' />
+                                    <NavItem href='#magic-mirror' label='Magic Mirror LED' page='home' />
+                                    <NavItem href='#white-magic-mirror' label='Magic Mirror White'page='home' />
                                     <NavItem href='#ring-ring-experience' label='Ring Experience' page='otrosProductos' />                                
                                 </div>
                             </div>                          

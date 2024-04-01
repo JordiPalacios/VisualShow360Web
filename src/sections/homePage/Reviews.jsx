@@ -4,7 +4,7 @@ import "slick-carousel/slick/slick-theme.css";
 import Slider from 'react-slick'
 import { ReviewsCard } from '../../components'
 import ReviewsData from '../../assets/mocks/reviewsData.json'
-import { LazyLoadComponent, LazyLoadImage } from 'react-lazy-load-image-component';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 export const Reviews = () => {
     const reviewsData = ReviewsData
@@ -40,22 +40,20 @@ return (
         <div className="reviewsContainer">
             <h2><span style={{ color: 'var(--accent)' }}>Qué</span> piensan de nosotros</h2>
             <hr className="line"></hr>
-            <div className="fotomatonImgReviews">
-                <LazyLoadComponent>                    
-                    <Slider {...sliderSettingsReviews}>
-                        {reviewsData.map((data) => (
-                            <ReviewsCard
-                            key={data.id}
-                            id={data.id}
-                            tittle={data.tittle}
-                            client={data.client}
-                            description={data.description}
-                            imgUrl={data.imgUrl}
-                            cardClassName={data.cardClassName}
-                            />
-                            ))}
-                    </Slider>
-                </LazyLoadComponent>
+            <div className="fotomatonImgReviews">               
+                <Slider {...sliderSettingsReviews}>
+                    {reviewsData.map((data) => (
+                        <ReviewsCard
+                        key={data.id}
+                        id={data.id}
+                        tittle={data.tittle}
+                        client={data.client}
+                        description={data.description}
+                        imgUrl={data.imgUrl}
+                        cardClassName={data.cardClassName}
+                        />
+                        ))}
+                </Slider>
             </div>
             <a 
             href="https://www.bodas.net/animacion/360-&-magic-mirror-visualshow360--e218488/opiniones" 

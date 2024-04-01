@@ -4,7 +4,6 @@ import "slick-carousel/slick/slick-theme.css";
 import FotomatonData from '../../assets/mocks/fotomatonData.json'
 import Slider from 'react-slick';
 import { ImgSlider, NavItem } from '../../components';
-import { LazyLoadComponent } from 'react-lazy-load-image-component';
 
 export const Service1 = () => {
     const fotomatonData = FotomatonData
@@ -40,14 +39,12 @@ return (
         <div className="service1Container">
             <h1>Plataforma 360</h1>
             <h2>Ver a tu suegra bailando twerk te va a quitar la depresión post-boda</h2>
-            <div className="fotomatonImgService1">
-            <LazyLoadComponent>                 
+            <div className="fotomatonImgService1">            
                 <Slider {...sliderSettings}>
                     {fotomatonData.map((data) => (
                         <ImgSlider key={data.id} urlImg={data.urlImg} imgName={data.id} styleType='services'/>
                         ))}
                 </Slider>
-            </LazyLoadComponent>
             </div>
             <div className="descriptionContainerService1">                
                 <p>

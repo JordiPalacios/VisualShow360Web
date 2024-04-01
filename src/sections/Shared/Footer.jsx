@@ -4,7 +4,7 @@ import { useState } from 'react'
 
 export const Footer = () => {
   let content
-  const workingMode = useWorkingMode('Mobile')
+  const workingMode = useWorkingMode()
   const [igSelected, setIgSelected] = useState(false)
   const [tikTokSelected, setTikTokSelected] = useState(false)
   

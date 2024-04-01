@@ -1,19 +1,9 @@
 import { MetaTags, WhatsAppMessage } from '../components'
 import { AboutUs, Companies, Presentation, Reviews, Service1, Service2, Service3 } from '../sections/homePage';
 import { ContactUs, Footer, InfiniteLoopSection } from '../sections/Shared';
-import { useLazyLoadComponent } from '../assets/Customhooks/useLazyLoadComponent';
+
 
 export const HomeWebsite = () => {
-  const LazyLoadService1 = useLazyLoadComponent(Service1)
-  const LazyLoadService2 = useLazyLoadComponent(Service2)
-  const LazyLoadService3 = useLazyLoadComponent(Service3)
-  const LazyLoadInfiniteLoop = useLazyLoadComponent(InfiniteLoopSection)
-  const LazyLoadReviews = useLazyLoadComponent(Reviews)
-  const LazyLoadCompanies = useLazyLoadComponent(Companies)
-  const LazyLoadAboutUs = useLazyLoadComponent(AboutUs)
-  const LazyLoadContactUs = useLazyLoadComponent(ContactUs)
-  const LazyLoadFooter = useLazyLoadComponent(Footer)
-
 
   return (
     <>
@@ -33,18 +23,18 @@ export const HomeWebsite = () => {
       />
       <Presentation />
       <main>
-        <LazyLoadService1 />            
-        <LazyLoadInfiniteLoop />        
-        <LazyLoadService2 />
-        <LazyLoadService3 /> 
-        <LazyLoadInfiniteLoop />
-        <LazyLoadReviews />         
-        <LazyLoadCompanies />              
-        <LazyLoadAboutUs />
-        <LazyLoadContactUs />
+        <Service1 />            
+        <InfiniteLoopSection />        
+        <Service2 />
+        <Service3 /> 
+        <InfiniteLoopSection />
+        <Reviews />         
+        <Companies />              
+        <AboutUs />
+        <ContactUs />
         <WhatsAppMessage className="contactFixed" msg="https://wa.me/34653781239?text=¡Quiero%20más%20información%20sobre%20VisualShow!" />
       </main>
-      <LazyLoadFooter />
+      <Footer />
     </>
   )
 }

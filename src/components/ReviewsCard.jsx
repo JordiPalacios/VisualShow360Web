@@ -1,5 +1,4 @@
 import PropTypes from 'prop-types'
-import { LazyLoadImage } from 'react-lazy-load-image-component'
 export const ReviewsCard = ({ id, tittle, client, description, imgUrl, cardClassName }) => {
 
     const content = (
@@ -7,7 +6,7 @@ export const ReviewsCard = ({ id, tittle, client, description, imgUrl, cardClass
         <h3>{tittle}</h3>
         <h4>{client}</h4>
         <div className="description">            
-            <LazyLoadImage src={imgUrl} alt={tittle} />
+            <img src={imgUrl} alt={tittle} />
             <p>{description}</p>
         </div>
     </div>

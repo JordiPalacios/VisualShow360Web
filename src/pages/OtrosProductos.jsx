@@ -1,14 +1,8 @@
-import { useLazyLoadComponent } from '../assets/Customhooks/useLazyLoadComponent'
 import {  MetaTags, NavbarMenu, WhatsAppMessage } from '../components'
 import { ContactUs, Footer, InfiniteLoopSection } from '../sections/Shared'
 import { Product1, Products2 } from '../sections/otherProductsPage'
 
 export const OtrosProductos = () => {
-    const LazyLoadProduct1 = useLazyLoadComponent(Product1)
-    const LazyLoadProducts2 = useLazyLoadComponent(Products2)
-    const LazyLoadInfiniteLoop = useLazyLoadComponent(InfiniteLoopSection)
-    const LazyLoadContactUs = useLazyLoadComponent(ContactUs)
-    const LazyLoadFooter = useLazyLoadComponent(Footer)
 
     return (
         <>      
@@ -30,14 +24,14 @@ export const OtrosProductos = () => {
                 <NavbarMenu />
             </header>
             <main>
-                <LazyLoadProduct1 />
-                <LazyLoadInfiniteLoop />            
-                <LazyLoadProducts2 />
-                <LazyLoadInfiniteLoop />
-                <LazyLoadContactUs />
+                <Product1 />
+                <InfiniteLoopSection />            
+                <Products2 />
+                <InfiniteLoopSection />
+                <ContactUs />
                 <WhatsAppMessage className="contactFixed" msg="https://wa.me/34653781239?text=Quiero%20más%20información%20sobre%20VisualShow!" />
             </main>
-            <LazyLoadFooter />
+            <Footer />
     </>
 )
 }

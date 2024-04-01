@@ -1,7 +1,9 @@
 import { NavItem } from '../../components'
 import { useWorkingMode } from '../../assets/Customhooks/useWorkingMode'
+import { useContext, useEffect, useRef } from 'react'
+import { LoadContext } from '../../context/LoadContext'
 
-export const Service2 = () => {
+const Service2 = () => {
     const workingMode = useWorkingMode()
 return (
     <section id='magic-mirror'>
@@ -79,4 +81,33 @@ return (
         )}
     </section>
 )
+}
+
+export const LazyService2 = () => {
+    const {show} = useContext(LoadContext)
+    const elementRef = useRef()
+
+    useEffect( function () {
+        const onChange = (entries, observer) => {
+            const element = entries[0]
+            if (element.isIntersecting) {
+                setShow(true)
+                observer.disconnect()
+            }
+        }
+
+        const observer = new IntersectionObserver(onChange, {
+            rootMargin: '100px'
+        })
+
+        observer.observe(elementRef.current)
+
+        return () => observer.disconnect()
+    })
+
+    return (
+        <section ref={elementRef}>
+            {show ? <Service2 /> : null}
+        </section>
+    )
 }

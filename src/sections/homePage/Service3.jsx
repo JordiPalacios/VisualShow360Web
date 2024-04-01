@@ -1,4 +1,3 @@
-import { LazyLoadImage } from 'react-lazy-load-image-component'
 import { useWorkingMode } from '../../assets/Customhooks/useWorkingMode'
 import { NavItem } from '../../components'
 
@@ -10,7 +9,7 @@ return (
         {workingMode === 'PC' ? (
         <div className="service3Container">
             <div className="service3ContentContainer">  
-            <LazyLoadImage src="./img/servicios/whiteMagicMirror/magicMirrorWhiteBg.webp" alt="Espejo magico blanco" />                      
+            <img src="./img/servicios/whiteMagicMirror/magicMirrorWhiteBg.webp" alt="Espejo magico blanco" />                      
             <div className="service3DescriptionContainer">  
             <h1>Magic Mirror White</h1>
             <h2>TUS FOTOS DE REVISTA</h2>    
@@ -33,7 +32,7 @@ return (
             <h1>Magic Mirror White</h1>
             <h2>TUS FOTOS DE REVISTA</h2>
             <div className="service3ContentContainer">              
-            <LazyLoadImage src="./img/servicios/whiteMagicMirror/magicMirrorWhiteBg.webp" alt="Espejo magico blanco" />
+            <img src="./img/servicios/whiteMagicMirror/magicMirrorWhiteBg.webp" alt="Espejo magico blanco" />
             <div className="service3DescriptionContainer">              
             <p>
                 Mucho <span style={{ color: 'var(--accent)'}}>cuidadito</span> con éste fotomatón, puede pasar de ser tu aliado a llevarse todo el protagonismo. <br />

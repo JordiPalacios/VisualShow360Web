@@ -1,4 +1,3 @@
-import { LazyLoadImage } from 'react-lazy-load-image-component'
 import { NavbarMenu } from '../../components'
 import { MediaDisplay } from '../../components/MediaDisplay'
 
@@ -22,7 +21,7 @@ return (
                 <h2 className="h2TittleAccent">ESPECIAL</h2>
             </div>               
             <MediaDisplay />
-            <LazyLoadImage className='goService1' onClick={handleClick} src="./gifs/arrow.gif" alt="arrowGift" />
+            <img className='goService1' onClick={handleClick} src="./gifs/arrow.gif" alt="arrowGift" />
         </div>
     </header>
 )

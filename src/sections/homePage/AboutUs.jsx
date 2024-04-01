@@ -1,12 +1,11 @@
-import { LazyLoadImage } from "react-lazy-load-image-component"
 
 export const AboutUs = () => {
 return (
     <section id="nosotros">              
         <div className="aboutUsContainer">
                 <h2>¿Quienes Somos?</h2>
-                <div className="aboutUsContentContainer">                
-                    <LazyLoadImage src="./img/reviews_equipo/navidadDavidIvet.webp" alt="VisualShow360Team" />
+                <div className="aboutUsContentContainer">   
+                    <img src="./img/reviews_equipo/navidadDavidIvet.webp" alt="VisualShow360Team" />
                     <p>
                     ¡Somos Ivet & David! <br />
                     <br />

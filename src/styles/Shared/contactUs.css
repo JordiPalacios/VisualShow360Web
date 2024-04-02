@@ -260,15 +260,25 @@ form button {
         position: absolute;
         max-width: 400px;
         rotate: 15deg;
-        right: -60%;
-        top: 0;
+        right: -55%;
+        top: 5%;
         z-index: 99;
     }
 
     .mediaContainer img {
-        width: auto;
-        max-width: 100%;
+        max-width: 80%;
         height: auto;
     }
 
+}
+
+@media ( 1300px <= width ) { 
+    .mediaContainer {
+        right: -60%;
+        top: 0%;
+    }
+
+    .mediaContainer img {
+        max-width: 100%;
+    }
 }

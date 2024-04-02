@@ -1,10 +1,7 @@
-/*! ****************** */
-/*! Provisional */
 footer h3 {
-    font-style: italic;
+    font-family: var(--tittle-font);
     margin: 0;
 }
-/*! ***************** */
 
 footer img {
     width: 100%;
@@ -52,7 +49,7 @@ footer .line {
 
 .rrssContainer img {
     aspect-ratio: 4/3;
-    width: 75%;
+    width: 60%;
     height: auto;
     object-fit: contain;
     filter: drop-shadow(0px 0px 1px var(--accent));
@@ -78,7 +75,7 @@ footer .line {
     }
 
     .rrssContainer img {
-        width: 85%;
+        width: 70%;
     }
 }
 
@@ -114,10 +111,6 @@ footer .line {
         flex-direction: column;
         align-items: center;
         justify-content: center;
-    }
-
-    .rrssContainer img {
-        width: 100%;
     }
 
     .rrssContainer a:hover {

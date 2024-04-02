@@ -58,7 +58,7 @@ const Footer = () => {
             </div>
           </div>
           <div className="logoContainer">
-            <h3>¡Logo VisualShow!</h3>
+            <h3>Visual Show 360</h3>
             <p><small>© 2024 VisualShow360 - Todos los derechos reservados</small></p>
             <a 
             href="https://www.instagram.com/jordi_code?igsh=MXRvbmtiYmhheHRiZw%3D%3D&utm_source=qr" 
@@ -87,7 +87,7 @@ const Footer = () => {
     content = (
       <footer className="footerContainer">  
       <hr className="line"></hr>
-        <h3>¡Logo VisualShow!</h3>
+        <h3>Visual Show 360</h3>
         <a 
         href="mailto:contacto@visualshow360.com?subject=Información sobre los servicios de VisualShow360&body=Hola quiero saber más sobre visualshow!" 
         target="_blank" 

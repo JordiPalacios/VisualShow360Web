@@ -9,6 +9,7 @@ export const MetaTags = ({ title, keywords, desc, author, rating, ogTitle, ogDes
             <meta name='description' content={desc} />
             <meta name='author' content={author} />
             <meta name="rating" content={rating} />
+            <meta name="robots" content="index, follow" />
             <meta property="og:title" content={ogTitle} />
             <meta property="og:description" content={ogDesc} />
             <meta property="og:type" content={ogType} />

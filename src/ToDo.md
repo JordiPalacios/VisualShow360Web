@@ -34,8 +34,7 @@ ToDo:
 
 [] Jordi Code:
 
-    [] Hostinger:
-        [] Revisar si tiene sistema de cookies
+    [] Eliminar el texto sobre las cookies en temas legales y el uso de dato de terceros, no lo usamos por lo que no necesitamos cookies banner
     
     [] Crear Sistema de Cookies
         [] PopUp Cookies

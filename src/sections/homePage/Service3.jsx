@@ -11,7 +11,7 @@ return (
         {workingMode === 'PC' ? (
         <div className="service3Container">
             <div className="service3ContentContainer">  
-            <img src="./img/servicios/whiteMagicMirror/magicMirrorWhiteBg.webp" alt="Espejo magico blanco" />                      
+            <img src="./img/servicios/whiteMagicMirror/whiteMagicMirrorPeople.webp" alt="Espejo magico blanco" />                      
             <div className="service3DescriptionContainer">  
             <h1>Magic Mirror White</h1>
             <h2>TUS FOTOS DE REVISTA</h2>    

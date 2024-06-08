@@ -34,7 +34,7 @@ return (
             <h1>Magic Mirror White</h1>
             <h2>TUS FOTOS DE REVISTA</h2>
             <div className="service3ContentContainer">              
-            <img src="./img/servicios/whiteMagicMirror/magicMirrorWhiteBg.webp" alt="Espejo magico blanco" />
+            <img src="./img/servicios/whiteMagicMirror/whiteMagicMirrorPeople.webp" alt="Espejo magico blanco" />
             <div className="service3DescriptionContainer">              
             <p>
                 Mucho <span style={{ color: 'var(--accent)'}}>cuidadito</span> con éste fotomatón, puede pasar de ser tu aliado a llevarse todo el protagonismo. <br />

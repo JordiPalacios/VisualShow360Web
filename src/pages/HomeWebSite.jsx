@@ -8,18 +8,18 @@ export const HomeWebsite = () => {
   return (
     <>
       <MetaTags 
-        title={'VisualShow360 | Atrezzo & Fotomaton360'}
-        keywords={'Fotomaton Barcelona'}
-        desc={'El mejor fotomaton de barcelona con un atrezzo único. Haz de tu boda, evento, fiesta un momento único con nuestro espejo mágico.'}
+        title={'VisualShow360 | Plataforma360 & Magic Mirror'}
+        keywords={'Plataforma360, Espejo Magico, White Magic Mirror, Fotomaton, Barcelona, Telefono Audiolibro, Catalunya, Bodas, Eventos, Neones, Letras Love'}
+        desc={'La mejor plataforma 360 de barcelona con un atrezzo único. Haz de tu boda, evento, fiesta un momento especial con nuestro magic mirror.'}
         author={'VisualShow360'}
         rating={'General'}
         ogTitle={'VisualShow360'}
-        ogDesc={'El mejor fotomaton de barcelona con un atrezzo único. Haz de tu boda, evento, fiesta un momento único con nuestro espejo mágico.'}
+        ogDesc={'La mejor plataforma 360 de barcelona con un atrezzo único. Haz de tu boda, evento, fiesta un momento especial con nuestro magic mirror.'}
         ogType={'website'}
         ogUrl={'https://visualshow360.com/'}
-        ogImg={'./img/servicios/fotomaton360/fotomaton360_2.webp'}
+        ogImg={'./img/servicios/fotomaton360/atrezzo_1.webp'}
         OgImgType={'image/webp'}
-        ogImgAlt={'Fotomaton 360 Barcelona'}
+        ogImgAlt={'Plataforma360 Barcelona'}
       />
       <Presentation />
       <main>

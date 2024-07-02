@@ -11,7 +11,7 @@ return (
                 <div className="service4ContentContainer">
                     <img src="./img/servicios/ringRing/audiolibroVS.webp" alt="RingRing" />
                     <div className="service4DescriptionContainer">
-                        <h1>Télefono Audiolibro</h1> 
+                        <h1>Teléfono Audiolibro</h1> 
                         <h2>¿SABES QUE LO PRIMERO QUE OLVIDAMOS DE UNA PERSONA ES SU VOZ?</h2> 
                         <div className='line'></div>                      
                         <p>

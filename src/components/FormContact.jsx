@@ -3,9 +3,14 @@ import { NewPage } from './NewPage'
 
 export const FormContact = () => {
     const [tipoEvento, setTipoEvento] = useState('')
+    const [producto, setProducto] = useState('')
 
     const handleChange = (event) => {
         setTipoEvento(event.target.value)
+    }
+
+    const handleChangeProducto = (event) => {
+        setProducto(event.target.value)
     }
 
     const handleInvalid = (e) => {
@@ -57,7 +62,21 @@ return (
                 <option value="fiestaPrivada"> Fiesta Privada </option>
                 <option value="otros"> Otros </option>
             </select>
-            {/* <input type="text" name='tipoEvento' placeholder='S E L E C C I O N E    E V E N T O' /> */}
+        </label>
+        <label>
+            P&nbsp;R&nbsp;O&nbsp;D&nbsp;U&nbsp;C&nbsp;T&nbsp;O&nbsp;&nbsp;:
+            <select 
+            name="Producto Seleccionado" 
+            value={producto} 
+            onChange={handleChangeProducto}>
+                <option value="plataforma360"> Plataforma360 </option>
+                <option value="magicMirrorLed"> Magic Mirror LED </option>
+                <option value="magicMirrorWhite"> Magic Mirror White </option>
+                <option value="telefonoAudiolibro"> Telefono Audiolibro </option>
+                <option value="letrasLove"> Letras Love </option>
+                <option value="neones"> Neones </option>
+                <option value="kitAntiResaca"> Kit Antiresaca </option>
+            </select>
         </label>
         {/* <label htmlFor='fechaEvento'>
             F&nbsp;E&nbsp;C&nbsp;H&nbsp;A&nbsp;&nbsp;&nbsp;&nbsp;E&nbsp;V&nbsp;E&nbsp;N&nbsp;T&nbsp;O&nbsp;&nbsp;:

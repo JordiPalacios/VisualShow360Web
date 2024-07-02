@@ -35,7 +35,7 @@ export const NavItem = ({ href, label, page }) => {
                     section.getBoundingClientRect().top + window.scrollY - 100
             }
           } else if (page === 'otrosProductos') {
-            if (href === '#ring-ring-experience') {
+            if (href === '#telefono-audiolibro') {
               offset = 
               section.getBoundingClientRect().top + window.scrollY - 180
             } else {

@@ -5,13 +5,13 @@ export const Product1 = () => {
     const workingMode = useWorkingMode('Mobile')
 
 return (
-    <section id='ring-ring-experience'>
+    <section id='telefono-audiolibro'>
         {workingMode === 'PC' ? (
             <div className="service4Container">
                 <div className="service4ContentContainer">
                     <img src="./img/servicios/ringRing/audiolibroVS.webp" alt="RingRing" />
                     <div className="service4DescriptionContainer">
-                        <h1>Ring Ring Experience</h1> 
+                        <h1>Télefono Audiolibro</h1> 
                         <h2>¿SABES QUE LO PRIMERO QUE OLVIDAMOS DE UNA PERSONA ES SU VOZ?</h2> 
                         <div className='line'></div>                      
                         <p>
@@ -34,7 +34,7 @@ return (
             </div>
         ) : (
             <div className="service4Container">
-                <h1>Ring Ring Experience</h1>
+                <h1>Teléfono Audiolibro</h1>
                 <h2>¿SABES QUE LO PRIMERO QUE OLVIDAMOS DE UNA PERSONA ES SU VOZ?</h2>
                 <div className="service4ContentContainer">
                     <img src="./img/servicios/ringRing/audiolibroVS.webp" alt="RingRing"  />

@@ -110,7 +110,7 @@ return (
                                     <NavItem href='#plataforma360' label='Plataforma 360'page='home' />
                                     <NavItem href='#magic-mirror' label='Magic Mirror LED' page='home' />
                                     <NavItem href='#white-magic-mirror' label='Magic Mirror White'page='home' />
-                                    <NavItem href='#ring-ring-experience' label='Ring Experience' page='otrosProductos' />                                
+                                    <NavItem href='#telefono-audiolibro' label='Teléfono Audiolibro' page='otrosProductos' />                                
                                 </div>
                             </div>                          
                         </div>

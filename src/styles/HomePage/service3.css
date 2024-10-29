@@ -7,6 +7,13 @@
     text-wrap: balance;
 }
 
+.service3ContentContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 .service3Container img {
     width: 80%;
     max-width: 350px;
@@ -30,6 +37,56 @@
 
 .service3Container a {
     font-weight: bolder;
+}
+
+/* ******************************************
+*** Service 3 Slider ***
+****************************************** */
+
+.fotomatonImgService3 {
+
+    width: 80%;
+    max-width: 500px;
+    overflow: hidden;
+    padding: 0 50px;
+    margin: 0 auto;
+    filter: drop-shadow(0px 0px 10px var(--contrastBlack2));
+}
+
+.service3Container .slick-slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.service3Container .slick-slider img{
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+}
+
+/* Animaciones para el servicio 1 */
+
+@keyframes showImgSlider {
+    from {
+        opacity: 0%;
+        scale: 25%;
+    } to {
+        opacity: 1;
+        scale: 100%;
+    }
+}
+
+
+.fotomatonImgService3 {
+    view-timeline-name: --image;
+    view-timeline-axis: block;
+
+    animation-timeline: --image;
+    animation-name: showImgSlider;
+
+    animation-range: entry 15% cover 50%;
+    animation-fill-mode: both;
 }
 
 
@@ -65,11 +122,6 @@
         color: var(--textWhite);
         background: var(--secondary);
         
-    }
-
-    .service3Container img {
-        object-fit: cover;
-        margin: 0;
     }
 
     .service3Container .line {

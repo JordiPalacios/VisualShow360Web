@@ -1,17 +1,57 @@
-import { useContext, useEffect, useRef } from 'react'
+import { useContext, useEffect, useRef, useState } from 'react'
 import { useWorkingMode } from '../../assets/Customhooks/useWorkingMode'
-import { NavItem } from '../../components'
+import { ImgSlider, NavItem } from '../../components'
 import { LoadContext } from '../../context/LoadContext'
+import magicMirrorWhiteData from '../../assets/mocks/magicmirrorWhiteData.json'
+import Slider from 'react-slick'
 
 const Service3 = () => {
     const workingMode = useWorkingMode()
+
+    const fotomatonData = magicMirrorWhiteData
+
+    useEffect (() => {
+        const handleResize = () => {
+        const newSetttings = window.innerWidth < 1024
+        ? {...sliderSettings, slidesToShow: 1}
+        : {...sliderSettings, slidesToShow: 1}
+
+        setSliderSettings(newSetttings)
+        }
+    
+        window.addEventListener('resize', handleResize)
+
+        handleResize()
+        
+        return () => {
+        window.removeEventListener('resize', handleResize)
+        }
+    }, [])
+
+    const [sliderSettings, setSliderSettings] = useState({
+        dots: false,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+    })
 
 return (
     <section id='white-magic-mirror'>
         {workingMode === 'PC' ? (
         <div className="service3Container">
             <div className="service3ContentContainer">  
-            <img src="./img/servicios/whiteMagicMirror/whiteMagicMirrorPeople.webp" alt="Espejo magico blanco" />                      
+            <div className="fotomatonImgService3">            
+                <Slider {...sliderSettings}>
+                    {fotomatonData.map((data) => (
+                        <ImgSlider 
+                        key={data.id} 
+                        urlImg={data.urlImg} 
+                        imgName={data.id} 
+                        styleType='services'/>
+                        ))}
+                </Slider>
+            </div>                      
             <div className="service3DescriptionContainer">  
             <h1>Magic Mirror White</h1>
             <h2>TUS FOTOS DE REVISTA</h2>    
@@ -34,7 +74,17 @@ return (
             <h1>Magic Mirror White</h1>
             <h2>TUS FOTOS DE REVISTA</h2>
             <div className="service3ContentContainer">              
-            <img src="./img/servicios/whiteMagicMirror/whiteMagicMirrorPeople.webp" alt="Espejo magico blanco" />
+            <div className="fotomatonImgService3">            
+                <Slider {...sliderSettings}>
+                    {fotomatonData.map((data) => (
+                        <ImgSlider 
+                        key={data.id} 
+                        urlImg={data.urlImg} 
+                        imgName={data.id} 
+                        styleType='services'/>
+                        ))}
+                </Slider>
+            </div>
             <div className="service3DescriptionContainer">              
             <p>
                 Mucho <span style={{ color: 'var(--accent)'}}>cuidadito</span> con éste fotomatón, puede pasar de ser tu aliado a llevarse todo el protagonismo. <br />

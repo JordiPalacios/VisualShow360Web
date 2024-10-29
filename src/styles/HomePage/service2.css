@@ -7,6 +7,13 @@
     padding: 20px;
 }
 
+.service2ContentContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 .service2Container h1 {
     font-size: 2.5rem;
     padding-bottom: 20px;
@@ -67,11 +74,60 @@
     margin: 0;
 }
 
+/* ******************************************
+*** Service 2 Slider ***
+****************************************** */
+
+.fotomatonImgService2 {
+
+    width: 80%;
+    max-width: 500px;
+    overflow: hidden;
+    padding: 0 50px;
+    margin: 0 auto;
+    filter: drop-shadow(0px 0px 10px var(--contrastBlack2));
+}
+
+.service2Container .slick-slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.service2Container .slick-slider img{
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+}
+
+/* Animaciones para el servicio 1 */
+
+@keyframes showImgSlider {
+    from {
+        opacity: 0%;
+        scale: 25%;
+    } to {
+        opacity: 1;
+        scale: 100%;
+    }
+}
+
+
+.fotomatonImgService2 {
+    view-timeline-name: --image;
+    view-timeline-axis: block;
+
+    animation-timeline: --image;
+    animation-name: showImgSlider;
+
+    animation-range: entry 15% cover 50%;
+    animation-fill-mode: both;
+}
+
 /* Medidad Tablet */
 
 @media ( 760px <= width ) {
     .service2ContentContainer {
-        display: flex;
         flex-direction: row;
         align-items: stretch;
         margin: 10px 10px 10px 50px;
@@ -93,11 +149,6 @@
         font-weight: bolder;
         background: var(--textWhite);
         color: var(--secondary);
-    }
-
-    .service2Container img {
-        margin: 0;
-        object-fit: contain;
     }
 
     .service2Container .line {

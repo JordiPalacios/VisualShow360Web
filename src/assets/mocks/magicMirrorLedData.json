@@ -1,0 +1,34 @@
+[
+    {
+        "urlImg" : "./img/servicios/magicMirror/espejoMagico_0.webp",
+        "id": "espejoMagico"
+    } ,
+    {
+        "urlImg" : "./img/servicios/magicMirror/espejoMagico_1.webp",
+        "id": "espejoMagicoBoda"
+    },
+    {
+        "urlImg" : "./img/servicios/magicMirror/espejoMagico_2.webp",
+        "id": "espejoMagicoAtrezzo"
+    },
+    {
+        "urlImg" : "./img/servicios/magicMirror/espejoMagico_3.webp",
+        "id": "espejoMagicoNovios"
+    },
+    {
+        "urlImg" : "./img/servicios/magicMirror/espejoMagico_5.webp",
+        "id": "espejoMagicoEvento"
+    },
+    {
+        "urlImg" : "./img/servicios/magicMirror/espejoMagico_6.webp",
+        "id": "espejoMagicoBarcelona"
+    },
+    {
+        "urlImg" : "./img/servicios/magicMirror/espejoMagico_7.webp",
+        "id": "espejoMagicoPlaya"
+    },
+    {
+        "urlImg" : "./img/servicios/magicMirror/espejoMagico_8.webp",
+        "id": "espejoMagicoMontaña"
+    }
+]

@@ -5,7 +5,7 @@ export const MediaDisplay = () => {
     const isIOS = useCheckIOS(false)
     const workingMode = useWorkingMode() 
     const className = `img${workingMode}`
-    const src = "./img/servicios/fotomaton360/atrezzo_3.webp"
+    const src = "./img/servicios/whiteMagicMirror/whiteMagicMirror_11.webp"
     const alt = "atrezzoVisualShow360"
 
     let media

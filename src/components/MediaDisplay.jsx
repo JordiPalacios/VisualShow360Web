@@ -15,14 +15,14 @@ export const MediaDisplay = () => {
     } else if (workingMode === 'Mobile') {
         media = (
             <video className='videoMobile' controlsList='nodownload' playsInline loop muted autoPlay  >
-                <source src="./video/videoMobileBW.mp4" type="video/mp4"/>
+                <source src="./video/visualshowPresentation.mp4" type="video/mp4"/>
                 Este navegador no soporta vídeos.
             </video>
         )
     } else if (workingMode === 'PC' || (workingMode === 'Tablet' && !isIOS)) {
         media = (
             <video className='videoTabletPC'controlsList='nodownload' playsInline loop muted autoPlay >
-                <source src="./video/weedingBW.mp4" type="video/mp4"/>
+                <source src="./video/visualshowPresentation.mp4" type="video/mp4"/>
                 Este navegador no soporta vídeos.
             </video>
         )

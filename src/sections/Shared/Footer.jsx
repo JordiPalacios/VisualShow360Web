@@ -156,7 +156,7 @@ export const LazyFooter = () => {
     }
 
     const observer = new IntersectionObserver(onChange, {
-      rootMargin: '100px'
+      rootMargin: '300px'
     })
 
     observer.observe(elementRef.current)

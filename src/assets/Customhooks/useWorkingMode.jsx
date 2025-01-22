@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 
 export const useWorkingMode = () => {
-    const [workingMode, setWorkingMode] = useState('')
+    const [workingMode, setWorkingMode] = useState('Mobile')
 
     useEffect (() => {
         

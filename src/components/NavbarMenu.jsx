@@ -9,7 +9,7 @@ export const NavbarMenu = () => {
     const [isMoreProductsInfo, setIsMoreProductsInfo] = useState(false)
     const [isMoreWeddingsInfo, setIsMoreWeddingsInfo] = useState(false)
     const { navbarRef, headerRef} = useContext(NavbarContext)
-    const workingMode = useWorkingMode()
+    const workingMode = useWorkingMode('Mobile')
 
     const handleMouseEnter = (menu) => {
         if (window.innerWidth >= 748) {

@@ -3,7 +3,7 @@ import { useWorkingMode } from "../assets/Customhooks/useWorkingMode"
 
 export const MediaDisplay = () => {
     const isIOS = useCheckIOS(false)
-    const workingMode = useWorkingMode() 
+    const workingMode = useWorkingMode('Mobile') 
     const className = `img${workingMode}`
     const src = "./img/servicios/whiteMagicMirror/whiteMagicMirror_11.webp"
     const alt = "atrezzoVisualShow360"

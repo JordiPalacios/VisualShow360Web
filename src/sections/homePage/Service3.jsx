@@ -6,7 +6,7 @@ import magicMirrorWhiteData from '../../assets/mocks/magicmirrorWhiteData.json'
 import Slider from 'react-slick'
 
 const Service3 = () => {
-    const workingMode = useWorkingMode()
+    const workingMode = useWorkingMode('Mobile')
 
     const fotomatonData = magicMirrorWhiteData
 

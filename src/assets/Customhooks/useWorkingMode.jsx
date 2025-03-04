@@ -1,17 +1,17 @@
 import { useEffect, useState } from 'react'
 
 export const useWorkingMode = () => {
-    const [workingMode, setWorkingMode] = useState('mobile')
+    const [workingMode, setWorkingMode] = useState('Mobile')
 
     useEffect (() => {
         
         const checkWorkingMode = () => {
         if (window.innerWidth > 1023) {
-            setWorkingMode('desktop')
+            setWorkingMode('PC')
         } else if ( window.innerWidth > 759) {
-            setWorkingMode('tablet')
+            setWorkingMode('Tablet')
         } else {
-            setWorkingMode('mobile')
+            setWorkingMode('Mobile')
         }
         }
     

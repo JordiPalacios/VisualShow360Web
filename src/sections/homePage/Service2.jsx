@@ -110,17 +110,6 @@ return (
                         <br />
                         <span className='citaReview'>&quot; Maria puso un fotomatón muy raro que fue la pxxx hostia, y vaya fiestón se montó &quot;</span>
                         </p>
-                    <div className="detailsService2"> 
-                        <h2>¿Qué incluye?</h2>                   
-                        <ul>
-                            <li>• Alfombra roja</li>
-                            <li>• Separadores de seguridad</li>
-                            <li>• Impresión al momento</li>
-                            <li>• Máxima calidad de imágen</li>
-                            <li>• La mejor mesa de ATREZZO que verás nunca</li>
-                        </ul>
-                        <span> CREAREMOS EL FIESTÓN </span>
-                    </div>
                     <div className="buttonsContainer">
                         <button id='S2OthersFormularioContacto' aria-label='Nos mueve hasta el formulario de contacto'>
                             <NavItem href='#contacto' label='¡Comprobar mi fecha!' colorText='var(--accent)' page='home'/>

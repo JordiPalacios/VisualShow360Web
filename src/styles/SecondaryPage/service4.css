@@ -6,15 +6,25 @@
     text-wrap: balance;
     padding-top: 100px;
     padding-bottom: 20px;
+    list-style: none;
 }
 
 .service4Container h1 {
     color: var(--secondary);
     text-decoration: underline;
     text-decoration-color: var(--textWhite);
+    color: var(--textWhite);
+    text-decoration: underline;
+    text-decoration-color: var(--accent);
+    margin: 0;
+    padding: 5px;
 }
 
 .service4Container h2 {
+    font-family: var(--tittle-font);
+    background-color: var(--secondary);
+    text-decoration: underline;
+    text-decoration-color: var(--textWhite);
     display: none;
 }
 
@@ -48,7 +58,6 @@
 
     .service4Container h1 {
         padding-bottom: 0;
-        color: var(--accent);
         text-decoration: none;
     }
 
@@ -58,8 +67,8 @@
         padding: 5px;
         font-style: italic;
         font-weight: bolder;
-        background: var(--textWhite);
-        color: var(--secondary);
+        /* background: var(--textWhite);
+        color: var(--secondary); */
     }
 
     .service4Container span {

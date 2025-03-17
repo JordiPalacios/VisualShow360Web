@@ -32,7 +32,7 @@ return (
                     nameImg={data.name} 
                     equal={false}/>
                 ))}
-                {logosData.map((data) => (
+            {logosData.map((data) => (
                 <InfiniteLoop 
                     key={data.id} 
                     urlImg={data.url}

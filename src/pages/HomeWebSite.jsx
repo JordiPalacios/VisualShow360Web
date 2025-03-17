@@ -23,13 +23,14 @@ export const HomeWebsite = () => {
       />
       <Presentation />
       <main>
-        <Service1 />            
+        <Service1 />      
+        {/* Aquí va el loop pero con los 3 logos       */}
         <LazyInfiniteLoopSection />        
         <LazyService2 />
         <LazyService3 /> 
+        {/* Aquí va el loop pero con los 3 logos       */}
         <LazyInfiniteLoopSection />
-        <LazyReviews />         
-        <LazyCompanies />              
+        <LazyReviews />                       
         <LazyAboutUs />
         <ContactUs />
         <WhatsAppMessage className="contactFixed" msg="https://wa.me/34653781239?text=¡Quiero%20más%20información%20sobre%20VisualShow!" />

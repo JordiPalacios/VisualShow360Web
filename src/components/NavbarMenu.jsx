@@ -105,18 +105,22 @@ return (
                                 <li 
                                 onMouseEnter={() => handleMouseEnter('products')}                            
                                 onClick={() => toggleClass('products')}>
-                                    Servicios Party {isMoreProductsInfo ? <div className="triangulo-arriba"></div> : <div className="triangulo-abajo"></div>}
+                                    Fotomatones {isMoreProductsInfo ? <div className="triangulo-arriba"></div> : <div className="triangulo-abajo"></div>}
                                 </li>
                                 </b>
                                 <div className={isMoreProductsInfo ? 'productosOpen' : 'productosClose'}>
                                     <NavItem href='#plataforma360' label='Plataforma 360'page='home' />
                                     <NavItem href='#magic-mirror' label='Magic Mirror LED' page='home' />
-                                    <NavItem href='#white-magic-mirror' label='Magic Mirror White'page='home' />
-                                    <NavItem href='#telefono-audiolibro' label='Teléfono Audiolibro' page='otrosProductos' />                                
+                                    <NavItem href='#fotomaton-24h' label='Fotomatón 24H'page='home' />                                
                                 </div>
                             </div>                          
                         </div>
-                        <div className='tabletPCMenu'>  
+                        <li>
+                            <b>
+                                <NavItem href='#telefono-audiolibro' label='Teléfono Audiolibro' page='otrosProductos' />
+                            </b>
+                        </li>
+                        {/* <div className='tabletPCMenu'>  
                             <div onMouseLeave={() => handleMouseLeave('weddings')} >
                                 <b>
                                 <li 
@@ -132,8 +136,8 @@ return (
                                     <NavItem href='#kitAntiResaca' label='Kit AntiResaca' page='otrosProductos' />
                                 </div>
                             </div>                          
-                        </div>
-                        <li>
+                        </div> */}
+                        {/* <li>
                             <b>
                                 <a 
                                 href="https://www.instagram.com/visualshow360?igshid=YmMyMTA2M2Y=" 
@@ -143,7 +147,7 @@ return (
                                     Eventos Reales
                                 </a>
                             </b>
-                        </li>
+                        </li> */}
                         <b><NavItem href='#nosotros' label='Nosotros' page='home' /></b>             
                     </ul>
                 </div>

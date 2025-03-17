@@ -1,19 +1,44 @@
 import { useContext, useEffect, useRef } from 'react'
 import { InfiniteLoop } from '../../components/'
 import { LoadContext } from '../../context/LoadContext'
+import LogosData from '../../assets/mocks/logosData.json'
+
 
 const InfiniteLoopSection = () => {
+    const logosData = LogosData
 return (
     <section>
-        <div className="logo">        
-            <InfiniteLoop 
+        <div className="logo">  
+            {/* Por si es la misma imagen       */}
+            {/* <InfiniteLoop 
                 urlImg="./img/Extra/show.webp" 
                 nameImg="VisualShow" 
                 equal={true}/>
             <InfiniteLoop 
                 urlImg="./img/Extra/show.webp" 
                 nameImg="VisualShow" 
-                equal={true}/>
+                equal={true}/> */}
+            {logosData.map((data) => (
+                <InfiniteLoop 
+                    key={data.companyName} 
+                    urlImg={data.urlImg} 
+                    nameImg={data.companyName} 
+                    equal={false}/>
+                ))}
+            {logosData.map((data) => (
+                <InfiniteLoop 
+                    key={data.companyName} 
+                    urlImg={data.urlImg}
+                    nameImg={data.companyName} 
+                    equal={false}/>
+                ))}
+                {logosData.map((data) => (
+                <InfiniteLoop 
+                    key={data.companyName} 
+                    urlImg={data.urlImg}
+                    nameImg={data.companyName} 
+                    equal={false}/>
+                ))}
         </div>
     </section>
 )

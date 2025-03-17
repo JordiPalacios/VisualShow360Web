@@ -25,9 +25,6 @@ export const OtrosProductos = () => {
             </header>
             <main>
                 <Product1 />
-                {/* <LazyInfiniteLoopSection />            
-                <Products2 /> */}
-                {/* Aquí va el loop pero con los 3 logos */}
                 <LazyInfiniteLoopSection />
                 <ContactUs />
                 <WhatsAppMessage className="contactFixed" msg="https://wa.me/34653781239?text=Quiero%20más%20información%20sobre%20VisualShow!" />

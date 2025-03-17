@@ -8,7 +8,6 @@
 
 .logo {
     overflow: hidden;
-    padding: 10px 0 10px 0;
     background: var(--textWhite);
     white-space: nowrap;
     position: relative;
@@ -27,7 +26,7 @@
 
 .logoSlide {
     display: inline-block;
-    animation: 150s slide infinite linear;
+    animation: 10s slide infinite linear;
 }
 
 .logoSlide img {
@@ -41,17 +40,10 @@
     .logoSlide img {
         width: 125px;
     }
-
-    .logoSlide {
-        animation: 120s slide infinite linear;
-    }
 }
 
 /* Medidas PC  */
 @media ( 1024px <= width ) {
-    .logoSlide {
-        animation: 90s slide infinite linear;
-    }
 
     .logoSlide img {
         width: 150px;

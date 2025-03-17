@@ -1,0 +1,15 @@
+[
+    {
+        "urlImg" : "./img/servicios/telefonoAudiolibroLogo.webp",
+        "id": "fotomaton360"
+    } ,
+    {
+        "urlImg" : "./img/servicios/visualShow24hLogo.webp",
+        "id": "fotomatonBarcelona"
+    },
+    {
+        "urlImg" : "./img/servicios/visualShowLogo.webp",
+        "id": "fotomatonNovios"
+    }
+    
+]

@@ -24,11 +24,9 @@ export const HomeWebsite = () => {
       <Presentation />
       <main>
         <Service1 />      
-        {/* Aquí va el loop pero con los 3 logos       */}
-        <LazyInfiniteLoopSection />        
+        <LazyInfiniteLoopSection />      
         <LazyService2 />
         <LazyService3 /> 
-        {/* Aquí va el loop pero con los 3 logos       */}
         <LazyInfiniteLoopSection />
         <LazyReviews />                       
         <LazyAboutUs />

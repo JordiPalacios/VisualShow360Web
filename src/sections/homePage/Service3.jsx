@@ -2,13 +2,13 @@ import { useContext, useEffect, useRef, useState } from 'react'
 import { useWorkingMode } from '../../assets/Customhooks/useWorkingMode'
 import { ImgSlider, NavItem } from '../../components'
 import { LoadContext } from '../../context/LoadContext'
-import magicMirrorWhiteData from '../../assets/mocks/magicmirrorWhiteData.json'
+import fotomaton24Data from '../../assets/mocks/fotomaton24Data.json'
 import Slider from 'react-slick'
 
 const Service3 = () => {
     const workingMode = useWorkingMode('Mobile')
 
-    const fotomatonData = magicMirrorWhiteData
+    const fotomatonData = fotomaton24Data
 
     useEffect (() => {
         const handleResize = () => {
@@ -53,17 +53,19 @@ return (
                 </Slider>
             </div>                      
             <div className="service3DescriptionContainer">  
-            <h1>Magic Mirror White</h1>
-            <h2>TUS FOTOS DE REVISTA</h2>    
+            <h1>Flash 24H</h1>
+            <h2>Tu fotomatón las 24H</h2>    
             <hr className='line'></hr>        
             <p>
-                Mucho <span style={{ color: 'var(--accent)'}}>cuidadito</span> con éste fotomatón, puede pasar de ser tu aliado a llevarse todo el protagonismo. <br />
+                ¿Sabias que sólo el <span style={{ color: 'var(--accent)'}}>9%</span> de las bodas, tienen más de 100 fotos de recuerdo de su fiesta?
                 <br />
-                Eligue un buen fondo y crea los <span style={{ color: 'var(--accent)'}}>RECUERDOS</span> más espectaculares de tu boda. No seas cutre, que en ese momento ya no hay fotógrafos.
+                <br />
+                Con Flash 24h, tendrás un fotomatón durante las <span style={{ color: 'var(--accent)'}}>24h</span> de tu boda.
+                <br />
             </p>
             <div className="buttonsContainer">
             <button id='S3PcFormularioContacto' aria-label='Nos mueve hasta el formulario de contacto'>
-                <NavItem href='#contacto' label='¡Agenda tu reunión!' colorText='var(--textWhite)' page='home' />
+                <NavItem href='#contacto' label='¡Ver disponibilidad!' colorText='var(--textWhite)' page='home' />
             </button>
             </div>
             </div>
@@ -71,8 +73,8 @@ return (
         </div>
         ) : (
         <div className="service3Container">
-            <h1>Magic Mirror White</h1>
-            <h2>TUS FOTOS DE REVISTA</h2>
+            <h1>Flash 24H</h1>
+            <h2>Tu fotomatón las 24H</h2>
             <div className="service3ContentContainer">              
             <div className="fotomatonImgService3">            
                 <Slider {...sliderSettings}>
@@ -87,13 +89,15 @@ return (
             </div>
             <div className="service3DescriptionContainer">              
             <p>
-                Mucho <span style={{ color: 'var(--accent)'}}>cuidadito</span> con éste fotomatón, puede pasar de ser tu aliado a llevarse todo el protagonismo. <br />
+                ¿Sabias que sólo el <span style={{ color: 'var(--accent)'}}>9%</span> de las bodas, tienen más de 100 fotos de recuerdo de su fiesta?
                 <br />
-                Eligue un buen fondo y crea los <span style={{ color: 'var(--accent)'}}>RECUERDOS</span> más espectaculares de tu boda. No seas cutre, que en ese momento ya no hay fotógrafos.
+                <br />
+                Con Flash 24h, tendrás un fotomatón durante las <span style={{ color: 'var(--accent)'}}>24h</span> de tu boda.
+                <br />
             </p>
             <div className="buttonsContainer">
             <button id='S3OthersFormularioContacto' aria-label='Nos mueve hasta el formulario de contacto'>
-                <NavItem href='#contacto' label='¡Agenda tu reunión!' colorText='var(--textWhite)' page='home'/>
+                <NavItem href='#contacto' label='¡Ver disponibilidad!' colorText='var(--textWhite)' page='home'/>
             </button>
             </div>
             </div>

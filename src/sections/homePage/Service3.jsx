@@ -37,7 +37,7 @@ const Service3 = () => {
     })
 
 return (
-    <section id='white-magic-mirror'>
+    <section id='fotomaton-24h'>
         {workingMode === 'PC' ? (
         <div className="service3Container">
             <div className="service3ContentContainer">  

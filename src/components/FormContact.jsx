@@ -50,7 +50,7 @@ return (
             name='Numero Cliente' 
             placeholder='N U M E R O    T E L E F O N O    *' />
         </label>
-        <label>
+        {/* <label>
             T&nbsp;I&nbsp;P&nbsp;O&nbsp;&nbsp;&nbsp;&nbsp;E&nbsp;V&nbsp;E&nbsp;N&nbsp;T&nbsp;O&nbsp;&nbsp;:
             <select 
             name="Tipo de Evento" 
@@ -62,8 +62,8 @@ return (
                 <option value="fiestaPrivada"> Fiesta Privada </option>
                 <option value="otros"> Otros </option>
             </select>
-        </label>
-        <label>
+        </label> */}
+        {/* <label>
             P&nbsp;R&nbsp;O&nbsp;D&nbsp;U&nbsp;C&nbsp;T&nbsp;O&nbsp;&nbsp;:
             <select 
             name="Producto Seleccionado" 
@@ -77,7 +77,7 @@ return (
                 <option value="neones"> Neones </option>
                 <option value="kitAntiResaca"> Kit Antiresaca </option>
             </select>
-        </label>
+        </label> */}
         {/* <label htmlFor='fechaEvento'>
             F&nbsp;E&nbsp;C&nbsp;H&nbsp;A&nbsp;&nbsp;&nbsp;&nbsp;E&nbsp;V&nbsp;E&nbsp;N&nbsp;T&nbsp;O&nbsp;&nbsp;:
             <input 

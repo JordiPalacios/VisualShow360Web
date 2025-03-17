@@ -77,7 +77,7 @@ return (
                 </div>      
                 <div className="buttonsContainer">
                     <button id='S2PcFormularioContacto' aria-label='Nos mueve hasta el formulario de contacto'>
-                        <NavItem href='#contacto' label='¡Agenda tu reunión!' colorText='var(--accent)' page='home'/>
+                        <NavItem href='#contacto' label='¡Comprobar mi fecha!' colorText='var(--accent)' page='home'/>
                     </button>
                 </div>
             </div>
@@ -123,7 +123,7 @@ return (
                     </div>
                     <div className="buttonsContainer">
                         <button id='S2OthersFormularioContacto' aria-label='Nos mueve hasta el formulario de contacto'>
-                            <NavItem href='#contacto' label='¡Agenda tu reunión!' colorText='var(--accent)' page='home'/>
+                            <NavItem href='#contacto' label='¡Comprobar mi fecha!' colorText='var(--accent)' page='home'/>
                         </button>
                     </div>
                 </div>

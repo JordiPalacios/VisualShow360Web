@@ -77,7 +77,7 @@ return (
             </div>
             <div className="buttonsContainer">
             <button id='S1FormularioContacto' aria-label='Nos mueve hasta el formulario de contacto'>
-                <NavItem href='#contacto' label='¡Agenda tu reunión!' colorText='var(--accent)' page='home'/>
+                <NavItem href='#contacto' label='¡Lo quiero!' colorText='var(--accent)' page='home'/>
             </button>
             </div>
         </div>

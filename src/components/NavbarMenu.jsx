@@ -115,11 +115,9 @@ return (
                                 </div>
                             </div>                          
                         </div>
-                        <li>
-                            <b>
-                                <NavItem href='#telefono-audiolibro' label='Teléfono Audiolibro' page='otrosProductos' />
-                            </b>
-                        </li>
+                        <b>
+                            <NavItem href='#telefono-audiolibro' label='Teléfono Audiolibro' page='otrosProductos' />
+                        </b>
                         {/* <div className='tabletPCMenu'>  
                             <div onMouseLeave={() => handleMouseLeave('weddings')} >
                                 <b>

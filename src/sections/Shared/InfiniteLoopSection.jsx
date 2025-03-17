@@ -20,23 +20,23 @@ return (
                 equal={true}/> */}
             {logosData.map((data) => (
                 <InfiniteLoop 
-                    key={data.companyName} 
-                    urlImg={data.urlImg} 
-                    nameImg={data.companyName} 
+                    key={data.id} 
+                    urlImg={data.url} 
+                    nameImg={data.name} 
                     equal={false}/>
                 ))}
             {logosData.map((data) => (
                 <InfiniteLoop 
-                    key={data.companyName} 
-                    urlImg={data.urlImg}
-                    nameImg={data.companyName} 
+                    key={data.id} 
+                    urlImg={data.url}
+                    nameImg={data.name} 
                     equal={false}/>
                 ))}
                 {logosData.map((data) => (
                 <InfiniteLoop 
-                    key={data.companyName} 
-                    urlImg={data.urlImg}
-                    nameImg={data.companyName} 
+                    key={data.id} 
+                    urlImg={data.url}
+                    nameImg={data.name} 
                     equal={false}/>
                 ))}
         </div>

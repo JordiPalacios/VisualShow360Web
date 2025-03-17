@@ -46,8 +46,8 @@ return (
                     {fotomatonData.map((data) => (
                         <ImgSlider 
                         key={data.id} 
-                        urlImg={data.urlImg} 
-                        imgName={data.id} 
+                        urlImg={data.url} 
+                        imgName={data.name} 
                         styleType='services'/>
                         ))}
                 </Slider>

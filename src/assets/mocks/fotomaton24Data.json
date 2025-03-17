@@ -1,34 +1,42 @@
 [
     {
-        "id": "fotomaton24h_2",
-        "urlImg" : "./img/servicios/fotomaton24h/fotomaton24h_2.webp"
+        "id": "2",
+        "url" : "./img/servicios/fotomaton24h/fotomaton24h_2.webp",
+        "name" : "fotomaton24h_2"
     },
     {
-        "id": "fotomaton24h_1",
-        "urlImg" : "./img/servicios/fotomaton24h/fotomaton24h_1.webp"
+        "id": "1",
+        "url" : "./img/servicios/fotomaton24h/fotomaton24h_1.webp",
+        "name" : "fotomaton24h_1"
     },
     {
-        "id": "fotomaton24h_3",
-        "urlImg" : "./img/servicios/fotomaton24h/fotomaton24h_3.webp"
+        "id": "3",
+        "url" : "./img/servicios/fotomaton24h/fotomaton24h_3.webp",
+        "name" : "fotomaton24h_3"
     },
     {
-        "id": "fotomaton24h_7",
-        "urlImg" : "./img/servicios/fotomaton24h/fotomaton24h_7.webp"
+        "id": "7",
+        "url" : "./img/servicios/fotomaton24h/fotomaton24h_7.webp",
+        "name" : "fotomaton24h_7"
     },
     {
-        "id": "fotomaton24h_5",
-        "urlImg" : "./img/servicios/fotomaton24h/fotomaton24h_5.webp"
+        "id": "5",
+        "url" : "./img/servicios/fotomaton24h/fotomaton24h_5.webp",
+        "name" : "fotomaton24h_5"
     },
     {
-        "id": "fotomaton24h_0",
-        "urlImg" : "./img/servicios/fotomaton24h/fotomaton24h_0.webp"
+        "id": "0",
+        "url" : "./img/servicios/fotomaton24h/fotomaton24h_0.webp",
+        "name" : "fotomaton24h_0"
     },
     {
-        "id": "fotomaton24h_4",
-        "urlImg" : "./img/servicios/fotomaton24h/fotomaton24h_4.webp"
+        "id": "4",
+        "url" : "./img/servicios/fotomaton24h/fotomaton24h_4.webp",
+        "name" : "fotomaton24h_4"
     },
     {
-        "id": "fotomaton24h_6",
-        "urlImg" : "./img/servicios/fotomaton24h/fotomaton24h_6.webp"
+        "id": "6",
+        "url" : "./img/servicios/fotomaton24h/fotomaton24h_6.webp",
+        "name" : "fotomaton24h_6"
     }
 ]

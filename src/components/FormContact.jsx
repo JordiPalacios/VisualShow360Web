@@ -22,7 +22,7 @@ export const FormContact = () => {
     }
 
 return (
-    <form action="https://formspree.io/f/xoqbbbvn" method="post">
+    <form action="https://formspree.io/f/xnnpjerz" method="post">
         <label>
             <input 
             required 

@@ -8,6 +8,9 @@
     padding-top: 100px;
     padding-bottom: 20px;
     list-style: none;
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
 }
 
 .service4Container h1 {
@@ -33,13 +36,19 @@
     font-weight: bolder;
 }
 
-.service4Container img {
+.service4Container img,
+.service4Container video {
     width: 80%;
     max-width: 300px;
     height: auto;
     margin-bottom: 20px;
     filter: drop-shadow(0px 0px 10px var(--contrastBlack2));
     border-radius: 25px;
+}
+
+.service4Container video{
+    pointer-events: all;
+    user-select: all;
 }
 
 /* ******************************************
@@ -51,16 +60,16 @@
     height: auto;
     max-width: 500px;
     overflow: hidden;
-    padding: 0 30px;
+    padding: 0px;
     filter: drop-shadow(0px 0px 10px var(--contrastBlack2));
 }
 
 .service4ContentContainer .slick-prev {
-    padding: 50px;
+    padding: 0 100px;
 }
 
 .service4ContentContainer .slick-next {
-    padding: 70px;
+    padding: 0 125px;
 }
 
 /* Medidad Tablet */

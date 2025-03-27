@@ -26,7 +26,15 @@ export const OtrosProductos = () => {
             <main>
                 <Product1 />
                 <LazyInfiniteLoopSection />
-                <ContactUs />
+                <ContactUs 
+                    tittle="Descarga GRATIS Control de Gastos para ahorrarte dinero en tu boda"
+                    desc="Las bodas tienen gastos absurdos 
+                        ¿400€ en servilletas personalizadas? 
+                        �
+                        �
+                        Invierte en lo que hará tu día inolvidable. �" 
+                    className="contactoContainer"
+                    />
                 <WhatsAppMessage className="contactFixed" msg="https://wa.me/34653781239?text=Quiero%20más%20información%20sobre%20VisualShow!" />
             </main>
             <LazyFooter />

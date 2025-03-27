@@ -1,11 +1,12 @@
 import { FormContact } from '../../components/FormContact';
 
-export const ContactUs = () => {
+export const ContactUs = ({tittle, desc, className}) => {
 
   const content = (
     <section id="contacto">
-        <div className="contactoContainer">
-          <h2>¡SÍ Quiero!</h2>
+        <div className={className}>
+          <h2>{tittle}</h2>
+          <p>{desc}</p>
           <div className="elementsContainer">
             <div className="formContainer">       
               <FormContact />

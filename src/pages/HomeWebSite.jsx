@@ -30,7 +30,7 @@ export const HomeWebsite = () => {
         <LazyInfiniteLoopSection />
         <LazyReviews />                       
         <LazyAboutUs />
-        <ContactUs />
+        <ContactUs tittle="¡SÍ Quiero!" className="contactoContainer" />
         <WhatsAppMessage className="contactFixed" msg="https://wa.me/34653781239?text=¡Quiero%20más%20información%20sobre%20VisualShow!" />
       </main>
       <LazyFooter />

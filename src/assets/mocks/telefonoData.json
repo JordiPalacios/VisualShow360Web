@@ -1,0 +1,42 @@
+[
+    {
+        "id": "2",
+        "url" : "./img/servicios/telefonoaudiolibro/telefonoaudiolibro_02.webp",
+        "name" : "telefonoaudiolibro_2"
+    },
+    {
+        "id": "1",
+        "url" : "./img/servicios/telefonoaudiolibro/telefonoaudiolibro_01.webp",
+        "name" : "telefonoaudiolibro_1"
+    },
+    {
+        "id": "3",
+        "url" : "./img/servicios/telefonoaudiolibro/telefonoaudiolibro_03.webp",
+        "name" : "telefonoaudiolibro_3"
+    },
+    {
+        "id": "7",
+        "url" : "./img/servicios/telefonoaudiolibro/telefonoaudiolibro_07.webp",
+        "name" : "telefonoaudiolibro_7"
+    },
+    {
+        "id": "5",
+        "url" : "./img/servicios/telefonoaudiolibro/telefonoaudiolibro_05.webp",
+        "name" : "telefonoaudiolibro_5"
+    },
+    {
+        "id": "0",
+        "url" : "./img/servicios/telefonoaudiolibro/telefonoaudiolibro_00.webp",
+        "name" : "telefonoaudiolibro_0"
+    },
+    {
+        "id": "4",
+        "url" : "./img/servicios/telefonoaudiolibro/telefonoaudiolibro_04.webp",
+        "name" : "telefonoaudiolibro_4"
+    },
+    {
+        "id": "6",
+        "url" : "./img/servicios/telefonoaudiolibro/telefonoaudiolibro_06.webp",
+        "name" : "telefonoaudiolibro_6"
+    }
+]

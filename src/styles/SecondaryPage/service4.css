@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     text-align: center;
     text-wrap: balance;
     padding-top: 100px;
@@ -39,6 +40,27 @@
     margin-bottom: 20px;
     filter: drop-shadow(0px 0px 10px var(--contrastBlack2));
     border-radius: 25px;
+}
+
+/* ******************************************
+*** Service 4 Slider ***
+****************************************** */
+
+.fotomatonImgService4 {
+    width: 100%;
+    height: auto;
+    max-width: 500px;
+    overflow: hidden;
+    padding: 0 30px;
+    filter: drop-shadow(0px 0px 10px var(--contrastBlack2));
+}
+
+.service4ContentContainer .slick-prev {
+    padding: 50px;
+}
+
+.service4ContentContainer .slick-next {
+    padding: 70px;
 }
 
 /* Medidad Tablet */

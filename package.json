@@ -12,6 +12,7 @@
   "dependencies": {
     "@fontsource-variable/lora": "^5.0.17",
     "@fontsource-variable/nunito-sans": "^5.0.13",
+    "@fontsource-variable/roboto-flex": "^5.2.5",
     "@fontsource/adamina": "^5.0.8",
     "@fontsource/anton": "^5.0.19",
     "@fontsource/lobster": "^5.0.19",

@@ -1,5 +1,6 @@
 import '@fontsource-variable/lora';
-import '@fontsource/roboto/700.css';
+// import '@fontsource/roboto/700.css';
+import '@fontsource-variable/roboto-flex';
 import '@fontsource/adamina';
 import '@fontsource/lobster';
 import '@fontsource-variable/nunito-sans';

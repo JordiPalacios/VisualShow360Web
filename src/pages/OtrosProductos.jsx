@@ -45,7 +45,7 @@ export const OtrosProductos = () => {
                         }
                     className="contactoContainer"
                     />
-                <WhatsAppMessage className="contactFixed" msg="https://wa.me/34653781239?text=Quiero%20más%20información%20sobre%20VisualShow!" />
+                <WhatsAppMessage className="contactFixed" msg="https://wa.me/34653781239?text=Quiero%20más%20información%20sobre%20telefonoaudiolibro!" />
             </main>
             <LazyFooter />
     </>

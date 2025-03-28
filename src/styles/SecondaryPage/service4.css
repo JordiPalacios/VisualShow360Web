@@ -123,23 +123,23 @@
 /* Medidas PC  */
 @media ( 1024px <= width ) {
     .service4Container {
-        display: flex;
-        flex-direction: row-reverse;
-        justify-content: center;
-        align-items: start;
         margin: 0;
         padding-top: 30px;
     }
 
     .service4Container h2{
         display: inline-block;
-        font-style: italic;
-        font-weight: bolder;
+        margin: 0 0 15px 0;
+        font-size: 2.5rem;
+        padding: 5px;
+    }
+
+    .service4Container p {
+        max-width: 1000px;
     }
 
     .service4Container img,
     .service4Container video {
-        margin-top: 50px;
         max-width: 400px;
     }
 
@@ -152,7 +152,37 @@
     }
 
     .service4DescriptionContainer {
-        max-width: 1000px;
+        max-width: 1400px;
         gap: 0;
     }
+
+    .fotomatonImgService4 {
+        max-width: 1200px;
+        margin: 20px;
+    }
+}
+
+@media ( 1330px <= width ) {
+    .descriptionContainerService4 {
+        flex-direction: row;
+        text-align: start;
+        gap: 1rem;
+    }
+    
+}
+
+@media ( 1400px <= width ) {
+
+    .service4Container h1 {
+        font-size: 3rem;
+    }
+    
+    .fotomatonImgService4 {
+        max-width: 1400px;
+    }
+
+    .service4Details h2 {
+        font-size: 2.75rem;
+    }
+
 }

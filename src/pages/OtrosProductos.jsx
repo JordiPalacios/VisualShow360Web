@@ -1,6 +1,6 @@
 import {  MetaTags, NavbarMenu, WhatsAppMessage } from '../components'
 import { ContactUs, LazyFooter, LazyInfiniteLoopSection } from '../sections/Shared'
-import { Product1, Products2 } from '../sections/otherProductsPage'
+import { Product1 } from '../sections/otherProductsPage'
 
 export const OtrosProductos = () => {
 
@@ -27,12 +27,22 @@ export const OtrosProductos = () => {
                 <Product1 />
                 <LazyInfiniteLoopSection />
                 <ContactUs 
-                    tittle="Descarga GRATIS Control de Gastos para ahorrarte dinero en tu boda"
-                    desc="Las bodas tienen gastos absurdos 
-                        ¿400€ en servilletas personalizadas? 
-                        �
-                        �
-                        Invierte en lo que hará tu día inolvidable. �" 
+                    tittle={
+                        <>
+                            Descarga <span style={{ color: "var(--accent-telf)"}}> GRATIS</span> Control de Gastos para ahorrarte dinero en tu boda
+                        </>
+                        }
+
+                    desc={
+                        <>
+                            Las bodas tienen gastos absurdos
+                            <br />
+                            ¿400€ en servilletas personalizadas? 🙄
+                            <br />
+                            <br />
+                            Invierte en lo que hará tu día inolvidable. 👇
+                        </>
+                        }
                     className="contactoContainer"
                     />
                 <WhatsAppMessage className="contactFixed" msg="https://wa.me/34653781239?text=Quiero%20más%20información%20sobre%20VisualShow!" />

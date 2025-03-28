@@ -28,6 +28,8 @@ textarea:focus {
     flex-direction: column;
     position: relative;
     align-items: center;
+    text-align: center;
+    text-wrap: balance;
     color: var(--secondary);
     padding: 20px;
     overflow: hidden;
@@ -36,8 +38,11 @@ textarea:focus {
 .contactoContainer h2 {
     font-family: var(--tittle-font);
     font-size: 2rem;
-    text-decoration: underline ;
     text-decoration-color: var(--accent);
+    color: var(--textWhite);
+}
+
+.contactoContainer p {
     color: var(--textWhite);
 }
 

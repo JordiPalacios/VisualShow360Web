@@ -2,7 +2,7 @@ import React from 'react'
 import { useState } from 'react'
 import { useRef } from 'react'
 
-export const Video = ({ id = null, className, src, controls = false, muted = false, autoPlay = false}) => {
+export const Video = ({ id = null, className, src, controls = false, muted = false, autoPlay = false, poster}) => {
     const videoRef = useRef(null)
     const [isPlaying, setIsPlaying] = useState(autoPlay)
 
@@ -29,6 +29,7 @@ return (
         autoPlay = {autoPlay}
         onClick= {handleVideoClick}
         src={src}
+        poster={poster}
     />
 )
 }

@@ -81,6 +81,7 @@ return (
                     <Video 
                     className='videoService4'
                     src ="./img/servicios/telefonoaudiolibro/telefonoaudiolibro_00.mov"
+                    poster="./img/servicios/telefonoaudiolibro/telefonoaudiolibro_00.webp"
                     controls={true}
                     />
                     <div className="service4DescriptionContainer">
@@ -105,6 +106,7 @@ return (
                     <Video 
                         id='videoDoble'
                         src ="./img/servicios/telefonoaudiolibro/telefonoaudiolibro_01.mov"
+                        poster="./img/servicios/telefonoaudiolibro/telefonoaudiolibro_01.webp"
                         controls={true}
                     />
                     <div className="service4DescriptionContainer">
@@ -185,6 +187,7 @@ return (
                 <Video 
                     className='videoService4'
                     src ="./img/servicios/telefonoaudiolibro/telefonoaudiolibro_00.mov"
+                    poster="./img/servicios/telefonoaudiolibro/telefonoaudiolibro_02.webp"
                     controls={true}
                 />
                 <div className="service4DescriptionContainer">
@@ -209,6 +212,7 @@ return (
                 <Video 
                     id='videoDoble'
                     src ="./img/servicios/telefonoaudiolibro/telefonoaudiolibro_01.mov"
+                    poster="./img/servicios/telefonoaudiolibro/telefonoaudiolibro_03.webp"
                     controls={true}
                 />
                 <div className="service4DescriptionContainer">

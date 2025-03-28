@@ -1,17 +1,17 @@
 [
     {
         "id": "1",
-        "urlImg" : "./img/servicios/telefonoAudiolibroLogo.webp",
+        "url" : "./img/servicios/telefonoAudiolibroLogo.webp",
         "name" : "Telefonoaudilibro"
     } ,
     {
         "id": "2",
-        "urlImg" : "./img/servicios/visualShow24hLogo.webp",
+        "url" : "./img/servicios/visualShow24hLogo.webp",
         "name" : "Fotomaton24h"
     },
     {
         "id": "3",
-        "urlImg" : "./img/servicios/visualShowLogo.webp",
+        "url" : "./img/servicios/visualShowLogo.webp",
         "name" : "VisualShow360"
     }
     

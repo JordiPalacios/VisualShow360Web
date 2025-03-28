@@ -9,15 +9,6 @@ const InfiniteLoopSection = () => {
 return (
     <section>
         <div className="logo">  
-            {/* Por si es la misma imagen       */}
-            {/* <InfiniteLoop 
-                urlImg="./img/Extra/show.webp" 
-                nameImg="VisualShow" 
-                equal={true}/>
-            <InfiniteLoop 
-                urlImg="./img/Extra/show.webp" 
-                nameImg="VisualShow" 
-                equal={true}/> */}
             {logosData.map((data) => (
                 <InfiniteLoop 
                     key={data.id} 

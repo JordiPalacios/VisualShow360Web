@@ -44,7 +44,6 @@
 
 /* Medidas PC  */
 @media ( 1024px <= width ) {
-
     .logoSlide img {
         width: 150px;
     }

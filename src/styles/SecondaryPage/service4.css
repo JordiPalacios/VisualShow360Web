@@ -5,11 +5,12 @@
     justify-content: center;
     text-align: center;
     text-wrap: balance;
+    box-sizing: border-box;
     padding-top: 100px;
     padding-bottom: 20px;
     list-style: none;
-    width: 100%;
     max-width: 100%;
+    width: 100%;
     overflow: hidden;
 }
 
@@ -26,35 +27,61 @@
 
 .service4Container h2 {
     font-family: var(--tittle-font);
-    background-color: var(--secondary);
-    text-decoration: underline;
-    text-decoration-color: var(--textWhite);
-    display: none;
+}
+
+.service4Container h3 {
+    font-weight: lighter;
+    color: var(--accent-text-lighter);
 }
 
 .service4Container a {
     font-weight: bolder;
 }
 
+
+.service4Container p {
+    margin: 0 auto 20px auto;
+    max-width: 90%;
+}
+
+.service4DescriptionContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto 20px auto;
+    padding: 0 20px;
+}
+
+.service4DescriptionContainer ul {
+    text-align: left;
+    padding: 0 25px;
+}
+
+.service4DescriptionContainer li {
+    margin-bottom: 10px;
+    text-align: left;
+}
+
 .service4Container img,
 .service4Container video {
     width: 80%;
-    max-width: 300px;
-    height: auto;
     margin-bottom: 20px;
     filter: drop-shadow(0px 0px 10px var(--contrastBlack2));
     border-radius: 25px;
 }
 
 .service4Container video{
+    max-width: 400px;
     pointer-events: all;
     user-select: all;
-    cursor: pointer;
+    cursor: none;
 }
 
 #videoDoble {
     filter: none;
-    width: 100%;
 }
 
 /* ******************************************
@@ -63,73 +90,33 @@
 
 .fotomatonImgService4 {
     width: 100%;
-    height: auto;
     max-width: 500px;
     overflow: hidden;
-    padding: 0px;
+    padding: 0px 25px;
+    margin: 0 auto;
     filter: drop-shadow(0px 0px 10px var(--contrastBlack2));
 }
 
-.service4ContentContainer .slick-prev {
-    padding: 0 100px;
+.service4Container .slick-slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.service4ContentContainer .slick-next {
-    padding: 0 125px;
+.service4Container .slick-prev{
+    left: 25px;
 }
+
+.service4Container .slick-next{
+    right: 25px;
+}
+
 
 /* Medidad Tablet */
 @media ( 760px <= width ) {
 
     .service4Container {
         padding-top: 150px;
-    }
-
-    .service4ContentContainer {
-        display: flex;
-        flex-direction: row;
-        align-items: stretch;
-        margin: 10px 10px 50px 50px;
-        gap: 2.5rem;
-    }
-
-    .service4Container h1 {
-        padding-bottom: 0;
-        text-decoration: none;
-    }
-
-    .service4Container h2 {
-        display: inline-block;
-        margin: 0 0 10px 0;
-        padding: 5px;
-        font-style: italic;
-        font-weight: bolder;
-        /* background: var(--textWhite);
-        color: var(--secondary); */
-    }
-
-    .service4Container span {
-        background: var(--textWhite);
-        color: var(--accent);
-        padding: 5px;
-    }
-
-    .service4Container img {
-        margin: 0;
-        object-fit: cover;
-    }
-
-    .service4Container .line {
-        max-width: 80%;
-        border-top: 1px solid var(--secondary);
-    }
-
-    .service4DescriptionContainer {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        gap: 1rem;
     }
 }
 
@@ -150,9 +137,14 @@
         font-weight: bolder;
     }
 
-    .service4Container img {
+    .service4Container img,
+    .service4Container video {
         margin-top: 50px;
         max-width: 400px;
+    }
+
+    .service4Container video{
+        cursor: pointer;
     }
 
     .service4ContentContainer {

@@ -57,7 +57,7 @@ return (
             <h2>Tu fotomatón las 24H</h2>    
             <hr className='line'></hr>        
             <p>
-                ¿Sabias que sólo el <span style={{ color: 'var(--accent)'}}>9%</span> de las bodas, tienen más de 100 fotos de recuerdo de su fiesta?
+                ¿Sabías que solo el <span style={{ color: 'var(--accent)'}}>9%</span> de las bodas tienen más de 100 fotos de recuerdo de su fiesta?
                 <br />
                 <br />
                 Con Flash 24h, tendrás un fotomatón durante las <span style={{ color: 'var(--accent)'}}>24h</span> de tu boda.
@@ -89,7 +89,7 @@ return (
             </div>
             <div className="service3DescriptionContainer">              
             <p>
-                ¿Sabias que sólo el <span style={{ color: 'var(--accent)'}}>9%</span> de las bodas, tienen más de 100 fotos de recuerdo de su fiesta?
+                ¿Sabías que solo el <span style={{ color: 'var(--accent)'}}>9%</span> de las bodas tienen más de 100 fotos de recuerdo de su fiesta?
                 <br />
                 <br />
                 Con Flash 24h, tendrás un fotomatón durante las <span style={{ color: 'var(--accent)'}}>24h</span> de tu boda.

@@ -111,7 +111,7 @@ return (
                     </div>
                     <Video 
                         id='videoDoble'
-                        src ="./img/servicios/telefonoaudiolibro/telefonoaudiolibro_01.mp4"
+                        src ="./img/servicios/telefonoaudiolibro/telefonoaudiolibro_01.mov"
                         poster="./img/servicios/telefonoaudiolibro/posterVideo1.webp"
                         controls={true}
                     />
@@ -229,7 +229,7 @@ return (
                 </div>
                 <Video 
                     id='videoDoble'
-                    src ="./img/servicios/telefonoaudiolibro/telefonoaudiolibro_01.mp4"
+                    src ="./img/servicios/telefonoaudiolibro/telefonoaudiolibro_01.mov"
                     poster="./img/servicios/telefonoaudiolibro/posterVideo1.webp"
                     controls={true}
                 />

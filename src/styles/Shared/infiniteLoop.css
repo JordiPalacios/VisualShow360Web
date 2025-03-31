@@ -32,6 +32,7 @@
 .logoSlide img {
     aspect-ratio: 4/3;
     object-fit: contain;
+    max-width: 100px;
     height: auto;
     margin: 0 10px;
 }

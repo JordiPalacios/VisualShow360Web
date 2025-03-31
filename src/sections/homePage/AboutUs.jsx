@@ -9,17 +9,17 @@ return (
                 <div className="aboutUsContentContainer">   
                     <img src="./img/reviews_equipo/navidadDavidIvet.webp" alt="VisualShow360Team" />
                     <p>
-                        Una pareja <span>"normal"</span> y sencilla de Barcelona, que hace 2 años, e n una boda me di cuenta (Ivet) de lo cutre que era el fotomatón...
+                        Una pareja <span>"normal"</span> y sencilla de Barcelona, que hace 2 años, en una boda me di cuenta (Ivet) de lo cutre que era el fotomatón...
                         <br />
                         <br />
-                        Vi a un señor ahí puesto apoyado en el fotomatón, que más bien parecia una caja de madera, con el calor de julio cerca de la costa.
+                        Vi a un señor ahí puesto apoyado en el fotomatón, que más bien parecía una caja de madera, con el calor de julio cerca de la costa.
                         <br />
                         <br />
-                        Pues resulta que me giré a mi pareja (David) y le dije:
+                        Pues resulta que me giré hacia mi pareja (David) y le dije:
                         <br />
                         - Oye, esto es muy mejorable, una boda se merece algo mucho más top.
                         <br />
-                        - Si algo no te gusta, cámbialo
+                        - Si algo no te gusta, cámbialo.
                         <br />
                         <br />
                         <span>Y aquí estamos.</span>

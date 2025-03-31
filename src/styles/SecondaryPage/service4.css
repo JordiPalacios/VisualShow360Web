@@ -55,8 +55,11 @@
     padding: 0 20px;
 }
 
-.service4DescriptionContainer ul {
+.service4DescriptionContainer p{
     text-align: left;
+}
+
+.service4DescriptionContainer ul {
     padding: 0 25px;
 }
 
@@ -90,7 +93,7 @@
 
 .fotomatonImgService4 {
     width: 100%;
-    max-width: 500px;
+    max-width: 450px;
     overflow: hidden;
     padding: 0px 25px;
     margin: 0 auto;

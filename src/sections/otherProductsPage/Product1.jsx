@@ -205,7 +205,7 @@ return (
                 <Video 
                     className='videoService4'
                     src ="./img/servicios/telefonoaudiolibro/telefonoaudiolibro_00.mov"
-                    poster="./img/servicios/telefonoaudiolibro/telefonoaudiolibro_02.webp"
+                    poster="./img/servicios/telefonoaudiolibro/posterVideo0.webp"
                     controls={true}
                 />
                 <div className="service4DescriptionContainer">
@@ -230,7 +230,7 @@ return (
                 <Video 
                     id='videoDoble'
                     src ="./img/servicios/telefonoaudiolibro/telefonoaudiolibro_01.mp4"
-                    poster="./img/servicios/telefonoaudiolibro/telefonoaudiolibro_03.webp"
+                    poster="./img/servicios/telefonoaudiolibro/posterVideo1.webp"
                     controls={true}
                 />
                 <div className="service4DescriptionContainer">

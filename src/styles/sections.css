@@ -91,13 +91,13 @@ button {
 }
 
 .buttonsContainer button {
-    background: transparent;
+    background: var(--accent);
     outline: 2px solid var(--accent);
     transition: transform .5s ease-in-out;
 }
 
 .buttonsContainer button a {
-    color: var(--accent)
+    color: var(--textWhite);
 }
 
 .line {

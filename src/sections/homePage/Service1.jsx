@@ -54,14 +54,14 @@ return (
                 <p>
                     Sabemos que quieres que tus invitados <span style={{ color: 'var(--accent)'}}>FLIPEN</span> y se lo cuenten a todo el mundo. <br />
                     Crea una boda de esas que no se olvidan fácilmente. <br />
-                    Vamos, que se <span style={{ color: 'var(--accent)'}}>entere todo el mundo</span>de que te has casado. <br />
+                    Vamos, que se <span style={{ color: 'var(--accent)'}}>entere todo el mundo</span> de que te has casado. <br />
                     <br />
                     Podemos hacer que eso pase. <br />
                     <br />
-                    Tus invitados tendrán la sensación de subir a una atracción, <span style={{ color: 'var(--accent)'}}>su momento de protagonismo</span>, dónde podrán bailar y brillar como verdaderas estrellas.<br />
+                    Tus invitados tendrán la sensación de subir a una atracción, <span style={{ color: 'var(--accent)'}}>su momento de protagonismo</span>, donde podrán bailar y brillar como verdaderas estrellas.<br />
                     Y <span style={{ color: 'var(--accent)'}}>PREPÁRATE</span> para levantarte llorando con depresión post-boda, te enviaremos <span style={{ color: 'var(--accent)'}}>TODOS</span> los vídeos 360... y las lágrimas serán de risas aseguradas. <br />
                     <br /> 
-                    ¿Quieres tener estos videos para <span style={{ color: 'var(--accent)'}}>toda la vida</span>, verdad? <br />
+                    ¿Quieres tener estos vídeos para <span style={{ color: 'var(--accent)'}}>toda la vida</span>, verdad? <br />
                 </p>
                 <div className="service1Details"> 
                     <h2>¿Qué incluye?</h2>                   

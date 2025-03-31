@@ -1,7 +1,7 @@
 import Slider from 'react-slick'
 import TelefonoData from '../../assets/mocks/telefonoData.json'
 import { useWorkingMode } from '../../assets/Customhooks/useWorkingMode'
-import { ImgSlider, NavItem, Video } from '../../components'
+import { ImgSlider, Video } from '../../components'
 import { useEffect, useState } from 'react'
 
 export const Product1 = () => {
@@ -74,14 +74,20 @@ return (
                         </p>
                         <div className="buttonsContainer">
                                 <button id='P1OthersFormularioContacto' aria-label='Nos mueve hasta el formulario de contacto'>
-                                    <NavItem href='#contacto' label='Ver fechas disponibles' colorText='var(--accent)' page='otrosProductos'/>
+                                    <a 
+                                        href= "https://wa.me/message/2RM67GODIWVUE1"
+                                        target="_blank" 
+                                        rel="noopener noreferrer"                
+                                        aria-label='Enlace al WhatsApp de telefonoaudiolibro.es para pedir información'>
+                                            Ver fechas disponibles
+                                    </a>
                                 </button>
                         </div>
                     </div>
                     <Video 
                     className='videoService4'
                     src ="./img/servicios/telefonoaudiolibro/telefonoaudiolibro_00.mov"
-                    poster="./img/servicios/telefonoaudiolibro/telefonoaudiolibro_00.webp"
+                    poster="./img/servicios/telefonoaudiolibro/posterVideo0.webp"
                     controls={true}
                     />
                     <div className="service4DescriptionContainer">
@@ -105,8 +111,8 @@ return (
                     </div>
                     <Video 
                         id='videoDoble'
-                        src ="./img/servicios/telefonoaudiolibro/telefonoaudiolibro_01.mov"
-                        poster="./img/servicios/telefonoaudiolibro/telefonoaudiolibro_01.webp"
+                        src ="./img/servicios/telefonoaudiolibro/telefonoaudiolibro_01.mp4"
+                        poster="./img/servicios/telefonoaudiolibro/posterVideo1.webp"
                         controls={true}
                     />
                     <div className="service4DescriptionContainer">
@@ -135,7 +141,13 @@ return (
                         </p>
                         <div className="buttonsContainer">
                             <button id='P1OthersFormularioContacto' aria-label='Nos mueve hasta el formulario de contacto'>
-                                <NavItem href='#contacto' label='Lo quiero en mi boda' colorText='var(--accent)' page='otrosProductos'/>
+                                <a 
+                                href= "https://wa.me/message/2RM67GODIWVUE1"
+                                target="_blank" 
+                                rel="noopener noreferrer"                
+                                aria-label='Enlace al WhatsApp de telefonoaudiolibro.es para pedir información'>
+                                    Lo quiero en mi boda
+                                </a>
                             </button>
                         </div>
                     </div>
@@ -179,7 +191,13 @@ return (
                         </p>
                         <div className="buttonsContainer">
                                 <button id='P1OthersFormularioContacto' aria-label='Nos mueve hasta el formulario de contacto'>
-                                    <NavItem href='#contacto' label='Ver fechas disponibles' colorText='var(--accent)' page='otrosProductos'/>
+                                    <a 
+                                    href= "https://wa.me/message/2RM67GODIWVUE1"
+                                    target="_blank" 
+                                    rel="noopener noreferrer"                
+                                    aria-label='Enlace al WhatsApp de telefonoaudiolibro.es para pedir información'>
+                                        Ver fechas disponibles
+                                    </a>
                                 </button>
                         </div>
                     </div>
@@ -211,7 +229,7 @@ return (
                 </div>
                 <Video 
                     id='videoDoble'
-                    src ="./img/servicios/telefonoaudiolibro/telefonoaudiolibro_01.mov"
+                    src ="./img/servicios/telefonoaudiolibro/telefonoaudiolibro_01.mp4"
                     poster="./img/servicios/telefonoaudiolibro/telefonoaudiolibro_03.webp"
                     controls={true}
                 />
@@ -241,7 +259,13 @@ return (
                     </p>
                     <div className="buttonsContainer">
                         <button id='P1OthersFormularioContacto' aria-label='Nos mueve hasta el formulario de contacto'>
-                            <NavItem href='#contacto' label='Lo quiero en mi boda' colorText='var(--accent)' page='otrosProductos'/>
+                            <a 
+                            href= "https://wa.me/message/2RM67GODIWVUE1"
+                            target="_blank" 
+                            rel="noopener noreferrer"                
+                            aria-label='Enlace al WhatsApp de telefonoaudiolibro.es para pedir información'>
+                                Lo quiero en mi boda
+                            </a>
                         </button>
                     </div>
                 </div>

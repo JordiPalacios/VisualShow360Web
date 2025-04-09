@@ -1,0 +1,22 @@
+[
+    {
+        "id": "1",
+        "url" : "./img/servicios/tatuajes/tatuaje_01.webp",
+        "name" : "tatuaje_01"
+    },
+    {
+        "id": "2",
+        "url" : "./img/servicios/tatuajes/tatuaje_02.webp",
+        "name" : "tatuaje_02"
+    },
+    {
+        "id": "3",
+        "url" : "./img/servicios/tatuajes/tatuaje_03.webp",
+        "name" : "tatuaje_3"
+    },
+    {
+        "id": "4",
+        "url" : "./img/servicios/tatuajes/tatuaje_04.webp",
+        "name" : "tatuaje_04"
+    }
+]

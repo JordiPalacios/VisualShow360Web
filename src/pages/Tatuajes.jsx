@@ -1,39 +1,11 @@
-import React, { useEffect, useState } from 'react'
-import { ContactUs, LazyFooter, LazyInfiniteLoopSection } from '../sections/Shared'
-import { ImgSlider, MetaTags, NavbarMenu, WhatsAppMessage } from '../components'
-import TatuajesData from '../assets/mocks/tatuajesData.json'
+import React from 'react'
+import { LazyFooter, LazyInfiniteLoopSection } from '../sections/Shared'
+import { TatuajesExplicacion01, TatuajesExplicacion02, TatuajesFooter, TatuajesHeader, TatuajesMedidas } from '../sections/tatuajes'
+import { MetaTags, NavbarMenu, WhatsAppMessage } from '../components'
 import { useWorkingMode } from '../assets/Customhooks/useWorkingMode'
-import Slider from 'react-slick'
 
 export const Tatuajes = () => {
     const workingMode = useWorkingMode('Mobile')
-    const tatuajesData = TatuajesData
-
-    useEffect (() => {
-        const handleResize = () => {
-        const newSetttings = window.innerWidth < 1024
-        ? {...sliderSettings, slidesToShow: 1}
-        : {...sliderSettings, slidesToShow: 3}
-
-        setSliderSettings(newSetttings)
-        }
-    
-        window.addEventListener('resize', handleResize)
-
-        handleResize()
-        
-        return () => {
-        window.removeEventListener('resize', handleResize)
-        }
-    }, [])
-
-const [sliderSettings, setSliderSettings] = useState({
-        dots: false,
-        infinite: true,
-        speed: 500,
-        slidesToShow: 1,
-        slidesToScroll: 1
-    })
 
     return (
     <section id='tatuajes'>      
@@ -55,37 +27,12 @@ const [sliderSettings, setSliderSettings] = useState({
                     <NavbarMenu />
                 </header>
                 <main className='tatuajesContainer'>
-                    <div className="fotomatonImgTatuajes">            
-                        <Slider {...sliderSettings}>
-                            {tatuajesData.map((data) => (
-                                <ImgSlider 
-                                key={data.id} 
-                                urlImg={data.url} 
-                                imgName={data.name} 
-                                styleType='services'/>
-                                ))}
-                        </Slider>
-                    </div> 
+                    <TatuajesHeader />
+                    <TatuajesExplicacion01 />
+                    <TatuajesExplicacion02 />
+                    <TatuajesMedidas />
+                    <TatuajesFooter />
                     <LazyInfiniteLoopSection />
-                    <ContactUs 
-                        tittle={
-                            <>
-                                Descarga <span style={{ color: "var(--accent-telf)"}}> GRATIS</span> Control de Gastos para ahorrarte dinero en tu boda
-                            </>
-                            }
-    
-                        desc={
-                            <>
-                                Las bodas tienen gastos absurdos
-                                <br />
-                                ¿400€ en servilletas personalizadas? 🙄
-                                <br />
-                                <br />
-                                Invierte en lo que hará tu día inolvidable. 👇
-                            </>
-                            }
-                        className="contactoContainer"
-                        />
                     <WhatsAppMessage className="contactFixed" msg="https://wa.me/message/2RM67GODIWVUE1" />
                 </main>
                 <LazyFooter />

@@ -22,7 +22,7 @@ export const Tatuajes = () => {
                 <header>
                     <NavbarMenu />
                 </header>
-                <main>
+                <main className='tatuajesContainer'>
                     <h1>Tatuajes</h1>
                     <LazyInfiniteLoopSection />
                     <ContactUs 

@@ -1,0 +1,11 @@
+.tatuajesContainer {
+    text-align: center;
+    text-wrap: balance;
+    box-sizing: border-box;
+    padding-top: 100px;
+    padding-bottom: 20px;
+    list-style: none;
+    max-width: 100%;
+    width: 100%;
+    overflow: hidden;
+}

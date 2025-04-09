@@ -40,7 +40,7 @@ return (
             <div className="service4Container">
                 <div className="service4ContentContainer">
                     <div className="service4DescriptionContainer">
-                        <h1>Teléfono Audiolibro</h1>
+                        <h1>Vídeo-libro</h1>
                         <h2>                           
                             ¿QUÉ DARÍAS POR VOLVER A ESCUCHAR LA VOZ DE TU ABUELOS?
                         </h2>
@@ -155,7 +155,7 @@ return (
             </div>
         ) : (
             <div className="service4Container">
-                <h1>Alquiler Teléfono Audiolibro</h1>
+                <h1>Alquiler Vídeo-libro</h1>
                 <div className="service4ContentContainer">
                     <div className="fotomatonImgService4">            
                         <Slider {...sliderSettings}>

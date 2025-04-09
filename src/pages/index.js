@@ -1,5 +1,6 @@
 export * from './HomeWebSite'
 export * from './OtrosProductos'
+export * from './Tatuajes'
 export * from './AvisoLegal'
 export * from './PoliticaPrivacidad'
 export * from './TerminosCondiciones'

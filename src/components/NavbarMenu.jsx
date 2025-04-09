@@ -118,6 +118,9 @@ return (
                         <b>
                             <NavItem href='#telefono-audiolibro' label='Vídeo-libro' page='videoLibro' />
                         </b>
+                        <b>
+                            <NavItem href='#tatuajes' label='Tatuajes' page='tatuajesPage' />
+                        </b>
                         {/* <div className='tabletPCMenu'>  
                             <div onMouseLeave={() => handleMouseLeave('weddings')} >
                                 <b>

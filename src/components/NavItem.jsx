@@ -18,6 +18,10 @@ export const NavItem = ({ href, label, page }) => {
       if (window.location.pathname !== '/video-libro') {
         navigate('/video-libro')
       }
+    } else if (page === 'tatuajesPage') {
+      if (window.location.pathname !== '/tatuajes') {
+        navigate('/tatuajes')
+      }
     }
 
     setTimeout(() => {
@@ -36,6 +40,19 @@ export const NavItem = ({ href, label, page }) => {
             }
           } else if (page === 'videoLibro') {
             if (href === '#telefono-audiolibro') {
+              offset = 
+              section.getBoundingClientRect().top + window.scrollY - 180
+            } else {
+              if ((window.innerWidth > 760) &&(window.innerWidth < 1330)) {
+                offset = 
+                section.getBoundingClientRect().top + window.scrollY - 145
+              } else {                
+                offset = 
+                section.getBoundingClientRect().top + window.scrollY - 100
+              }
+            }
+          } else if (page === 'tatuajesPage') {
+            if (href === '#tatuajes') {
               offset = 
               section.getBoundingClientRect().top + window.scrollY - 180
             } else {

@@ -1,0 +1,5 @@
+export * from './TatuajesHeader'
+export * from './TatuajesExplicacion01'
+export * from './TatuajesExplicacion02'
+export * from './TatuajesMedidas'
+export * from './TatuajesFooter'

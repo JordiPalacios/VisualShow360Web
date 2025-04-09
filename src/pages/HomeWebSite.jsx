@@ -1,5 +1,5 @@
 import { MetaTags, WhatsAppMessage } from '../components'
-import { LazyAboutUs, LazyCompanies, LazyReviews, LazyService2, LazyService3, Presentation, Service1 } from '../sections/homePage';
+import { LazyAboutUs, LazyReviews, LazyService2, LazyService3, Presentation, Service1 } from '../sections/homePage';
 import { ContactUs, LazyFooter, LazyInfiniteLoopSection } from '../sections/Shared';
 
 

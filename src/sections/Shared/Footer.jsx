@@ -65,7 +65,7 @@ const Footer = () => {
             target="_blank" 
             rel='noreferrer'            
             aria-label='Enlace al Instagram de Jordi Code'> 
-              <small>Creada y diseñada x Jordi Code</small>
+              <small>Creada y diseñada x @jordi_code</small>
             </a>
           </div>
           <div className="normativeContainer">
@@ -128,7 +128,7 @@ const Footer = () => {
           href="https://www.instagram.com/jordi_code?igsh=MXRvbmtiYmhheHRiZw%3D%3D&utm_source=qr" 
           target="_blank" 
           aria-label='Enlace al Instagram de Jordi Code'> 
-          <small>Creada y diseñada x Jordi Code</small>
+          <small>Creada y diseñada x @jordi_code</small>
         </a>
       </footer>
     )

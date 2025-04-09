@@ -14,9 +14,9 @@ export const NavItem = ({ href, label, page }) => {
 
     if (page === 'home') {
       navigate('/')
-    } else if (page === 'otrosProductos') {
-      if (window.location.pathname !== '/otros-productos') {
-        navigate('/otros-productos')
+    } else if (page === 'videoLibro') {
+      if (window.location.pathname !== '/video-libro') {
+        navigate('/video-libro')
       }
     }
 
@@ -34,7 +34,7 @@ export const NavItem = ({ href, label, page }) => {
               offset = 
                     section.getBoundingClientRect().top + window.scrollY - 100
             }
-          } else if (page === 'otrosProductos') {
+          } else if (page === 'videoLibro') {
             if (href === '#telefono-audiolibro') {
               offset = 
               section.getBoundingClientRect().top + window.scrollY - 180

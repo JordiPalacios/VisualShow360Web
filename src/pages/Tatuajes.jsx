@@ -32,7 +32,6 @@ export const Tatuajes = () => {
                     <TatuajesExplicacion02 />
                     <TatuajesMedidas />
                     <TatuajesFooter />
-                    <LazyInfiniteLoopSection />
                     <WhatsAppMessage className="contactFixed" msg="https://wa.me/message/2RM67GODIWVUE1" />
                 </main>
                 <LazyFooter />

@@ -8,14 +8,41 @@
     box-sizing: border-box;
     padding-top: 100px;
     padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
     list-style: none;
     max-width: 100%;
     width: 100%;
     overflow: hidden;
 }
 
-.tatuajesHeader {
+.tatuajesContainer h1 {
+    text-decoration-color: var(--textWhite);
+    text-decoration: underline;
+    text-decoration-color: var(--accent);
+    margin: 0;
+}
+
+.tatuajesContainer button {
+    outline: none;
+}
+
+.tatuajesExplicacion02 {
+    justify-items: center;
+}
+
+.tatuajesHeader,
+.tatuajesFooter {
     max-width: 100%;
+    z-index: 0;
+}
+
+.tatuajesHeader p {
+    color: var(--accent);
+}
+
+.tatuajesFooter button {
+    text-decoration-color: transparent;
 }
 
 /* ******************************************************* */
@@ -29,6 +56,7 @@
     overflow: hidden;
     padding: 0 30px;
     filter: drop-shadow(0px 0px 10px var(--contrastBlack2));
+    text-decoration-color: none;
 }
 
 /* ******************************************************* */

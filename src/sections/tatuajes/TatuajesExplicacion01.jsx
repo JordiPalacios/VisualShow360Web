@@ -2,7 +2,7 @@ import React from 'react'
 
 export const TatuajesExplicacion01 = () => {
     return (
-    <>
+    <section>
         <p>
             Veamos, piensa en la cara de un amigo o un familiar
             <br />
@@ -17,8 +17,8 @@ export const TatuajesExplicacion01 = () => {
             el brazo, en la frente, hasta donde de tu imaginación.
             <br />
             <br />
-            <b>Puede ser quien quieras</b> y lo que quieras..
+            <b>Puede ser quien quieras</b> y lo que quieras...
         </p>
-    </>
+    </section>
     )
 }

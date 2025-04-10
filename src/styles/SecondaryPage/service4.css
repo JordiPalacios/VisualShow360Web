@@ -15,9 +15,6 @@
 }
 
 .service4Container h1 {
-    color: var(--secondary);
-    text-decoration: underline;
-    text-decoration-color: var(--textWhite);
     color: var(--textWhite);
     text-decoration: underline;
     text-decoration-color: var(--accent);

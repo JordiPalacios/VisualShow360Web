@@ -32,7 +32,7 @@ export const TatuajesHeader = () => {
             })
 
     return (
-    <div className='tatuajesHeader'>
+    <header className='tatuajesHeader'>
         <h1>Tatuajes</h1>
         <div className="fotomatonImgTatuajes">            
             <Slider {...sliderSettings}>
@@ -46,15 +46,14 @@ export const TatuajesHeader = () => {
             </Slider>
         </div> 
         <h2> 
-            TUS INVITADOS VAN A FLIPAR CUANDO VEAN ESTO..
+            TUS INVITADOS VAN A FLIPAR CUANDO VEAN ESTO...
         </h2>
         <p>
             ¿Nos jugamos algo?
             <br />
-            <br />
             Seguro que no se esperan ver ese tatuaje
             que ya tienes en mente
         </p>
-    </div>
+    </header>
     )
 }

@@ -2,8 +2,15 @@ import React from 'react'
 
 export const TatuajesMedidas = () => {
     return (
-        <>
-        <h1>Medidas</h1>
-    </>
+        <section>
+            <img src="./img/servicios/tatuajes/tatuajeMedidas.webp" alt="Tatuaje Personalizado" width="300px" height="auto"/>
+            <p>
+                *Para evitar la reventa de tatuajes por parte de otras empresas, el máximo de unidades de compra por web son de 150 unidades.
+            </p>
+            <h2>
+                PAGO CONTRA REEMBOLSO EN 24/48H
+                <br />
+            </h2>
+        </section>
     )
 }

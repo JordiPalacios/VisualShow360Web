@@ -27,8 +27,10 @@
     outline: none;
 }
 
-.tatuajesExplicacion02 {
-    justify-items: center;
+.tatuajesHeader {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .tatuajesHeader,
@@ -41,8 +43,23 @@
     color: var(--accent);
 }
 
+.tatuajesExplicacion02 {
+    justify-items: center;
+}
+
 .tatuajesFooter button {
     text-decoration-color: transparent;
+}
+
+.tatuajesFooter .buttonsContainer button {
+    font-size: 1.2rem;
+    font-weight: 500;
+    font-family: var(--primary-font);
+    padding: 0.6rem 1.2rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: filter 0.25s;
+    border: none;
 }
 
 /* ******************************************************* */

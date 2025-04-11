@@ -2,10 +2,8 @@ import React from 'react'
 import { LazyFooter, LazyInfiniteLoopSection } from '../sections/Shared'
 import { TatuajesExplicacion01, TatuajesExplicacion02, TatuajesFooter, TatuajesHeader, TatuajesMedidas } from '../sections/tatuajes'
 import { MetaTags, NavbarMenu, WhatsAppMessage } from '../components'
-import { useWorkingMode } from '../assets/Customhooks/useWorkingMode'
 
 export const Tatuajes = () => {
-    const workingMode = useWorkingMode('Mobile')
 
     return (
     <section id='tatuajes'>      
@@ -31,6 +29,7 @@ export const Tatuajes = () => {
                     <TatuajesExplicacion01 />
                     <TatuajesExplicacion02 />
                     <TatuajesMedidas />
+                    <LazyInfiniteLoopSection />
                     <TatuajesFooter />
                     <WhatsAppMessage className="contactFixed" msg="https://wa.me/message/2RM67GODIWVUE1" />
                 </main>

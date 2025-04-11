@@ -44,11 +44,6 @@ export const TatuajesFooter = () => {
                     ))}
                 </Slider>
             </div>
-            <p>
-                <a href="https://www.ink-bond.com/collections/custom-wedding-temporary-tattoos?srsltid=AfmBOopCPNuHUImwBrOEuq8ypIw09lpXYwGqLKdkUm7x6Vi81H0B7hzO">
-                    HAZ CLIC AQUÍ PARA QUE VEAS COMO QUEDA
-                </a>
-            </p>
             <div className='buttonsContainer'>                
                 <button>
                     <a 

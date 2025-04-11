@@ -7,7 +7,7 @@ export const TatuajesMedidas = () => {
             <p>
                 *Para evitar la reventa de tatuajes por parte de otras empresas, el máximo de unidades de compra por web son de 150 unidades.
             </p>
-            <h2>
+            <h2 style={{color: 'var(--accent)'}}>
                 PAGO CONTRA REEMBOLSO EN 24/48H
                 <br />
             </h2>

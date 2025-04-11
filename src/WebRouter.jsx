@@ -9,7 +9,7 @@ export const WebRouter = () => {
     <Routes>
       <Route path='/' element={<Navbar/>}>
         <Route index element={<HomeWebsite />} />
-        <Route path='video-libro' element={<OtrosProductos />} />
+        <Route path='telefono-audiolibro' element={<OtrosProductos />} />
         <Route path='tatuajes' element={<Tatuajes />} />
         <Route path='aviso-legal' element={<AvisoLegal />} />
         <Route path='politica-privacidad' element={<PoliticaPrivacidad />} />

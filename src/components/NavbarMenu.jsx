@@ -116,7 +116,7 @@ return (
                             </div>                          
                         </div>
                         <b>
-                            <NavItem href='#telefono-audiolibro' label='Vídeo-libro' page='videoLibro' />
+                            <NavItem href='#telefono-audiolibro' label='Teléfono Audiolibro' page='telefonoAudiolibro' />
                         </b>
                         <b>
                             <NavItem href='#tatuajes' label='Tatuajes' page='tatuajesPage' />

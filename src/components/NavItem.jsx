@@ -14,9 +14,9 @@ export const NavItem = ({ href, label, page }) => {
 
     if (page === 'home') {
       navigate('/')
-    } else if (page === 'videoLibro') {
-      if (window.location.pathname !== '/video-libro') {
-        navigate('/video-libro')
+    } else if (page === 'telefonoAudiolibro') {
+      if (window.location.pathname !== '/telefono-audiolibro') {
+        navigate('/telefono-audiolibro')
       }
     } else if (page === 'tatuajesPage') {
       if (window.location.pathname !== '/tatuajes') {
@@ -38,7 +38,7 @@ export const NavItem = ({ href, label, page }) => {
               offset = 
                     section.getBoundingClientRect().top + window.scrollY - 100
             }
-          } else if (page === 'videoLibro') {
+          } else if (page === 'telefonoAudiolibro') {
             if (href === '#telefono-audiolibro') {
               offset = 
               section.getBoundingClientRect().top + window.scrollY - 180

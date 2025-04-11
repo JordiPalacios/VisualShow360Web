@@ -40,7 +40,7 @@ return (
             <div className="service4Container">
                 <div className="service4ContentContainer">
                     <div className="service4DescriptionContainer">
-                        <h1>Vídeo-libro</h1>
+                        <h1>Teléfono Audiolibro</h1>
                         <h2>                           
                             ¿QUÉ DARÍAS POR VOLVER A ESCUCHAR LA VOZ DE TU ABUELOS?
                         </h2>
@@ -73,15 +73,15 @@ return (
                         leds</span> ni pistolas de fuego para tener un recuerdo especial
                         </p>
                         <div className="buttonsContainer">
-                                <button id='P1OthersFormularioContacto' aria-label='Nos mueve hasta el formulario de contacto'>
-                                    <a 
-                                        href= "https://wa.me/message/2RM67GODIWVUE1"
-                                        target="_blank" 
-                                        rel="noopener noreferrer"                
-                                        aria-label='Enlace al WhatsApp de telefonoaudiolibro.es para pedir información'>
-                                            Ver fechas disponibles
-                                    </a>
-                                </button>
+                            <button id='P1OthersFormularioContacto' aria-label='Nos mueve hasta el formulario de contacto'>
+                                <a 
+                                    href= "https://wa.me/message/2RM67GODIWVUE1"
+                                    target="_blank" 
+                                    rel="noopener noreferrer"                
+                                    aria-label='Enlace al WhatsApp de telefonoaudiolibro.es para pedir información'>
+                                        Ver fechas disponibles
+                                </a>
+                            </button>
                         </div>
                     </div>
                     <Video 
@@ -155,7 +155,7 @@ return (
             </div>
         ) : (
             <div className="service4Container">
-                <h1>Alquiler Vídeo-libro</h1>
+                <h1>Teléfono Audiolibro</h1>
                 <div className="service4ContentContainer">
                     <div className="fotomatonImgService4">            
                         <Slider {...sliderSettings}>

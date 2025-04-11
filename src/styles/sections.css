@@ -92,7 +92,6 @@ button {
 
 .buttonsContainer button {
     background: var(--accent);
-    outline: 2px solid var(--accent);
     transition: transform .5s ease-in-out;
 }
 

@@ -56,6 +56,10 @@
 
 }
 
+.tableTatuajesMedida {
+    margin: 15px;
+}
+
 .tatuajesFooter {
     display: flex;
     flex-direction: column;

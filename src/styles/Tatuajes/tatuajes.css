@@ -47,6 +47,13 @@
     justify-items: center;
 }
 
+.tatuajesFooter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .tatuajesFooter button {
     text-decoration-color: transparent;
 }
@@ -81,6 +88,10 @@
 /* Medidad Tablet */
 @media ( 760px <= width ) {
 
+    .tatuajesContainer {
+        padding-top: 150px;
+    }
+
     .fotomatonImgTatuajes {
         max-width: 500px;
     }
@@ -88,8 +99,6 @@
     .tatuajesContainer h1 {
         font-size: 3rem;
         padding-bottom: 0;
-        color: var(--textWhite);
-        text-decoration: none;
     }
 
     .tatuajesContainer p {

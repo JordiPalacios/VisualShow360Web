@@ -3,8 +3,7 @@ import React from 'react'
 export const TatuajesExplicacion02 = () => {
   return (
     <section className='tatuajesExplicacion02'>
-        <img src="./img/servicios/ringRing/audiolibroVS.webp" alt="Tatuaje Personalizado" width="300px" height="auto"/>
-        {/* <img src="./img/servicios/tatuajes/tatuajePersonalizado.webp" alt="Tatuaje Personalizado" width="300px" height="auto"/> */}
+        <img src="./img/servicios/tatuajes/tatuaje_03.webp" alt="Tatuaje Personalizado" width="300px" height="auto"/>
         <p>
           Un logo, tu perro, tu primo del pueblo, tu abuela con gafas de sol...
           <br />

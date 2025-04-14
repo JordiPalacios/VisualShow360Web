@@ -47,6 +47,15 @@
     justify-items: center;
 }
 
+.tatuajesMedidas,
+.tatuajesMedidasExp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
 .tatuajesFooter {
     display: flex;
     flex-direction: column;
@@ -116,6 +125,13 @@
 
     .tatuajesContainer h1 {
         font-size: 2.75rem;
+    }
+
+    .tatuajesMedidasExp {
+        flex-direction: row;
+        align-items: center;
+        justify-content: center; 
+        gap: 20px;
     }
 }
 

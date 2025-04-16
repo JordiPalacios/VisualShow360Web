@@ -12,16 +12,24 @@ export const NavItem = ({ href, label, page }) => {
     event.preventDefault()
     setShow(true)
 
+    // if (page === 'home') {
+    //   navigate('/')
+    // } else if (page === 'telefonoAudiolibro') {
+    //   if (window.location.pathname !== '/telefono-audiolibro') {
+    //     navigate('/telefono-audiolibro')
+    //   }
+    // } else if (page === 'tatuajesPage') {
+    //   if (window.location.pathname !== '/tatuajes') {
+    //     navigate('/tatuajes')
+    //   }
+    // }
+
     if (page === 'home') {
       navigate('/')
     } else if (page === 'telefonoAudiolibro') {
-      if (window.location.pathname !== '/telefono-audiolibro') {
         navigate('/telefono-audiolibro')
-      }
     } else if (page === 'tatuajesPage') {
-      if (window.location.pathname !== '/tatuajes') {
         navigate('/tatuajes')
-      }
     }
 
     setTimeout(() => {

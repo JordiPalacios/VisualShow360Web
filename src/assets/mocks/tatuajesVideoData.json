@@ -2,21 +2,36 @@
     {
         "id": "1",
         "url" : "./video/tatuajes/tatuaje01.mp4",
-        "name" : "tatuajeVideo_01"
+        "name" : "tatuajeVideo_01",
+        "poster" : "./img/servicios/tatuajes/tatuaje_01.webp",
+        "isVideo" : true
     },
     {
         "id": "2",
         "url" : "./video/tatuajes/tatuaje02.mp4",
-        "name" : "tatuajeVideo_02"
+        "name" : "tatuajeVideo_02",
+        "poster" : "./img/servicios/tatuajes/tatuaje_02.webp",
+        "isVideo" : true
     },
     {
         "id": "3",
         "url" : "./video/tatuajes/tatuaje03.mp4",
-        "name" : "tatuajeVideo_3"
+        "name" : "tatuajeVideo_3",
+        "poster" : "./img/servicios/tatuajes/tatuaje_03.webp",
+        "isVideo" : true
     },
     {
         "id": "4",
         "url" : "./video/tatuajes/tatuaje04.mp4",
-        "name" : "tatuajeVideo_04"
+        "name" : "tatuajeVideo_04",
+        "poster" : "./img/servicios/tatuajes/tatuaje_04.webp",
+        "isVideo" : true
+    },
+    {
+        "id": "5",
+        "url" : "./video/tatuajes/tatuaje05.mp4",
+        "name" : "tatuajeVideo_05",
+        "poster" : "./img/servicios/tatuajes/tatuaje_02.webp",
+        "isVideo" : true
     }
 ]

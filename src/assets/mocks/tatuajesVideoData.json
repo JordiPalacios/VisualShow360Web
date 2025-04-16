@@ -1,0 +1,22 @@
+[
+    {
+        "id": "1",
+        "url" : "./video/tatuajes/tatuaje01.mp4",
+        "name" : "tatuajeVideo_01"
+    },
+    {
+        "id": "2",
+        "url" : "./video/tatuajes/tatuaje02.mp4",
+        "name" : "tatuajeVideo_02"
+    },
+    {
+        "id": "3",
+        "url" : "./video/tatuajes/tatuaje03.mp4",
+        "name" : "tatuajeVideo_3"
+    },
+    {
+        "id": "4",
+        "url" : "./video/tatuajes/tatuaje04.mp4",
+        "name" : "tatuajeVideo_04"
+    }
+]

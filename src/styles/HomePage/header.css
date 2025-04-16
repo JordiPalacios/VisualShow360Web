@@ -28,6 +28,7 @@ header video {
 .presentationContainer .imgMobile {
     position: absolute;
     filter: brightness(50%);
+    max-width: 100%;
     z-index: -1;
 }
 

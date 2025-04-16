@@ -5,7 +5,7 @@ export const MediaDisplay = () => {
     const isIOS = useCheckIOS(false)
     const workingMode = useWorkingMode('Mobile') 
     const className = `img${workingMode}`
-    const src = "./img/servicios/magicMirror/espejoMagico_5.webp"
+    const src = "./img/servicios/magicMirror/espejoMagico_1.webp"
     const alt = "atrezzoVisualShow360"
 
     let media

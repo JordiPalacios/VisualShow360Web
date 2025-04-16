@@ -1,7 +1,7 @@
 
 import PropTypes from 'prop-types'
 
-export const ImgSlider = ({ urlImg, imgName , styleType }) => {
+export const ImgSlider = ({ urlImg, imgName , styleType, isVideo, poster }) => {
       //Decido con la clase a trabajar en el slider
     let className
 
@@ -14,15 +14,26 @@ export const ImgSlider = ({ urlImg, imgName , styleType }) => {
             className = 'imgCompanies'
             break;
 
+        case 'video':
+            className = 'isVideo'
+            break;
+
         default:
             className = 'imgStandard'
             break;
     }
 
     return (
-        <div className={className}>
-            <img src={urlImg} alt={imgName} />
-        </div>
+        isVideo ? (
+            <div className={className}>
+                <video src={urlImg} alt={imgName} itemType='video/mp4' preload='metadata' controls controlsList='nodownload' poster={poster} muted playsInline/>
+            </div>
+        ) : (
+            <div className={className}>
+                <img src={urlImg} alt={imgName} />
+            </div>
+        )
+        
     )
 
 }

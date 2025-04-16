@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from 'react'
-import TatuajesData from '../../assets/mocks/tatuajesData.json'
+import TatuajesVideoData from '../../assets/mocks/tatuajesVideoData.json'
 import Slider from 'react-slick'
 import { ImgSlider } from '../../components'
 
 export const TatuajesFooter = () => {
-    const tatuajesData = TatuajesData
+    const tatuajesVideoData = TatuajesVideoData
     useEffect (() => {
             const handleResize = () => {
             const newSetttings = window.innerWidth < 1024
@@ -35,12 +35,14 @@ export const TatuajesFooter = () => {
         <footer className='tatuajesFooter'>
             <div className="fotomatonImgTatuajes">            
                 <Slider {...sliderSettings}>
-                    {tatuajesData.map((data) => (
+                    {tatuajesVideoData.map((data) => (
                         <ImgSlider 
                         key={data.id} 
                         urlImg={data.url} 
-                        imgName={data.name} 
-                        styleType='services'/>
+                        imgName={data.name}
+                        poster={data.poster} 
+                        isVideo={data.isVideo}
+                        styleType='video'/>
                     ))}
                 </Slider>
             </div>

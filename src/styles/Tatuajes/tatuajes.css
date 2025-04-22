@@ -123,7 +123,7 @@
 @media ( 1024px <= width ) {
 
     .fotomatonImgTatuajes {
-        max-width: 1200px;
+        max-width: 1250px;
         margin: 20px;
     }
 
@@ -144,9 +144,4 @@
     .tatuajesContainer h1 {
         font-size: 3rem;
     }
-    
-    .fotomatonImgTatuajes {
-        max-width: 1400px;
-    }
-
 }

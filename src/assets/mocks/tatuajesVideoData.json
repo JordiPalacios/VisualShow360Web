@@ -16,7 +16,7 @@
     {
         "id": "3",
         "url" : "./video/tatuajes/tatuaje03.mp4",
-        "name" : "tatuajeVideo_3",
+        "name" : "tatuajeVideo_03",
         "poster" : "./img/servicios/tatuajes/poster/tatuajePoster_03.webp",
         "isVideo" : true
     },

@@ -26,7 +26,17 @@ export const ImgSlider = ({ urlImg, imgName , styleType, isVideo, poster }) => {
     return (
         isVideo ? (
             <div className={className}>
-                <video src={urlImg} alt={imgName} itemType='video/mp4' preload='metadata' controls controlsList='nodownload' poster={poster} muted playsInline/>
+                <video 
+                    src={urlImg} 
+                    alt={imgName} 
+                    itemType='video/mp4' 
+                    preload='metadata' 
+                    controls 
+                    controlsList='nodownload' 
+                    poster={poster} 
+                    muted 
+                    playsInline
+                />
             </div>
         ) : (
             <div className={className}>

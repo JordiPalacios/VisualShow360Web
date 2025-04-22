@@ -285,5 +285,10 @@ img {
     .contactFixed:hover {
         transform: scale(1.25);
     }
+
+    .isVideo,
+    .imgServices {
+        cursor: pointer;
+    }
 }
 

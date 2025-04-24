@@ -33,8 +33,7 @@ export const ImgSlider = ({ urlImg, imgName , styleType, isVideo, poster }) => {
                     preload='metadata' 
                     controls 
                     controlsList='nodownload' 
-                    poster={poster} 
-                    muted 
+                    poster={poster}  
                     playsInline
                 />
             </div>

@@ -129,7 +129,7 @@
     animation-fill-mode: both;
 }
 
-/* Medidad Tablet */
+/* Medidas Tablet */
 
 @media ( 760px <= width ) {
     .service2ContentContainer {

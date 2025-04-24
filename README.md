@@ -4,8 +4,10 @@
 Creation of the website for the company dedicated to event planning thanks to its:
 
 - 360 Photoboth
-- Magic Mirror
-- Ring Ring Experience
+- Magic Mirror LED
+- Flash 24h
+- Telefonoaudilibro
+- Tatuajes
 - Unique Props
 
 View more about 

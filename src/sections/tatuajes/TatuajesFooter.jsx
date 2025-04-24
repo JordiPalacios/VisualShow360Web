@@ -5,6 +5,7 @@ import { ImgSlider } from '../../components'
 
 export const TatuajesFooter = () => {
     const tatuajesVideoData = TatuajesVideoData
+    var test
     useEffect (() => {
             const handleResize = () => {
             const newSetttings = window.innerWidth < 1024
@@ -28,7 +29,15 @@ export const TatuajesFooter = () => {
                 infinite: true,
                 speed: 500,
                 slidesToShow: 1,
-                slidesToScroll: 1
+                slidesToScroll: 1,
+                beforeChange: () => {
+                    // Pausa todos los videos antes de cambiar de slide
+                    const videos = document.querySelectorAll('video');
+                    videos.forEach((video) => {
+                        video.pause();
+                        video.currentTime = 0; // Reinicia el video
+                    })
+                }
             })
 
     return (

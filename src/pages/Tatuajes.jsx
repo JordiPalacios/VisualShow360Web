@@ -14,7 +14,7 @@ export const Tatuajes = () => {
                     author={'VisualShow360'}
                     rating={'General'}
                     ogTitle={'VisualShow360 | Tatuajes'}
-                    ogDesc={'El mejor audiolibro de barcelona para bodas, fiestas, eventos. Especialistas en crear momentos únicos para tus momentos más especiales.'}
+                    ogDesc={'Descubre cómo los tatuajes temporales pueden transformar tu boda, fiesta o evento en una experiencia inolvidable. En VisualShow360, ofrecemos diseños únicos y personalizados que capturan la esencia de tus momentos más especiales. Sorprende a tus invitados con un recuerdo creativo y divertido que quedará grabado en sus memorias. ¡Haz de tu celebración algo único con nuestros tatuajes temporales!'}
                     ogType={'website'}
                     ogUrl={'https://visualshow360.com/tatuajes'}
                     ogImg={'./img/servicios/tatuajes/tatuaje_01.webp'}

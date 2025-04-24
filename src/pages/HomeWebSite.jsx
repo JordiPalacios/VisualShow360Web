@@ -9,15 +9,15 @@ export const HomeWebsite = () => {
     <>
       <MetaTags 
         title={'VisualShow360 | Plataforma360 & Magic Mirror'}
-        keywords={'Plataforma360, Espejo Magico, White Magic Mirror, Fotomaton, Barcelona, Telefono Audiolibro, Catalunya, Bodas, Eventos, Neones, Letras Love'}
-        desc={'La mejor plataforma 360 de barcelona con un atrezzo único. Haz de tu boda, evento, fiesta un momento especial con nuestro magic mirror.'}
+        keywords={'Plataforma 360, videos 360, bodas, eventos, fiestas, espejo magico, magic mirror, recuerdos personalizados, Barcelona, Catalunya, VisualShow360'}
+        desc={'Haz que tus eventos sean inolvidables con nuestra Plataforma 360. Ideal para bodas, fiestas y eventos, este servicio único captura momentos espectaculares en video desde todos los ángulos. Con un atrezzo exclusivo y tecnología de última generación, ofrecemos una experiencia divertida y memorable para tus invitados. En VisualShow360, nos especializamos en crear recuerdos únicos que quedarán grabados para siempre. ¡Haz de tu celebración algo especial con nuestra Plataforma 360!'}
         author={'VisualShow360'}
         rating={'General'}
-        ogTitle={'VisualShow360'}
-        ogDesc={'La mejor plataforma 360 de barcelona con un atrezzo único. Haz de tu boda, evento, fiesta un momento especial con nuestro magic mirror.'}
+        ogTitle={'VisualShow360 | Plataforma360 - Magic Mirror LED - Flash 24h'}
+        ogDesc={'Haz que tus eventos sean inolvidables con nuestra Plataforma 360. Ideal para bodas, fiestas y eventos, este servicio único captura momentos espectaculares en video desde todos los ángulos. Con un atrezzo exclusivo y tecnología de última generación, ofrecemos una experiencia divertida y memorable para tus invitados. En VisualShow360, nos especializamos en crear recuerdos únicos que quedarán grabados para siempre. ¡Haz de tu celebración algo especial con nuestra Plataforma 360!'}
         ogType={'website'}
         ogUrl={'https://visualshow360.com/'}
-        ogImg={'./img/servicios/fotomaton360/atrezzo_1.webp'}
+        ogImg={'./img/servicios/fotomaton360/fotomaton360_0.webp'}
         OgImgType={'image/webp'}
         ogImgAlt={'Plataforma360 Barcelona'}
       />

@@ -7,18 +7,18 @@ export const OtrosProductos = () => {
     return (
         <>      
             <MetaTags 
-                title={'VisualShow360 | Teléfono Audiolibro, Neones & Letras Love'}
-                keywords={'Teléfono Audiolibro, Neones, Letras Love, Barcelona, Plataforma360, Espejo Magico Atrezzo, Bodas, Eventos, Catalunya'}
-                desc={'El mejor audiolibro de barcelona para bodas, fiestas, eventos. Especialistas en crear momentos únicos para tus momentos más especiales.'}
+                title={'VisualShow360 | Teléfono Audiolibro'}
+                keywords={'Teléfono Audiolibro, mensajes de audio, bodas, eventos, recuerdos personalizados, Barcelona, Catalunya, VisualShow360'}
+                desc={'Haz que tus invitados dejen mensajes inolvidables con nuestro Teléfono Audiolibro. Ideal para bodas, fiestas y eventos, este original servicio permite grabar recuerdos únicos en formato de audio. Captura las emociones y palabras de tus seres queridos de una manera creativa y divertida. En VisualShow360, nos especializamos en crear momentos únicos que quedarán grabados para siempre. ¡Haz de tu celebración algo especial con el Teléfono Audiolibro!'}
                 author={'VisualShow360'}
                 rating={'General'}
-                ogTitle={'VisualShow360'}
-                ogDesc={'El mejor audiolibro de barcelona para bodas, fiestas, eventos. Especialistas en crear momentos únicos para tus momentos más especiales.'}
+                ogTitle={'VisualShow360 | Teléfono Audiolibro'}
+                ogDesc={'Haz que tus invitados dejen mensajes inolvidables con nuestro Teléfono Audiolibro. Ideal para bodas, fiestas y eventos, este original servicio permite grabar recuerdos únicos en formato de audio. Captura las emociones y palabras de tus seres queridos de una manera creativa y divertida. En VisualShow360, nos especializamos en crear momentos únicos que quedarán grabados para siempre. ¡Haz de tu celebración algo especial con el Teléfono Audiolibro!'}
                 ogType={'website'}
-                ogUrl={'https://visualshow360.com/otros-productos'}
+                ogUrl={'https://visualshow360.com/telefono-audiolibro'}
                 ogImg={'./img/servicios/ringRing/audiolibroVS.webp'}
                 OgImgType={'image/webp'}
-                ogImgAlt={'Audio Libro Barcelona'}
+                ogImgAlt={'Teléfono Audiolibro Barcelona'}
             />  
             <header>
                 <NavbarMenu />

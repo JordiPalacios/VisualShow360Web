@@ -8,16 +8,16 @@ export const Tatuajes = () => {
     return (
     <section id='tatuajes'>      
                 <MetaTags 
-                    title={'VisualShow360 | Teléfono Audiolibro, Neones & Letras Love'}
-                    keywords={'Teléfono Audiolibro, Neones, Letras Love, Barcelona, Plataforma360, Espejo Magico Atrezzo, Bodas, Eventos, Catalunya'}
-                    desc={'El mejor audiolibro de barcelona para bodas, fiestas, eventos. Especialistas en crear momentos únicos para tus momentos más especiales.'}
+                    title={'VisualShow360 | Tatuajes'}
+                    keywords={'Tatuajes temporales, bodas, eventos, fiestas, recuerdos personalizados, Barcelona, Catalunya, VisualShow360'}
+                    desc={'Descubre cómo los tatuajes temporales pueden transformar tu boda, fiesta o evento en una experiencia inolvidable. En VisualShow360, ofrecemos diseños únicos y personalizados que capturan la esencia de tus momentos más especiales. Sorprende a tus invitados con un recuerdo creativo y divertido que quedará grabado en sus memorias. ¡Haz de tu celebración algo único con nuestros tatuajes temporales!'}
                     author={'VisualShow360'}
                     rating={'General'}
-                    ogTitle={'VisualShow360'}
+                    ogTitle={'VisualShow360 | Tatuajes'}
                     ogDesc={'El mejor audiolibro de barcelona para bodas, fiestas, eventos. Especialistas en crear momentos únicos para tus momentos más especiales.'}
                     ogType={'website'}
-                    ogUrl={'https://visualshow360.com/otros-productos'}
-                    ogImg={'./img/servicios/ringRing/audiolibroVS.webp'}
+                    ogUrl={'https://visualshow360.com/tatuajes'}
+                    ogImg={'./img/servicios/tatuajes/tatuaje_01.webp'}
                     OgImgType={'image/webp'}
                     ogImgAlt={'Audio Libro Barcelona'}
                 />  

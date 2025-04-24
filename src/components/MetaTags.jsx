@@ -19,6 +19,7 @@ export const MetaTags = ({ title, keywords, desc, author, rating, ogTitle, ogDes
             <meta property="og:image:alt" content={ogImgAlt} />
 
             <link rel="canonical" href={ogUrl} />
+            <link rel="icon" type="image/webp" href={ogImg} />
         </Helmet>
     )
 }

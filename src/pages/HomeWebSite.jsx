@@ -8,7 +8,7 @@ export const HomeWebsite = () => {
   return (
     <>
       <MetaTags 
-        title={'VisualShow360 | Plataforma360 & Magic Mirror'}
+        title={'VisualShow360 | Plataforma360 - Magic Mirror LED - Flash 24h'}
         keywords={'Plataforma 360, videos 360, bodas, eventos, fiestas, espejo magico, magic mirror, recuerdos personalizados, Barcelona, Catalunya, VisualShow360'}
         desc={'Haz que tus eventos sean inolvidables con nuestra Plataforma 360. Ideal para bodas, fiestas y eventos, este servicio único captura momentos espectaculares en video desde todos los ángulos. Con un atrezzo exclusivo y tecnología de última generación, ofrecemos una experiencia divertida y memorable para tus invitados. En VisualShow360, nos especializamos en crear recuerdos únicos que quedarán grabados para siempre. ¡Haz de tu celebración algo especial con nuestra Plataforma 360!'}
         author={'VisualShow360'}

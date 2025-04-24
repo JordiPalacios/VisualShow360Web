@@ -45,6 +45,7 @@
 
 .tatuajesExplicacion02 {
     justify-items: center;
+    margin-bottom: 10px;
 }
 
 .tatuajesMedidas,
@@ -69,6 +70,7 @@
 
 .tatuajesFooter button {
     text-decoration-color: transparent;
+    text-decoration: none;
 }
 
 .tatuajesFooter .buttonsContainer button {
